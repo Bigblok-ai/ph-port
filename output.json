@@ -44,11 +44,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-c0c00f928c",
-                          "name": "Người Kiến",
+                          "id": "lnk-0c660f670a",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
+                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -79,7 +79,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/211.png",
             "time": "02:30",
             "date": "21/09",
-            "blv": "Người Kiến",
+            "blv": "Server",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
