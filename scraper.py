@@ -4,12 +4,21 @@ import hashlib
 import re
 import time
 import os
+import sys
 import html as htmllib
+import threading
+import unicodedata
 from collections import Counter
 from datetime import datetime, timezone, timedelta
 from urllib.parse import unquote
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from PIL import Image, ImageDraw, ImageFont
 from io import BytesIO
+
+try:
+    import fcntl  # Linux only
+except ImportError:
+    fcntl = None
 
 # ─────────────────────────────────────────────────────────────────────────────
 # CONFIG  — Phaohoa1.live -> xoiche.tv (Next.js, khong con __NUXT_DATA__)
@@ -28,15 +37,15 @@ HEADERS = {
     "Accept-Language": "vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5",
 }
 
-SESSION = requests.Session()
-SESSION.headers.update(HEADERS)
-
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
 THUMB_VERSION = "v3"
 
 PAST_HOURS     = 6     # giu tran da bat dau <= 6h
-UPCOMING_HOURS = 36    # giu tran sap dau trong 36h (sua 24 neu muon)
+UPCOMING_HOURS = 36    # giu tran sap dau trong 36h
+
+MAX_WORKERS = 6        # so request song song toi da
+SOON_HOURS  = 3        # tran sap dau trong khung nay -> quet link sau
 
 UUID_RE = re.compile(r'[0-9a-fA-F]{8}-(?:[0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}')
 
@@ -95,9 +104,20 @@ def full_url(path):
     if path.startswith("/"): return f"{BASE_URL}{path}"
     return f"{BASE_URL}/{path}"
 
+# Session per-thread (an toan khi chay song song)
+_TLS = threading.local()
+
+def _get_session():
+    s = getattr(_TLS, "s", None)
+    if s is None:
+        s = requests.Session()
+        s.headers.update(HEADERS)
+        _TLS.s = s
+    return s
+
 def http_get(url, timeout=15, as_json=False):
     try:
-        res = SESSION.get(url, timeout=timeout)
+        res = _get_session().get(url, timeout=timeout)
         if res.status_code != 200:
             return None
         if as_json:
@@ -110,17 +130,25 @@ def http_get(url, timeout=15, as_json=False):
 def get_page(path):
     if path not in _PAGE_CACHE:
         url = path if path.startswith("http") else f"{BASE_URL}{path}"
-        _PAGE_CACHE[path] = http_get(url, timeout=25)
+        _PAGE_CACHE[path] = http_get(url, timeout=15)
     return _PAGE_CACHE[path]
+
+_IMG_CACHE, _IMG_LOCK = {}, threading.Lock()
 
 def fetch_image(url):
     if not url: return None
+    with _IMG_LOCK:
+        if url in _IMG_CACHE: return _IMG_CACHE[url]
+    img = None
     try:
-        res = SESSION.get(url, timeout=8)
+        res = _get_session().get(url, timeout=8)
         res.raise_for_status()
-        return Image.open(BytesIO(res.content)).convert("RGBA")
+        img = Image.open(BytesIO(res.content)).convert("RGBA")
     except Exception:
         return None
+    with _IMG_LOCK:
+        _IMG_CACHE[url] = img
+    return img
 
 def norm_sport(s):
     s = (s or "").strip().lower()
@@ -497,16 +525,16 @@ def extract_inline_streams(item, room_names=None):
 def try_sources_endpoint(mid_val, rooms=()):
     """GET /api/matches/{id}/sources — endpoint moi cua xoiche.tv"""
     base = f"{API_BASE}/matches/{mid_val}/sources"
-    data = http_get(base, timeout=12, as_json=True)
+    data = http_get(base, timeout=8, as_json=True)
     if data is None:
-        data = http_get(base + "/", timeout=12, as_json=True)
+        data = http_get(base + "/", timeout=8, as_json=True)
     if data is None:
         return None
     results = extract_streams(data)
     if results:
         return results
     for r in list(rooms)[:6]:        # thu theo tung room BLV neu goi plain rong
-        data2 = http_get(f"{base}?room={r}", timeout=12, as_json=True)
+        data2 = http_get(f"{base}?room={r}", timeout=8, as_json=True)
         if data2 is None: continue
         for k, v in extract_streams(data2).items():
             results.setdefault(k, [])
@@ -516,7 +544,7 @@ def try_sources_endpoint(mid_val, rooms=()):
 
 def try_detail_endpoint(mid_val):
     for path in (f"{API_BASE}/matches/{mid_val}/", f"{API_BASE}/matches/{mid_val}"):
-        data = http_get(path, timeout=12, as_json=True)
+        data = http_get(path, timeout=8, as_json=True)
         if data is None: continue
         s = extract_streams(data)
         if s: return s
@@ -548,6 +576,9 @@ def find_streams_in_match_page(slug):
     return out
 
 def get_streams_for_match(md):
+    """Quet link theo tang:
+    - Tran LIVE hoac sap dau trong SOON_HOURS -> quet sau (tat ca cascade)
+    - Tran xa gio -> quet nhe (1-2 candidate, khong detail, khong crawl trang)"""
     streams = {}
     def absorb(more):
         for k, urls in (more or {}).items():
@@ -559,23 +590,31 @@ def get_streams_for_match(md):
     if streams and any(k != "Server" for k in streams):
         return streams                     # da co du link BLV tu list API
 
-    rooms = [c.get("room") for c in (md.get("commentators") or []) if c.get("room")]
+    now = now_vn()
+    start = md.get("start_dt")
+    is_live = bool(md.get("is_live"))
+    soon = bool(start and start <= now + timedelta(hours=SOON_HOURS))
+    deep = is_live or soon
 
+    rooms = [c.get("room") for c in (md.get("commentators") or []) if c.get("room")]
     cands = []
     for x in (md.get("uuid"), md.get("slug")):
         if x and x not in cands: cands.append(x)
     tm = re.search(r'-(\d{4,})$', md.get("slug") or "")
     if tm and tm.group(1) not in cands: cands.append(tm.group(1))
 
-    for x in cands:
-        got = try_sources_endpoint(x, rooms)
+    n_cands = len(cands) if deep else (2 if rooms else 1)
+
+    for x in cands[:n_cands]:
+        got = try_sources_endpoint(x, rooms if deep else ())
         if got: absorb(got); break
-    if not streams:
+
+    if not streams and deep:
         for x in cands:
             got = try_detail_endpoint(x)
             if got: absorb(got); break
 
-    if not streams and md.get("slug"):
+    if not streams and deep and md.get("slug"):
         uuid = md.get("uuid") or find_uuid_from_page(md["slug"])
         if uuid and uuid not in cands:
             absorb(try_sources_endpoint(uuid, rooms))
@@ -586,6 +625,27 @@ def get_streams_for_match(md):
 # ─────────────────────────────────────────────────────────────────────────────
 # LAY DU LIEU: API BACKEND (uu tien) + HTML (JSON-LD + match card)
 # ─────────────────────────────────────────────────────────────────────────────
+
+def _fetch_api_endpoint(url, dump_debug=False):
+    data = http_get(url, timeout=15, as_json=True)
+    if data is None:
+        return url, []
+    found = find_match_dicts(data)
+    hops = 0
+    while (isinstance(data, dict) and isinstance(data.get("next"), str)
+           and data["next"].startswith("http") and hops < 4):
+        nxt = http_get(data["next"], timeout=15, as_json=True)
+        if nxt is None: break
+        data = nxt
+        found.extend(find_match_dicts(data))
+        hops += 1
+    if dump_debug and found and os.environ.get("DEBUG"):
+        try:
+            with open("debug_api.json", "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2, default=str)
+        except Exception:
+            pass
+    return url, found
 
 def fetch_raw_matches_from_api():
     today = now_vn().strftime("%Y-%m-%d")
@@ -602,27 +662,13 @@ def fetch_raw_matches_from_api():
         f"{API_BASE}/chrome-demand",
     ]
     items = []
-    for url in urls:
-        data = http_get(url, timeout=15, as_json=True)
-        if data is None: continue
-        found = find_match_dicts(data)
-        hops = 0
-        while (isinstance(data, dict) and isinstance(data.get("next"), str)
-               and data["next"].startswith("http") and hops < 4):
-            nxt = http_get(data["next"], timeout=15, as_json=True)
-            if nxt is None: break
-            data = nxt
-            found.extend(find_match_dicts(data))
-            hops += 1
-        if found:
-            print(f"  + {url} -> {len(found)} muc")
-            if not items and os.environ.get("DEBUG"):
-                with open("debug_api.json", "w", encoding="utf-8") as f:
-                    json.dump(data, f, ensure_ascii=False, indent=2, default=str)
-            items.extend(found)
-        else:
-            preview = json.dumps(data, ensure_ascii=False, default=str)[:160]
-            print(f"  - {url} -> 0 muc ({preview})")
+    with ThreadPoolExecutor(max_workers=4) as ex:
+        for url, found in ex.map(lambda u: _fetch_api_endpoint(u, u == urls[0]), urls):
+            if found:
+                print(f"  + {url} -> {len(found)} muc")
+                items.extend(found)
+            else:
+                print(f"  - {url} -> 0 muc")
     if items:
         print(f"  * API keys mau: {sorted(str(k) for k in items[0].keys())[:18]}")
     return items
@@ -770,8 +816,11 @@ def merge_event_card(ev, card):
 
 def fetch_raw_matches_from_html():
     events, cards = {}, {}
-    for path in ("/", "/lich-thi-dau"):
-        txt = get_page(path)
+    paths = ("/", "/lich-thi-dau")
+    with ThreadPoolExecutor(max_workers=2) as ex:
+        texts = dict(ex.map(lambda p: (p, get_page(p)), paths))
+    for path in paths:
+        txt = texts.get(path)
         if not txt:
             print(f"  - HTML {path}: khong lay duoc")
             continue
@@ -823,6 +872,24 @@ def merge_match(a, b):
         for u in urls:
             if u not in a["inline_streams"][k]: a["inline_streams"][k].append(u)
 
+def _strip_accents(t):
+    return "".join(c for c in unicodedata.normalize("NFKD", t or "")
+                   if not unicodedata.combining(c))
+
+def _name_key(nm):
+    """Khoa dedup theo cap ten doi (bo dau tieng Viet, khong phan biet hoa/thuong)"""
+    a = re.sub(r'\W+', ' ', _strip_accents((nm.get("team_a") or "").lower())).strip()
+    b = re.sub(r'\W+', ' ', _strip_accents((nm.get("team_b") or "").lower())).strip()
+    if a > b: a, b = b, a
+    return f"{a}|{b}" if a and b else ""
+
+def _close_times(a, b):
+    if not a or not b: return True
+    try:
+        return abs((to_vn(a) - to_vn(b)).total_seconds()) < 12 * 3600
+    except Exception:
+        return True
+
 def get_grouped_matches():
     raw_items = []
 
@@ -835,7 +902,7 @@ def get_grouped_matches():
     print(f"   -> Tong muc goc: {len(raw_items)}")
     if not raw_items: return {}
 
-    grouped, by_slug, by_uuid = {}, {}, {}
+    grouped, by_slug, by_uuid, by_name = {}, {}, {}, {}
     for item in raw_items:
         try:
             nm = normalize_match(item)
@@ -852,14 +919,23 @@ def get_grouped_matches():
             entry = by_uuid[nm["uuid"]]
         elif nm["slug"] and nm["slug"] in by_slug:
             entry = by_slug[nm["slug"]]
-        elif nm["match_id"] and nm["match_id"] in grouped:
-            entry = grouped[nm["match_id"]]
+        else:
+            nk = _name_key(nm)
+            if nk and nk in by_name and _close_times(nm.get("start_dt"), by_name[nk].get("start_dt")):
+                entry = by_name[nk]
+
         if entry is None:
             grouped[nm["match_id"]] = nm
             if nm["slug"]: by_slug[nm["slug"]] = nm
             if nm["uuid"]: by_uuid[nm["uuid"]] = nm
+            nk = _name_key(nm)
+            if nk and nk not in by_name: by_name[nk] = nm
         else:
             merge_match(entry, nm)
+            if nm["slug"] and nm["slug"] not in by_slug: by_slug[nm["slug"]] = entry
+            if nm["uuid"] and nm["uuid"] not in by_uuid: by_uuid[nm["uuid"]] = entry
+            nk = _name_key(nm)
+            if nk and nk not in by_name: by_name[nk] = entry
 
     print(f"   -> Sau khi gop/dedup: {len(grouped)} tran")
 
@@ -877,12 +953,22 @@ def get_grouped_matches():
     grouped = kept
 
     total = len(grouped)
-    for i, (key, md) in enumerate(grouped.items(), 1):
-        md["blvs_dict"] = get_streams_for_match(md)
-        n_link = sum(len(v) for v in md["blvs_dict"].values())
-        blvs = ", ".join(list(md["blvs_dict"])[:4]) or "khong co link"
-        print(f"   [{i}/{total}] {md['name']}: {n_link} link ({blvs})")
-        time.sleep(0.12)
+    if total:
+        print(f"   -> Quet link stream ({total} tran, {MAX_WORKERS} luong song song)...")
+        done = 0
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
+            futs = {ex.submit(get_streams_for_match, md): key for key, md in grouped.items()}
+            for fut in as_completed(futs):
+                key = futs[fut]
+                done += 1
+                try:
+                    grouped[key]["blvs_dict"] = fut.result()
+                except Exception:
+                    grouped[key]["blvs_dict"] = {}
+                md = grouped[key]
+                n_link = sum(len(v) for v in md["blvs_dict"].values())
+                blvs = ", ".join(list(md["blvs_dict"])[:4]) or "khong co link"
+                print(f"   [{done}/{total}] {md['name']}: {n_link} link ({blvs})")
 
     return {k: v for k, v in grouped.items() if v["blvs_dict"]}
 
@@ -1074,10 +1160,30 @@ def build_channel(match, match_id_safe, thumb_url=""):
     return channel
 
 # ─────────────────────────────────────────────────────────────────────────────
+# LOCKFILE (chong cron 5p chong nhau khi lan chay qua 5 phut)
+# ─────────────────────────────────────────────────────────────────────────────
+
+_LOCK_FH = None
+
+def acquire_lock():
+    global _LOCK_FH
+    if fcntl is None: return
+    lock_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".scraper.lock")
+    fh = open(lock_path, "w")
+    try:
+        fcntl.flock(fh, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except OSError:
+        print("!! Lan chay truoc chua xong -> bo qua lan nay.")
+        sys.exit(0)
+    _LOCK_FH = fh   # giu tham chieu den het tien trinh de giu lock
+
+# ─────────────────────────────────────────────────────────────────────────────
 # MAIN
 # ─────────────────────────────────────────────────────────────────────────────
 
 def main():
+    acquire_lock()
+    t0 = time.time()
     os.makedirs(THUMBS_DIR, exist_ok=True)
     cleanup_old_thumbs(days=3)
     print(f"Gio VN: {now_vn().strftime('%H:%M %d/%m/%Y')}")
@@ -1089,6 +1195,12 @@ def main():
 
     live_cnt = sum(1 for m in matches if m["is_live"])
     print(f"\nTong: {len(matches)} | LIVE: {live_cnt} | Sap: {len(matches) - live_cnt}\n")
+
+    # Tai truoc logo song song (co cache) de ve thumbnail khong bi lag
+    logo_urls = {m.get(k) for m in matches for k in ("logo_a", "logo_b") if m.get(k)}
+    if logo_urls:
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
+            list(ex.map(fetch_image, logo_urls))
 
     cate_channels = {c: [] for c in CATE_ORDER}
 
@@ -1105,7 +1217,6 @@ def main():
 
         ch = build_channel(m, safe_id, thumb_url)
         cate_channels.setdefault(m["cate_type"], []).append(ch)
-        time.sleep(0.1)
 
     groups = []
     for ct in CATE_ORDER:
@@ -1155,6 +1266,8 @@ def main():
     else:
         os.remove(staging)
         print(f"\n✅ Xong! {total} kenh, {len(groups)} mon the thao -> Khong co thay doi")
+
+    print(f"Thoi gian chay: {time.time() - t0:.1f}s")
 
 if __name__ == "__main__":
     main()
