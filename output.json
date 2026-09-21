@@ -83,7 +83,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 0
           },
           "image": {
@@ -106,7 +106,7 @@
       "channels": [
         {
           "id": "xc-f6bf943510",
-          "name": "Slovenia vs Serbia",
+          "name": "Slovenia vs Serbia | 02:00 22/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -160,13 +160,13 @@
             }
           ],
           "org_metadata": {
-            "league": "",
+            "league": "Vô Địch Châu Âu",
             "team_a": "Slovenia",
             "team_b": "Serbia",
-            "logo_a": "",
-            "logo_b": "",
-            "time": "",
-            "date": "",
+            "logo_a": "https://media.api-sports.io/football/teams/1091.png",
+            "logo_b": "https://media.api-sports.io/football/teams/14.png",
+            "time": "02:00",
+            "date": "22/09",
             "blv": "KaKa",
             "is_live": true,
             "cate_type": "volleyball",
@@ -178,7 +178,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/9657f755-f616-48f7-97e4-c45c5a872220_43a03299_20260922.png?v=43a03299",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/9657f755-f616-48f7-97e4-c45c5a872220_175258d2_20260922.png?v=175258d2",
             "width": 1600,
             "height": 1200
           }
