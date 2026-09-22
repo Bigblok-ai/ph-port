@@ -10,6 +10,173 @@
   },
   "groups": [
     {
+      "id": "cate_football",
+      "name": "⚽ Bóng Đá",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "xc-20487d3fbf",
+          "name": "Inter Milano W vs Häcken W | 23:45 22/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-20487d3fbf",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-20487d3fbf",
+                  "name": "Inter Milano W vs Häcken W",
+                  "streams": [
+                    {
+                      "id": "st-20487d3fbf",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League Women",
+            "team_a": "Inter Milano W",
+            "team_b": "Häcken W",
+            "logo_a": "https://media.api-sports.io/football/teams/7533.png",
+            "logo_b": "https://media.api-sports.io/football/teams/16483.png",
+            "time": "23:45",
+            "date": "22/09",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/3d8686cc-f6c3-49b5-a45a-a852dc339357_260981c2_20260922.png?v=260981c2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-d4b594591b",
+          "name": "Bayern Munich W vs Manchester City W | 23:45 22/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d4b594591b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-d4b594591b",
+                  "name": "Bayern Munich W vs Manchester City W",
+                  "streams": [
+                    {
+                      "id": "st-d4b594591b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Enzo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League Women",
+            "team_a": "Bayern Munich W",
+            "team_b": "Manchester City W",
+            "logo_a": "https://media.api-sports.io/football/teams/157.png",
+            "logo_b": "https://media.api-sports.io/football/teams/50.png",
+            "time": "23:45",
+            "date": "22/09",
+            "blv": "Enzo",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/f2bedcf8-bcdf-4b9f-98ed-30286944cd33_4cbcc3ac_20260922.png?v=4cbcc3ac",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_volleyball",
       "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
