@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -80,9 +80,9 @@
             "time": "23:45",
             "date": "22/09",
             "blv": "Pháo Thủ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "ns",
+            "status": "1h",
             "home_score": 0,
             "away_score": 0
           },
@@ -103,10 +103,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -123,11 +123,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-66065dd70c",
-                          "name": "Server",
+                          "id": "lnk-b324cec71d",
+                          "name": "Enzo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159",
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -158,10 +158,10 @@
             "logo_b": "https://media.api-sports.io/football/teams/50.png",
             "time": "23:45",
             "date": "22/09",
-            "blv": "Server",
-            "is_live": false,
+            "blv": "Enzo",
+            "is_live": true,
             "cate_type": "football",
-            "status": "ns",
+            "status": "1h",
             "home_score": 0,
             "away_score": 0
           },
