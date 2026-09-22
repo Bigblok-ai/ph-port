@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "xc-20df35eedf",
-          "name": "Philippines U23 vs Kuwait U23 | 12:00 22/09",
+          "name": "Philippines U23 vs Kuwait U23",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -72,32 +72,32 @@
             }
           ],
           "org_metadata": {
-            "league": "Asian Games",
+            "league": "",
             "team_a": "Philippines U23",
             "team_b": "Kuwait U23",
-            "logo_a": "https://media.api-sports.io/football/teams/1555.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1570.png",
-            "time": "12:00",
-            "date": "22/09",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "",
+            "date": "",
             "blv": "Enzo",
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 1
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/07250ab3-6505-4fcb-aa0a-5121972b2a1e_f135ba74_20260922.png?v=f135ba74",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/07250ab3-6505-4fcb-aa0a-5121972b2a1e_43a03299_20260922.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
         },
         {
           "id": "xc-2562393e89",
-          "name": "Vietnam U23 vs Uzbekistan U23 | 12:00 22/09",
+          "name": "Vietnam U23 vs Uzbekistan U23",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -172,13 +172,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Asian Games",
+            "league": "",
             "team_a": "Vietnam U23",
             "team_b": "Uzbekistan U23",
-            "logo_a": "https://media.api-sports.io/football/teams/1542.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1568.png",
-            "time": "12:00",
-            "date": "22/09",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "",
+            "date": "",
             "blv": "Lee Sin, Conan",
             "is_live": true,
             "cate_type": "football",
@@ -190,7 +190,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/a5d683ea-8a3f-4970-8346-aa86ca72d4b7_bb30b58b_20260922.png?v=bb30b58b",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/a5d683ea-8a3f-4970-8346-aa86ca72d4b7_43a03299_20260922.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
@@ -206,7 +206,7 @@
       "channels": [
         {
           "id": "xc-094c7b9975",
-          "name": "Hàn Quốc vs Thái Lan | 14:00 22/09",
+          "name": "Hàn Quốc vs Thái Lan",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -260,13 +260,13 @@
             }
           ],
           "org_metadata": {
-            "league": "ASIAD GAME",
+            "league": "",
             "team_a": "Hàn Quốc",
             "team_b": "Thái Lan",
-            "logo_a": "https://media.api-sports.io/football/teams/17.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1564.png",
-            "time": "14:00",
-            "date": "22/09",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "",
+            "date": "",
             "blv": "KaKa",
             "is_live": true,
             "cate_type": "volleyball",
@@ -278,7 +278,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/bb86d9e0-9d9c-4ec1-b145-9e5cf5f453d7_800a6da8_20260922.png?v=800a6da8",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/bb86d9e0-9d9c-4ec1-b145-9e5cf5f453d7_43a03299_20260922.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
