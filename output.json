@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "xc-e1908aa6d7",
-          "name": "Pháp vs Romania | 20:00 22/09",
+          "name": "Pháp vs Romania",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -72,13 +72,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Vô Địch Châu Âu",
+            "league": "",
             "team_a": "Pháp",
             "team_b": "Romania",
-            "logo_a": "https://media.api-sports.io/football/teams/2.png",
-            "logo_b": "https://khandai2.link/media/teams/logos/Flag_of_Romania.svg.webp",
-            "time": "20:00",
-            "date": "22/09",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "",
+            "date": "",
             "blv": "Chim Nhỏ",
             "is_live": true,
             "cate_type": "volleyball",
@@ -90,14 +90,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/c4474f00-c169-47e3-b623-9b7c826c4d55_ec7c0521_20260922.png?v=ec7c0521",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/c4474f00-c169-47e3-b623-9b7c826c4d55_43a03299_20260922.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
         },
         {
           "id": "xc-e6f5bec3c1",
-          "name": "Eczacibasi W vs Besiktas W | 20:30 22/09",
+          "name": "Eczacibasi W vs Besiktas W",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -151,13 +151,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Giao Hữu",
+            "league": "",
             "team_a": "Eczacibasi W",
             "team_b": "Besiktas W",
-            "logo_a": "https://khandai2.link/media/commentators/avatars/615543582_889430890502971_1885663534110047008_n.jpg",
-            "logo_b": "https://khandai2.link/media/commentators/avatars/615543582_889430890502971_1885663534110047008_n.jpg",
-            "time": "20:30",
-            "date": "22/09",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "",
+            "date": "",
             "blv": "KaKa",
             "is_live": true,
             "cate_type": "volleyball",
@@ -169,7 +169,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/61f175de-d996-4824-99d5-54e1d521d5f5_df2a7436_20260922.png?v=df2a7436",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/61f175de-d996-4824-99d5-54e1d521d5f5_43a03299_20260922.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
