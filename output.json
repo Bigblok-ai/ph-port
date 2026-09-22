@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "xc-87f588da22",
-          "name": "Korea Republic U23 vs Saudi Arabia U23",
+          "name": "Korea Republic U23 vs Saudi Arabia U23 | 17:00 22/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -93,13 +93,13 @@
             }
           ],
           "org_metadata": {
-            "league": "",
+            "league": "Asian Games",
             "team_a": "Korea Republic U23",
             "team_b": "Saudi Arabia U23",
-            "logo_a": "",
-            "logo_b": "",
-            "time": "",
-            "date": "",
+            "logo_a": "https://media.api-sports.io/football/teams/10177.png",
+            "logo_b": "https://media.api-sports.io/football/teams/23.png",
+            "time": "17:00",
+            "date": "22/09",
             "blv": "Tày, Văn Tài",
             "is_live": true,
             "cate_type": "football",
@@ -111,7 +111,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/c762a699-0d3d-4d30-910d-227e06efb82c_43a03299_20260922.png?v=43a03299",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/c762a699-0d3d-4d30-910d-227e06efb82c_04d62669_20260922.png?v=04d62669",
             "width": 1600,
             "height": 1200
           }
@@ -127,7 +127,7 @@
       "channels": [
         {
           "id": "xc-ae18a5594a",
-          "name": "Hong Kong vs Philippines",
+          "name": "Hong Kong vs Philippines | 17:00 22/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -181,13 +181,13 @@
             }
           ],
           "org_metadata": {
-            "league": "",
+            "league": "ASIAD GAME",
             "team_a": "Hong Kong",
             "team_b": "Philippines",
-            "logo_a": "",
-            "logo_b": "",
-            "time": "",
-            "date": "",
+            "logo_a": "https://khandai2.link/media/teams/logos/OIP_y52YJOU.jpg",
+            "logo_b": "https://khandai2.link/media/teams/logos/OIP_njudfFz.jpg",
+            "time": "17:00",
+            "date": "22/09",
             "blv": "Tiểu Mây",
             "is_live": true,
             "cate_type": "volleyball",
@@ -199,14 +199,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/09abdb4a-fd9e-43ce-b0e7-129b6be9ca35_43a03299_20260922.png?v=43a03299",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/09abdb4a-fd9e-43ce-b0e7-129b6be9ca35_f9510771_20260922.png?v=f9510771",
             "width": 1600,
             "height": 1200
           }
         },
         {
           "id": "xc-dc0fdee201",
-          "name": "Nhật Bản vs Trung Quốc",
+          "name": "Nhật Bản vs Trung Quốc | 17:20 22/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -260,13 +260,13 @@
             }
           ],
           "org_metadata": {
-            "league": "",
+            "league": "ASIAD GAME",
             "team_a": "Nhật Bản",
             "team_b": "Trung Quốc",
-            "logo_a": "",
-            "logo_b": "",
-            "time": "",
-            "date": "",
+            "logo_a": "https://media.api-sports.io/football/teams/12.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1566.png",
+            "time": "17:20",
+            "date": "22/09",
             "blv": "KaKa",
             "is_live": true,
             "cate_type": "volleyball",
@@ -278,7 +278,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/8b37567c-e782-490c-bdfb-b39f36b28ff4_43a03299_20260922.png?v=43a03299",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/8b37567c-e782-490c-bdfb-b39f36b28ff4_cdce56ea_20260922.png?v=cdce56ea",
             "width": 1600,
             "height": 1200
           }
