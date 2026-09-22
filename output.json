@@ -10,6 +10,94 @@
   },
   "groups": [
     {
+      "id": "cate_football",
+      "name": "⚽ Bóng Đá",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "xc-2562393e89",
+          "name": "Vietnam U23 vs Uzbekistan U23 | 12:00 22/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2562393e89",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-2562393e89",
+                  "name": "Vietnam U23 vs Uzbekistan U23",
+                  "streams": [
+                    {
+                      "id": "st-2562393e89",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee73df3a80",
+                          "name": "Conan",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub1/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Games",
+            "team_a": "Vietnam U23",
+            "team_b": "Uzbekistan U23",
+            "logo_a": "https://media.api-sports.io/football/teams/1542.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1568.png",
+            "time": "12:00",
+            "date": "22/09",
+            "blv": "Conan",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/a5d683ea-8a3f-4970-8346-aa86ca72d4b7_bb30b58b_20260922.png?v=bb30b58b",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_volleyball",
       "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
