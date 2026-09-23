@@ -44,11 +44,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-e8bb58cf27",
-                          "name": "Lee Sin",
+                          "id": "lnk-c0e00e627b",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -79,7 +79,7 @@
             "logo_b": "https://xoiche.tv/api/crests/b1aa5d57d216d5ab5913ebcb791e33dd4c1d3e7d.png",
             "time": "17:30",
             "date": "23/09",
-            "blv": "Lee Sin",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
@@ -182,7 +182,7 @@
             "blv": "Tày, Gà Rừng",
             "is_live": true,
             "cate_type": "football",
-            "status": "1h",
+            "status": "ht",
             "home_score": 1,
             "away_score": 0
           },
