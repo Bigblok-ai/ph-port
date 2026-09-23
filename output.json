@@ -11,36 +11,36 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-9988c3af23",
+          "id": "xc-ae3d237431",
           "name": "Chelsea W vs Austria Wien W | 02:00 24/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-9988c3af23",
+              "id": "src-ae3d237431",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-9988c3af23",
+                  "id": "ct-ae3d237431",
                   "name": "Chelsea W vs Austria Wien W",
                   "streams": [
                     {
-                      "id": "st-9988c3af23",
+                      "id": "st-ae3d237431",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
@@ -72,104 +72,25 @@
             }
           ],
           "org_metadata": {
-            "league": "",
+            "league": "Cúp C1 nữ châu Âu",
             "team_a": "Chelsea W",
             "team_b": "Austria Wien W",
-            "logo_a": "",
-            "logo_b": "",
+            "logo_a": "https://media.api-sports.io/football/teams/49.png",
+            "logo_b": "https://media.api-sports.io/football/teams/17575.png",
             "time": "02:00",
             "date": "24/09",
             "blv": "Server",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
+            "status": "live",
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/chelsea-w-v-austria-wien-w-1638303_43a03299_20260924.png?v=43a03299",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-8874b5547a",
-          "name": "Barcelona W vs Paris FC W | 02:00 24/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8874b5547a",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-8874b5547a",
-                  "name": "Barcelona W vs Paris FC W",
-                  "streams": [
-                    {
-                      "id": "st-8874b5547a",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b2c8b4685c",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "",
-            "team_a": "Barcelona W",
-            "team_b": "Paris FC W",
-            "logo_a": "",
-            "logo_b": "",
-            "time": "02:00",
-            "date": "24/09",
-            "blv": "Server",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/barcelona-w-v-paris-fc-w-1638296_43a03299_20260924.png?v=43a03299",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/abc65acf-4ad7-46e2-afb5-47fc69e86e77_2b7b664d_20260924.png?v=2b7b664d",
             "width": 1600,
             "height": 1200
           }
