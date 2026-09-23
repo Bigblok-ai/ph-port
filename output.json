@@ -11,11 +11,90 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-14d6c49037",
+          "name": "China U23 vs United Arab Emirates U23 | 12:30 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-14d6c49037",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-14d6c49037",
+                  "name": "China U23 vs United Arab Emirates U23",
+                  "streams": [
+                    {
+                      "id": "st-14d6c49037",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Enzo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Games",
+            "team_a": "China U23",
+            "team_b": "United Arab Emirates U23",
+            "logo_a": "https://xoiche.tv/api/crests/3ad0c39b1635ef6a4230e71349c81545982deb9b.png",
+            "logo_b": "https://xoiche.tv/api/crests/e8a56cd810c2dd695f9a97797a5a314fb287470f.png",
+            "time": "12:30",
+            "date": "23/09",
+            "blv": "Enzo",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/0b123f51-f7bb-47ee-b81e-5470be84c34b_50fa6a93_20260923.png?v=50fa6a93",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-cedc468eb0",
           "name": "Iran U23 vs Korea DPR U23 | 12:30 23/09",
