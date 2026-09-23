@@ -11,11 +11,90 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-6e075b2c65",
+          "name": "Kyrgyzstan U23 vs Hong Kong U23 | 17:30 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6e075b2c65",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-6e075b2c65",
+                  "name": "Kyrgyzstan U23 vs Hong Kong U23",
+                  "streams": [
+                    {
+                      "id": "st-6e075b2c65",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e8bb58cf27",
+                          "name": "Lee Sin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Games",
+            "team_a": "Kyrgyzstan U23",
+            "team_b": "Hong Kong U23",
+            "logo_a": "https://xoiche.tv/api/crests/cee799a251218f92c1a7f1e31b775a7398438095.png",
+            "logo_b": "https://xoiche.tv/api/crests/b1aa5d57d216d5ab5913ebcb791e33dd4c1d3e7d.png",
+            "time": "17:30",
+            "date": "23/09",
+            "blv": "Lee Sin",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/3903abc3-1c90-4747-8751-377fb7ae6995_1711ee09_20260923.png?v=1711ee09",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-bd1b545b30",
           "name": "Japan U23 vs Thailand U23 | 17:30 23/09",
@@ -44,10 +123,31 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
+                          "id": "lnk-53999e7e1c",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        },
+                        {
                           "id": "lnk-be4e3fb4e7",
                           "name": "Gà Rừng",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
                           "url": "https://livecdn.cdnfastter.xyz/live/livehub4/index.m3u8",
                           "request_headers": [
                             {
@@ -79,7 +179,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/1564.png",
             "time": "17:30",
             "date": "23/09",
-            "blv": "Gà Rừng",
+            "blv": "Tày, Gà Rừng",
             "is_live": false,
             "cate_type": "football",
             "status": "ns",
