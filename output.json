@@ -44,11 +44,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-f536973e27",
-                          "name": "Server",
+                          "id": "lnk-af5dee509c",
+                          "name": "Server 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -65,32 +65,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-161889ae68",
-                          "name": "Tam Mao",
+                          "id": "lnk-a9cde5f7de",
+                          "name": "Server 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://livecdn.cdnfastter.xyz/live/livehub8/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -121,7 +100,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/1552.png",
             "time": "21:30",
             "date": "23/09",
-            "blv": "Server, Tam Mao, Pháo Thủ",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "football",
             "status": "1h",
