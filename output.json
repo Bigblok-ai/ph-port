@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "xc-3c42f61465",
-          "name": "Servette Chênois W vs Lyon W | 23:45 23/09",
+          "name": "Servette Chênois W vs Lyon W",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -44,11 +44,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-b324cec71d",
-                          "name": "Enzo",
+                          "id": "lnk-66065dd70c",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -72,14 +72,14 @@
             }
           ],
           "org_metadata": {
-            "league": "UEFA Champions League Women",
+            "league": "",
             "team_a": "Servette Chênois W",
             "team_b": "Lyon W",
-            "logo_a": "https://media.api-sports.io/football/teams/15548.png",
-            "logo_b": "https://media.api-sports.io/football/teams/80.png",
-            "time": "23:45",
-            "date": "23/09",
-            "blv": "Enzo",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "",
+            "date": "",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "football",
             "status": "1h",
@@ -90,14 +90,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/5694cf5c-cb90-451d-9efa-2fb7de840051_c0736b81_20260924.png?v=c0736b81",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/5694cf5c-cb90-451d-9efa-2fb7de840051_43a03299_20260924.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
         },
         {
           "id": "xc-04287a55ba",
-          "name": "Servette Geneve FC W vs OL Lyonnes W | 23:45 23/09",
+          "name": "Servette Geneve FC W vs OL Lyonnes W",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -172,13 +172,13 @@
             }
           ],
           "org_metadata": {
-            "league": "UEFA Women's Champions League",
+            "league": "",
             "team_a": "Servette Geneve FC W",
             "team_b": "OL Lyonnes W",
-            "logo_a": "https://apiv3.apifootball.com/badges/52_servette-chenois-w.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/30_ol-lyonnes-w.jpg",
-            "time": "23:45",
-            "date": "23/09",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "",
+            "date": "",
             "blv": "Server, Enzo",
             "is_live": true,
             "cate_type": "football",
@@ -190,7 +190,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/77d637b7-b785-489c-b385-57f2997d31c7_faf074a8_20260924.png?v=faf074a8",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/77d637b7-b785-489c-b385-57f2997d31c7_43a03299_20260924.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
@@ -206,7 +206,7 @@
       "channels": [
         {
           "id": "xc-48b0626846",
-          "name": "Aras Kargo W vs Eczacibasi W | 23:00 23/09",
+          "name": "Aras Kargo W vs Eczacibasi W",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -260,13 +260,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Giao Hữu",
+            "league": "",
             "team_a": "Aras Kargo W",
             "team_b": "Eczacibasi W",
-            "logo_a": "https://xoiche.tv/api/uploads/75677e75-ee08-47f9-be76-84577236e8db.png",
-            "logo_b": "https://media.api-sports.io/volley/teams/1272.png",
-            "time": "23:00",
-            "date": "23/09",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "",
+            "date": "",
             "blv": "Tày",
             "is_live": true,
             "cate_type": "volleyball",
@@ -278,7 +278,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/8e595303-9167-4990-ac14-edbdfce1e6a5_63b854be_20260924.png?v=63b854be",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/8e595303-9167-4990-ac14-edbdfce1e6a5_43a03299_20260924.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
