@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-ae3d237431",
+          "id": "xc-9988c3af23",
           "name": "Chelsea W vs Austria Wien W | 02:00 24/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-ae3d237431",
+              "id": "src-9988c3af23",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-ae3d237431",
+                  "id": "ct-9988c3af23",
                   "name": "Chelsea W vs Austria Wien W",
                   "streams": [
                     {
-                      "id": "st-ae3d237431",
+                      "id": "st-9988c3af23",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "Kền Kền",
+                          "id": "lnk-afc7424529",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -72,62 +72,62 @@
             }
           ],
           "org_metadata": {
-            "league": "UEFA Champions League Women",
+            "league": "",
             "team_a": "Chelsea W",
             "team_b": "Austria Wien W",
-            "logo_a": "https://media.api-sports.io/football/teams/49.png",
-            "logo_b": "https://media.api-sports.io/football/teams/17575.png",
+            "logo_a": "",
+            "logo_b": "",
             "time": "02:00",
             "date": "24/09",
-            "blv": "Kền Kền",
-            "is_live": true,
+            "blv": "Server",
+            "is_live": false,
             "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
+            "status": "scheduled",
+            "home_score": 0,
             "away_score": 0
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/abc65acf-4ad7-46e2-afb5-47fc69e86e77_2b7b664d_20260924.png?v=2b7b664d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/chelsea-w-v-austria-wien-w-1638303_43a03299_20260924.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "xc-3d8b21969e",
+          "id": "xc-8874b5547a",
           "name": "Barcelona W vs Paris FC W | 02:00 24/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-3d8b21969e",
+              "id": "src-8874b5547a",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-3d8b21969e",
+                  "id": "ct-8874b5547a",
                   "name": "Barcelona W vs Paris FC W",
                   "streams": [
                     {
-                      "id": "st-3d8b21969e",
+                      "id": "st-8874b5547a",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
+                          "id": "lnk-b2c8b4685c",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -151,25 +151,25 @@
             }
           ],
           "org_metadata": {
-            "league": "UEFA Champions League Women",
+            "league": "",
             "team_a": "Barcelona W",
             "team_b": "Paris FC W",
-            "logo_a": "https://media.api-sports.io/football/teams/529.png",
-            "logo_b": "https://media.api-sports.io/football/teams/114.png",
+            "logo_a": "",
+            "logo_b": "",
             "time": "02:00",
             "date": "24/09",
-            "blv": "Tày",
-            "is_live": true,
+            "blv": "Server",
+            "is_live": false,
             "cate_type": "football",
-            "status": "live",
-            "home_score": 5,
-            "away_score": 2
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/da1717b9-5df9-4c2a-a052-9abe81073029_fdbac62d_20260924.png?v=fdbac62d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/barcelona-w-v-paris-fc-w-1638296_43a03299_20260924.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
