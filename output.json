@@ -44,11 +44,32 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
+                          "id": "lnk-b2c8b4685c",
+                          "name": "Server 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-065994cbdd",
+                          "name": "Server 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub4/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -79,7 +100,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/1564.png",
             "time": "17:30",
             "date": "23/09",
-            "blv": "Tày",
+            "blv": "Server",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
