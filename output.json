@@ -90,7 +90,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/5694cf5c-cb90-451d-9efa-2fb7de840051_c0736b81_20260923.png?v=c0736b81",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/5694cf5c-cb90-451d-9efa-2fb7de840051_c0736b81_20260924.png?v=c0736b81",
             "width": 1600,
             "height": 1200
           }
@@ -190,86 +190,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/77d637b7-b785-489c-b385-57f2997d31c7_faf074a8_20260923.png?v=faf074a8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-a92ad466bf",
-          "name": "Iraq vs Oman | 21:30 23/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a92ad466bf",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-a92ad466bf",
-                  "name": "Iraq vs Oman",
-                  "streams": [
-                    {
-                      "id": "st-a92ad466bf",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Gulf Cup of Nations",
-            "team_a": "Iraq",
-            "team_b": "Oman",
-            "logo_a": "https://media.api-sports.io/football/teams/1567.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1552.png",
-            "time": "21:30",
-            "date": "23/09",
-            "blv": "Pháo Thủ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 1,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/f537bb0b-b8c8-4f4a-9f56-3684a995f7c0_62d6c434_20260923.png?v=62d6c434",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/77d637b7-b785-489c-b385-57f2997d31c7_faf074a8_20260924.png?v=faf074a8",
             "width": 1600,
             "height": 1200
           }
@@ -357,7 +278,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/8e595303-9167-4990-ac14-edbdfce1e6a5_63b854be_20260923.png?v=63b854be",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/8e595303-9167-4990-ac14-edbdfce1e6a5_63b854be_20260924.png?v=63b854be",
             "width": 1600,
             "height": 1200
           }
