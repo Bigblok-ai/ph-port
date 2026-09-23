@@ -11,190 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-04287a55ba",
-          "name": "Servette Geneve FC W vs OL Lyonnes W | 23:45 23/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-04287a55ba",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-04287a55ba",
-                  "name": "Servette Geneve FC W vs OL Lyonnes W",
-                  "streams": [
-                    {
-                      "id": "st-04287a55ba",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Enzo",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Women's Champions League",
-            "team_a": "Servette Geneve FC W",
-            "team_b": "OL Lyonnes W",
-            "logo_a": "https://apiv3.apifootball.com/badges/52_servette-chenois-w.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/30_ol-lyonnes-w.jpg",
-            "time": "23:45",
-            "date": "23/09",
-            "blv": "Server, Enzo",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 8
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/77d637b7-b785-489c-b385-57f2997d31c7_faf074a8_20260924.png?v=faf074a8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-b6e69f3b85",
-          "name": "Servette Chênois W vs Lyon W | 23:45 23/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b6e69f3b85",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-b6e69f3b85",
-                  "name": "Servette Chênois W vs Lyon W",
-                  "streams": [
-                    {
-                      "id": "st-b6e69f3b85",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-66065dd70c",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League Women",
-            "team_a": "Servette Chênois W",
-            "team_b": "Lyon W",
-            "logo_a": "https://media.api-sports.io/football/teams/15548.png",
-            "logo_b": "https://media.api-sports.io/football/teams/80.png",
-            "time": "23:45",
-            "date": "23/09",
-            "blv": "Server",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 8
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/servette-chenois-w-v-lyon-w-1638334_c0736b81_20260924.png?v=c0736b81",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-d87608cca2",
           "name": "Saudi Arabia vs Kuwait | 01:00 24/09",
@@ -512,6 +333,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/da1717b9-5df9-4c2a-a052-9abe81073029_fdbac62d_20260924.png?v=fdbac62d",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_volleyball",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "xc-1cac47f96d",
+          "name": "Phần Lan vs Italy | 02:00 24/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1cac47f96d",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-1cac47f96d",
+                  "name": "Phần Lan vs Italy",
+                  "streams": [
+                    {
+                      "id": "st-1cac47f96d",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Phần Lan",
+            "team_b": "Italy",
+            "logo_a": "https://xoiche.tv/api/crests/38d6f36ba8e56b67c3e0a207b1f779c4bf14cd26.png",
+            "logo_b": "https://media.api-sports.io/football/teams/768.png",
+            "time": "02:00",
+            "date": "24/09",
+            "blv": "KaKa",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/808cd525-85ce-49b3-b32d-ac11c181a96e_f6d94190_20260924.png?v=f6d94190",
             "width": 1600,
             "height": 1200
           }
