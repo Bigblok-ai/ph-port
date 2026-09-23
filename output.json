@@ -8,5 +8,94 @@
     "type": "cover",
     "url": "https://xoiche.tv/brand/hero.webp"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "cate_volleyball",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "xc-4b7252bd45",
+          "name": "Vakifbank W vs Besiktas W | 20:30 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4b7252bd45",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-4b7252bd45",
+                  "name": "Vakifbank W vs Besiktas W",
+                  "streams": [
+                    {
+                      "id": "st-4b7252bd45",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b2c8b4685c",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao Hữu",
+            "team_a": "Vakifbank W",
+            "team_b": "Besiktas W",
+            "logo_a": "https://media.api-sports.io/volley/teams/1273.png",
+            "logo_b": "https://media.api-sports.io/volley/teams/1291.png",
+            "time": "20:30",
+            "date": "23/09",
+            "blv": "Server",
+            "is_live": false,
+            "cate_type": "volleyball",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/2311d80d-a812-4969-8e65-3d4e14b07c4c_86685efe_20260923.png?v=86685efe",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
