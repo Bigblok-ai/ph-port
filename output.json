@@ -184,6 +184,27 @@
                               "value": "https://xoiche.tv"
                             }
                           ]
+                        },
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -200,7 +221,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/21_germany.jpg",
             "time": "01:45",
             "date": "25/09",
-            "blv": "Server, Khô Cay",
+            "blv": "Server, Khô Cay, Chim Nhỏ",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
