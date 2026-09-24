@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "xc-ccf37a0814",
-          "name": "Laos vs Brunei | 16:00 24/09",
+          "name": "Laos vs Brunei",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -72,13 +72,13 @@
             }
           ],
           "org_metadata": {
-            "league": "FIFA Asean Cup",
+            "league": "",
             "team_a": "Laos",
             "team_b": "Brunei",
-            "logo_a": "https://media.api-sports.io/football/teams/1558.png",
-            "logo_b": "https://media.api-sports.io/football/teams/5538.png",
-            "time": "16:00",
-            "date": "24/09",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "",
+            "date": "",
             "blv": "Enzo",
             "is_live": true,
             "cate_type": "football",
@@ -90,14 +90,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/336f4ba0-ee9a-455d-b9ae-5e3b5aefdc2e_dd4bc58a_20260924.png?v=dd4bc58a",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/336f4ba0-ee9a-455d-b9ae-5e3b5aefdc2e_43a03299_20260924.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
         },
         {
           "id": "xc-e69ba134c6",
-          "name": "Hàn Quốc vs Ecuador | 18:00 24/09",
+          "name": "Hàn Quốc vs Ecuador",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -151,13 +151,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Giao hữu QT",
+            "league": "",
             "team_a": "Hàn Quốc",
             "team_b": "Ecuador",
-            "logo_a": "https://apiv3.apifootball.com/badges/651_korea-republic.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/541_ecuador.jpg",
-            "time": "18:00",
-            "date": "24/09",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "",
+            "date": "",
             "blv": "Tam Mao",
             "is_live": false,
             "cate_type": "football",
@@ -169,7 +169,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/98bae033-d7d5-47a0-beef-ec5ccd330f5b_095aac23_20260924.png?v=095aac23",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/98bae033-d7d5-47a0-beef-ec5ccd330f5b_43a03299_20260924.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
