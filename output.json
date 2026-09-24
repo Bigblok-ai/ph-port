@@ -93,7 +93,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Friendlies",
+            "league": "Giao hữu quốc tế",
             "team_a": "Uzbekistan",
             "team_b": "Iran",
             "logo_a": "https://media.api-sports.io/football/teams/1568.png",
@@ -112,106 +112,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/e77aa3c0-17f0-4641-8364-03670678e91e_43950088_20260924.png?v=43950088",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-06245df84b",
-          "name": "Andorra vs Malta | 23:00 24/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-06245df84b",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-06245df84b",
-                  "name": "Andorra vs Malta",
-                  "streams": [
-                    {
-                      "id": "st-06245df84b",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee73df3a80",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn.cdnfastter.xyz/live/livehub1/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ee73df3a80",
-                          "name": "Táo Dai",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://livecdn.cdnfastter.xyz/live/livehub1/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Andorra",
-            "team_b": "Malta",
-            "logo_a": "https://media.api-sports.io/football/teams/1110.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1112.png",
-            "time": "23:00",
-            "date": "24/09",
-            "blv": "Server, Táo Dai",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "ns",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/c6719874-26ff-42d1-b100-16d29b08481b_66a99df3_20260924.png?v=66a99df3",
             "width": 1600,
             "height": 1200
           }
