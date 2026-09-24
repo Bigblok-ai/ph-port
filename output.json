@@ -415,6 +415,106 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-992c4a1a03",
+          "name": "Myanmar vs Timor-Leste | 19:00 24/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-992c4a1a03",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-992c4a1a03",
+                  "name": "Myanmar vs Timor-Leste",
+                  "streams": [
+                    {
+                      "id": "st-992c4a1a03",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee73df3a80",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub1/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ee73df3a80",
+                          "name": "Táo Dai",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub1/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA ASEAN Cup - Hạng 2",
+            "team_a": "Myanmar",
+            "team_b": "Timor-Leste",
+            "logo_a": "https://flagcdn.com/w160/mm.png",
+            "logo_b": "https://flagcdn.com/w160/tl.png",
+            "time": "19:00",
+            "date": "24/09",
+            "blv": "Server, Táo Dai",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/d78cdd5f-a3c4-46af-a894-e99a5bf7910a_06faac5e_20260924.png?v=06faac5e",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
