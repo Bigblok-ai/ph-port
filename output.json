@@ -103,8 +103,8 @@
             "blv": "Server, Chim Nhỏ",
             "is_live": true,
             "cate_type": "football",
-            "status": "1h",
-            "home_score": 2,
+            "status": "ht",
+            "home_score": 3,
             "away_score": 0
           },
           "image": {
@@ -224,7 +224,7 @@
             "blv": "Server, Tiểu Mây, Táo Dai",
             "is_live": true,
             "cate_type": "football",
-            "status": "1h",
+            "status": "ht",
             "home_score": 1,
             "away_score": 1
           },
