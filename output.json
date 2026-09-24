@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -265,6 +265,27 @@
                           ]
                         },
                         {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "Kền Kền",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        },
+                        {
                           "id": "lnk-ee73df3a80",
                           "name": "Táo Dai",
                           "type": "hls",
@@ -300,7 +321,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/679_greece.jpg",
             "time": "01:45",
             "date": "25/09",
-            "blv": "Server, Táo Dai",
+            "blv": "Server, Kền Kền, Táo Dai",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
@@ -312,6 +333,127 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/7b3feb81-94bc-4aee-88aa-4d4f6a64f99c_c052d392_20260925.png?v=c052d392",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-019d547566",
+          "name": "Na Uy vs Đan Mạch | 01:45 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-019d547566",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-019d547566",
+                  "name": "Na Uy vs Đan Mạch",
+                  "streams": [
+                    {
+                      "id": "st-019d547566",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c316eb093",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-5c316eb093",
+                          "name": "Khô Chè",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Na Uy",
+            "team_b": "Đan Mạch",
+            "logo_a": "https://apiv3.apifootball.com/badges/692_norway.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7_denmark.jpg",
+            "time": "01:45",
+            "date": "25/09",
+            "blv": "Server, Khô Chè, Tày",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/8c3a777b-edfd-456f-8134-130d4817f393_745cd6ff_20260925.png?v=745cd6ff",
             "width": 1600,
             "height": 1200
           }
@@ -417,8 +559,8 @@
           }
         },
         {
-          "id": "xc-890b686398",
-          "name": "Norway vs Denmark | 01:45 25/09",
+          "id": "xc-92d29c980d",
+          "name": "Portugal vs Wales | 01:45 25/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -432,23 +574,23 @@
           ],
           "sources": [
             {
-              "id": "src-890b686398",
+              "id": "src-92d29c980d",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-890b686398",
-                  "name": "Norway vs Denmark",
+                  "id": "ct-92d29c980d",
+                  "name": "Portugal vs Wales",
                   "streams": [
                     {
-                      "id": "st-890b686398",
+                      "id": "st-92d29c980d",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
+                          "id": "lnk-e8bb58cf27",
+                          "name": "Lee Sin",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -473,13 +615,13 @@
           ],
           "org_metadata": {
             "league": "UEFA Nations League",
-            "team_a": "Norway",
-            "team_b": "Denmark",
-            "logo_a": "https://media.api-sports.io/football/teams/1090.png",
-            "logo_b": "https://media.api-sports.io/football/teams/21.png",
+            "team_a": "Portugal",
+            "team_b": "Wales",
+            "logo_a": "https://media.api-sports.io/football/teams/27.png",
+            "logo_b": "https://media.api-sports.io/football/teams/767.png",
             "time": "01:45",
             "date": "25/09",
-            "blv": "Tày",
+            "blv": "Lee Sin",
             "is_live": false,
             "cate_type": "football",
             "status": "ns",
@@ -490,7 +632,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/d2a80b72-78e2-4842-9bb7-2a702d20e659_de26b145_20260925.png?v=de26b145",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46b1c25c-bfb9-4225-a6f9-b47844ff7c8d_d3989c3c_20260925.png?v=d3989c3c",
             "width": 1600,
             "height": 1200
           }
@@ -570,6 +712,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/b75b9aae-9ee4-4f57-99f8-48a5a905b68a_cbafbe96_20260925.png?v=cbafbe96",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-890b686398",
+          "name": "Norway vs Denmark | 01:45 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-890b686398",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-890b686398",
+                  "name": "Norway vs Denmark",
+                  "streams": [
+                    {
+                      "id": "st-890b686398",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Norway",
+            "team_b": "Denmark",
+            "logo_a": "https://media.api-sports.io/football/teams/1090.png",
+            "logo_b": "https://media.api-sports.io/football/teams/21.png",
+            "time": "01:45",
+            "date": "25/09",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/d2a80b72-78e2-4842-9bb7-2a702d20e659_de26b145_20260925.png?v=de26b145",
             "width": 1600,
             "height": 1200
           }
