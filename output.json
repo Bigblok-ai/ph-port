@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -112,6 +112,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/8c3a777b-edfd-456f-8134-130d4817f393_745cd6ff_20260925.png?v=745cd6ff",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-5cdefc0831",
+          "name": "Áo vs Israel | 01:45 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5cdefc0831",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-5cdefc0831",
+                  "name": "Áo vs Israel",
+                  "streams": [
+                    {
+                      "id": "st-5cdefc0831",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-be4e3fb4e7",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Áo",
+            "team_b": "Israel",
+            "logo_a": "https://apiv3.apifootball.com/badges/9_austria.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/690_israel.jpg",
+            "time": "01:45",
+            "date": "25/09",
+            "blv": "Server",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/ao-v-israel-kg-1870337529_ce37ac30_20260925.png?v=ce37ac30",
             "width": 1600,
             "height": 1200
           }
