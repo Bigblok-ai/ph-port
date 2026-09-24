@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "xc-e69ba134c6",
-          "name": "Hàn Quốc vs Ecuador",
+          "name": "Hàn Quốc vs Ecuador | 18:00 24/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -44,11 +44,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-b2c8b4685c",
-                          "name": "Server 1",
+                          "id": "lnk-9501ab9e21",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079",
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -65,11 +65,32 @@
                           ]
                         },
                         {
-                          "id": "lnk-a9cde5f7de",
-                          "name": "Server 2",
+                          "id": "lnk-161889ae68",
+                          "name": "Tam Mao",
                           "type": "hls",
                           "default": false,
                           "url": "https://livecdn.cdnfastter.xyz/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -93,14 +114,14 @@
             }
           ],
           "org_metadata": {
-            "league": "",
+            "league": "Giao hữu QT",
             "team_a": "Hàn Quốc",
             "team_b": "Ecuador",
-            "logo_a": "",
-            "logo_b": "",
-            "time": "",
-            "date": "",
-            "blv": "Server",
+            "logo_a": "https://apiv3.apifootball.com/badges/651_korea-republic.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/541_ecuador.jpg",
+            "time": "18:00",
+            "date": "24/09",
+            "blv": "Server, Tam Mao, Tày",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
@@ -111,14 +132,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/98bae033-d7d5-47a0-beef-ec5ccd330f5b_43a03299_20260924.png?v=43a03299",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/98bae033-d7d5-47a0-beef-ec5ccd330f5b_095aac23_20260924.png?v=095aac23",
             "width": 1600,
             "height": 1200
           }
         },
         {
           "id": "xc-a4dd90a7e2",
-          "name": "South Korea vs Ecuador",
+          "name": "South Korea vs Ecuador | 18:00 24/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -144,11 +165,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-b2c8b4685c",
-                          "name": "Server",
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079",
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -172,32 +193,32 @@
             }
           ],
           "org_metadata": {
-            "league": "",
+            "league": "Friendlies",
             "team_a": "South Korea",
             "team_b": "Ecuador",
-            "logo_a": "",
-            "logo_b": "",
-            "time": "",
-            "date": "",
-            "blv": "Server",
+            "logo_a": "https://media.api-sports.io/football/teams/17.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2382.png",
+            "time": "18:00",
+            "date": "24/09",
+            "blv": "Tày",
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 2,
+            "home_score": 3,
             "away_score": 0
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/f0618a50-b6e7-49f9-a822-2631d075a2c9_43a03299_20260924.png?v=43a03299",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/f0618a50-b6e7-49f9-a822-2631d075a2c9_1c112bb6_20260924.png?v=1c112bb6",
             "width": 1600,
             "height": 1200
           }
         },
         {
           "id": "xc-c7925def82",
-          "name": "Myanmar vs Timor-Leste",
+          "name": "Myanmar vs Timor-Leste | 19:00 24/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -272,13 +293,13 @@
             }
           ],
           "org_metadata": {
-            "league": "",
+            "league": "FIFA Asean Cup",
             "team_a": "Myanmar",
             "team_b": "Timor-Leste",
-            "logo_a": "",
-            "logo_b": "",
-            "time": "",
-            "date": "",
+            "logo_a": "https://media.api-sports.io/football/teams/1556.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5537.png",
+            "time": "19:00",
+            "date": "24/09",
             "blv": "Kền Kền, Táo Dai",
             "is_live": true,
             "cate_type": "football",
@@ -290,7 +311,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/0a7a82dc-e372-4f18-baf3-3664671b2baf_43a03299_20260924.png?v=43a03299",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/0a7a82dc-e372-4f18-baf3-3664671b2baf_6e4cb805_20260924.png?v=6e4cb805",
             "width": 1600,
             "height": 1200
           }
