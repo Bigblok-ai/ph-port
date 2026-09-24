@@ -83,7 +83,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 3,
+            "home_score": 2,
             "away_score": 1
           },
           "image": {
@@ -272,7 +272,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Friendlies",
+            "league": "Giao hữu quốc tế",
             "team_a": "Japan",
             "team_b": "Uruguay",
             "logo_a": "https://media.api-sports.io/football/teams/12.png",
