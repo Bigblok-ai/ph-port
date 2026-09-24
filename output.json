@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -82,9 +82,9 @@
             "blv": "Enzo",
             "is_live": true,
             "cate_type": "football",
-            "status": "1h",
+            "status": "ht",
             "home_score": 2,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -103,10 +103,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -123,10 +123,52 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
+                          "id": "lnk-be4e3fb4e7",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-be4e3fb4e7",
+                          "name": "Gà Rừng",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        },
+                        {
                           "id": "lnk-e8bb58cf27",
                           "name": "Lee Sin",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
                           "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
                           "request_headers": [
                             {
@@ -158,10 +200,10 @@
             "logo_b": "https://apiv3.apifootball.com/badges/539_uruguay.jpg",
             "time": "17:05",
             "date": "24/09",
-            "blv": "Lee Sin",
-            "is_live": false,
+            "blv": "Server, Gà Rừng, Lee Sin",
+            "is_live": true,
             "cate_type": "football",
-            "status": "ns",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -230,7 +272,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Friendlies",
+            "league": "Giao hữu quốc tế",
             "team_a": "Japan",
             "team_b": "Uruguay",
             "logo_a": "https://media.api-sports.io/football/teams/12.png",
