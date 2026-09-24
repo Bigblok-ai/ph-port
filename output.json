@@ -423,11 +423,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-ee73df3a80",
+                          "id": "lnk-5c0c4aafd8",
                           "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn.cdnfastter.xyz/live/livehub1/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -544,11 +544,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-9501ab9e21",
+                          "id": "lnk-5c316eb093",
                           "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub5/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -784,7 +784,7 @@
             "cate_type": "football",
             "status": "2h",
             "home_score": 1,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -983,7 +983,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 2,
+            "home_score": 3,
             "away_score": 2
           },
           "image": {
@@ -1112,85 +1112,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/e1e5fb2b-bf48-4f1a-b700-678f9e990751_ce37ac30_20260925.png?v=ce37ac30",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-f74ffa18f9",
-          "name": "Qatar vs Bahrain | 01:00 25/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f74ffa18f9",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-f74ffa18f9",
-                  "name": "Qatar vs Bahrain",
-                  "streams": [
-                    {
-                      "id": "st-f74ffa18f9",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-af5dee509c",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "",
-            "team_a": "Qatar",
-            "team_b": "Bahrain",
-            "logo_a": "",
-            "logo_b": "",
-            "time": "01:00",
-            "date": "25/09",
-            "blv": "Server",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/qatar-v-bahrain-1637931_43a03299_20260925.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
