@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -44,11 +44,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-9501ab9e21",
+                          "id": "lnk-161889ae68",
                           "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub8/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -133,85 +133,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/98bae033-d7d5-47a0-beef-ec5ccd330f5b_095aac23_20260924.png?v=095aac23",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-a4dd90a7e2",
-          "name": "South Korea vs Ecuador | 18:00 24/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a4dd90a7e2",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-a4dd90a7e2",
-                  "name": "South Korea vs Ecuador",
-                  "streams": [
-                    {
-                      "id": "st-a4dd90a7e2",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "South Korea",
-            "team_b": "Ecuador",
-            "logo_a": "https://media.api-sports.io/football/teams/17.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2382.png",
-            "time": "18:00",
-            "date": "24/09",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 3,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/f0618a50-b6e7-49f9-a822-2631d075a2c9_1c112bb6_20260924.png?v=1c112bb6",
             "width": 1600,
             "height": 1200
           }
@@ -312,6 +233,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/0a7a82dc-e372-4f18-baf3-3664671b2baf_6e4cb805_20260924.png?v=6e4cb805",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-05d4ae236f",
+          "name": "South Korea vs Ecuador | 18:00 24/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-05d4ae236f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-05d4ae236f",
+                  "name": "South Korea vs Ecuador",
+                  "streams": [
+                    {
+                      "id": "st-05d4ae236f",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b2c8b4685c",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "South Korea",
+            "team_b": "Ecuador",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "18:00",
+            "date": "24/09",
+            "blv": "Server",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/south-korea-v-ecuador-1628994_43a03299_20260924.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
