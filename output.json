@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "xc-0baea95ce5",
-          "name": "United Arab Emirates vs Yemen | 22:55 24/09",
+          "name": "United Arab Emirates vs Yemen",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -93,13 +93,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Gulf Cup of Nations",
+            "league": "",
             "team_a": "United Arab Emirates",
             "team_b": "Yemen",
-            "logo_a": "https://media.api-sports.io/football/teams/1563.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1550.png",
-            "time": "22:55",
-            "date": "24/09",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "",
+            "date": "",
             "blv": "Server, Chim Nhỏ",
             "is_live": true,
             "cate_type": "football",
@@ -111,14 +111,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/6904af3d-86f7-430f-aa1b-949b4f145bd7_15cc16fd_20260925.png?v=15cc16fd",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/6904af3d-86f7-430f-aa1b-949b4f145bd7_43a03299_20260925.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
         },
         {
           "id": "xc-06245df84b",
-          "name": "Andorra vs Malta | 23:00 24/09",
+          "name": "Andorra vs Malta",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -214,13 +214,13 @@
             }
           ],
           "org_metadata": {
-            "league": "UEFA Nations League",
+            "league": "",
             "team_a": "Andorra",
             "team_b": "Malta",
-            "logo_a": "https://media.api-sports.io/football/teams/1110.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1112.png",
-            "time": "23:00",
-            "date": "24/09",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "",
+            "date": "",
             "blv": "Server, Tiểu Mây, Táo Dai",
             "is_live": true,
             "cate_type": "football",
@@ -232,7 +232,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/c6719874-26ff-42d1-b100-16d29b08481b_66a99df3_20260925.png?v=66a99df3",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/c6719874-26ff-42d1-b100-16d29b08481b_43a03299_20260925.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
@@ -248,7 +248,7 @@
       "channels": [
         {
           "id": "xc-e9201d302d",
-          "name": "Vakifbank W vs Eczacibasi W | 23:00 24/09",
+          "name": "Vakifbank W vs Eczacibasi W",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -302,13 +302,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Giao Hữu",
+            "league": "",
             "team_a": "Vakifbank W",
             "team_b": "Eczacibasi W",
-            "logo_a": "https://media.api-sports.io/volley/teams/1273.png",
-            "logo_b": "https://media.api-sports.io/volley/teams/1272.png",
-            "time": "23:00",
-            "date": "24/09",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "",
+            "date": "",
             "blv": "KaKa",
             "is_live": true,
             "cate_type": "volleyball",
@@ -320,7 +320,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/ca0e449b-f8ad-4634-8035-1fa6a3e590b3_60012066_20260925.png?v=60012066",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/ca0e449b-f8ad-4634-8035-1fa6a3e590b3_43a03299_20260925.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
