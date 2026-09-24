@@ -11,132 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-efc650b3b5",
-          "name": "Nhật Bản vs Uruguay | 17:05 24/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-efc650b3b5",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-efc650b3b5",
-                  "name": "Nhật Bản vs Uruguay",
-                  "streams": [
-                    {
-                      "id": "st-efc650b3b5",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e8bb58cf27",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-be4e3fb4e7",
-                          "name": "Gà Rừng",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://livecdn.cdnfastter.xyz/live/livehub4/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e8bb58cf27",
-                          "name": "Lee Sin",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu QT",
-            "team_a": "Nhật Bản",
-            "team_b": "Uruguay",
-            "logo_a": "https://apiv3.apifootball.com/badges/540_japan.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/539_uruguay.jpg",
-            "time": "17:05",
-            "date": "24/09",
-            "blv": "Server, Gà Rừng, Lee Sin",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/6ebc06fc-9e4f-4f7a-a111-1ea779db4b3b_1b7ac8a8_20260924.png?v=1b7ac8a8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-08dd92dc4b",
           "name": "Japan vs Uruguay | 17:05 24/09",
@@ -193,7 +72,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Friendlies",
+            "league": "Giao hữu quốc tế",
             "team_a": "Japan",
             "team_b": "Uruguay",
             "logo_a": "https://media.api-sports.io/football/teams/12.png",
@@ -203,7 +82,7 @@
             "blv": "Lee Sin",
             "is_live": true,
             "cate_type": "football",
-            "status": "2h",
+            "status": "live",
             "home_score": 3,
             "away_score": 1
           },
@@ -244,11 +123,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-161889ae68",
+                          "id": "lnk-9501ab9e21",
                           "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn.cdnfastter.xyz/live/livehub8/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -393,7 +272,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Friendlies",
+            "league": "Giao hữu quốc tế",
             "team_a": "South Korea",
             "team_b": "Ecuador",
             "logo_a": "https://media.api-sports.io/football/teams/17.png",
@@ -403,7 +282,7 @@
             "blv": "Tày",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
+            "status": "2h",
             "home_score": 0,
             "away_score": 0
           },
