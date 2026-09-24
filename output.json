@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (11 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -44,11 +44,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-913990a99f",
+                          "id": "lnk-d94a9f6f03",
                           "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn.cdnfastter.xyz/live/livehub9/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -138,85 +138,6 @@
           }
         },
         {
-          "id": "xc-eb8344795c",
-          "name": "Austria vs Israel | 01:45 25/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eb8344795c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-eb8344795c",
-                  "name": "Austria vs Israel",
-                  "streams": [
-                    {
-                      "id": "st-eb8344795c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Enzo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Austria",
-            "team_b": "Israel",
-            "logo_a": "https://media.api-sports.io/football/teams/775.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1116.png",
-            "time": "01:45",
-            "date": "25/09",
-            "blv": "Enzo",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 2,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/3b2e42bf-4d4c-4725-b5bb-973836d698b4_d5e1b42a_20260925.png?v=d5e1b42a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-5c8a9784ea",
           "name": "Serbia vs Hy Lạp | 01:45 25/09",
           "type": "single",
@@ -244,11 +165,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-ee73df3a80",
+                          "id": "lnk-5c0c4aafd8",
                           "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn.cdnfastter.xyz/live/livehub1/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -365,11 +286,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-9501ab9e21",
+                          "id": "lnk-5c316eb093",
                           "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub5/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -459,164 +380,6 @@
           }
         },
         {
-          "id": "xc-cf817eb069",
-          "name": "Netherlands vs Germany | 01:45 25/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cf817eb069",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-cf817eb069",
-                  "name": "Netherlands vs Germany",
-                  "streams": [
-                    {
-                      "id": "st-cf817eb069",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Netherlands",
-            "team_b": "Germany",
-            "logo_a": "https://media.api-sports.io/football/teams/1118.png",
-            "logo_b": "https://media.api-sports.io/football/teams/25.png",
-            "time": "01:45",
-            "date": "25/09",
-            "blv": "Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 1,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/a90e8a28-83b9-4c32-8c2e-9f5d4ec4dd57_b64402a3_20260925.png?v=b64402a3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-19c644688e",
-          "name": "Serbia vs Greece | 01:45 25/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-19c644688e",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-19c644688e",
-                  "name": "Serbia vs Greece",
-                  "streams": [
-                    {
-                      "id": "st-19c644688e",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "Kền Kền",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Serbia",
-            "team_b": "Greece",
-            "logo_a": "https://media.api-sports.io/football/teams/14.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1117.png",
-            "time": "01:45",
-            "date": "25/09",
-            "blv": "Kền Kền",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 1,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/b75b9aae-9ee4-4f57-99f8-48a5a905b68a_cbafbe96_20260925.png?v=cbafbe96",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-75e36a3fe4",
           "name": "Bồ Đào Nha vs Wales | 01:45 25/09",
           "type": "single",
@@ -684,27 +447,6 @@
                               "value": "https://xoiche.tv"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-e8bb58cf27",
-                          "name": "Lee Sin",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -721,7 +463,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/4_wales.jpg",
             "time": "01:45",
             "date": "25/09",
-            "blv": "Server, Tam Mao, Lee Sin",
+            "blv": "Server, Tam Mao",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
@@ -733,85 +475,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/c89a3bcc-0cb3-405c-91f7-4732be66c98c_6242e998_20260925.png?v=6242e998",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-890b686398",
-          "name": "Norway vs Denmark | 01:45 25/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-890b686398",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-890b686398",
-                  "name": "Norway vs Denmark",
-                  "streams": [
-                    {
-                      "id": "st-890b686398",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Norway",
-            "team_b": "Denmark",
-            "logo_a": "https://media.api-sports.io/football/teams/1090.png",
-            "logo_b": "https://media.api-sports.io/football/teams/21.png",
-            "time": "01:45",
-            "date": "25/09",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 3,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/d2a80b72-78e2-4842-9bb7-2a702d20e659_de26b145_20260925.png?v=de26b145",
             "width": 1600,
             "height": 1200
           }
@@ -938,8 +601,8 @@
           }
         },
         {
-          "id": "xc-92d29c980d",
-          "name": "Portugal vs Wales | 01:45 25/09",
+          "id": "xc-eb8344795c",
+          "name": "Austria vs Israel | 01:45 25/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -953,23 +616,23 @@
           ],
           "sources": [
             {
-              "id": "src-92d29c980d",
+              "id": "src-eb8344795c",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-92d29c980d",
-                  "name": "Portugal vs Wales",
+                  "id": "ct-eb8344795c",
+                  "name": "Austria vs Israel",
                   "streams": [
                     {
-                      "id": "st-92d29c980d",
+                      "id": "st-eb8344795c",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-e8bb58cf27",
-                          "name": "Lee Sin",
+                          "id": "lnk-b324cec71d",
+                          "name": "Enzo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -994,124 +657,24 @@
           ],
           "org_metadata": {
             "league": "UEFA Nations League",
-            "team_a": "Portugal",
-            "team_b": "Wales",
-            "logo_a": "https://media.api-sports.io/football/teams/27.png",
-            "logo_b": "https://media.api-sports.io/football/teams/767.png",
+            "team_a": "Austria",
+            "team_b": "Israel",
+            "logo_a": "https://media.api-sports.io/football/teams/775.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1116.png",
             "time": "01:45",
             "date": "25/09",
-            "blv": "Lee Sin",
+            "blv": "Enzo",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
-            "away_score": 0
+            "home_score": 2,
+            "away_score": 1
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46b1c25c-bfb9-4225-a6f9-b47844ff7c8d_d3989c3c_20260925.png?v=d3989c3c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-eb1f83ca4d",
-          "name": "Kosovo vs Rep. Of Ireland | 01:45 25/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eb1f83ca4d",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-eb1f83ca4d",
-                  "name": "Kosovo vs Rep. Of Ireland",
-                  "streams": [
-                    {
-                      "id": "st-eb1f83ca4d",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e11cfd9666",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e11cfd9666",
-                          "name": "Tiểu Mây",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Kosovo",
-            "team_b": "Rep. Of Ireland",
-            "logo_a": "https://media.api-sports.io/football/teams/1111.png",
-            "logo_b": "https://media.api-sports.io/football/teams/776.png",
-            "time": "01:45",
-            "date": "25/09",
-            "blv": "Server, Tiểu Mây",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/2746c645-4e78-4e08-a8a9-ef102e08141a_3ab2567f_20260925.png?v=3ab2567f",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/3b2e42bf-4d4c-4725-b5bb-973836d698b4_d5e1b42a_20260925.png?v=d5e1b42a",
             "width": 1600,
             "height": 1200
           }
