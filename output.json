@@ -417,7 +417,7 @@
           }
         },
         {
-          "id": "xc-992c4a1a03",
+          "id": "xc-c7925def82",
           "name": "Myanmar vs Timor-Leste | 19:00 24/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -432,23 +432,23 @@
           ],
           "sources": [
             {
-              "id": "src-992c4a1a03",
+              "id": "src-c7925def82",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-992c4a1a03",
+                  "id": "ct-c7925def82",
                   "name": "Myanmar vs Timor-Leste",
                   "streams": [
                     {
-                      "id": "st-992c4a1a03",
+                      "id": "st-c7925def82",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-ee73df3a80",
-                          "name": "Server",
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "Kền Kền",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn.cdnfastter.xyz/live/livehub1/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -493,14 +493,14 @@
             }
           ],
           "org_metadata": {
-            "league": "FIFA ASEAN Cup - Hạng 2",
+            "league": "FIFA Asean Cup",
             "team_a": "Myanmar",
             "team_b": "Timor-Leste",
-            "logo_a": "https://flagcdn.com/w160/mm.png",
-            "logo_b": "https://flagcdn.com/w160/tl.png",
+            "logo_a": "https://media.api-sports.io/football/teams/1556.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5537.png",
             "time": "19:00",
             "date": "24/09",
-            "blv": "Server, Táo Dai",
+            "blv": "Kền Kền, Táo Dai",
             "is_live": false,
             "cate_type": "football",
             "status": "ns",
@@ -511,7 +511,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/d78cdd5f-a3c4-46af-a894-e99a5bf7910a_06faac5e_20260924.png?v=06faac5e",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/0a7a82dc-e372-4f18-baf3-3664671b2baf_6e4cb805_20260924.png?v=6e4cb805",
             "width": 1600,
             "height": 1200
           }
