@@ -138,106 +138,6 @@
           }
         },
         {
-          "id": "xc-eb1f83ca4d",
-          "name": "Kosovo vs Rep. Of Ireland | 01:45 25/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eb1f83ca4d",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-eb1f83ca4d",
-                  "name": "Kosovo vs Rep. Of Ireland",
-                  "streams": [
-                    {
-                      "id": "st-eb1f83ca4d",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e11cfd9666",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e11cfd9666",
-                          "name": "Tiểu Mây",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Kosovo",
-            "team_b": "Rep. Of Ireland",
-            "logo_a": "https://media.api-sports.io/football/teams/1111.png",
-            "logo_b": "https://media.api-sports.io/football/teams/776.png",
-            "time": "01:45",
-            "date": "25/09",
-            "blv": "Server, Tiểu Mây",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/2746c645-4e78-4e08-a8a9-ef102e08141a_3ab2567f_20260925.png?v=3ab2567f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-eb8344795c",
           "name": "Austria vs Israel | 01:45 25/09",
           "type": "single",
@@ -304,7 +204,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 1
           },
           "image": {
@@ -312,85 +212,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/3b2e42bf-4d4c-4725-b5bb-973836d698b4_d5e1b42a_20260925.png?v=d5e1b42a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-92d29c980d",
-          "name": "Portugal vs Wales | 01:45 25/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-92d29c980d",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-92d29c980d",
-                  "name": "Portugal vs Wales",
-                  "streams": [
-                    {
-                      "id": "st-92d29c980d",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e8bb58cf27",
-                          "name": "Lee Sin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Portugal",
-            "team_b": "Wales",
-            "logo_a": "https://media.api-sports.io/football/teams/27.png",
-            "logo_b": "https://media.api-sports.io/football/teams/767.png",
-            "time": "01:45",
-            "date": "25/09",
-            "blv": "Lee Sin",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46b1c25c-bfb9-4225-a6f9-b47844ff7c8d_d3989c3c_20260925.png?v=d3989c3c",
             "width": 1600,
             "height": 1200
           }
@@ -423,11 +244,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
+                          "id": "lnk-ee73df3a80",
                           "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub1/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -544,11 +365,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c316eb093",
+                          "id": "lnk-9501ab9e21",
                           "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn.cdnfastter.xyz/live/livehub5/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -704,7 +525,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 1
           },
           "image": {
@@ -784,7 +605,7 @@
             "cate_type": "football",
             "status": "2h",
             "home_score": 1,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
@@ -1112,6 +933,185 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/e1e5fb2b-bf48-4f1a-b700-678f9e990751_ce37ac30_20260925.png?v=ce37ac30",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-92d29c980d",
+          "name": "Portugal vs Wales | 01:45 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-92d29c980d",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-92d29c980d",
+                  "name": "Portugal vs Wales",
+                  "streams": [
+                    {
+                      "id": "st-92d29c980d",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e8bb58cf27",
+                          "name": "Lee Sin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Portugal",
+            "team_b": "Wales",
+            "logo_a": "https://media.api-sports.io/football/teams/27.png",
+            "logo_b": "https://media.api-sports.io/football/teams/767.png",
+            "time": "01:45",
+            "date": "25/09",
+            "blv": "Lee Sin",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 1,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46b1c25c-bfb9-4225-a6f9-b47844ff7c8d_d3989c3c_20260925.png?v=d3989c3c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-eb1f83ca4d",
+          "name": "Kosovo vs Rep. Of Ireland | 01:45 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eb1f83ca4d",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-eb1f83ca4d",
+                  "name": "Kosovo vs Rep. Of Ireland",
+                  "streams": [
+                    {
+                      "id": "st-eb1f83ca4d",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e11cfd9666",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e11cfd9666",
+                          "name": "Tiểu Mây",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Kosovo",
+            "team_b": "Rep. Of Ireland",
+            "logo_a": "https://media.api-sports.io/football/teams/1111.png",
+            "logo_b": "https://media.api-sports.io/football/teams/776.png",
+            "time": "01:45",
+            "date": "25/09",
+            "blv": "Server, Tiểu Mây",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 1,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/2746c645-4e78-4e08-a8a9-ef102e08141a_3ab2567f_20260925.png?v=3ab2567f",
             "width": 1600,
             "height": 1200
           }
