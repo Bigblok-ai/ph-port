@@ -17,7 +17,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-019d547566",
+          "id": "xc-c92f7738a7",
           "name": "Na Uy vs Đan Mạch | 01:45 25/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -32,15 +32,15 @@
           ],
           "sources": [
             {
-              "id": "src-019d547566",
+              "id": "src-c92f7738a7",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-019d547566",
+                  "id": "ct-c92f7738a7",
                   "name": "Na Uy vs Đan Mạch",
                   "streams": [
                     {
-                      "id": "st-019d547566",
+                      "id": "st-c92f7738a7",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
@@ -48,27 +48,6 @@
                           "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn.cdnfastter.xyz/live/livehub5/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-5c316eb093",
-                          "name": "Khô Chè",
-                          "type": "hls",
-                          "default": false,
                           "url": "https://livecdn.cdnfastter.xyz/live/livehub5/index.m3u8",
                           "request_headers": [
                             {
@@ -100,7 +79,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/7_denmark.jpg",
             "time": "01:45",
             "date": "25/09",
-            "blv": "Server, Khô Chè",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
@@ -111,7 +90,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/8c3a777b-edfd-456f-8134-130d4817f393_745cd6ff_20260925.png?v=745cd6ff",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/na-uy-v-dan-mach-kg-1063875700_745cd6ff_20260925.png?v=745cd6ff",
             "width": 1600,
             "height": 1200
           }
