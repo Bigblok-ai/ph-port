@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -95,10 +95,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -115,11 +115,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-b324cec71d",
-                          "name": "Enzo",
+                          "id": "lnk-f945d702bc",
+                          "name": "Táo Dai",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -132,11 +132,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-f945d702bc",
-                          "name": "Táo Dai",
+                          "id": "lnk-b324cec71d",
+                          "name": "Enzo",
                           "type": "hls",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -163,10 +163,10 @@
             "logo_b": "https://apiv3.apifootball.com/badges/25_barcelona-w.jpg",
             "time": "23:45",
             "date": "30/09",
-            "blv": "Enzo, Táo Dai",
-            "is_live": false,
+            "blv": "Táo Dai, Enzo",
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
