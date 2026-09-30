@@ -42,7 +42,7 @@ THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
 THUMB_VERSION = "v3"
 
-PAST_HOURS     = 6     # bo tran (kể ca tran bi API danh LIVE oan) da qua 6h
+PAST_HOURS     = 6     # bo tran (ke ca tran bi API danh LIVE oan) da qua 6h
 UPCOMING_HOURS = 36    # giu tran sap dau trong 36h
 
 MAX_WORKERS           = 8   # so request song song
@@ -967,13 +967,32 @@ def merge_match(a, b):
         for u in urls:
             if u not in a["inline_streams"][k]: a["inline_streams"][k].append(u)
 
+    # API danh 'live' cho tran chua da (start_dt rong luc do) -> danh lai sau khi merge
+    if a.get("is_live") and a.get("start_dt") and a["start_dt"] > now_vn() + timedelta(minutes=20):
+        a["is_live"] = False
+        a["status"] = "scheduled"
+
 def _strip_accents(t):
     return "".join(c for c in unicodedata.normalize("NFKD", t or "")
                    if not unicodedata.combining(c))
 
+# Ten doi dac biet: tieng Viet <-> tieng Anh (de gop tran trung dang ten 2 ngon ngu)
+_COUNTRY_SYNS = {
+    "dong timor": "timor-leste", "east timor": "timor-leste",
+    "campuchia": "cambodia", "dai loan": "taiwan",
+    "han quoc": "korea republic", "nhat ban": "japan", "trung quoc": "china",
+    "ha lan": "netherlands", "na uy": "norway", "phan lan": "finland",
+    "ba lan": "poland", "dan mach": "denmark", "thuy dien": "sweden",
+    "thuy si": "switzerland", "duc": "germany", "nga": "russia",
+    "an do": "india",
+}
+
 def _name_key(nm):
+    """Khoa dedup theo cap ten doi (bo dau, chuan hoa synonym, khong phan biet hoa/thuong)"""
     a = re.sub(r'\W+', ' ', _strip_accents((nm.get("team_a") or "").lower())).strip()
     b = re.sub(r'\W+', ' ', _strip_accents((nm.get("team_b") or "").lower())).strip()
+    a = _COUNTRY_SYNS.get(a, a)
+    b = _COUNTRY_SYNS.get(b, b)
     if a > b: a, b = b, a
     return f"{a}|{b}" if a and b else ""
 
@@ -1233,7 +1252,7 @@ def build_channel(match, match_id_safe, thumb_url=""):
     t, d = match.get("time", ""), match.get("date", "")
     display = f"{match['name']} | {t} {d}" if t and d else (f"{match['name']} | {t}" if t else match["name"])
 
-    return {
+    channel = {
         "id": uid,
         "name": display,
         "type": "single",
@@ -1264,9 +1283,13 @@ def build_channel(match, match_id_safe, thumb_url=""):
             "home_score": match.get("home_score", 0),
             "away_score": match.get("away_score", 0),
         },
-        **({"image": {"padding": 1, "background_color": "#ffffff", "display": "contain",
-                      "url": thumb_url, "width": 1600, "height": 1200}} if thumb_url else {}),
     }
+    if thumb_url:
+        channel["image"] = {
+            "padding": 1, "background_color": "#ffffff", "display": "contain",
+            "url": thumb_url, "width": 1600, "height": 1200,
+        }
+    return channel
 
 # ─────────────────────────────────────────────────────────────────────────────
 # LOCKFILE
