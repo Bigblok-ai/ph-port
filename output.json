@@ -13,8 +13,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-8e0c4a20ac",
-          "name": "Hong Kong vs Brunei | 19:00 30/09",
+          "id": "xc-ae5e5d97ec",
+          "name": "Đông Timor vs Campuchia | 16:00 30/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,73 +28,22 @@
           ],
           "sources": [
             {
-              "id": "src-8e0c4a20ac",
+              "id": "src-ae5e5d97ec",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-8e0c4a20ac",
-                  "name": "Hong Kong vs Brunei",
+                  "id": "ct-ae5e5d97ec",
+                  "name": "Đông Timor vs Campuchia",
                   "streams": [
                     {
-                      "id": "st-8e0c4a20ac",
+                      "id": "st-ae5e5d97ec",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
+                          "id": "lnk-afc0aa1332",
+                          "name": "Xôi Xoài",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f22a137722",
-                          "name": "Tam Mao",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c4e6a4ba43",
-                          "name": "Server 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-2a3d90afaf",
-                          "name": "Server 2",
-                          "type": "hls",
-                          "default": false,
                           "url": "https://live.khoga.space/live/livehub3/index.m3u8",
                           "request_headers": [
                             {
@@ -116,24 +65,24 @@
           ],
           "org_metadata": {
             "league": "FF ASEAN CUP",
-            "team_a": "Hong Kong",
-            "team_b": "Brunei",
-            "logo_a": "https://xoiche.live/media/teams/logos/download_IAaCYjl.png",
-            "logo_b": "https://flagcdn.com/w160/bn.png",
-            "time": "19:00",
+            "team_a": "Đông Timor",
+            "team_b": "Campuchia",
+            "logo_a": "https://flagcdn.com/w160/tl.png",
+            "logo_b": "https://flagcdn.com/w160/kh.png",
+            "time": "16:00",
             "date": "30/09",
-            "blv": "Chim Nhỏ, Tam Mao, Server",
+            "blv": "Xôi Xoài",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 2,
+            "home_score": 0,
             "away_score": 0
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24158_d79c24c7_20260930.png?v=d79c24c7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24157_981e34b2_20260930.png?v=981e34b2",
             "width": 1600,
             "height": 1200
           }
