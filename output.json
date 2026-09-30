@@ -7,103 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-3e2309f10c",
-          "name": "AS Roma W vs Barcelona Women | 23:45 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3e2309f10c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-3e2309f10c",
-                  "name": "AS Roma W vs Barcelona Women",
-                  "streams": [
-                    {
-                      "id": "st-3e2309f10c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Enzo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f945d702bc",
-                          "name": "Táo Dai",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Women's Champions League",
-            "team_a": "AS Roma W",
-            "team_b": "Barcelona Women",
-            "logo_a": "https://apiv3.apifootball.com/badges/331_roma-w.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/25_barcelona-w.jpg",
-            "time": "23:45",
-            "date": "30/09",
-            "blv": "Enzo, Táo Dai",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 6
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/23399_2742a379_20261001.png?v=2742a379",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-7aa0c0a3e9",
           "name": "UAE vs Qatar | 00:30 01/10",
@@ -166,7 +74,7 @@
             "blv": "Tày",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 1,
             "away_score": 1
           },
@@ -258,7 +166,7 @@
             "blv": "Tam Mao, Tiểu Mây",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 1,
             "away_score": 4
           },
@@ -374,11 +282,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-c210608a27",
-                          "name": "Khô Cay",
+                          "id": "lnk-b324cec71d",
+                          "name": "Enzo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -391,11 +299,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-b324cec71d",
-                          "name": "Enzo",
+                          "id": "lnk-c210608a27",
+                          "name": "Khô Cay",
                           "type": "hls",
                           "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -422,7 +330,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/27_chelsea-w.jpg",
             "time": "02:00",
             "date": "01/10",
-            "blv": "Khô Cay, Enzo",
+            "blv": "Enzo, Khô Cay",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -481,6 +389,23 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
+                        },
+                        {
+                          "id": "lnk-f945d702bc",
+                          "name": "Táo Dai",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -497,7 +422,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/31_bayern-munchen-w.jpg",
             "time": "02:00",
             "date": "01/10",
-            "blv": "Kền Kền",
+            "blv": "Kền Kền, Táo Dai",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -998,6 +923,81 @@
           }
         },
         {
+          "id": "xc-5b6a98d170",
+          "name": "Al-Gharafa vs Al Mesaimeer | 22:00 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5b6a98d170",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-5b6a98d170",
+                  "name": "Al-Gharafa vs Al Mesaimeer",
+                  "streams": [
+                    {
+                      "id": "st-5b6a98d170",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f945d702bc",
+                          "name": "Táo Dai",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "QSL Cup",
+            "team_a": "Al-Gharafa",
+            "team_b": "Al Mesaimeer",
+            "logo_a": "https://apiv3.apifootball.com/badges/391_al-gharafa.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/8588_al-mesaimeer.jpg",
+            "time": "22:00",
+            "date": "01/10",
+            "blv": "Táo Dai",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/23864_9521afab_20261001.png?v=9521afab",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-d24fb9e15b",
           "name": "Guinea vs Kenya | 23:00 01/10",
           "type": "single",
@@ -1218,6 +1218,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/23879_59933736_20261001.png?v=59933736",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-14318e2a43",
+          "name": "Betis vs Ceuta | 01:00 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-14318e2a43",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-14318e2a43",
+                  "name": "Betis vs Ceuta",
+                  "streams": [
+                    {
+                      "id": "st-14318e2a43",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f945d702bc",
+                          "name": "Táo Dai",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Club Friendlies",
+            "team_a": "Betis",
+            "team_b": "Ceuta",
+            "logo_a": "https://apiv3.apifootball.com/badges/7261_real-betis.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/6853_ceuta.jpg",
+            "time": "01:00",
+            "date": "02/10",
+            "blv": "Táo Dai",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24317_ac9fa359_20261001.png?v=ac9fa359",
             "width": 1600,
             "height": 1200
           }
@@ -1550,11 +1625,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
+                          "id": "lnk-d96bd0dded",
+                          "name": "Gà Rừng",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1567,11 +1642,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-d96bd0dded",
-                          "name": "Gà Rừng",
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1598,7 +1673,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/692_norway.jpg",
             "time": "01:45",
             "date": "02/10",
-            "blv": "Pháo Thủ, Gà Rừng",
+            "blv": "Gà Rừng, Pháo Thủ",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
