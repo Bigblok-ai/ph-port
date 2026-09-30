@@ -132,11 +132,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-f22a137722",
-                          "name": "Tam Mao",
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -149,11 +149,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
+                          "id": "lnk-f22a137722",
+                          "name": "Tam Mao",
                           "type": "hls",
                           "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -214,7 +214,7 @@
             "logo_b": "https://flagcdn.com/w160/bn.png",
             "time": "19:00",
             "date": "30/09",
-            "blv": "Tam Mao, Chim Nhỏ, Server",
+            "blv": "Chim Nhỏ, Tam Mao, Server",
             "is_live": true,
             "cate_type": "football",
             "status": "half_time",
