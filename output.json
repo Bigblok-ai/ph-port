@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -112,10 +112,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -198,9 +198,9 @@
             "time": "16:00",
             "date": "30/09",
             "blv": "Xôi Xoài, Chim Nhỏ, Server",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "football",
-            "status": "live",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -1183,7 +1183,7 @@
         },
         {
           "id": "xc-2cf48a149c",
-          "name": "Indonesia vs Bangladesh | 18:30 01/10",
+          "name": "Indonesia vs Bangladesh | 19:30 01/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1255,7 +1255,7 @@
             "team_b": "Bangladesh",
             "logo_a": "https://xoiche.live/media/teams/logos/team_484.jpg",
             "logo_b": "https://xoiche.live/media/teams/logos/team_37951.gif",
-            "time": "18:30",
+            "time": "19:30",
             "date": "01/10",
             "blv": "Tam Mao, Chim Nhỏ",
             "is_live": false,
@@ -1275,7 +1275,7 @@
         },
         {
           "id": "xc-561f4e83fc",
-          "name": "Malaysia vs Singapore | 18:30 01/10",
+          "name": "Malaysia vs Singapore | 19:30 01/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1330,7 +1330,7 @@
             "team_b": "Singapore",
             "logo_a": "https://xoiche.live/media/teams/logos/team_478.jpg",
             "logo_b": "https://xoiche.live/media/teams/logos/team_483.jpg",
-            "time": "18:30",
+            "time": "19:30",
             "date": "01/10",
             "blv": "Tày",
             "is_live": false,
