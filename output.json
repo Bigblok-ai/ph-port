@@ -7,11 +7,86 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-d6ea02b23d",
+          "name": "Durham W vs Manchester Utd W | 01:00 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d6ea02b23d",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-d6ea02b23d",
+                  "name": "Durham W vs Manchester Utd W",
+                  "streams": [
+                    {
+                      "id": "st-d6ea02b23d",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Women's League Cup",
+            "team_a": "Durham W",
+            "team_b": "Manchester Utd W",
+            "logo_a": "https://apiv3.apifootball.com/badges/11034_durham-w.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/11084_manchester-united-w.jpg",
+            "time": "01:00",
+            "date": "01/10",
+            "blv": "Pháo Thủ",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/23767_c0a9b365_20261001.png?v=c0a9b365",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-5159a7b434",
           "name": "OL Lyonnes W vs Chelsea W | 02:00 01/10",
@@ -91,7 +166,7 @@
             "blv": "Enzo, Khô Cay",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 0,
             "away_score": 0
           },
@@ -183,7 +258,7 @@
             "blv": "Kền Kền, Táo Dai",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 0,
             "away_score": 0
           },
@@ -192,81 +267,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/23801_d7f500a2_20261001.png?v=d7f500a2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-d6ea02b23d",
-          "name": "Durham W vs Manchester Utd W | 01:00 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d6ea02b23d",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-d6ea02b23d",
-                  "name": "Durham W vs Manchester Utd W",
-                  "streams": [
-                    {
-                      "id": "st-d6ea02b23d",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FA Women's League Cup",
-            "team_a": "Durham W",
-            "team_b": "Manchester Utd W",
-            "logo_a": "https://apiv3.apifootball.com/badges/11034_durham-w.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/11084_manchester-united-w.jpg",
-            "time": "01:00",
-            "date": "01/10",
-            "blv": "Pháo Thủ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/23767_c0a9b365_20261001.png?v=c0a9b365",
             "width": 1600,
             "height": 1200
           }
@@ -541,11 +541,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
+                          "id": "lnk-f22a137722",
+                          "name": "Tam Mao",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -558,11 +558,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-f22a137722",
-                          "name": "Tam Mao",
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -589,7 +589,7 @@
             "logo_b": "https://xoiche.live/media/teams/logos/team_37951.gif",
             "time": "18:30",
             "date": "01/10",
-            "blv": "Chim Nhỏ, Tam Mao",
+            "blv": "Tam Mao, Chim Nhỏ",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1458,11 +1458,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-d96bd0dded",
-                          "name": "Gà Rừng",
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1475,11 +1475,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
+                          "id": "lnk-d96bd0dded",
+                          "name": "Gà Rừng",
                           "type": "hls",
                           "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1506,7 +1506,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/692_norway.jpg",
             "time": "01:45",
             "date": "02/10",
-            "blv": "Gà Rừng, Pháo Thủ",
+            "blv": "Pháo Thủ, Gà Rừng",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
