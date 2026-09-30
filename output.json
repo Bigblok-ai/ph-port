@@ -1349,11 +1349,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-d96bd0dded",
-                          "name": "Gà Rừng",
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1366,11 +1366,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
+                          "id": "lnk-d96bd0dded",
+                          "name": "Gà Rừng",
                           "type": "hls",
                           "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1397,7 +1397,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/692_norway.jpg",
             "time": "01:45",
             "date": "02/10",
-            "blv": "Gà Rừng, Pháo Thủ",
+            "blv": "Pháo Thủ, Gà Rừng",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
