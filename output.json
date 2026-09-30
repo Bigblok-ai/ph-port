@@ -449,11 +449,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-c210608a27",
-                          "name": "Khô Cay",
+                          "id": "lnk-b324cec71d",
+                          "name": "Enzo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -466,11 +466,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-b324cec71d",
-                          "name": "Enzo",
+                          "id": "lnk-c210608a27",
+                          "name": "Khô Cay",
                           "type": "hls",
                           "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -497,7 +497,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/27_chelsea-w.jpg",
             "time": "02:00",
             "date": "01/10",
-            "blv": "Khô Cay, Enzo",
+            "blv": "Enzo, Khô Cay",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
