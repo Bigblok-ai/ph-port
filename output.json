@@ -57,11 +57,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-f22a137722",
-                          "name": "Tam Mao",
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -74,11 +74,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
+                          "id": "lnk-f22a137722",
+                          "name": "Tam Mao",
                           "type": "hls",
                           "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -122,7 +122,7 @@
             "logo_b": "https://flagcdn.com/w160/kh.png",
             "time": "16:00",
             "date": "30/09",
-            "blv": "Xôi Xoài, Tam Mao, Chim Nhỏ, Server",
+            "blv": "Xôi Xoài, Chim Nhỏ, Tam Mao, Server",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
@@ -333,11 +333,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-f945d702bc",
-                          "name": "Táo Dai",
+                          "id": "lnk-b324cec71d",
+                          "name": "Enzo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -350,11 +350,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-b324cec71d",
-                          "name": "Enzo",
+                          "id": "lnk-f945d702bc",
+                          "name": "Táo Dai",
                           "type": "hls",
                           "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -381,7 +381,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/25_barcelona-w.jpg",
             "time": "23:45",
             "date": "30/09",
-            "blv": "Táo Dai, Enzo",
+            "blv": "Enzo, Táo Dai",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -667,11 +667,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-c210608a27",
-                          "name": "Khô Cay",
+                          "id": "lnk-b324cec71d",
+                          "name": "Enzo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -684,11 +684,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-b324cec71d",
-                          "name": "Enzo",
+                          "id": "lnk-c210608a27",
+                          "name": "Khô Cay",
                           "type": "hls",
                           "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -715,7 +715,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/27_chelsea-w.jpg",
             "time": "02:00",
             "date": "01/10",
-            "blv": "Khô Cay, Enzo",
+            "blv": "Enzo, Khô Cay",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
