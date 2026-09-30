@@ -27,7 +27,7 @@ except ImportError:
 VN_TZ = timezone(timedelta(hours=7))
 
 BASE_URL       = "https://xoiche.live"
-LANDING_URL    = "https://xoiche.tv"     # trang landing — dung de tu do domain moi neu .live chet
+LANDING_URL    = "https://xoiche.tv"     # trang landing — de tu do domain moi neu .live chet
 API_BASE       = f"{BASE_URL}/api"
 
 HEADERS = {
@@ -42,11 +42,12 @@ THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
 THUMB_VERSION = "v3"
 
-PAST_HOURS     = 6
-UPCOMING_HOURS = 36
+PAST_HOURS     = 6     # bo tran (kể ca tran bi API danh LIVE oan) da qua 6h
+UPCOMING_HOURS = 36    # giu tran sap dau trong 36h
 
-MAX_WORKERS = 6
-SOON_HOURS  = 3
+MAX_WORKERS           = 8   # so request song song
+SOON_HOURS            = 3   # tran sap dau trong khung nay -> quet link sau
+MAX_LINKS_PER_MATCH   = 4   # cap tong so link/1 tran (BLV co ten duoc uu tien truoc)
 
 UUID_RE = re.compile(r'[0-9a-fA-F]{8}-(?:[0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}')
 
@@ -153,8 +154,7 @@ def _api_alive(base):
     try:
         r = requests.get(f"{base}/api/sports/", headers=HEADERS, timeout=10)
         if r.status_code != 200: return False
-        d = r.json()
-        return isinstance(d, (list, dict))
+        return isinstance(r.json(), (list, dict))
     except Exception:
         return False
 
@@ -166,7 +166,7 @@ def resolve_base_url():
         return
     print(f"  ! {BASE_URL} khong phan hoi API -> tim domain moi tren {LANDING_URL}...")
     txt = http_get(f"{LANDING_URL}/", timeout=10) or ""
-    doms = set(re.findall(r'https?://([a-z0-9.-]+)', txt))
+    doms = set(re.findall(r'https?://([a-z0-9.\-]+)', txt))
     cands = [d for d in doms if "xoiche" in d and d != "xoiche.tv"][:5]
     for dom in cands:
         base = f"https://{dom}"
@@ -279,9 +279,39 @@ def is_stream_url(u):
     return False
 
 def flatten_text(txt):
-    """Giai escape JS/HTML de regex tim duoc URL trong payload Next.js/RSC"""
     return (txt.replace("\\/", "/").replace("\\u002F", "/")
                .replace("\\u0026", "&").replace("&amp;", "&"))
+
+# ─────────────────────────────────────────────────────────────────────────────
+# CAP + DEDUPE LINK STREAM (bo mirror trung, uu tien BLV co ten, cap so luong)
+# ─────────────────────────────────────────────────────────────────────────────
+
+def _stream_path(u):
+    return re.sub(r'^https?://[^/]+', '', u).split("?")[0].lower()
+
+def cap_streams(streams, max_links=MAX_LINKS_PER_MATCH):
+    """1) Bo link trung path (2 domain mirror cung kenh); 2) uu tien link co ten BLV
+    (moi BLV 1 link); 3) link Server chi lap cho du max_links."""
+    if not streams: return {}
+    seen, named, server = set(), [], []
+    for label, urls in streams.items():
+        for u in urls:
+            p = _stream_path(u)
+            if p in seen: continue
+            seen.add(p)
+            (named if label != "Server" else server).append((label, u))
+    out, used = {}, 0
+    for label, u in named:
+        if used >= max_links: break
+        out.setdefault(label, [])
+        if u not in out[label]:
+            out[label].append(u); used += 1
+    for label, u in server:
+        if used >= max_links: break
+        out.setdefault("Server", [])
+        if u not in out["Server"]:
+            out["Server"].append(u); used += 1
+    return out
 
 # ─────────────────────────────────────────────────────────────────────────────
 # TIM & TRICH XUAT MATCH
@@ -372,7 +402,6 @@ def normalize_match(item):
     slug = s("slug", "match_slug")
     if not slug:
         slug = slug_from_match_url(s("url", "link", "match_url", "match_path"))
-    # slug dang ...-859312 : dam bao co ID so trong match_id
     if slug:
         tm = re.search(r'-(\d{3,})$', slug)
         if tm and not match_id:
@@ -446,6 +475,10 @@ def normalize_match(item):
     is_live = status in LIVE_STATUSES
     if "EventInProgress" in s("eventStatus", "event_status"): is_live = True
     if item.get("is_live") is True or item.get("live") is True: is_live = True
+    # API nhieu khi danh 'live' cho tran CHUA DA -> ep ve Sap neu chua qua gio kickoff
+    if start_dt and start_dt > now_vn() + timedelta(minutes=20) and is_live:
+        is_live = False
+        if status in LIVE_STATUSES: status = "scheduled"
     if not status: status = "live" if is_live else "scheduled"
 
     sport_raw = s("sport_slug", "sport", "sport_name", "sportName", "category_slug", "category")
@@ -538,7 +571,7 @@ def extract_streams(data, room_names=None):
             v = d.get(k)
             if isinstance(v, dict): v = v.get("name") or v.get("title")
             if isinstance(v, str) and v.strip() and not v.strip().startswith(("http", "/")):
-                return v.strip()
+                return room_names.get(v.strip(), v.strip())
         for k in ("blv_slug", "slug", "room", "room_id", "room_uuid", "uuid"):
             v = d.get(k)
             if isinstance(v, (str, int)) and str(v).strip():
@@ -566,8 +599,39 @@ def extract_streams(data, room_names=None):
     return out
 
 def extract_inline_streams(item, room_names=None):
-    """Link stream nam ngay trong item API list (moi BLV co stream_url rieng)"""
+    """Link stream nam ngay trong item API list:
+    - commentator_streams: [{blv/slug, stream_url...}, ...]  ← dang moi
+    - commentators: [{name, stream_url...}, ...]
+    - sources/streams + cac truong *_stream_url cap top"""
+    room_names = room_names or {}
     out = {}
+
+    def _put(label, url):
+        if not isinstance(url, str) or not is_stream_url(url): return
+        u = full_url(url)
+        key = (label or "").strip() or "Server"
+        out.setdefault(key, [])
+        if u not in out[key]: out[key].append(u)
+
+    # 1) commentator_streams — list stream theo BLV
+    cs = item.get("commentator_streams")
+    if isinstance(cs, dict): cs = list(cs.values())
+    if isinstance(cs, list):
+        for c in cs:
+            if not isinstance(c, dict): continue
+            nm = ""
+            for k in ("name", "commentator_name", "blv_name", "commentator",
+                      "blv", "label", "title", "slug", "blv_slug"):
+                v = c.get(k)
+                if isinstance(v, dict): v = v.get("name") or v.get("title")
+                if isinstance(v, str) and v.strip() and not v.strip().startswith(("http", "/")):
+                    nm = v.strip(); break
+            nm = room_names.get(nm, nm)
+            for k in ("stream_url", "hls_url", "url", "src", "file", "playback_url",
+                      "backup_stream_url", "flv_stream_url", "flv_url"):
+                _put(nm, c.get(k))
+
+    # 2) commentators co stream url ngay trong entry
     cands = item.get("commentators")
     if isinstance(cands, list):
         for c in cands:
@@ -576,17 +640,11 @@ def extract_inline_streams(item, room_names=None):
             for k in ("name", "commentator_name", "blv_name", "slug"):
                 v = c.get(k)
                 if isinstance(v, str) and v.strip(): nm = v.strip(); break
-            urls = []
             for k in ("stream_url", "backup_stream_url", "flv_stream_url",
                       "hls_url", "url", "src", "file", "playback_url"):
-                v = c.get(k)
-                if isinstance(v, str) and is_stream_url(v):
-                    u = full_url(v)
-                    if u not in urls: urls.append(u)
-            if nm and urls:
-                out.setdefault(nm, [])
-                for u in urls:
-                    if u not in out[nm]: out[nm].append(u)
+                _put(nm, c.get(k))
+
+    # 3) sources / streams
     for key in ("sources", "streams"):
         sub = item.get(key)
         if sub:
@@ -594,80 +652,37 @@ def extract_inline_streams(item, room_names=None):
                 out.setdefault(k, [])
                 for u in v:
                     if u not in out[k]: out[k].append(u)
-    for k in ("primary_stream_url", "main_stream_url", "stream_url", "hls_url", "flv_url"):
-        v = item.get(k)
-        if isinstance(v, str) and is_stream_url(v):
-            out.setdefault("Server", [])
-            u = full_url(v)
-            if u not in out["Server"]: out["Server"].append(u)
+
+    # 4) truong cap top
+    for k in ("primary_stream_url", "main_stream_url", "stream_url",
+              "hls_url", "flv_url", "backup_stream_url"):
+        _put("Server", item.get(k))
     return out
 
-def try_streams_endpoint(mid_val, blvs=(), room_names=None, light=False):
-    """Thu cac endpoint stream cho 1 match. blvs: danh sach slug BLV (ken-ken...).
-    Link la theo tung BLV nen khi co blvs -> goi kem ?blv=... tung nguoi."""
-    bases = [f"{API_BASE}/matches/{mid_val}/streams",
-             f"{API_BASE}/matches/{mid_val}/sources"]
-    if not light:
-        bases += [f"{API_BASE}/matches/{mid_val}/watch",
-                  f"{API_BASE}/matches/{mid_val}/blvs"]
-
+def try_streams_endpoint(mid_val, blvs=(), room_names=None):
+    """1 endpoint chinh (/streams) + fallback /sources; roi thu ?blv= tung BLV."""
     results = {}
 
-    def hit(url):
-        data = http_get(url, timeout=8, as_json=True)
-        if data is None: return None
-        return extract_streams(data, room_names) or None
+    def merge(got):
+        if not got: return False
+        for k, v in got.items():
+            results.setdefault(k, [])
+            for u in v:
+                if u not in results[k]: results[k].append(u)
+        return True
 
-    # 1) plain (khong blv)
-    for b in bases[:2 if light else 4]:
-        for u in (b, b + "/"):
-            got = hit(u)
-            if got:
-                for k, v in got.items(): results.setdefault(k, [])
-                break
-        if results: break
-
-    # 2) theo tung BLV — site moi tra link rieng cho moi blv
-    if not results:
-        for blv in list(blvs)[:6]:
-            for b in bases[:2 if light else 3]:
-                got = hit(f"{b}?blv={blv}")
-                if got:
-                    for k, v in got.items():
-                        results.setdefault(k, [])
-                        for u in v:
-                            if u not in results[k]: results[k].append(u)
-                    break
-            if len(results) >= len(blvs): break   # du so BLV thi dung
-    return results or None
-
-def try_detail_endpoint(mid_val):
-    for path in (f"{API_BASE}/matches/{mid_val}/", f"{API_BASE}/matches/{mid_val}"):
-        data = http_get(path, timeout=8, as_json=True)
+    base = f"{API_BASE}/matches/{mid_val}/streams"
+    for u in (base, f"{API_BASE}/matches/{mid_val}/sources"):
+        data = http_get(u, timeout=8, as_json=True)
         if data is None: continue
-        s = extract_streams(data)
-        if s: return s
-    return None
+        if merge(extract_streams(data, room_names)): break
 
-def try_stats_endpoint(mid_val):
-    data = http_get(f"{API_BASE}/matches/stats/?match={mid_val}", timeout=8, as_json=True)
-    if data is None: return None
-    return extract_streams(data) or None
-
-def discover_api_urls(txt, mid, slug, blvs):
-    """Tu do: nhiet moi URL /api/... xuat hien trong HTML trang tran,
-    uu tien cai nao chua id/slug/blv/stream/watch. Cap 8 URL."""
-    flat = flatten_text(txt)
-    found = set()
-    for m in re.finditer(r'(?:https?://[a-z0-9.\-]+)?(/api/[A-Za-z0-9_/\-.%?=&]+)', flat):
-        u = m.group(1)
-        score = 0
-        if mid and mid in u: score += 2
-        if slug and slug in u: score += 2
-        if any(b in u for b in blvs): score += 2
-        if re.search(r'stream|watch|source|blv|play|live', u, re.I): score += 1
-        if score > 0: found.add((score, u))
-    return [u for _, u in sorted(found, reverse=True)][:8]
+    if not results:
+        for blv in list(blvs)[:4]:
+            data = http_get(f"{base}?blv={blv}", timeout=8, as_json=True)
+            if data is None: continue
+            merge(extract_streams(data, room_names))
+    return results or None
 
 def streams_from_html(txt):
     flat = flatten_text(txt)
@@ -679,52 +694,21 @@ def streams_from_html(txt):
         if fu not in out["Server"]: out["Server"].append(fu)
     return out
 
-def match_page_paths(md):
-    slug, mid = md.get("slug") or "", str(md.get("match_id") or "")
-    out = []
-    if slug: out.append(f"/truc-tiep/{slug}")
-    if mid and mid not in slug: out.append(f"/truc-tiep/{mid}")
-    if slug:
-        out += [f"/live/{slug}", f"/tran-dau/{slug}"]
-    return out[:4]
-
 def crawl_match_page(md, blvs=(), room_names=None):
-    """Crawl trang tran (/truc-tiep/...). Thu tu: HTML co san m3u8 ->
-    cac API URL tu do duoc trong trang -> lap lai voi ?blv=... tung BLV."""
-    tried = set()
-    base_paths = match_page_paths(md)
-    variants = [""] + [f"?blv={b}" for b in list(blvs)[:4]]
-
-    for bp in base_paths:
-        for suffix in variants:
-            path = bp + suffix
-            if path in tried: continue
-            tried.add(path)
-            txt = get_page(path)
-            if not txt: continue
-            if os.environ.get("DEBUG") and len(tried) == 1:
-                try:
-                    with open("debug_page.html", "w", encoding="utf-8") as f:
-                        f.write(txt)
-                except Exception: pass
-
-            streams = streams_from_html(txt)
-            if streams: return streams
-
-            mid = str(md.get("match_id") or "")
-            api_urls = discover_api_urls(txt, mid, md.get("slug") or "", blvs)
-            for u in api_urls:
-                data = http_get(u if u.startswith("http") else BASE_URL + u,
-                                timeout=8, as_json=True)
-                if data is None: continue
-                s = extract_streams(data, room_names)
-                if s: return s
+    """Crawl toi da 2 trang tran (/truc-tiep/slug, ?blv=BLV-dau) — chi bat m3u8 trong HTML."""
+    for path in (f"/truc-tiep/{md.get('slug')}",
+                 f"/truc-tiep/{md.get('slug')}?blv={blvs[0]}" if blvs else None):
+        if not path: continue
+        txt = get_page(path)
+        if not txt: continue
+        streams = streams_from_html(txt)
+        if streams: return streams
     return {}
 
 def get_streams_for_match(md):
-    """Quet link theo tang:
-    - LIVE / sap dau trong SOON_HOURS -> quet sau (tat ca cascade, theo tung BLV)
-    - Tran xa gio -> quet nhe"""
+    """Inline truoc (0 request). Sau do:
+    - deep (LIVE / trong SOON_HOURS): 1-2 endpoint probe + (cuoi cung) crawl 1-2 trang
+    - khong deep: toi da 1 probe nhe neu co BLV"""
     streams = {}
     def absorb(more):
         for k, urls in (more or {}).items():
@@ -734,9 +718,9 @@ def get_streams_for_match(md):
 
     room_names = {c.get("room"): c.get("name")
                   for c in (md.get("commentators") or []) if c.get("room")}
-    absorb(extract_inline_streams(md.get("_raw_item") or {}, room_names))
+    absorb(md.get("inline_streams"))                    # link co san trong API list
     if streams and any(k != "Server" for k in streams):
-        return streams
+        return cap_streams(streams)
 
     now = now_vn()
     start = md.get("start_dt")
@@ -752,30 +736,22 @@ def get_streams_for_match(md):
     tm = re.search(r'-(\d{3,})$', md.get("slug") or "")
     if tm and tm.group(1) not in cands: cands.append(tm.group(1))
 
-    n_cands = len(cands) if deep else (2 if blvs else 1)
-    for x in cands[:n_cands]:
-        got = try_streams_endpoint(x, blvs if deep else blvs[:1],
-                                   room_names, light=not deep)
-        if got: absorb(got); break
+    got = try_streams_endpoint(cands[0], blvs if deep else blvs[:1], room_names)
+    if got: absorb(got)
 
-    if not streams and deep:
-        for x in cands:
-            got = try_detail_endpoint(x)
-            if got: absorb(got); break
+    if not streams and deep and len(cands) > 1:
+        got = try_streams_endpoint(cands[1], blvs[:2], room_names)
+        if got: absorb(got)
 
-    if not streams and deep:
-        mid = md.get("match_id") if str(md.get("match_id", "")).isdigit() else md.get("uuid")
-        if mid: absorb(try_stats_endpoint(mid))
-
-    if not streams and deep and md.get("slug"):
+    if not streams and deep and blvs and md.get("slug"):
         absorb(crawl_match_page(md, blvs, room_names))
-    return streams
+    return cap_streams(streams)
 
 # ─────────────────────────────────────────────────────────────────────────────
-# LAY DU LIEU: API BACKEND (uu tien) + HTML (JSON-LD + match card)
+# LAY DU LIEU: API BACKEND (uu tien) + HTML (du phong)
 # ─────────────────────────────────────────────────────────────────────────────
 
-def _fetch_api_endpoint(url, dump_debug=False):
+def _fetch_api_endpoint(url):
     data = http_get(url, timeout=15, as_json=True)
     if data is None:
         return url, []
@@ -788,27 +764,18 @@ def _fetch_api_endpoint(url, dump_debug=False):
         data = nxt
         found.extend(find_match_dicts(data))
         hops += 1
-    if dump_debug and found and os.environ.get("DEBUG"):
-        try:
-            with open("debug_api.json", "w", encoding="utf-8") as f:
-                json.dump(data, f, ensure_ascii=False, indent=2, default=str)
-        except Exception:
-            pass
     return url, found
 
 def fetch_raw_matches_from_api():
+    # 3 endpoint du — cac bien the khac tra cung du lieu, chi lam cham va lap
     urls = [
         f"{API_BASE}/matches/?status=live&has_commentator=true&page_size=100&ordering=smart",
-        f"{API_BASE}/matches/?ordering=smart&page_size=100&site=xoiche&has_commentator=true",
-        f"{API_BASE}/matches/?ordering=smart&page_size=100&sport=1&has_commentator=true",
+        f"{API_BASE}/matches/?ordering=smart&page_size=100&has_commentator=true",
         f"{API_BASE}/matches/?ordering=smart&page_size=100",
-        f"{API_BASE}/matches/?page_size=100",
-        f"{API_BASE}/matches/",
-        f"{API_BASE}/matches",
     ]
     items = []
-    with ThreadPoolExecutor(max_workers=4) as ex:
-        for url, found in ex.map(lambda u: _fetch_api_endpoint(u, u == urls[0]), urls):
+    with ThreadPoolExecutor(max_workers=3) as ex:
+        for url, found in ex.map(_fetch_api_endpoint, urls):
             if found:
                 print(f"  + {url} -> {len(found)} muc")
                 items.extend(found)
@@ -894,14 +861,6 @@ def parse_match_cards(html_text):
             lg = re.search(rf'data-side="{side}"[^>]*>.*?<img[^>]+src="([^"]+)"', blk, re.DOTALL)
             if lg: card[f"logo_{side}"] = decode_next_img(lg.group(1))
 
-        lm = re.search(r'matchCard_league__\w*"[^>]*>', blk)
-        if lm:
-            seg = blk[lm.end():]
-            cut = seg.find("matchCard_board")
-            if cut > 0: seg = seg[:cut]
-            lsm = re.search(r'<span>([^<]{2,80})</span>', seg)
-            if lsm: card["league"] = htmllib.unescape(lsm.group(1)).strip()
-
         pd = re.search(r'matchCard_period__\w*"[^>]*>([^<]+)<', blk)
         if pd:
             card["period"] = htmllib.unescape(pd.group(1)).strip()
@@ -911,17 +870,8 @@ def parse_match_cards(html_text):
         wh = re.search(r'matchCard_when__\w*"[^>]*>([^<]+)<', blk)
         if wh: card["when"] = wh.group(1).strip()
 
-        sc = re.search(r'matchCard_score__\w*[^>]*>([^<]+)<', blk)
-        if sc:
-            scm = re.search(r'(\d+)\s*[–\-—]\s*(\d+)', sc.group(1))
-            if scm:
-                card["home_score"] = int(scm.group(1))
-                card["away_score"] = int(scm.group(2))
-
         fx = re.search(r'([?&])(?:fixture|match|id)=(\d{3,})', blk)
         if fx: card["match_id"] = fx.group(2)
-        fxu = re.search(r'fixture=([0-9a-fA-F]{8}-(?:[0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12})', blk)
-        if fxu: card["fixture"] = fxu.group(1)
         tm = re.search(r'-(\d{3,})(?:\?|$|"|\')', blk)
         if tm and "match_id" not in card: card["match_id"] = tm.group(1)
 
@@ -956,7 +906,6 @@ def merge_event_card(ev, card):
         "eventStatus": "https://schema.org/EventInProgress" if live else "",
         "status": "live" if live else "scheduled",
         "id": card.get("match_id", ""),
-        "fixture": card.get("fixture", ""),
         "commentators": card.get("commentators", []),
         "home_score": card.get("home_score", 0),
         "away_score": card.get("away_score", 0),
@@ -965,8 +914,8 @@ def merge_event_card(ev, card):
 
 def fetch_raw_matches_from_html():
     events, cards = {}, {}
-    paths = ("/", "/lich-thi-dau", "/truc-tiep")
-    with ThreadPoolExecutor(max_workers=3) as ex:
+    paths = ("/", "/lich-thi-dau")
+    with ThreadPoolExecutor(max_workers=2) as ex:
         texts = dict(ex.map(lambda p: (p, get_page(p)), paths))
     for path in paths:
         txt = texts.get(path)
@@ -1041,13 +990,14 @@ def get_grouped_matches():
     print("1) Lay danh sach tran tu API backend...")
     raw_items.extend(fetch_raw_matches_from_api())
 
-    print("2) Lay danh sach tran tu HTML (JSON-LD + the tran)...")
+    print("2) Lay danh sach tran tu HTML (du phong)...")
     raw_items.extend(fetch_raw_matches_from_html())
 
     print(f"   -> Tong muc goc: {len(raw_items)}")
     if not raw_items: return {}
 
     grouped, by_slug, by_uuid, by_name = {}, {}, {}, {}
+    by_tail, by_afid = {}, {}
     for item in raw_items:
         try:
             nm = normalize_match(item)
@@ -1059,11 +1009,21 @@ def get_grouped_matches():
         inline = extract_inline_streams(item, room_names)
         if inline: nm["inline_streams"] = inline
 
+        afid = ""
+        if isinstance(item, dict):
+            afid = str(item.get("api_football_id") or "").strip()
+        tail = re.search(r'-(\d{4,})$', nm["slug"] or "")
+        tkey = tail.group(1) if tail else ""
+
         entry = None
         if nm["uuid"] and nm["uuid"] in by_uuid:
             entry = by_uuid[nm["uuid"]]
         elif nm["slug"] and nm["slug"] in by_slug:
             entry = by_slug[nm["slug"]]
+        elif tkey and tkey in by_tail:
+            entry = by_tail[tkey]
+        elif afid and afid in by_afid:
+            entry = by_afid[afid]
         else:
             nk = _name_key(nm)
             if nk and nk in by_name and _close_times(nm.get("start_dt"), by_name[nk].get("start_dt")):
@@ -1073,28 +1033,36 @@ def get_grouped_matches():
             grouped[nm["match_id"]] = nm
             if nm["slug"]: by_slug[nm["slug"]] = nm
             if nm["uuid"]: by_uuid[nm["uuid"]] = nm
+            if tkey: by_tail[tkey] = nm
+            if afid: by_afid[afid] = nm
             nk = _name_key(nm)
             if nk and nk not in by_name: by_name[nk] = nm
         else:
             merge_match(entry, nm)
             if nm["slug"] and nm["slug"] not in by_slug: by_slug[nm["slug"]] = entry
             if nm["uuid"] and nm["uuid"] not in by_uuid: by_uuid[nm["uuid"]] = entry
+            if tkey and tkey not in by_tail: by_tail[tkey] = entry
+            if afid and afid not in by_afid: by_afid[afid] = entry
             nk = _name_key(nm)
             if nk and nk not in by_name: by_name[nk] = entry
 
     print(f"   -> Sau khi gop/dedup: {len(grouped)} tran")
 
+    # Loc cua so + CHONG STALE: tran "LIVE" nhung qua xua (status site bi soi) -> bo
     now = now_vn()
+    past_cut = now - timedelta(hours=PAST_HOURS)
     kept, dropped = {}, 0
     for key, md in grouped.items():
-        if md["is_live"] or md["start_dt"] is None:
-            kept[key] = md
-        elif (now - timedelta(hours=PAST_HOURS)) <= md["start_dt"] <= (now + timedelta(hours=UPCOMING_HOURS)):
+        st = md.get("start_dt")
+        if st is not None and st < past_cut:
+            dropped += 1
+            continue
+        if md["is_live"] or st is None or st <= (now + timedelta(hours=UPCOMING_HOURS)):
             kept[key] = md
         else:
             dropped += 1
     if dropped:
-        print(f"   -> Bo {dropped} tran ngoai cua so (-{PAST_HOURS}h / +{UPCOMING_HOURS}h)")
+        print(f"   -> Bo {dropped} tran (ngoai cua so -{PAST_HOURS}h/+{UPCOMING_HOURS}h hoac stale)")
     grouped = kept
 
     total = len(grouped)
@@ -1265,7 +1233,7 @@ def build_channel(match, match_id_safe, thumb_url=""):
     t, d = match.get("time", ""), match.get("date", "")
     display = f"{match['name']} | {t} {d}" if t and d else (f"{match['name']} | {t}" if t else match["name"])
 
-    channel = {
+    return {
         "id": uid,
         "name": display,
         "type": "single",
@@ -1296,13 +1264,9 @@ def build_channel(match, match_id_safe, thumb_url=""):
             "home_score": match.get("home_score", 0),
             "away_score": match.get("away_score", 0),
         },
+        **({"image": {"padding": 1, "background_color": "#ffffff", "display": "contain",
+                      "url": thumb_url, "width": 1600, "height": 1200}} if thumb_url else {}),
     }
-    if thumb_url:
-        channel["image"] = {
-            "padding": 1, "background_color": "#ffffff", "display": "contain",
-            "url": thumb_url, "width": 1600, "height": 1200,
-        }
-    return channel
 
 # ─────────────────────────────────────────────────────────────────────────────
 # LOCKFILE
