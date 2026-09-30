@@ -1,13 +1,13 @@
 {
   "id": "xoiche",
-  "url": "https://xoiche2.live",
+  "url": "https://xoiche1.live",
   "name": "Xôi Chè TV",
   "color": "#00a86b",
   "grid_number": 3,
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -40,15 +40,15 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-b324cec71d",
-                          "name": "Enzo",
+                          "id": "lnk-f945d702bc",
+                          "name": "Táo Dai",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -57,15 +57,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-f945d702bc",
-                          "name": "Táo Dai",
+                          "id": "lnk-b324cec71d",
+                          "name": "Enzo",
                           "type": "hls",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -88,7 +88,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/25_barcelona-w.jpg",
             "time": "23:45",
             "date": "30/09",
-            "blv": "Enzo, Táo Dai",
+            "blv": "Táo Dai, Enzo",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
@@ -140,7 +140,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -215,7 +215,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -232,7 +232,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -260,7 +260,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 1,
-            "away_score": 2
+            "away_score": 4
           },
           "image": {
             "padding": 1,
@@ -279,10 +279,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -307,7 +307,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -331,9 +331,9 @@
             "time": "01:00",
             "date": "01/10",
             "blv": "Pháo Thủ",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "football",
-            "status": "live",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -382,7 +382,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -399,7 +399,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -474,7 +474,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -549,7 +549,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -624,7 +624,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -641,7 +641,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -716,7 +716,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -733,7 +733,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -752,8 +752,8 @@
             "league": "Copa De La Liga - Play Offs",
             "team_a": "Indonesia",
             "team_b": "Bangladesh",
-            "logo_a": "https://xoiche2.live/media/teams/logos/team_484.jpg",
-            "logo_b": "https://xoiche2.live/media/teams/logos/team_37951.gif",
+            "logo_a": "https://xoiche1.live/media/teams/logos/team_484.jpg",
+            "logo_b": "https://xoiche1.live/media/teams/logos/team_37951.gif",
             "time": "18:30",
             "date": "01/10",
             "blv": "Tam Mao, Chim Nhỏ",
@@ -767,7 +767,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24978_3ad2a35f_20261001.png?v=3ad2a35f",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24978_286f77e8_20261001.png?v=286f77e8",
             "width": 1600,
             "height": 1200
           }
@@ -808,7 +808,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -827,8 +827,8 @@
             "league": "Copa De La Liga - Play Offs",
             "team_a": "Malaysia",
             "team_b": "Singapore",
-            "logo_a": "https://xoiche2.live/media/teams/logos/team_478.jpg",
-            "logo_b": "https://xoiche2.live/media/teams/logos/team_483.jpg",
+            "logo_a": "https://xoiche1.live/media/teams/logos/team_478.jpg",
+            "logo_b": "https://xoiche1.live/media/teams/logos/team_483.jpg",
             "time": "18:30",
             "date": "01/10",
             "blv": "Tày",
@@ -842,7 +842,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24979_858df16e_20261001.png?v=858df16e",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24979_5ebab450_20261001.png?v=5ebab450",
             "width": 1600,
             "height": 1200
           }
@@ -883,7 +883,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -958,7 +958,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1033,7 +1033,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1108,7 +1108,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1183,7 +1183,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1258,7 +1258,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1333,7 +1333,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1408,7 +1408,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1425,7 +1425,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1500,7 +1500,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1575,7 +1575,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1659,7 +1659,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1678,8 +1678,8 @@
             "league": "ASIAD GAME",
             "team_a": "Ấn Độ",
             "team_b": "Pakistan",
-            "logo_a": "https://xoiche2.live/media/teams/logos/Flag_of_India.svg.webp",
-            "logo_b": "https://xoiche2.live/media/teams/logos/download_sbv5hbq.png",
+            "logo_a": "https://xoiche1.live/media/teams/logos/Flag_of_India.svg.webp",
+            "logo_b": "https://xoiche1.live/media/teams/logos/download_sbv5hbq.png",
             "time": "08:00",
             "date": "01/10",
             "blv": "Tày",
@@ -1693,7 +1693,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26418_19bc2434_20261001.png?v=19bc2434",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26418_929fe8c3_20261001.png?v=929fe8c3",
             "width": 1600,
             "height": 1200
           }
@@ -1734,7 +1734,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1753,8 +1753,8 @@
             "league": "ASIAD GAME",
             "team_a": "Kyrgyzstan",
             "team_b": "Đài Loan",
-            "logo_a": "https://xoiche2.live/media/teams/logos/images.png",
-            "logo_b": "https://xoiche2.live/media/teams/logos/Flag_of_the_Republic_of_China.svg.webp",
+            "logo_a": "https://xoiche1.live/media/teams/logos/images.png",
+            "logo_b": "https://xoiche1.live/media/teams/logos/Flag_of_the_Republic_of_China.svg.webp",
             "time": "11:00",
             "date": "01/10",
             "blv": "Enzo",
@@ -1768,7 +1768,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26419_9a721d46_20261001.png?v=9a721d46",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26419_b4cc71c3_20261001.png?v=b4cc71c3",
             "width": 1600,
             "height": 1200
           }
@@ -1809,7 +1809,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1828,8 +1828,8 @@
             "league": "ASIAD GAME",
             "team_a": "Hàn Quốc",
             "team_b": "Iran",
-            "logo_a": "https://xoiche2.live/media/teams/logos/Flag_of_South_Korea.svg.webp",
-            "logo_b": "https://xoiche2.live/media/teams/logos/OIP_xjljaQl.jpg",
+            "logo_a": "https://xoiche1.live/media/teams/logos/Flag_of_South_Korea.svg.webp",
+            "logo_b": "https://xoiche1.live/media/teams/logos/OIP_xjljaQl.jpg",
             "time": "11:00",
             "date": "01/10",
             "blv": "KaKa",
@@ -1843,7 +1843,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26420_41b03cad_20261001.png?v=41b03cad",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26420_44c2613c_20261001.png?v=44c2613c",
             "width": 1600,
             "height": 1200
           }
@@ -1884,7 +1884,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1903,8 +1903,8 @@
             "league": "ASIAD GAME",
             "team_a": "Việt Nam",
             "team_b": "Uzbekistan",
-            "logo_a": "https://xoiche2.live/media/teams/logos/OIP_hdpF9Rm.jpg",
-            "logo_b": "https://xoiche2.live/media/teams/logos/team_646_P1KUFYE.png",
+            "logo_a": "https://xoiche1.live/media/teams/logos/OIP_hdpF9Rm.jpg",
+            "logo_b": "https://xoiche1.live/media/teams/logos/team_646_P1KUFYE.png",
             "time": "14:00",
             "date": "01/10",
             "blv": "Lee Sin",
@@ -1918,7 +1918,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26421_987099a8_20261001.png?v=987099a8",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26421_a741a873_20261001.png?v=a741a873",
             "width": 1600,
             "height": 1200
           }
@@ -1959,7 +1959,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1978,8 +1978,8 @@
             "league": "ASIAD GAME",
             "team_a": "Thái Lan",
             "team_b": "Trung Quốc",
-            "logo_a": "https://xoiche2.live/media/teams/logos/OIP_Q9mUTFM.jpg",
-            "logo_b": "https://xoiche2.live/media/teams/logos/OIP_OOrZwnR.jpg",
+            "logo_a": "https://xoiche1.live/media/teams/logos/OIP_Q9mUTFM.jpg",
+            "logo_b": "https://xoiche1.live/media/teams/logos/OIP_OOrZwnR.jpg",
             "time": "14:00",
             "date": "01/10",
             "blv": "KaKa",
@@ -1993,7 +1993,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26422_d943dfa0_20261001.png?v=d943dfa0",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26422_45ab8757_20261001.png?v=45ab8757",
             "width": 1600,
             "height": 1200
           }
@@ -2034,7 +2034,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2053,8 +2053,8 @@
             "league": "ASIAD GAME",
             "team_a": "Philippines",
             "team_b": "Indonesia",
-            "logo_a": "https://xoiche2.live/media/teams/logos/OIP_njudfFz.jpg",
-            "logo_b": "https://xoiche2.live/media/teams/logos/OIP_WqmhllM.jpg",
+            "logo_a": "https://xoiche1.live/media/teams/logos/OIP_njudfFz.jpg",
+            "logo_b": "https://xoiche1.live/media/teams/logos/OIP_WqmhllM.jpg",
             "time": "17:00",
             "date": "01/10",
             "blv": "Enzo",
@@ -2068,7 +2068,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26423_23edd8b0_20261001.png?v=23edd8b0",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26423_626a1ec2_20261001.png?v=626a1ec2",
             "width": 1600,
             "height": 1200
           }
@@ -2109,7 +2109,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2128,8 +2128,8 @@
             "league": "ASIAD GAME",
             "team_a": "Nhật Bản",
             "team_b": "Qatar",
-            "logo_a": "https://xoiche2.live/media/teams/logos/OIP_4xNC98N.jpg",
-            "logo_b": "https://xoiche2.live/media/teams/logos/OIP_TkTkw3i.jpg",
+            "logo_a": "https://xoiche1.live/media/teams/logos/OIP_4xNC98N.jpg",
+            "logo_b": "https://xoiche1.live/media/teams/logos/OIP_TkTkw3i.jpg",
             "time": "17:20",
             "date": "01/10",
             "blv": "KaKa",
@@ -2143,7 +2143,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26424_a90c87dc_20261001.png?v=a90c87dc",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26424_c3d2a7ad_20261001.png?v=c3d2a7ad",
             "width": 1600,
             "height": 1200
           }
