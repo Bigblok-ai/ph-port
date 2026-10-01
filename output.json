@@ -2082,6 +2082,156 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-9890b57389",
+          "name": "Nhật Bản vs Trung Quốc | 17:20 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9890b57389",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-9890b57389",
+                  "name": "Nhật Bản vs Trung Quốc",
+                  "streams": [
+                    {
+                      "id": "st-9890b57389",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIAD GAME",
+            "team_a": "Nhật Bản",
+            "team_b": "Trung Quốc",
+            "logo_a": "https://xoiche.live/media/teams/logos/OIP_4xNC98N.jpg",
+            "logo_b": "https://xoiche.live/media/teams/logos/OIP_OOrZwnR.jpg",
+            "time": "17:20",
+            "date": "02/10",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "volleyball",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27611_3074bf2d_20261001.png?v=3074bf2d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-16c7c03892",
+          "name": "MKS Kalisz (W) vs Budowlani (W) | 22:30 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-16c7c03892",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-16c7c03892",
+                  "name": "MKS Kalisz (W) vs Budowlani (W)",
+                  "streams": [
+                    {
+                      "id": "st-16c7c03892",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TAURON LIGA",
+            "team_a": "MKS Kalisz (W)",
+            "team_b": "Budowlani (W)",
+            "logo_a": "https://xoiche.live/media/teams/logos/image.webp",
+            "logo_b": "https://xoiche.live/media/teams/logos/image_1.webp",
+            "time": "22:30",
+            "date": "02/10",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "volleyball",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27612_2f9841d3_20261001.png?v=2f9841d3",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
