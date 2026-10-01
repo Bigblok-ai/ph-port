@@ -265,10 +265,27 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
+                          "id": "lnk-f945d702bc",
+                          "name": "Táo Dai",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
                           "id": "lnk-c210608a27",
                           "name": "Khô Cay",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
                           "url": "https://live.khoga.space/live/livehub9/index.m3u8",
                           "request_headers": [
                             {
@@ -296,7 +313,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/10_netherlands.jpg",
             "time": "01:45",
             "date": "02/10",
-            "blv": "Khô Cay",
+            "blv": "Táo Dai, Khô Cay",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1133,6 +1150,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24486_5eb1b60c_20261002.png?v=5eb1b60c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-b17b1ffea0",
+          "name": "Ba Lan vs Romania | 01:45 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b17b1ffea0",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b17b1ffea0",
+                  "name": "Ba Lan vs Romania",
+                  "streams": [
+                    {
+                      "id": "st-b17b1ffea0",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f945d702bc",
+                          "name": "Táo Dai",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Ba Lan",
+            "team_b": "Romania",
+            "logo_a": "https://apiv3.apifootball.com/badges/18_poland.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/702_romania.jpg",
+            "time": "01:45",
+            "date": "03/10",
+            "blv": "Táo Dai",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/25069_1f92bfc8_20261002.png?v=1f92bfc8",
             "width": 1600,
             "height": 1200
           }
