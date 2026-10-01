@@ -92,8 +92,8 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 6,
-            "away_score": 1
+            "home_score": 7,
+            "away_score": 2
           },
           "image": {
             "padding": 1,
@@ -184,7 +184,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 5,
+            "home_score": 6,
             "away_score": 0
           },
           "image": {
@@ -1879,90 +1879,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24486_5eb1b60c_20261001.png?v=5eb1b60c",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "xc-b4915aab19",
-          "name": "Nhật Bản vs Qatar | 17:20 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b4915aab19",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-b4915aab19",
-                  "name": "Nhật Bản vs Qatar",
-                  "streams": [
-                    {
-                      "id": "st-b4915aab19",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-95e438c878",
-                          "name": "KaKa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASIAD GAME",
-            "team_a": "Nhật Bản",
-            "team_b": "Qatar",
-            "logo_a": "https://xoiche.live/media/teams/logos/OIP_4xNC98N.jpg",
-            "logo_b": "https://xoiche.live/media/teams/logos/OIP_TkTkw3i.jpg",
-            "time": "17:20",
-            "date": "01/10",
-            "blv": "KaKa",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26424_262e5b62_20261001.png?v=262e5b62",
             "width": 1600,
             "height": 1200
           }
