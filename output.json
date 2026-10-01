@@ -1947,6 +1947,156 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-c9f8941c38",
+          "name": "Síp vs Armenia | 23:00 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c9f8941c38",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-c9f8941c38",
+                  "name": "Síp vs Armenia",
+                  "streams": [
+                    {
+                      "id": "st-c9f8941c38",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "Kền Kền",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Síp",
+            "team_b": "Armenia",
+            "logo_a": "https://apiv3.apifootball.com/badges/697_cyprus.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/703_armenia.jpg",
+            "time": "23:00",
+            "date": "02/10",
+            "blv": "Kền Kền",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24485_dcb8ddc6_20261001.png?v=dcb8ddc6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-90dda4bebc",
+          "name": "Latvia vs Montenegro | 23:00 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-90dda4bebc",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-90dda4bebc",
+                  "name": "Latvia vs Montenegro",
+                  "streams": [
+                    {
+                      "id": "st-90dda4bebc",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e11cfd9666",
+                          "name": "Tiểu Mây",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Latvia",
+            "team_b": "Montenegro",
+            "logo_a": "https://apiv3.apifootball.com/badges/694_latvia.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/693_montenegro.jpg",
+            "time": "23:00",
+            "date": "02/10",
+            "blv": "Tiểu Mây",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24486_5eb1b60c_20261001.png?v=5eb1b60c",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
