@@ -14,7 +14,7 @@
       "channels": [
         {
           "id": "xc-917fa0f2b7",
-          "name": "Panama vs New Zealand | 12:45 01/10",
+          "name": "Panama vs New Zealand | 13:10 01/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -69,7 +69,7 @@
             "team_b": "New Zealand",
             "logo_a": "https://apiv3.apifootball.com/badges/524_panama.jpg",
             "logo_b": "https://flagcdn.com/w160/nz.png",
-            "time": "12:45",
+            "time": "13:10",
             "date": "01/10",
             "blv": "Khô Cay",
             "is_live": true,
@@ -1541,7 +1541,7 @@
         },
         {
           "id": "xc-1697fe5eb0",
-          "name": "Việt Nam vs Pakistan | 15:00 02/10",
+          "name": "Việt Nam vs Pakistan | 16:00 02/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1613,7 +1613,7 @@
             "team_b": "Pakistan",
             "logo_a": "https://xoiche.live/media/teams/logos/team_479.jpg",
             "logo_b": "https://xoiche.live/media/teams/logos/images_t97Qc0H.png",
-            "time": "15:00",
+            "time": "16:00",
             "date": "02/10",
             "blv": "Chim Nhỏ, Tày",
             "is_live": false,
@@ -1633,7 +1633,7 @@
         },
         {
           "id": "xc-a66dbabd79",
-          "name": "Thái Lan vs Philippines | 15:00 02/10",
+          "name": "Thái Lan vs Philippines | 16:00 02/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1705,7 +1705,7 @@
             "team_b": "Philippines",
             "logo_a": "https://xoiche.live/media/teams/logos/team_480.jpg",
             "logo_b": "https://xoiche.live/media/teams/logos/team_341.jpg",
-            "time": "15:00",
+            "time": "16:00",
             "date": "02/10",
             "blv": "Tam Mao, Lee Sin",
             "is_live": false,
