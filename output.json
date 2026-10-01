@@ -1,6 +1,6 @@
 {
   "id": "xoiche",
-  "url": "https://xoiche.live",
+  "url": "https://xoiche1.live",
   "name": "Xôi Chè TV",
   "color": "#00a86b",
   "grid_number": 3,
@@ -13,8 +13,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-3aca5559a8",
-          "name": "Uzbekistan vs Syria | 21:00 01/10",
+          "id": "xc-5b6a98d170",
+          "name": "Al-Gharafa vs Al Mesaimeer | 22:00 01/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -24,81 +24,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3aca5559a8",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-3aca5559a8",
-                  "name": "Uzbekistan vs Syria",
-                  "streams": [
-                    {
-                      "id": "st-3aca5559a8",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Uzbekistan",
-            "team_b": "Syria",
-            "logo_a": "https://apiv3.apifootball.com/badges/646_uzbekistan.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/638_syria.jpg",
-            "time": "21:00",
-            "date": "01/10",
-            "blv": "Pháo Thủ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "half_time",
-            "home_score": 2,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/23858_96b4b965_20261001.png?v=96b4b965",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-5b6a98d170",
-          "name": "Al-Gharafa vs Al Mesaimeer | 22:00 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -123,7 +48,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -147,9 +72,9 @@
             "time": "22:00",
             "date": "01/10",
             "blv": "Táo Dai",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -158,81 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/23864_9521afab_20261001.png?v=9521afab",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-d24fb9e15b",
-          "name": "Guinea vs Kenya | 23:00 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d24fb9e15b",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-d24fb9e15b",
-                  "name": "Guinea vs Kenya",
-                  "streams": [
-                    {
-                      "id": "st-d24fb9e15b",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e11cfd9666",
-                          "name": "Tiểu Mây",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Africa Cup of Nations Qualification",
-            "team_a": "Guinea",
-            "team_b": "Kenya",
-            "logo_a": "https://apiv3.apifootball.com/badges/722_guinea.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/733_kenya.jpg",
-            "time": "23:00",
-            "date": "01/10",
-            "blv": "Tiểu Mây",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/23868_62682be2_20261001.png?v=62682be2",
             "width": 1600,
             "height": 1200
           }
@@ -273,24 +123,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "Kền Kền",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -313,7 +146,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/705_liechtenstein.jpg",
             "time": "23:00",
             "date": "01/10",
-            "blv": "Tam Mao, Kền Kền",
+            "blv": "Tam Mao",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -365,24 +198,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -405,7 +221,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/23_portugal.jpg",
             "time": "01:45",
             "date": "02/10",
-            "blv": "Tam Mao, Tày",
+            "blv": "Tam Mao",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -449,32 +265,15 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
                           "id": "lnk-afc0aa1332",
                           "name": "Xôi Xoài",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://live.khoga.space/live/livehub3/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -497,7 +296,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/675_serbia.jpg",
             "time": "01:45",
             "date": "02/10",
-            "blv": "Chim Nhỏ, Xôi Xoài",
+            "blv": "Xôi Xoài",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -541,32 +340,15 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-f945d702bc",
-                          "name": "Táo Dai",
+                          "id": "lnk-c210608a27",
+                          "name": "Khô Cay",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e8bb58cf27",
-                          "name": "Lee Sin",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -589,7 +371,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/10_netherlands.jpg",
             "time": "01:45",
             "date": "02/10",
-            "blv": "Táo Dai, Lee Sin",
+            "blv": "Khô Cay",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -601,81 +383,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24325_69dbc932_20261001.png?v=69dbc932",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-a774b1d228",
-          "name": "Ireland vs Áo | 01:45 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a774b1d228",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-a774b1d228",
-                  "name": "Ireland vs Áo",
-                  "streams": [
-                    {
-                      "id": "st-a774b1d228",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Enzo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Ireland",
-            "team_b": "Áo",
-            "logo_a": "https://apiv3.apifootball.com/badges/677_republic-of-ireland.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/9_austria.jpg",
-            "time": "01:45",
-            "date": "02/10",
-            "blv": "Enzo",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24321_1530d7e1_20261001.png?v=1530d7e1",
             "width": 1600,
             "height": 1200
           }
@@ -716,24 +423,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -756,7 +446,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/692_norway.jpg",
             "time": "01:45",
             "date": "02/10",
-            "blv": "Gà Rừng BLV, Pháo Thủ",
+            "blv": "Gà Rừng BLV",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -768,81 +458,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24326_7ceb73fe_20261001.png?v=7ceb73fe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-588fad4e41",
-          "name": "Manchester City W vs Real Madrid W | 02:00 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-588fad4e41",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-588fad4e41",
-                  "name": "Manchester City W vs Real Madrid W",
-                  "streams": [
-                    {
-                      "id": "st-588fad4e41",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "Kền Kền",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Women's Champions League",
-            "team_a": "Manchester City W",
-            "team_b": "Real Madrid W",
-            "logo_a": "https://apiv3.apifootball.com/badges/26_manchester-city-w.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/486_real-madrid-w.jpg",
-            "time": "02:00",
-            "date": "02/10",
-            "blv": "Kền Kền",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24328_9ce4e8c5_20261001.png?v=9ce4e8c5",
             "width": 1600,
             "height": 1200
           }
@@ -883,7 +498,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -950,15 +565,15 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-e11cfd9666",
-                          "name": "Tiểu Mây",
+                          "id": "lnk-d96bd0dded",
+                          "name": "Gà Rừng BLV",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -981,7 +596,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/607_korea-republic-w.jpg",
             "time": "13:00",
             "date": "02/10",
-            "blv": "Tiểu Mây",
+            "blv": "Gà Rừng BLV",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1025,32 +640,15 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
+                          "id": "lnk-c210608a27",
+                          "name": "Khô Cay",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1069,11 +667,11 @@
             "league": "Copa De La Liga - Play Offs",
             "team_a": "Việt Nam",
             "team_b": "Pakistan",
-            "logo_a": "https://xoiche.live/media/teams/logos/team_479.jpg",
-            "logo_b": "https://xoiche.live/media/teams/logos/images_t97Qc0H.png",
+            "logo_a": "https://xoiche1.live/media/teams/logos/team_479.jpg",
+            "logo_b": "https://xoiche1.live/media/teams/logos/images_t97Qc0H.png",
             "time": "16:00",
             "date": "02/10",
-            "blv": "Chim Nhỏ, Tày",
+            "blv": "Khô Cay",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1084,7 +682,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26496_fcc915b6_20261001.png?v=fcc915b6",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26496_4ef84d14_20261001.png?v=4ef84d14",
             "width": 1600,
             "height": 1200
           }
@@ -1125,24 +723,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e8bb58cf27",
-                          "name": "Lee Sin",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1161,11 +742,11 @@
             "league": "Copa De La Liga - Play Offs",
             "team_a": "Thái Lan",
             "team_b": "Philippines",
-            "logo_a": "https://xoiche.live/media/teams/logos/team_480.jpg",
-            "logo_b": "https://xoiche.live/media/teams/logos/team_341.jpg",
+            "logo_a": "https://xoiche1.live/media/teams/logos/team_480.jpg",
+            "logo_b": "https://xoiche1.live/media/teams/logos/team_341.jpg",
             "time": "16:00",
             "date": "02/10",
-            "blv": "Tam Mao, Lee Sin",
+            "blv": "Tam Mao",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1176,7 +757,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26497_4d16f9a5_20261001.png?v=4d16f9a5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26497_f84ec839_20261001.png?v=f84ec839",
             "width": 1600,
             "height": 1200
           }
@@ -1209,32 +790,15 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "Kền Kền",
+                          "id": "lnk-f945d702bc",
+                          "name": "Táo Dai",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1257,7 +821,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/601_japan-w.jpg",
             "time": "17:30",
             "date": "02/10",
-            "blv": "Kền Kền, Chim Nhỏ",
+            "blv": "Táo Dai",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1309,24 +873,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1349,7 +896,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/532_venezuela.jpg",
             "time": "18:00",
             "date": "02/10",
-            "blv": "Gà Rừng BLV, Pháo Thủ",
+            "blv": "Gà Rừng BLV",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1393,32 +940,15 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-e11cfd9666",
-                          "name": "Tiểu Mây",
+                          "id": "lnk-c210608a27",
+                          "name": "Khô Cay",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f945d702bc",
-                          "name": "Táo Dai",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1441,7 +971,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/339_palestine.jpg",
             "time": "18:35",
             "date": "02/10",
-            "blv": "Tiểu Mây, Táo Dai",
+            "blv": "Khô Cay",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1493,24 +1023,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Enzo",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1533,7 +1046,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/689_moldova.jpg",
             "time": "21:00",
             "date": "02/10",
-            "blv": "Tam Mao, Enzo",
+            "blv": "Tam Mao",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1577,15 +1090,15 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "Kền Kền",
+                          "id": "lnk-f945d702bc",
+                          "name": "Táo Dai",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1608,7 +1121,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/703_armenia.jpg",
             "time": "23:00",
             "date": "02/10",
-            "blv": "Kền Kền",
+            "blv": "Táo Dai",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1652,15 +1165,15 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-e11cfd9666",
-                          "name": "Tiểu Mây",
+                          "id": "lnk-afc0aa1332",
+                          "name": "Xôi Xoài",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1683,7 +1196,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/693_montenegro.jpg",
             "time": "23:00",
             "date": "02/10",
-            "blv": "Tiểu Mây",
+            "blv": "Xôi Xoài",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1695,540 +1208,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24486_5eb1b60c_20261001.png?v=5eb1b60c",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "xc-c46aa3e64c",
-          "name": "Ấn Độ vs Hàn Quốc | 08:00 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c46aa3e64c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-c46aa3e64c",
-                  "name": "Ấn Độ vs Hàn Quốc",
-                  "streams": [
-                    {
-                      "id": "st-c46aa3e64c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASIAD GAME",
-            "team_a": "Ấn Độ",
-            "team_b": "Hàn Quốc",
-            "logo_a": "https://xoiche.live/media/teams/logos/Flag_of_India.svg.webp",
-            "logo_b": "https://xoiche.live/media/teams/logos/Flag_of_South_Korea.svg.webp",
-            "time": "08:00",
-            "date": "02/10",
-            "blv": "Tày",
-            "is_live": false,
-            "cate_type": "volleyball",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27605_baaaffb4_20261001.png?v=baaaffb4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-f76adfc16c",
-          "name": "Qatar vs Thái Lan | 11:00 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f76adfc16c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-f76adfc16c",
-                  "name": "Qatar vs Thái Lan",
-                  "streams": [
-                    {
-                      "id": "st-f76adfc16c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-95e438c878",
-                          "name": "KaKa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASIAD GAME",
-            "team_a": "Qatar",
-            "team_b": "Thái Lan",
-            "logo_a": "https://xoiche.live/media/teams/logos/OIP_TkTkw3i.jpg",
-            "logo_b": "https://xoiche.live/media/teams/logos/OIP_Q9mUTFM.jpg",
-            "time": "11:00",
-            "date": "02/10",
-            "blv": "KaKa",
-            "is_live": false,
-            "cate_type": "volleyball",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27606_d81493c1_20261001.png?v=d81493c1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-13d429db19",
-          "name": "Uzbekistan vs Philippines | 11:00 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-13d429db19",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-13d429db19",
-                  "name": "Uzbekistan vs Philippines",
-                  "streams": [
-                    {
-                      "id": "st-13d429db19",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Enzo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASIAD GAME",
-            "team_a": "Uzbekistan",
-            "team_b": "Philippines",
-            "logo_a": "https://xoiche.live/media/teams/logos/team_646_P1KUFYE.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/OIP_njudfFz.jpg",
-            "time": "11:00",
-            "date": "02/10",
-            "blv": "Enzo",
-            "is_live": false,
-            "cate_type": "volleyball",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27607_745bc37e_20261001.png?v=745bc37e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-414cb71ec2",
-          "name": "Pakistan vs Iran | 14:00 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-414cb71ec2",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-414cb71ec2",
-                  "name": "Pakistan vs Iran",
-                  "streams": [
-                    {
-                      "id": "st-414cb71ec2",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-95e438c878",
-                          "name": "KaKa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASIAD GAME",
-            "team_a": "Pakistan",
-            "team_b": "Iran",
-            "logo_a": "https://xoiche.live/media/teams/logos/download_sbv5hbq.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/OIP_xjljaQl.jpg",
-            "time": "14:00",
-            "date": "02/10",
-            "blv": "KaKa",
-            "is_live": false,
-            "cate_type": "volleyball",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27608_97c74600_20261001.png?v=97c74600",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-0dbcc22a13",
-          "name": "Việt Nam vs Indonesia | 17:00 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0dbcc22a13",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-0dbcc22a13",
-                  "name": "Việt Nam vs Indonesia",
-                  "streams": [
-                    {
-                      "id": "st-0dbcc22a13",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e8bb58cf27",
-                          "name": "Lee Sin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASIAD GAME",
-            "team_a": "Việt Nam",
-            "team_b": "Indonesia",
-            "logo_a": "https://xoiche.live/media/teams/logos/OIP_hdpF9Rm.jpg",
-            "logo_b": "https://xoiche.live/media/teams/logos/OIP_WqmhllM.jpg",
-            "time": "17:00",
-            "date": "02/10",
-            "blv": "Lee Sin",
-            "is_live": false,
-            "cate_type": "volleyball",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27609_3e7a55da_20261001.png?v=3e7a55da",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-9890b57389",
-          "name": "Nhật Bản vs Trung Quốc | 17:20 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9890b57389",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-9890b57389",
-                  "name": "Nhật Bản vs Trung Quốc",
-                  "streams": [
-                    {
-                      "id": "st-9890b57389",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-95e438c878",
-                          "name": "KaKa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASIAD GAME",
-            "team_a": "Nhật Bản",
-            "team_b": "Trung Quốc",
-            "logo_a": "https://xoiche.live/media/teams/logos/OIP_4xNC98N.jpg",
-            "logo_b": "https://xoiche.live/media/teams/logos/OIP_OOrZwnR.jpg",
-            "time": "17:20",
-            "date": "02/10",
-            "blv": "KaKa",
-            "is_live": false,
-            "cate_type": "volleyball",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27611_3074bf2d_20261001.png?v=3074bf2d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-16c7c03892",
-          "name": "MKS Kalisz (W) vs Budowlani (W) | 22:30 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-16c7c03892",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-16c7c03892",
-                  "name": "MKS Kalisz (W) vs Budowlani (W)",
-                  "streams": [
-                    {
-                      "id": "st-16c7c03892",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-95e438c878",
-                          "name": "KaKa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TAURON LIGA",
-            "team_a": "MKS Kalisz (W)",
-            "team_b": "Budowlani (W)",
-            "logo_a": "https://xoiche.live/media/teams/logos/image.webp",
-            "logo_b": "https://xoiche.live/media/teams/logos/image_1.webp",
-            "time": "22:30",
-            "date": "02/10",
-            "blv": "KaKa",
-            "is_live": false,
-            "cate_type": "volleyball",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27612_2f9841d3_20261001.png?v=2f9841d3",
             "width": 1600,
             "height": 1200
           }
