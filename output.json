@@ -7,11 +7,161 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-a6a87ed8d5",
+          "name": "Đan Mạch vs Bồ Đào Nha | 01:45 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a6a87ed8d5",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-a6a87ed8d5",
+                  "name": "Đan Mạch vs Bồ Đào Nha",
+                  "streams": [
+                    {
+                      "id": "st-a6a87ed8d5",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f22a137722",
+                          "name": "Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Đan Mạch",
+            "team_b": "Bồ Đào Nha",
+            "logo_a": "https://apiv3.apifootball.com/badges/7_denmark.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/23_portugal.jpg",
+            "time": "01:45",
+            "date": "02/10",
+            "blv": "Tam Mao",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24323_8a39b2d0_20261002.png?v=8a39b2d0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-fb2e636577",
+          "name": "Đức vs Serbia | 01:45 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fb2e636577",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-fb2e636577",
+                  "name": "Đức vs Serbia",
+                  "streams": [
+                    {
+                      "id": "st-fb2e636577",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Đức",
+            "team_b": "Serbia",
+            "logo_a": "https://apiv3.apifootball.com/badges/21_germany.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/675_serbia.jpg",
+            "time": "01:45",
+            "date": "02/10",
+            "blv": "Xôi Xoài",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24324_91ba98d1_20261002.png?v=91ba98d1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-f7da8deec4",
           "name": "Hy Lạp vs Hà Lan | 01:45 02/10",
@@ -112,10 +262,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -164,9 +314,9 @@
             "time": "01:45",
             "date": "02/10",
             "blv": "Gà Rừng BLV",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -175,156 +325,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24326_7ceb73fe_20261002.png?v=7ceb73fe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-a6a87ed8d5",
-          "name": "Đan Mạch vs Bồ Đào Nha | 01:45 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a6a87ed8d5",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-a6a87ed8d5",
-                  "name": "Đan Mạch vs Bồ Đào Nha",
-                  "streams": [
-                    {
-                      "id": "st-a6a87ed8d5",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f22a137722",
-                          "name": "Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Đan Mạch",
-            "team_b": "Bồ Đào Nha",
-            "logo_a": "https://apiv3.apifootball.com/badges/7_denmark.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/23_portugal.jpg",
-            "time": "01:45",
-            "date": "02/10",
-            "blv": "Tam Mao",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24323_8a39b2d0_20261002.png?v=8a39b2d0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-fb2e636577",
-          "name": "Đức vs Serbia | 01:45 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fb2e636577",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-fb2e636577",
-                  "name": "Đức vs Serbia",
-                  "streams": [
-                    {
-                      "id": "st-fb2e636577",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-afc0aa1332",
-                          "name": "Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Đức",
-            "team_b": "Serbia",
-            "logo_a": "https://apiv3.apifootball.com/badges/21_germany.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/675_serbia.jpg",
-            "time": "01:45",
-            "date": "02/10",
-            "blv": "Xôi Xoài",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24324_91ba98d1_20261002.png?v=91ba98d1",
             "width": 1600,
             "height": 1200
           }
