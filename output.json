@@ -1,6 +1,6 @@
 {
   "id": "xoiche",
-  "url": "https://xoiche.live",
+  "url": "https://xoiche1.live",
   "name": "Xôi Chè TV",
   "color": "#00a86b",
   "grid_number": 3,
@@ -48,7 +48,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -83,6 +83,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/25096_7267cfcf_20261003.png?v=7267cfcf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-a8c10ea52e",
+          "name": "China U23 vs Uzbekistan U23 | 13:00 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a8c10ea52e",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-a8c10ea52e",
+                  "name": "China U23 vs Uzbekistan U23",
+                  "streams": [
+                    {
+                      "id": "st-a8c10ea52e",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c210608a27",
+                          "name": "Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Games",
+            "team_a": "China U23",
+            "team_b": "Uzbekistan U23",
+            "logo_a": "https://apiv3.apifootball.com/badges/9462_china-pr-u23.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/9454_uzbekistan-u23.jpg",
+            "time": "13:00",
+            "date": "03/10",
+            "blv": "Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27557_b15cc098_20261003.png?v=b15cc098",
             "width": 1600,
             "height": 1200
           }
@@ -123,7 +198,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -198,7 +273,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -273,7 +348,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -348,7 +423,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -423,7 +498,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -498,7 +573,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -573,7 +648,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -648,7 +723,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -683,6 +758,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26092_2df3fb19_20261003.png?v=2df3fb19",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-84648eaca6",
+          "name": "Iceland vs Bulgaria | 23:00 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-84648eaca6",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-84648eaca6",
+                  "name": "Iceland vs Bulgaria",
+                  "streams": [
+                    {
+                      "id": "st-84648eaca6",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c210608a27",
+                          "name": "Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Iceland",
+            "team_b": "Bulgaria",
+            "logo_a": "https://apiv3.apifootball.com/badges/704_iceland.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/683_bulgaria.jpg",
+            "time": "23:00",
+            "date": "03/10",
+            "blv": "Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26095_af06a7c5_20261003.png?v=af06a7c5",
             "width": 1600,
             "height": 1200
           }
@@ -723,7 +873,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -758,6 +908,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26622_1f22f274_20261003.png?v=1f22f274",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-43e9fffa93",
+          "name": "Thụy Sĩ vs Slovenia | 01:45 04/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-43e9fffa93",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-43e9fffa93",
+                  "name": "Thụy Sĩ vs Slovenia",
+                  "streams": [
+                    {
+                      "id": "st-43e9fffa93",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c210608a27",
+                          "name": "Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Thụy Sĩ",
+            "team_b": "Slovenia",
+            "logo_a": "https://apiv3.apifootball.com/badges/2_switzerland.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/696_slovenia.jpg",
+            "time": "01:45",
+            "date": "04/10",
+            "blv": "Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26623_fafc0288_20261003.png?v=fafc0288",
             "width": 1600,
             "height": 1200
           }
@@ -798,7 +1023,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -882,7 +1107,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -901,8 +1126,8 @@
             "league": "Sultanlar Ligi Nữ",
             "team_a": "VakifBank",
             "team_b": "Besiktas",
-            "logo_a": "https://xoiche.live/media/teams/logos/images_RHi333C.jpg",
-            "logo_b": "https://xoiche.live/media/teams/logos/team_187.png",
+            "logo_a": "https://xoiche1.live/media/teams/logos/images_RHi333C.jpg",
+            "logo_b": "https://xoiche1.live/media/teams/logos/team_187.png",
             "time": "18:00",
             "date": "03/10",
             "blv": "Xôi Gà",
@@ -916,7 +1141,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/31174_757ecac9_20261003.png?v=757ecac9",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/31174_41b06691_20261003.png?v=41b06691",
             "width": 1600,
             "height": 1200
           }
