@@ -1,8 +1,1293 @@
 {
   "id": "xoiche",
-  "url": "https://xoiche.live",
+  "url": "https://xoiche1.live",
   "name": "Xôi Chè TV",
   "color": "#00a86b",
   "grid_number": 3,
-  "groups": []
+  "groups": [
+    {
+      "id": "cate_football",
+      "name": "⚽ Bóng Đá (3 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "xc-1697fe5eb0",
+          "name": "Việt Nam vs Pakistan | 16:00 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1697fe5eb0",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-1697fe5eb0",
+                  "name": "Việt Nam vs Pakistan",
+                  "streams": [
+                    {
+                      "id": "st-1697fe5eb0",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c210608a27",
+                          "name": "Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Copa De La Liga - Play Offs",
+            "team_a": "Việt Nam",
+            "team_b": "Pakistan",
+            "logo_a": "https://xoiche1.live/media/teams/logos/team_479.jpg",
+            "logo_b": "https://xoiche1.live/media/teams/logos/images_t97Qc0H.png",
+            "time": "16:00",
+            "date": "02/10",
+            "blv": "Khô Cay",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 4,
+            "away_score": 2
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26496_4ef84d14_20261002.png?v=4ef84d14",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-a66dbabd79",
+          "name": "Thái Lan vs Philippines | 16:00 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a66dbabd79",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-a66dbabd79",
+                  "name": "Thái Lan vs Philippines",
+                  "streams": [
+                    {
+                      "id": "st-a66dbabd79",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f22a137722",
+                          "name": "Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Copa De La Liga - Play Offs",
+            "team_a": "Thái Lan",
+            "team_b": "Philippines",
+            "logo_a": "https://xoiche1.live/media/teams/logos/team_480.jpg",
+            "logo_b": "https://xoiche1.live/media/teams/logos/team_341.jpg",
+            "time": "16:00",
+            "date": "02/10",
+            "blv": "Tam Mao",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "half_time",
+            "home_score": 0,
+            "away_score": 1
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26497_f84ec839_20261002.png?v=f84ec839",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-4a3ef7e06b",
+          "name": "Hàn Quốc vs Venezuela | 18:00 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4a3ef7e06b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-4a3ef7e06b",
+                  "name": "Hàn Quốc vs Venezuela",
+                  "streams": [
+                    {
+                      "id": "st-4a3ef7e06b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d96bd0dded",
+                          "name": "Gà Rừng BLV",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Hàn Quốc",
+            "team_b": "Venezuela",
+            "logo_a": "https://apiv3.apifootball.com/badges/651_korea-republic.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/532_venezuela.jpg",
+            "time": "18:00",
+            "date": "02/10",
+            "blv": "Gà Rừng BLV",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24383_32cdcffa_20261002.png?v=32cdcffa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-a6d01d2e4f",
+          "name": "North Korea W vs Japan W | 17:30 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a6d01d2e4f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-a6d01d2e4f",
+                  "name": "North Korea W vs Japan W",
+                  "streams": [
+                    {
+                      "id": "st-a6d01d2e4f",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f945d702bc",
+                          "name": "Táo Dai",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Games",
+            "team_a": "North Korea W",
+            "team_b": "Japan W",
+            "logo_a": "https://apiv3.apifootball.com/badges/31639_korea-dpr-w.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/601_japan-w.jpg",
+            "time": "17:30",
+            "date": "02/10",
+            "blv": "Táo Dai",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26503_c829fd7c_20261002.png?v=c829fd7c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-f6968c3393",
+          "name": "Trung Quốc vs Palestine | 18:35 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f6968c3393",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-f6968c3393",
+                  "name": "Trung Quốc vs Palestine",
+                  "streams": [
+                    {
+                      "id": "st-f6968c3393",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c210608a27",
+                          "name": "Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Trung Quốc",
+            "team_b": "Palestine",
+            "logo_a": "https://flagcdn.com/w160/cn.png",
+            "logo_b": "https://apiv3.apifootball.com/badges/339_palestine.jpg",
+            "time": "18:35",
+            "date": "02/10",
+            "blv": "Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24387_82256da1_20261002.png?v=82256da1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-cd49f7f761",
+          "name": "Kazakhstan vs Moldova | 21:00 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cd49f7f761",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-cd49f7f761",
+                  "name": "Kazakhstan vs Moldova",
+                  "streams": [
+                    {
+                      "id": "st-cd49f7f761",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f22a137722",
+                          "name": "Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Kazakhstan",
+            "team_b": "Moldova",
+            "logo_a": "https://apiv3.apifootball.com/badges/686_kazakhstan.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/689_moldova.jpg",
+            "time": "21:00",
+            "date": "02/10",
+            "blv": "Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24451_55a3db44_20261002.png?v=55a3db44",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-c9f8941c38",
+          "name": "Síp vs Armenia | 23:00 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c9f8941c38",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-c9f8941c38",
+                  "name": "Síp vs Armenia",
+                  "streams": [
+                    {
+                      "id": "st-c9f8941c38",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f945d702bc",
+                          "name": "Táo Dai",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Síp",
+            "team_b": "Armenia",
+            "logo_a": "https://apiv3.apifootball.com/badges/697_cyprus.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/703_armenia.jpg",
+            "time": "23:00",
+            "date": "02/10",
+            "blv": "Táo Dai",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24485_dcb8ddc6_20261002.png?v=dcb8ddc6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-90dda4bebc",
+          "name": "Latvia vs Montenegro | 23:00 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-90dda4bebc",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-90dda4bebc",
+                  "name": "Latvia vs Montenegro",
+                  "streams": [
+                    {
+                      "id": "st-90dda4bebc",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Latvia",
+            "team_b": "Montenegro",
+            "logo_a": "https://apiv3.apifootball.com/badges/694_latvia.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/693_montenegro.jpg",
+            "time": "23:00",
+            "date": "02/10",
+            "blv": "Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24486_5eb1b60c_20261002.png?v=5eb1b60c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-b17b1ffea0",
+          "name": "Ba Lan vs Romania | 01:45 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b17b1ffea0",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b17b1ffea0",
+                  "name": "Ba Lan vs Romania",
+                  "streams": [
+                    {
+                      "id": "st-b17b1ffea0",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f945d702bc",
+                          "name": "Táo Dai",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Ba Lan",
+            "team_b": "Romania",
+            "logo_a": "https://apiv3.apifootball.com/badges/18_poland.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/702_romania.jpg",
+            "time": "01:45",
+            "date": "03/10",
+            "blv": "Táo Dai",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/25069_1f92bfc8_20261002.png?v=1f92bfc8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-99bc147ed9",
+          "name": "Pháp vs Ý | 01:45 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-99bc147ed9",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-99bc147ed9",
+                  "name": "Pháp vs Ý",
+                  "streams": [
+                    {
+                      "id": "st-99bc147ed9",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f22a137722",
+                          "name": "Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Pháp",
+            "team_b": "Ý",
+            "logo_a": "https://apiv3.apifootball.com/badges/22_france.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3_italy.jpg",
+            "time": "01:45",
+            "date": "03/10",
+            "blv": "Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/25072_0d586f2d_20261002.png?v=0d586f2d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-e72f04340b",
+          "name": "Sao Paulo vs Santos | 06:00 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e72f04340b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e72f04340b",
+                  "name": "Sao Paulo vs Santos",
+                  "streams": [
+                    {
+                      "id": "st-e72f04340b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d96bd0dded",
+                          "name": "Gà Rừng BLV",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Sao Paulo",
+            "team_b": "Santos",
+            "logo_a": "https://apiv3.apifootball.com/badges/556_sao-paulo.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/566_santos.jpg",
+            "time": "06:00",
+            "date": "03/10",
+            "blv": "Gà Rừng BLV",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/25096_7267cfcf_20261002.png?v=7267cfcf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-0b7127c966",
+          "name": "Machida vs Kyoto | 14:00 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0b7127c966",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-0b7127c966",
+                  "name": "Machida vs Kyoto",
+                  "streams": [
+                    {
+                      "id": "st-0b7127c966",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f945d702bc",
+                          "name": "Táo Dai",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J-League Cup",
+            "team_a": "Machida",
+            "team_b": "Kyoto",
+            "logo_a": "https://apiv3.apifootball.com/badges/5085_machida-zelvia.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5078_kyoto-sanga.jpg",
+            "time": "14:00",
+            "date": "03/10",
+            "blv": "Táo Dai",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/25141_3563b76c_20261002.png?v=3563b76c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-fcec608f02",
+          "name": "U23 Hàn Quốc vs U23 Nhật Bản | 17:30 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fcec608f02",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-fcec608f02",
+                  "name": "U23 Hàn Quốc vs U23 Nhật Bản",
+                  "streams": [
+                    {
+                      "id": "st-fcec608f02",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d96bd0dded",
+                          "name": "Gà Rừng BLV",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Games",
+            "team_a": "U23 Hàn Quốc",
+            "team_b": "U23 Nhật Bản",
+            "logo_a": "https://apiv3.apifootball.com/badges/9461_korea-republic-u23.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/9467_japan-u23.jpg",
+            "time": "17:30",
+            "date": "03/10",
+            "blv": "Gà Rừng BLV",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27558_9758285d_20261002.png?v=9758285d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-3ae84dcbd2",
+          "name": "Finland vs Albania | 20:00 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3ae84dcbd2",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-3ae84dcbd2",
+                  "name": "Finland vs Albania",
+                  "streams": [
+                    {
+                      "id": "st-3ae84dcbd2",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f945d702bc",
+                          "name": "Táo Dai",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Finland",
+            "team_b": "Albania",
+            "logo_a": "https://apiv3.apifootball.com/badges/8_finland.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/699_albania.jpg",
+            "time": "20:00",
+            "date": "03/10",
+            "blv": "Táo Dai",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/25536_3f2774e7_20261002.png?v=3f2774e7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-bb9cad607e",
+          "name": "India vs Brazil | 21:00 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bb9cad607e",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-bb9cad607e",
+                  "name": "India vs Brazil",
+                  "streams": [
+                    {
+                      "id": "st-bb9cad607e",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f22a137722",
+                          "name": "Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "India",
+            "team_b": "Brazil",
+            "logo_a": "https://apiv3.apifootball.com/badges/347_india.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/531_brazil.jpg",
+            "time": "21:00",
+            "date": "03/10",
+            "blv": "Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/25876_126004b6_20261002.png?v=126004b6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-9c10d235bc",
+          "name": "Croatia vs Anh | 23:00 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9c10d235bc",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-9c10d235bc",
+                  "name": "Croatia vs Anh",
+                  "streams": [
+                    {
+                      "id": "st-9c10d235bc",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f945d702bc",
+                          "name": "Táo Dai",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Croatia",
+            "team_b": "Anh",
+            "logo_a": "https://apiv3.apifootball.com/badges/14_croatia.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/16_england.jpg",
+            "time": "23:00",
+            "date": "03/10",
+            "blv": "Táo Dai",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26092_2df3fb19_20261002.png?v=2df3fb19",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-00fd113df5",
+          "name": "Bắc Macedonia vs Scotland | 01:45 04/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-00fd113df5",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-00fd113df5",
+                  "name": "Bắc Macedonia vs Scotland",
+                  "streams": [
+                    {
+                      "id": "st-00fd113df5",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f945d702bc",
+                          "name": "Táo Dai",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Bắc Macedonia",
+            "team_b": "Scotland",
+            "logo_a": "https://flagcdn.com/w160/mk.png",
+            "logo_b": "https://apiv3.apifootball.com/badges/15_scotland.jpg",
+            "time": "01:45",
+            "date": "04/10",
+            "blv": "Táo Dai",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26622_1f22f274_20261002.png?v=1f22f274",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
