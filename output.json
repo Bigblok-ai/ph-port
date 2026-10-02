@@ -538,6 +538,81 @@
           }
         },
         {
+          "id": "xc-fc3f0b553f",
+          "name": "Kashiwa Reysol vs Gamba Osaka | 17:00 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fc3f0b553f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-fc3f0b553f",
+                  "name": "Kashiwa Reysol vs Gamba Osaka",
+                  "streams": [
+                    {
+                      "id": "st-fc3f0b553f",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J-League Cup",
+            "team_a": "Kashiwa Reysol",
+            "team_b": "Gamba Osaka",
+            "logo_a": "https://apiv3.apifootball.com/badges/5055_kashiwa-reysol.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/411_gamba-osaka.jpg",
+            "time": "17:00",
+            "date": "03/10",
+            "blv": "Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/25207_d4e9efdf_20261003.png?v=d4e9efdf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-fcec608f02",
           "name": "U23 Hàn Quốc vs U23 Nhật Bản | 17:30 03/10",
           "type": "single",
@@ -758,6 +833,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/25876_126004b6_20261003.png?v=126004b6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-2ece43ae64",
+          "name": "Almeria vs Burgos CF | 21:15 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2ece43ae64",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-2ece43ae64",
+                  "name": "Almeria vs Burgos CF",
+                  "streams": [
+                    {
+                      "id": "st-2ece43ae64",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Segunda División",
+            "team_a": "Almeria",
+            "team_b": "Burgos CF",
+            "logo_a": "https://apiv3.apifootball.com/badges/7260_almeria.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7206_burgos.jpg",
+            "time": "21:15",
+            "date": "03/10",
+            "blv": "Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/25968_79a39a15_20261003.png?v=79a39a15",
             "width": 1600,
             "height": 1200
           }
