@@ -1,13 +1,13 @@
 {
   "id": "xoiche",
-  "url": "https://xoiche2.live",
+  "url": "https://xoiche1.live",
   "name": "Xôi Chè TV",
   "color": "#00a86b",
   "grid_number": 3,
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -48,7 +48,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -67,8 +67,8 @@
             "league": "Copa De La Liga - Play Offs",
             "team_a": "Thái Lan",
             "team_b": "Philippines",
-            "logo_a": "https://xoiche2.live/media/teams/logos/team_480.jpg",
-            "logo_b": "https://xoiche2.live/media/teams/logos/team_341.jpg",
+            "logo_a": "https://xoiche1.live/media/teams/logos/team_480.jpg",
+            "logo_b": "https://xoiche1.live/media/teams/logos/team_341.jpg",
             "time": "16:00",
             "date": "02/10",
             "blv": "Tam Mao",
@@ -82,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26497_5dc0b507_20261002.png?v=5dc0b507",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26497_f84ec839_20261002.png?v=f84ec839",
             "width": 1600,
             "height": 1200
           }
@@ -123,7 +123,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -158,6 +158,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24383_32cdcffa_20261002.png?v=32cdcffa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-f6968c3393",
+          "name": "Trung Quốc vs Palestine | 18:35 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f6968c3393",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-f6968c3393",
+                  "name": "Trung Quốc vs Palestine",
+                  "streams": [
+                    {
+                      "id": "st-f6968c3393",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c210608a27",
+                          "name": "Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Trung Quốc",
+            "team_b": "Palestine",
+            "logo_a": "https://flagcdn.com/w160/cn.png",
+            "logo_b": "https://apiv3.apifootball.com/badges/339_palestine.jpg",
+            "time": "18:35",
+            "date": "02/10",
+            "blv": "Khô Cay",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24387_82256da1_20261002.png?v=82256da1",
             "width": 1600,
             "height": 1200
           }
@@ -198,7 +273,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -233,81 +308,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26503_c829fd7c_20261002.png?v=c829fd7c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-f6968c3393",
-          "name": "Trung Quốc vs Palestine | 18:35 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f6968c3393",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-f6968c3393",
-                  "name": "Trung Quốc vs Palestine",
-                  "streams": [
-                    {
-                      "id": "st-f6968c3393",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c210608a27",
-                          "name": "Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Trung Quốc",
-            "team_b": "Palestine",
-            "logo_a": "https://flagcdn.com/w160/cn.png",
-            "logo_b": "https://apiv3.apifootball.com/badges/339_palestine.jpg",
-            "time": "18:35",
-            "date": "02/10",
-            "blv": "Khô Cay",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24387_82256da1_20261002.png?v=82256da1",
             "width": 1600,
             "height": 1200
           }
@@ -348,7 +348,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -423,7 +423,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -498,7 +498,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -573,7 +573,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -648,7 +648,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -723,7 +723,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -798,7 +798,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -873,7 +873,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -948,7 +948,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1023,7 +1023,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1098,7 +1098,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1173,7 +1173,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1257,7 +1257,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1276,8 +1276,8 @@
             "league": "Tauron Liga Ba Lan Nữ",
             "team_a": "NETLAND MKS Kalisz",
             "team_b": "PGE Budowlani Lodz",
-            "logo_a": "https://xoiche2.live/media/teams/logos/image.webp",
-            "logo_b": "https://xoiche2.live/media/teams/logos/image_1.webp",
+            "logo_a": "https://xoiche1.live/media/teams/logos/image.webp",
+            "logo_b": "https://xoiche1.live/media/teams/logos/image_1.webp",
             "time": "22:30",
             "date": "02/10",
             "blv": "Xôi Gà",
@@ -1291,7 +1291,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27612_8a0ded31_20261002.png?v=8a0ded31",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27612_d5440e02_20261002.png?v=d5440e02",
             "width": 1600,
             "height": 1200
           }
@@ -1332,7 +1332,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1351,8 +1351,8 @@
             "league": "Sultanlar Ligi Nữ",
             "team_a": "VakifBank",
             "team_b": "Besiktas",
-            "logo_a": "https://xoiche2.live/media/teams/logos/images_RHi333C.jpg",
-            "logo_b": "https://xoiche2.live/media/teams/logos/team_187.png",
+            "logo_a": "https://xoiche1.live/media/teams/logos/images_RHi333C.jpg",
+            "logo_b": "https://xoiche1.live/media/teams/logos/team_187.png",
             "time": "18:00",
             "date": "03/10",
             "blv": "Xôi Gà",
@@ -1366,7 +1366,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/31174_8e0ce7cf_20261002.png?v=8e0ce7cf",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/31174_41b06691_20261002.png?v=41b06691",
             "width": 1600,
             "height": 1200
           }
