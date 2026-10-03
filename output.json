@@ -13,81 +13,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-fc3f0b553f",
-          "name": "Kashiwa Reysol vs Gamba Osaka | 17:00 03/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fc3f0b553f",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-fc3f0b553f",
-                  "name": "Kashiwa Reysol vs Gamba Osaka",
-                  "streams": [
-                    {
-                      "id": "st-fc3f0b553f",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-afc0aa1332",
-                          "name": "Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J-League Cup",
-            "team_a": "Kashiwa Reysol",
-            "team_b": "Gamba Osaka",
-            "logo_a": "https://apiv3.apifootball.com/badges/5055_kashiwa-reysol.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/411_gamba-osaka.jpg",
-            "time": "17:00",
-            "date": "03/10",
-            "blv": "Xôi Xoài",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/25207_d4e9efdf_20261003.png?v=d4e9efdf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-b8df2222fc",
           "name": "Hong Kong vs Cambodia | 17:00 03/10",
           "type": "single",
@@ -149,7 +74,7 @@
             "blv": "Tam Mao",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 1,
             "away_score": 0
           },
@@ -158,6 +83,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/31831_5910bb1c_20261003.png?v=5910bb1c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-fc3f0b553f",
+          "name": "Kashiwa Reysol vs Gamba Osaka | 17:00 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fc3f0b553f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-fc3f0b553f",
+                  "name": "Kashiwa Reysol vs Gamba Osaka",
+                  "streams": [
+                    {
+                      "id": "st-fc3f0b553f",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J-League Cup",
+            "team_a": "Kashiwa Reysol",
+            "team_b": "Gamba Osaka",
+            "logo_a": "https://apiv3.apifootball.com/badges/5055_kashiwa-reysol.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/411_gamba-osaka.jpg",
+            "time": "17:00",
+            "date": "03/10",
+            "blv": "Xôi Xoài",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "half_time",
+            "home_score": 1,
+            "away_score": 1
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/25207_d4e9efdf_20261003.png?v=d4e9efdf",
             "width": 1600,
             "height": 1200
           }
