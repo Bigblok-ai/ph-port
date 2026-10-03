@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -95,10 +95,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -147,9 +147,9 @@
             "time": "20:00",
             "date": "03/10",
             "blv": "Táo Dai",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -1058,6 +1058,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26931_e5fb54ab_20261003.png?v=e5fb54ab",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-6e1bee0c59",
+          "name": "Kosovo vs Áo | 23:00 04/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6e1bee0c59",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-6e1bee0c59",
+                  "name": "Kosovo vs Áo",
+                  "streams": [
+                    {
+                      "id": "st-6e1bee0c59",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c210608a27",
+                          "name": "Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Kosovo",
+            "team_b": "Áo",
+            "logo_a": "https://apiv3.apifootball.com/badges/681_kosovo.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/9_austria.jpg",
+            "time": "23:00",
+            "date": "04/10",
+            "blv": "Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27340_e536f0d0_20261003.png?v=e536f0d0",
             "width": 1600,
             "height": 1200
           }
