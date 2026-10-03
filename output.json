@@ -7,86 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-00fd113df5",
-          "name": "Bắc Macedonia vs Scotland | 01:45 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-00fd113df5",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-00fd113df5",
-                  "name": "Bắc Macedonia vs Scotland",
-                  "streams": [
-                    {
-                      "id": "st-00fd113df5",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f945d702bc",
-                          "name": "Táo Dai",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Bắc Macedonia",
-            "team_b": "Scotland",
-            "logo_a": "https://flagcdn.com/w160/mk.png",
-            "logo_b": "https://apiv3.apifootball.com/badges/15_scotland.jpg",
-            "time": "01:45",
-            "date": "04/10",
-            "blv": "Táo Dai",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26622_1f22f274_20261004.png?v=1f22f274",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-5b85f7b702",
           "name": "Bờ Biển Ngà vs Cameroon | 02:00 04/10",
@@ -463,6 +388,81 @@
           }
         },
         {
+          "id": "xc-6e1ff1976e",
+          "name": "Barcelona Women vs Real Madrid W | 22:00 04/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6e1ff1976e",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-6e1ff1976e",
+                  "name": "Barcelona Women vs Real Madrid W",
+                  "streams": [
+                    {
+                      "id": "st-6e1ff1976e",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c210608a27",
+                          "name": "Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Primera División Femenina",
+            "team_a": "Barcelona Women",
+            "team_b": "Real Madrid W",
+            "logo_a": "https://apiv3.apifootball.com/badges/25_barcelona-w.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/486_real-madrid-w.jpg",
+            "time": "22:00",
+            "date": "04/10",
+            "blv": "Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27272_e74c4bd4_20261004.png?v=e74c4bd4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-6e1bee0c59",
           "name": "Kosovo vs Áo | 23:00 04/10",
           "type": "single",
@@ -505,23 +505,6 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-c210608a27",
-                          "name": "Khô Cay",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -538,7 +521,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/9_austria.jpg",
             "time": "23:00",
             "date": "04/10",
-            "blv": "Xôi Xoài, Khô Cay",
+            "blv": "Xôi Xoài",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
