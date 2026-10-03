@@ -74,7 +74,7 @@
             "blv": "Khô Cay",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 1,
             "away_score": 1
           },
