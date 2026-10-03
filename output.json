@@ -76,7 +76,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -1133,90 +1133,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27717_80e7abdd_20261003.png?v=80e7abdd",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "xc-ae71f3fbfe",
-          "name": "VakifBank vs Besiktas | 18:00 03/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ae71f3fbfe",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-ae71f3fbfe",
-                  "name": "VakifBank vs Besiktas",
-                  "streams": [
-                    {
-                      "id": "st-ae71f3fbfe",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4ead39db03",
-                          "name": "Xôi Gà",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub2/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sultanlar Ligi Nữ",
-            "team_a": "VakifBank",
-            "team_b": "Besiktas",
-            "logo_a": "https://xoiche.live/media/teams/logos/images_RHi333C.jpg",
-            "logo_b": "https://xoiche.live/media/teams/logos/team_187.png",
-            "time": "18:00",
-            "date": "03/10",
-            "blv": "Xôi Gà",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/31174_757ecac9_20261003.png?v=757ecac9",
             "width": 1600,
             "height": 1200
           }
