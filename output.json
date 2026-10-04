@@ -13,8 +13,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-50ab6aa42d",
-          "name": "Tegevajaro Miyazaki vs Omiya Ardija | 17:00 04/10",
+          "id": "xc-14b14198b6",
+          "name": "Real Sociedad B vs Granada CF | 19:00 04/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -24,81 +24,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-50ab6aa42d",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-50ab6aa42d",
-                  "name": "Tegevajaro Miyazaki vs Omiya Ardija",
-                  "streams": [
-                    {
-                      "id": "st-50ab6aa42d",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f22a137722",
-                          "name": "Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J2 League",
-            "team_a": "Tegevajaro Miyazaki",
-            "team_b": "Omiya Ardija",
-            "logo_a": "https://apiv3.apifootball.com/badges/10506_tegevajaro-miyazaki.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/5092_omiya-ardija.jpg",
-            "time": "17:00",
-            "date": "04/10",
-            "blv": "Tam Mao",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26851_e8988f29_20261004.png?v=e8988f29",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-14b14198b6",
-          "name": "Real Sociedad B vs Granada CF | 19:00 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -147,9 +72,9 @@
             "time": "19:00",
             "date": "04/10",
             "blv": "Táo Dai",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
