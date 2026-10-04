@@ -74,7 +74,7 @@
             "blv": "Gà Rừng BLV",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 5,
             "away_score": 0
           },
@@ -758,6 +758,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27721_d00bc930_20261004.png?v=d00bc930",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-37c771d1bc",
+          "name": "Uganda vs CHDC Congo | 20:00 05/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-37c771d1bc",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-37c771d1bc",
+                  "name": "Uganda vs CHDC Congo",
+                  "streams": [
+                    {
+                      "id": "st-37c771d1bc",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Uganda",
+            "team_b": "CHDC Congo",
+            "logo_a": "https://apiv3.apifootball.com/badges/724_uganda.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/728_congo-dr.jpg",
+            "time": "20:00",
+            "date": "05/10",
+            "blv": "Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27811_d5f47a78_20261004.png?v=d5f47a78",
             "width": 1600,
             "height": 1200
           }
