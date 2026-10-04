@@ -1,13 +1,13 @@
 {
   "id": "xoiche",
-  "url": "https://xoiche.live",
+  "url": "https://xoiche2.live",
   "name": "Xôi Chè TV",
   "color": "#00a86b",
   "grid_number": 3,
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -48,7 +48,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -83,6 +83,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27718_3d51715f_20261005.png?v=3d51715f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-6f20b6878a",
+          "name": "Hà Lan vs Serbia | 01:45 05/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f20b6878a",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-6f20b6878a",
+                  "name": "Hà Lan vs Serbia",
+                  "streams": [
+                    {
+                      "id": "st-6f20b6878a",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d96bd0dded",
+                          "name": "Gà Rừng BLV",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Hà Lan",
+            "team_b": "Serbia",
+            "logo_a": "https://apiv3.apifootball.com/badges/10_netherlands.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/675_serbia.jpg",
+            "time": "01:45",
+            "date": "05/10",
+            "blv": "Gà Rừng BLV",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27719_7f977c7a_20261005.png?v=7f977c7a",
             "width": 1600,
             "height": 1200
           }
@@ -123,7 +198,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -140,7 +215,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -175,81 +250,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27720_1501d07f_20261005.png?v=1501d07f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-6f20b6878a",
-          "name": "Hà Lan vs Serbia | 01:45 05/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6f20b6878a",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-6f20b6878a",
-                  "name": "Hà Lan vs Serbia",
-                  "streams": [
-                    {
-                      "id": "st-6f20b6878a",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d96bd0dded",
-                          "name": "Gà Rừng BLV",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Hà Lan",
-            "team_b": "Serbia",
-            "logo_a": "https://apiv3.apifootball.com/badges/10_netherlands.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/675_serbia.jpg",
-            "time": "01:45",
-            "date": "05/10",
-            "blv": "Gà Rừng BLV",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27719_7f977c7a_20261005.png?v=7f977c7a",
             "width": 1600,
             "height": 1200
           }
@@ -290,7 +290,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -365,7 +365,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -440,7 +440,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -515,7 +515,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -534,8 +534,8 @@
             "league": "FF ASEAN CUP",
             "team_a": "Malaysia",
             "team_b": "Việt Nam",
-            "logo_a": "https://xoiche.live/media/teams/logos/team_478.jpg",
-            "logo_b": "https://xoiche.live/media/teams/logos/team_479.jpg",
+            "logo_a": "https://xoiche2.live/media/teams/logos/team_478.jpg",
+            "logo_b": "https://xoiche2.live/media/teams/logos/team_479.jpg",
             "time": "16:00",
             "date": "05/10",
             "blv": "Khô Cay",
@@ -549,7 +549,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33191_916f2b53_20261005.png?v=916f2b53",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33191_3b29f1ea_20261005.png?v=3b29f1ea",
             "width": 1600,
             "height": 1200
           }
@@ -590,7 +590,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -665,7 +665,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -684,8 +684,8 @@
             "league": "FF ASEAN CUP",
             "team_a": "Indonesia",
             "team_b": "Thái Lan",
-            "logo_a": "https://xoiche.live/media/teams/logos/team_484.jpg",
-            "logo_b": "https://xoiche.live/media/teams/logos/team_480.jpg",
+            "logo_a": "https://xoiche2.live/media/teams/logos/team_484.jpg",
+            "logo_b": "https://xoiche2.live/media/teams/logos/team_480.jpg",
             "time": "20:00",
             "date": "05/10",
             "blv": "Gà Rừng BLV",
@@ -699,7 +699,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33193_23e0249d_20261005.png?v=23e0249d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33193_287e0515_20261005.png?v=287e0515",
             "width": 1600,
             "height": 1200
           }
@@ -740,7 +740,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -815,7 +815,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -890,7 +890,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -965,7 +965,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1040,7 +1040,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1115,7 +1115,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1150,90 +1150,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/31480_a067aa22_20261005.png?v=a067aa22",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "xc-fc6abf7b29",
-          "name": "Turk Hava Yollari vs Galatasaray Daikin | 23:00 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fc6abf7b29",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-fc6abf7b29",
-                  "name": "Turk Hava Yollari vs Galatasaray Daikin",
-                  "streams": [
-                    {
-                      "id": "st-fc6abf7b29",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4ead39db03",
-                          "name": "Xôi Gà",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub2/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sultanlar Ligi Nữ",
-            "team_a": "Turk Hava Yollari",
-            "team_b": "Galatasaray Daikin",
-            "logo_a": "https://xoiche.live/media/teams/logos/1791129938067133829_079d1e7d.png",
-            "logo_b": "https://apiv3.apifootball.com/badges/192_galatasaray.jpg",
-            "time": "23:00",
-            "date": "04/10",
-            "blv": "Xôi Gà",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/32975_d94546b6_20261005.png?v=d94546b6",
             "width": 1600,
             "height": 1200
           }
