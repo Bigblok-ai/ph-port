@@ -565,27 +565,10 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-d96bd0dded",
-                          "name": "Gà Rừng BLV",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
                           "id": "lnk-c4e6a4ba43",
                           "name": "Khô Chè",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://live.khoga.space/live/livehub5/index.m3u8",
                           "request_headers": [
                             {
@@ -613,7 +596,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/692_norway.jpg",
             "time": "01:45",
             "date": "05/10",
-            "blv": "Gà Rừng BLV, Khô Chè",
+            "blv": "Khô Chè",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -700,6 +683,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27721_d00bc930_20261004.png?v=d00bc930",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-feb5e1c0c0",
+          "name": "Girona vs Mallorca | 02:00 05/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-feb5e1c0c0",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-feb5e1c0c0",
+                  "name": "Girona vs Mallorca",
+                  "streams": [
+                    {
+                      "id": "st-feb5e1c0c0",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d96bd0dded",
+                          "name": "Gà Rừng BLV",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Segunda División",
+            "team_a": "Girona",
+            "team_b": "Mallorca",
+            "logo_a": "https://apiv3.apifootball.com/badges/7263_girona.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7285_mallorca.jpg",
+            "time": "02:00",
+            "date": "05/10",
+            "blv": "Gà Rừng BLV",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27724_0f25f936_20261004.png?v=0f25f936",
             "width": 1600,
             "height": 1200
           }
