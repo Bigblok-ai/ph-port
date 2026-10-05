@@ -40,11 +40,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-c4e6a4ba43",
-                          "name": "Khô Chè",
+                          "id": "lnk-d96bd0dded",
+                          "name": "Gà Rừng BLV",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -57,11 +57,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-d96bd0dded",
-                          "name": "Gà Rừng BLV",
+                          "id": "lnk-c4e6a4ba43",
+                          "name": "Khô Chè",
                           "type": "hls",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -88,7 +88,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/6_belgium.jpg",
             "time": "01:45",
             "date": "06/10",
-            "blv": "Khô Chè, Gà Rừng BLV",
+            "blv": "Gà Rừng BLV, Khô Chè",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
