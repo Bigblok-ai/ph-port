@@ -1211,6 +1211,81 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-72d7e3b857",
+          "name": "FC Tokyo vs Shonan Bellmare | 17:00 07/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-72d7e3b857",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-72d7e3b857",
+                  "name": "FC Tokyo vs Shonan Bellmare",
+                  "streams": [
+                    {
+                      "id": "st-72d7e3b857",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c4e6a4ba43",
+                          "name": "Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Emperor Cup",
+            "team_a": "FC Tokyo",
+            "team_b": "Shonan Bellmare",
+            "logo_a": "https://apiv3.apifootball.com/badges/380_tokyo.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5054_shonan-bellmare.jpg",
+            "time": "17:00",
+            "date": "07/10",
+            "blv": "Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/32162_1b4986b6_20261006.png?v=1b4986b6",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
