@@ -7,11 +7,103 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-be1fe5a4cb",
+          "name": "Pháp vs Bỉ | 01:45 06/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-be1fe5a4cb",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-be1fe5a4cb",
+                  "name": "Pháp vs Bỉ",
+                  "streams": [
+                    {
+                      "id": "st-be1fe5a4cb",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c4e6a4ba43",
+                          "name": "Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d96bd0dded",
+                          "name": "Gà Rừng BLV",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Pháp",
+            "team_b": "Bỉ",
+            "logo_a": "https://apiv3.apifootball.com/badges/22_france.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/6_belgium.jpg",
+            "time": "01:45",
+            "date": "06/10",
+            "blv": "Khô Chè, Gà Rừng BLV",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/31447_2c2ac90c_20261006.png?v=2c2ac90c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-7c10793762",
           "name": "Bosnia & Herzegovina vs Ba Lan | 01:45 06/10",
@@ -158,98 +250,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/31446_e031c0b1_20261006.png?v=e031c0b1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-be1fe5a4cb",
-          "name": "Pháp vs Bỉ | 01:45 06/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-be1fe5a4cb",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-be1fe5a4cb",
-                  "name": "Pháp vs Bỉ",
-                  "streams": [
-                    {
-                      "id": "st-be1fe5a4cb",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c4e6a4ba43",
-                          "name": "Khô Chè",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d96bd0dded",
-                          "name": "Gà Rừng BLV",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Pháp",
-            "team_b": "Bỉ",
-            "logo_a": "https://apiv3.apifootball.com/badges/22_france.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/6_belgium.jpg",
-            "time": "01:45",
-            "date": "06/10",
-            "blv": "Khô Chè, Gà Rừng BLV",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/31447_2c2ac90c_20261006.png?v=2c2ac90c",
             "width": 1600,
             "height": 1200
           }
