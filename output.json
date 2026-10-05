@@ -463,6 +463,81 @@
           }
         },
         {
+          "id": "xc-b1f390bfb8",
+          "name": "Guatemala vs Suriname | 07:00 06/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b1f390bfb8",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b1f390bfb8",
+                  "name": "Guatemala vs Suriname",
+                  "streams": [
+                    {
+                      "id": "st-b1f390bfb8",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Concacaf Nations League",
+            "team_a": "Guatemala",
+            "team_b": "Suriname",
+            "logo_a": "https://apiv3.apifootball.com/badges/662_guatemala.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/659_suriname.jpg",
+            "time": "07:00",
+            "date": "06/10",
+            "blv": "Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/31475_b32186d8_20261005.png?v=b32186d8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-87688e644b",
           "name": "Honduras vs Jamaica | 09:00 06/10",
           "type": "single",
