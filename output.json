@@ -1,13 +1,13 @@
 {
   "id": "xoiche",
-  "url": "https://xoiche2.live",
+  "url": "https://xoiche.live",
   "name": "Xôi Chè TV",
   "color": "#00a86b",
   "grid_number": 3,
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -20,10 +20,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -48,7 +48,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -72,9 +72,9 @@
             "time": "01:45",
             "date": "07/10",
             "blv": "Khô Cay",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -88,190 +88,6 @@
           }
         },
         {
-          "id": "xc-85b7cea7bb",
-          "name": "Croatia vs Tây Ban Nha | 01:45 07/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-85b7cea7bb",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-85b7cea7bb",
-                  "name": "Croatia vs Tây Ban Nha",
-                  "streams": [
-                    {
-                      "id": "st-85b7cea7bb",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c4e6a4ba43",
-                          "name": "Khô Chè",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f945d702bc",
-                          "name": "Xôi Xéo 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-7e381e0b63",
-                          "name": "Xôi Xéo 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub1.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Croatia",
-            "team_b": "Tây Ban Nha",
-            "logo_a": "https://apiv3.apifootball.com/badges/14_croatia.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/19_spain.jpg",
-            "time": "01:45",
-            "date": "07/10",
-            "blv": "Khô Chè, Xôi Xéo",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/32098_fc158df1_20261007.png?v=fc158df1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-317e30985b",
-          "name": "Anh vs Cộng Hòa Séc | 01:45 07/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-317e30985b",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-317e30985b",
-                  "name": "Anh vs Cộng Hòa Séc",
-                  "streams": [
-                    {
-                      "id": "st-317e30985b",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f22a137722",
-                          "name": "Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Anh",
-            "team_b": "Cộng Hòa Séc",
-            "logo_a": "https://apiv3.apifootball.com/badges/16_england.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/13_czechia.jpg",
-            "time": "01:45",
-            "date": "07/10",
-            "blv": "Tam Mao",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/32099_1563101a_20261007.png?v=1563101a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-7b594fddae",
           "name": "Thụy Sĩ vs Bắc Macedonia | 01:45 07/10",
           "type": "single",
@@ -279,10 +95,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -307,7 +123,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -331,9 +147,9 @@
             "time": "01:45",
             "date": "07/10",
             "blv": "Xôi Xoài",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -342,6 +158,190 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/32097_70674e47_20261007.png?v=70674e47",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-85b7cea7bb",
+          "name": "Croatia vs Tây Ban Nha | 01:45 07/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-85b7cea7bb",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-85b7cea7bb",
+                  "name": "Croatia vs Tây Ban Nha",
+                  "streams": [
+                    {
+                      "id": "st-85b7cea7bb",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c4e6a4ba43",
+                          "name": "Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f945d702bc",
+                          "name": "Xôi Xéo 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-7e381e0b63",
+                          "name": "Xôi Xéo 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub1.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Croatia",
+            "team_b": "Tây Ban Nha",
+            "logo_a": "https://apiv3.apifootball.com/badges/14_croatia.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/19_spain.jpg",
+            "time": "01:45",
+            "date": "07/10",
+            "blv": "Khô Chè, Xôi Xéo",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/32098_fc158df1_20261007.png?v=fc158df1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-317e30985b",
+          "name": "Anh vs Cộng Hòa Séc | 01:45 07/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-317e30985b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-317e30985b",
+                  "name": "Anh vs Cộng Hòa Séc",
+                  "streams": [
+                    {
+                      "id": "st-317e30985b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f22a137722",
+                          "name": "Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Anh",
+            "team_b": "Cộng Hòa Séc",
+            "logo_a": "https://apiv3.apifootball.com/badges/16_england.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/13_czechia.jpg",
+            "time": "01:45",
+            "date": "07/10",
+            "blv": "Tam Mao",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/32099_1563101a_20261007.png?v=1563101a",
             "width": 1600,
             "height": 1200
           }
@@ -382,7 +382,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -457,7 +457,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -532,7 +532,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -607,7 +607,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -682,7 +682,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -757,7 +757,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -832,7 +832,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -907,7 +907,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -982,7 +982,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1057,7 +1057,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1074,7 +1074,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
