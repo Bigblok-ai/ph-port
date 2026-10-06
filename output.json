@@ -7,86 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-e72e3a90f8",
-          "name": "Kazakhstan vs Faroe Islands | 21:00 06/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e72e3a90f8",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-e72e3a90f8",
-                  "name": "Kazakhstan vs Faroe Islands",
-                  "streams": [
-                    {
-                      "id": "st-e72e3a90f8",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c4e6a4ba43",
-                          "name": "Khô Chè",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Kazakhstan",
-            "team_b": "Faroe Islands",
-            "logo_a": "https://apiv3.apifootball.com/badges/686_kazakhstan.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/691_faroe-islands.jpg",
-            "time": "21:00",
-            "date": "06/10",
-            "blv": "Khô Chè",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/31532_94906eea_20261006.png?v=94906eea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-e71c1ca6f3",
           "name": "India vs Uruguay | 21:00 06/10",
@@ -151,7 +76,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 1,
-            "away_score": 2
+            "away_score": 3
           },
           "image": {
             "padding": 1,
