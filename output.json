@@ -1,13 +1,13 @@
 {
   "id": "xoiche",
-  "url": "https://xoiche.live",
+  "url": "https://xoiche2.live",
   "name": "Xôi Chè TV",
   "color": "#00a86b",
   "grid_number": 3,
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -20,10 +20,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -48,7 +48,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -72,9 +72,9 @@
             "time": "21:00",
             "date": "06/10",
             "blv": "Khô Chè",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "football",
-            "status": "live",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -123,7 +123,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -198,7 +198,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -273,7 +273,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -348,7 +348,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -423,7 +423,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -440,7 +440,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -457,7 +457,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -532,7 +532,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -607,7 +607,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -682,7 +682,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -757,7 +757,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -832,7 +832,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -907,7 +907,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -982,7 +982,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1057,7 +1057,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1132,7 +1132,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1207,7 +1207,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1282,7 +1282,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1299,7 +1299,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1383,7 +1383,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1400,7 +1400,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1419,8 +1419,8 @@
             "league": "AXA Sigorta Şampiyonlar Kupası (nữ)",
             "team_a": "VakıfBank",
             "team_b": "Eczacıbaşı Peron İstanbul",
-            "logo_a": "https://xoiche.live/media/teams/logos/images_RHi333C.jpg",
-            "logo_b": "https://xoiche.live/media/teams/logos/big_1677603180cIuV2.webp",
+            "logo_a": "https://xoiche2.live/media/teams/logos/images_RHi333C.jpg",
+            "logo_b": "https://xoiche2.live/media/teams/logos/big_1677603180cIuV2.webp",
             "time": "22:00",
             "date": "06/10",
             "blv": "Xôi Gà",
@@ -1434,7 +1434,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34831_fa56c584_20261006.png?v=fa56c584",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34831_ab4bd75d_20261006.png?v=ab4bd75d",
             "width": 1600,
             "height": 1200
           }
