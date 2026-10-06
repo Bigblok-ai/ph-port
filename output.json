@@ -67,7 +67,7 @@
             "league": "Cup",
             "team_a": "Lam Dong",
             "team_b": "Song Lam Nghe An",
-            "logo_a": "https://apiv3.apifootball.com/badges/44313_lam-dong.jpg",
+            "logo_a": "https://xoiche.live/media/teams/logos/1791273106901580931_100dd92f.png",
             "logo_b": "https://apiv3.apifootball.com/badges/8058_song-lam-ngh-an.jpg",
             "time": "15:30",
             "date": "06/10",
@@ -82,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/31486_632f3eef_20261006.png?v=632f3eef",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/31486_6be74b7f_20261006.png?v=6be74b7f",
             "width": 1600,
             "height": 1200
           }
@@ -218,7 +218,7 @@
             "team_a": "Truong Tuoi Dong Nai",
             "team_b": "Đồng Tháp",
             "logo_a": "https://apiv3.apifootball.com/badges/8049_trng-ti-ng-nai.jpg",
-            "logo_b": "",
+            "logo_b": "https://xoiche.live/media/teams/logos/1791273157207287062_93ec556e.png",
             "time": "18:00",
             "date": "06/10",
             "blv": "Xôi Xoài",
@@ -232,7 +232,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/31499_930bf6d4_20261006.png?v=930bf6d4",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/31499_6e46293f_20261006.png?v=6e46293f",
             "width": 1600,
             "height": 1200
           }
