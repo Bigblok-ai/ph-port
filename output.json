@@ -1667,6 +1667,98 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-dc17d9b486",
+          "name": "Qingdao Hainiu vs Beijing Guoan | 18:35 09/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dc17d9b486",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-dc17d9b486",
+                  "name": "Qingdao Hainiu vs Beijing Guoan",
+                  "streams": [
+                    {
+                      "id": "st-dc17d9b486",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f22a137722",
+                          "name": "Tam Mao 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f788bd15ca",
+                          "name": "Tam Mao 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub8.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Super League",
+            "team_a": "Qingdao Hainiu",
+            "team_b": "Beijing Guoan",
+            "logo_a": "https://apiv3.apifootball.com/badges/13465_qingdao-hainiu.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/375_beijing-guoan.jpg",
+            "time": "18:35",
+            "date": "09/10",
+            "blv": "Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34371_8843ea05_20261008.png?v=8843ea05",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
