@@ -548,6 +548,98 @@
           }
         },
         {
+          "id": "xc-c4829296d8",
+          "name": "Al Ain vs Ittihad Kalba | 20:10 08/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c4829296d8",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-c4829296d8",
+                  "name": "Al Ain vs Ittihad Kalba",
+                  "streams": [
+                    {
+                      "id": "st-c4829296d8",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9f449fe69c",
+                          "name": "Gà Tre 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub6/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9fd6836274",
+                          "name": "Gà Tre 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub6.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Cup",
+            "team_a": "Al Ain",
+            "team_b": "Ittihad Kalba",
+            "logo_a": "https://apiv3.apifootball.com/badges/374_al-ain.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7829_kalba.jpg",
+            "time": "20:10",
+            "date": "08/10",
+            "blv": "Gà Tre",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33138_86eddb33_20261007.png?v=86eddb33",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-2244143888",
           "name": "Shamal vs Al-Duhail | 21:45 08/10",
           "type": "single",
