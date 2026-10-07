@@ -74,7 +74,7 @@
             "blv": "Khô Chè",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 0,
             "away_score": 0
           },
@@ -82,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/32252_0205cb8e_20261007.png?v=0205cb8e",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/32252_0205cb8e_20261008.png?v=0205cb8e",
             "width": 1600,
             "height": 1200
           }
@@ -174,7 +174,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33101_b6f81187_20261007.png?v=b6f81187",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33101_b6f81187_20261008.png?v=b6f81187",
             "width": 1600,
             "height": 1200
           }
@@ -266,7 +266,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33115_8b38ee0b_20261007.png?v=8b38ee0b",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33115_8b38ee0b_20261008.png?v=8b38ee0b",
             "width": 1600,
             "height": 1200
           }
@@ -358,7 +358,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33116_13d88d4c_20261007.png?v=13d88d4c",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33116_13d88d4c_20261008.png?v=13d88d4c",
             "width": 1600,
             "height": 1200
           }
@@ -450,7 +450,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33122_739c6cbe_20261007.png?v=739c6cbe",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33122_739c6cbe_20261008.png?v=739c6cbe",
             "width": 1600,
             "height": 1200
           }
@@ -542,7 +542,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33139_7e1c83e0_20261007.png?v=7e1c83e0",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33139_7e1c83e0_20261008.png?v=7e1c83e0",
             "width": 1600,
             "height": 1200
           }
@@ -634,7 +634,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33138_86eddb33_20261007.png?v=86eddb33",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33138_86eddb33_20261008.png?v=86eddb33",
             "width": 1600,
             "height": 1200
           }
@@ -726,7 +726,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33146_eed86b9a_20261007.png?v=eed86b9a",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33146_eed86b9a_20261008.png?v=eed86b9a",
             "width": 1600,
             "height": 1200
           }
@@ -818,7 +818,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33151_20aa39c1_20261007.png?v=20aa39c1",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33151_20aa39c1_20261008.png?v=20aa39c1",
             "width": 1600,
             "height": 1200
           }
@@ -910,7 +910,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33155_680b7049_20261007.png?v=680b7049",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33155_680b7049_20261008.png?v=680b7049",
             "width": 1600,
             "height": 1200
           }
@@ -1002,7 +1002,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33157_0af26e4a_20261007.png?v=0af26e4a",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33157_0af26e4a_20261008.png?v=0af26e4a",
             "width": 1600,
             "height": 1200
           }
@@ -1094,7 +1094,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34268_be750f50_20261007.png?v=be750f50",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34268_be750f50_20261008.png?v=be750f50",
             "width": 1600,
             "height": 1200
           }
@@ -1186,7 +1186,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34299_b3a5e3da_20261007.png?v=b3a5e3da",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34299_b3a5e3da_20261008.png?v=b3a5e3da",
             "width": 1600,
             "height": 1200
           }
@@ -1278,7 +1278,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33102_c85d3d7b_20261007.png?v=c85d3d7b",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33102_c85d3d7b_20261008.png?v=c85d3d7b",
             "width": 1600,
             "height": 1200
           }
@@ -1370,7 +1370,99 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34310_562afee1_20261007.png?v=562afee1",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34310_562afee1_20261008.png?v=562afee1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-f4ac38b579",
+          "name": "Daejeon vs Jeonbuk | 12:00 09/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f4ac38b579",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-f4ac38b579",
+                  "name": "Daejeon vs Jeonbuk",
+                  "streams": [
+                    {
+                      "id": "st-f4ac38b579",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f22a137722",
+                          "name": "Tam Mao 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f788bd15ca",
+                          "name": "Tam Mao 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub8.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 1",
+            "team_a": "Daejeon",
+            "team_b": "Jeonbuk",
+            "logo_a": "https://apiv3.apifootball.com/badges/5160_daejeon-hana-citizen.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/389_jeonbuk-motors.jpg",
+            "time": "12:00",
+            "date": "09/10",
+            "blv": "Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34314_7ebdc345_20261008.png?v=7ebdc345",
             "width": 1600,
             "height": 1200
           }
