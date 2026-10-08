@@ -1759,6 +1759,98 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-c9591e48b0",
+          "name": "Zhejiang Professional vs Shanghai Port | 19:00 09/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c9591e48b0",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-c9591e48b0",
+                  "name": "Zhejiang Professional vs Shanghai Port",
+                  "streams": [
+                    {
+                      "id": "st-c9591e48b0",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d96bd0dded",
+                          "name": "Gà Rừng BLV 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-a2f0db0c21",
+                          "name": "Gà Rừng BLV 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub4.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Super League",
+            "team_a": "Zhejiang Professional",
+            "team_b": "Shanghai Port",
+            "logo_a": "https://apiv3.apifootball.com/badges/2234_zhejiang.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/2256_shanghai-port.jpg",
+            "time": "19:00",
+            "date": "09/10",
+            "blv": "Gà Rừng BLV",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34377_0c73ad30_20261008.png?v=0c73ad30",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
