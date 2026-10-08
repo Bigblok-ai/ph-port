@@ -41,7 +41,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-f22a137722",
-                          "name": "Tam Mao 1",
+                          "name": "BLV Tam Mao 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub8/index.m3u8",
@@ -58,7 +58,7 @@
                         },
                         {
                           "id": "lnk-f788bd15ca",
-                          "name": "Tam Mao 2",
+                          "name": "BLV Tam Mao 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub8.flv",
@@ -88,11 +88,11 @@
             "logo_b": "https://apiv3.apifootball.com/badges/443_svay-rieng.jpg",
             "time": "19:00",
             "date": "08/10",
-            "blv": "Tam Mao",
+            "blv": "BLV Tam Mao",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 4,
+            "home_score": 5,
             "away_score": 0
           },
           "image": {
@@ -133,7 +133,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-c210608a27",
-                          "name": "Khô Cay 1",
+                          "name": "BLV Khô Cay 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub9/index.m3u8",
@@ -150,7 +150,7 @@
                         },
                         {
                           "id": "lnk-61f3cec5ec",
-                          "name": "Khô Cay 2",
+                          "name": "BLV Khô Cay 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub9.flv",
@@ -180,12 +180,12 @@
             "logo_b": "https://apiv3.apifootball.com/badges/8062_hng-lnh-ha-tnh.jpg",
             "time": "19:15",
             "date": "08/10",
-            "blv": "Khô Cay",
+            "blv": "BLV Khô Cay",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
             "home_score": 1,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
@@ -225,7 +225,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-d96bd0dded",
-                          "name": "Gà Rừng BLV 1",
+                          "name": "BLV Gà Rừng 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub4/index.m3u8",
@@ -242,7 +242,7 @@
                         },
                         {
                           "id": "lnk-a2f0db0c21",
-                          "name": "Gà Rừng BLV 2",
+                          "name": "BLV Gà Rừng 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub4.flv",
@@ -272,7 +272,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/369_al-duhail.jpg",
             "time": "21:45",
             "date": "08/10",
-            "blv": "Gà Rừng BLV",
+            "blv": "BLV Gà Rừng",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -317,7 +317,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-c210608a27",
-                          "name": "Khô Cay 1",
+                          "name": "BLV Khô Cay 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub9/index.m3u8",
@@ -334,7 +334,7 @@
                         },
                         {
                           "id": "lnk-61f3cec5ec",
-                          "name": "Khô Cay 2",
+                          "name": "BLV Khô Cay 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub9.flv",
@@ -364,7 +364,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/3544_vps.jpg",
             "time": "22:00",
             "date": "08/10",
-            "blv": "Khô Cay",
+            "blv": "BLV Khô Cay",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -409,7 +409,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-f945d702bc",
-                          "name": "Xôi Xéo 1",
+                          "name": "BLV Xôi Xéo 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub1/index.m3u8",
@@ -426,7 +426,7 @@
                         },
                         {
                           "id": "lnk-7e381e0b63",
-                          "name": "Xôi Xéo 2",
+                          "name": "BLV Xôi Xéo 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub1.flv",
@@ -456,7 +456,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/7828_al-wasl.jpg",
             "time": "22:45",
             "date": "08/10",
-            "blv": "Xôi Xéo",
+            "blv": "BLV Xôi Xéo",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -501,7 +501,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-f22a137722",
-                          "name": "Tam Mao 1",
+                          "name": "BLV Tam Mao 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub8/index.m3u8",
@@ -518,7 +518,7 @@
                         },
                         {
                           "id": "lnk-f788bd15ca",
-                          "name": "Tam Mao 2",
+                          "name": "BLV Tam Mao 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub8.flv",
@@ -548,7 +548,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/3555_oulu.jpg",
             "time": "23:00",
             "date": "08/10",
-            "blv": "Tam Mao",
+            "blv": "BLV Tam Mao",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -593,7 +593,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-873eea3f40",
-                          "name": "Tày 1",
+                          "name": "BLV Tày 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub10/index.m3u8",
@@ -610,7 +610,7 @@
                         },
                         {
                           "id": "lnk-58a006abe0",
-                          "name": "Tày 2",
+                          "name": "BLV Tày 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub10.flv",
@@ -640,7 +640,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/391_al-gharafa.jpg",
             "time": "00:00",
             "date": "09/10",
-            "blv": "Tày",
+            "blv": "BLV Tày",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -685,7 +685,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-afc0aa1332",
-                          "name": "Xôi Xoài 1",
+                          "name": "BLV Xôi Xoài 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub3/index.m3u8",
@@ -702,7 +702,7 @@
                         },
                         {
                           "id": "lnk-4ef896631a",
-                          "name": "Xôi Xoài 2",
+                          "name": "BLV Xôi Xoài 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub3.flv",
@@ -732,7 +732,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/542_flamengo.jpg",
             "time": "05:30",
             "date": "09/10",
-            "blv": "Xôi Xoài",
+            "blv": "BLV Xôi Xoài",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -777,7 +777,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-afc0aa1332",
-                          "name": "Xôi Xoài 1",
+                          "name": "BLV Xôi Xoài 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub3/index.m3u8",
@@ -794,7 +794,7 @@
                         },
                         {
                           "id": "lnk-4ef896631a",
-                          "name": "Xôi Xoài 2",
+                          "name": "BLV Xôi Xoài 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub3.flv",
@@ -824,7 +824,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/2271_deportes-tolima.jpg",
             "time": "06:05",
             "date": "09/10",
-            "blv": "Xôi Xoài",
+            "blv": "BLV Xôi Xoài",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -869,7 +869,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-d96bd0dded",
-                          "name": "Gà Rừng BLV 1",
+                          "name": "BLV Gà Rừng 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub4/index.m3u8",
@@ -886,7 +886,7 @@
                         },
                         {
                           "id": "lnk-a2f0db0c21",
-                          "name": "Gà Rừng BLV 2",
+                          "name": "BLV Gà Rừng 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub4.flv",
@@ -916,7 +916,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/1985_bahia.jpg",
             "time": "07:30",
             "date": "09/10",
-            "blv": "Gà Rừng BLV",
+            "blv": "BLV Gà Rừng",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -961,7 +961,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-698a969677",
-                          "name": "Xôi Gấc 1",
+                          "name": "BLV Xôi Gấc 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub11/index.m3u8",
@@ -978,7 +978,7 @@
                         },
                         {
                           "id": "lnk-f6cba213a8",
-                          "name": "Xôi Gấc 2",
+                          "name": "BLV Xôi Gấc 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub11.flv",
@@ -1008,7 +1008,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/2273_millonarios.jpg",
             "time": "08:10",
             "date": "09/10",
-            "blv": "Xôi Gấc",
+            "blv": "BLV Xôi Gấc",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1053,7 +1053,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-f22a137722",
-                          "name": "Tam Mao 1",
+                          "name": "BLV Tam Mao 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub8/index.m3u8",
@@ -1070,7 +1070,7 @@
                         },
                         {
                           "id": "lnk-f788bd15ca",
-                          "name": "Tam Mao 2",
+                          "name": "BLV Tam Mao 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub8.flv",
@@ -1100,7 +1100,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/389_jeonbuk-motors.jpg",
             "time": "12:00",
             "date": "09/10",
-            "blv": "Tam Mao",
+            "blv": "BLV Tam Mao",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1145,7 +1145,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-c210608a27",
-                          "name": "Khô Cay 1",
+                          "name": "BLV Khô Cay 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub9/index.m3u8",
@@ -1162,7 +1162,7 @@
                         },
                         {
                           "id": "lnk-61f3cec5ec",
-                          "name": "Khô Cay 2",
+                          "name": "BLV Khô Cay 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub9.flv",
@@ -1192,7 +1192,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/396_pohang-steelers.jpg",
             "time": "14:30",
             "date": "09/10",
-            "blv": "Khô Cay",
+            "blv": "BLV Khô Cay",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1237,7 +1237,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-c4e6a4ba43",
-                          "name": "Khô Chè 1",
+                          "name": "BLV Khô Chè 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub5/index.m3u8",
@@ -1254,7 +1254,7 @@
                         },
                         {
                           "id": "lnk-ce4efc789c",
-                          "name": "Khô Chè 2",
+                          "name": "BLV Khô Chè 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub5.flv",
@@ -1284,7 +1284,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/411_gamba-osaka.jpg",
             "time": "17:00",
             "date": "09/10",
-            "blv": "Khô Chè",
+            "blv": "BLV Khô Chè",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1329,7 +1329,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-873eea3f40",
-                          "name": "Tày 1",
+                          "name": "BLV Tày 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub10/index.m3u8",
@@ -1346,7 +1346,7 @@
                         },
                         {
                           "id": "lnk-58a006abe0",
-                          "name": "Tày 2",
+                          "name": "BLV Tày 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub10.flv",
@@ -1376,7 +1376,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/383_vissel-kobe.jpg",
             "time": "17:00",
             "date": "09/10",
-            "blv": "Tày",
+            "blv": "BLV Tày",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1421,7 +1421,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-f22a137722",
-                          "name": "Tam Mao 1",
+                          "name": "BLV Tam Mao 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub8/index.m3u8",
@@ -1438,7 +1438,7 @@
                         },
                         {
                           "id": "lnk-f788bd15ca",
-                          "name": "Tam Mao 2",
+                          "name": "BLV Tam Mao 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub8.flv",
@@ -1468,7 +1468,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/375_beijing-guoan.jpg",
             "time": "18:35",
             "date": "09/10",
-            "blv": "Tam Mao",
+            "blv": "BLV Tam Mao",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1513,7 +1513,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-d96bd0dded",
-                          "name": "Gà Rừng BLV 1",
+                          "name": "BLV Gà Rừng 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub4/index.m3u8",
@@ -1530,7 +1530,7 @@
                         },
                         {
                           "id": "lnk-a2f0db0c21",
-                          "name": "Gà Rừng BLV 2",
+                          "name": "BLV Gà Rừng 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub4.flv",
@@ -1560,7 +1560,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/2256_shanghai-port.jpg",
             "time": "19:00",
             "date": "09/10",
-            "blv": "Gà Rừng BLV",
+            "blv": "BLV Gà Rừng",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1605,7 +1605,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-afc0aa1332",
-                          "name": "Xôi Xoài 1",
+                          "name": "BLV Xôi Xoài 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub3/index.m3u8",
@@ -1622,7 +1622,7 @@
                         },
                         {
                           "id": "lnk-4ef896631a",
-                          "name": "Xôi Xoài 2",
+                          "name": "BLV Xôi Xoài 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub3.flv",
@@ -1652,7 +1652,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/6330_al-qadsiah.jpg",
             "time": "20:50",
             "date": "09/10",
-            "blv": "Xôi Xoài",
+            "blv": "BLV Xôi Xoài",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1697,7 +1697,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-c210608a27",
-                          "name": "Khô Cay 1",
+                          "name": "BLV Khô Cay 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub9/index.m3u8",
@@ -1714,7 +1714,7 @@
                         },
                         {
                           "id": "lnk-61f3cec5ec",
-                          "name": "Khô Cay 2",
+                          "name": "BLV Khô Cay 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub9.flv",
@@ -1744,7 +1744,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/359_al-ahli.jpg",
             "time": "21:55",
             "date": "09/10",
-            "blv": "Khô Cay",
+            "blv": "BLV Khô Cay",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1789,7 +1789,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-c4e6a4ba43",
-                          "name": "Khô Chè 1",
+                          "name": "BLV Khô Chè 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub5/index.m3u8",
@@ -1806,7 +1806,7 @@
                         },
                         {
                           "id": "lnk-ce4efc789c",
-                          "name": "Khô Chè 2",
+                          "name": "BLV Khô Chè 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub5.flv",
@@ -1836,7 +1836,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/3548_lahti.jpg",
             "time": "22:00",
             "date": "09/10",
-            "blv": "Khô Chè",
+            "blv": "BLV Khô Chè",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1881,7 +1881,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-f22a137722",
-                          "name": "Tam Mao 1",
+                          "name": "BLV Tam Mao 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub8/index.m3u8",
@@ -1898,7 +1898,7 @@
                         },
                         {
                           "id": "lnk-f788bd15ca",
-                          "name": "Tam Mao 2",
+                          "name": "BLV Tam Mao 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub8.flv",
@@ -1928,7 +1928,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/3914_holstein-kiel.jpg",
             "time": "23:30",
             "date": "09/10",
-            "blv": "Tam Mao",
+            "blv": "BLV Tam Mao",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1973,7 +1973,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-d96bd0dded",
-                          "name": "Gà Rừng BLV 1",
+                          "name": "BLV Gà Rừng 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub4/index.m3u8",
@@ -1990,7 +1990,7 @@
                         },
                         {
                           "id": "lnk-a2f0db0c21",
-                          "name": "Gà Rừng BLV 2",
+                          "name": "BLV Gà Rừng 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub4.flv",
@@ -2020,7 +2020,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/3956_kaiserslautern.jpg",
             "time": "23:30",
             "date": "09/10",
-            "blv": "Gà Rừng BLV",
+            "blv": "BLV Gà Rừng",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -2065,7 +2065,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-f945d702bc",
-                          "name": "Xôi Xéo 1",
+                          "name": "BLV Xôi Xéo 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub1/index.m3u8",
@@ -2082,7 +2082,7 @@
                         },
                         {
                           "id": "lnk-7e381e0b63",
-                          "name": "Xôi Xéo 2",
+                          "name": "BLV Xôi Xéo 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub1.flv",
@@ -2112,7 +2112,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/6281_akron.jpg",
             "time": "23:30",
             "date": "09/10",
-            "blv": "Xôi Xéo",
+            "blv": "BLV Xôi Xéo",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -2157,7 +2157,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-c4e6a4ba43",
-                          "name": "Khô Chè 1",
+                          "name": "BLV Khô Chè 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub5/index.m3u8",
@@ -2174,7 +2174,7 @@
                         },
                         {
                           "id": "lnk-ce4efc789c",
-                          "name": "Khô Chè 2",
+                          "name": "BLV Khô Chè 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub5.flv",
@@ -2204,7 +2204,7 @@
             "logo_b": "",
             "time": "01:00",
             "date": "10/10",
-            "blv": "Khô Chè",
+            "blv": "BLV Khô Chè",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -2249,7 +2249,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-afc0aa1332",
-                          "name": "Xôi Xoài 1",
+                          "name": "BLV Xôi Xoài 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub3/index.m3u8",
@@ -2266,7 +2266,7 @@
                         },
                         {
                           "id": "lnk-4ef896631a",
-                          "name": "Xôi Xoài 2",
+                          "name": "BLV Xôi Xoài 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub3.flv",
@@ -2296,7 +2296,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/3930_werder-bremen.jpg",
             "time": "01:30",
             "date": "10/10",
-            "blv": "Xôi Xoài",
+            "blv": "BLV Xôi Xoài",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -2341,7 +2341,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-c210608a27",
-                          "name": "Khô Cay 1",
+                          "name": "BLV Khô Cay 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub9/index.m3u8",
@@ -2358,7 +2358,7 @@
                         },
                         {
                           "id": "lnk-61f3cec5ec",
-                          "name": "Khô Cay 2",
+                          "name": "BLV Khô Cay 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub9.flv",
@@ -2388,7 +2388,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/3815_olympique-lyonnais.jpg",
             "time": "01:45",
             "date": "10/10",
-            "blv": "Khô Cay",
+            "blv": "BLV Khô Cay",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
