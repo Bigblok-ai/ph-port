@@ -2129,6 +2129,233 @@
           }
         }
       ]
+    },
+    {
+      "id": "cate_volleyball",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "xc-bed5823a2b",
+          "name": "ITA TOOLS STAL Mielec vs Metalkas Pałac Bydgoszcz | 22:30 09/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bed5823a2b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-bed5823a2b",
+                  "name": "ITA TOOLS STAL Mielec vs Metalkas Pałac Bydgoszcz",
+                  "streams": [
+                    {
+                      "id": "st-bed5823a2b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9f449fe69c",
+                          "name": "BLV Xôi Bắp 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub6/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9fd6836274",
+                          "name": "BLV Xôi Bắp 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub6.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-c5c6cf2509",
+                          "name": "BLV Tày",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub10.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-873eea3f40",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub10/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tauron Liga Ba Lan Nữ",
+            "team_a": "ITA TOOLS STAL Mielec",
+            "team_b": "Metalkas Pałac Bydgoszcz",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "22:30",
+            "date": "09/10",
+            "blv": "BLV Xôi Bắp, BLV Tày, Server",
+            "is_live": false,
+            "cate_type": "volleyball",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38588_43a03299_20261009.png?v=43a03299",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-365adce66c",
+          "name": "PGE Budowlani Łódź vs ŁKS Commercecon Łódź | 01:30 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-365adce66c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-365adce66c",
+                  "name": "PGE Budowlani Łódź vs ŁKS Commercecon Łódź",
+                  "streams": [
+                    {
+                      "id": "st-365adce66c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b3e89c2b5b",
+                          "name": "BLV Khô Bò",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub12/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4ead39db03",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub2/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tauron Liga Ba Lan Nữ",
+            "team_a": "PGE Budowlani Łódź",
+            "team_b": "ŁKS Commercecon Łódź",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "01:30",
+            "date": "10/10",
+            "blv": "BLV Khô Bò, Server",
+            "is_live": false,
+            "cate_type": "volleyball",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38590_43a03299_20261009.png?v=43a03299",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     }
   ]
 }
