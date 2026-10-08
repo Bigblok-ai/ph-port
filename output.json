@@ -1851,6 +1851,98 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-dc82539834",
+          "name": "Al Kholood vs Al Qadsiah | 20:50 09/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dc82539834",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-dc82539834",
+                  "name": "Al Kholood vs Al Qadsiah",
+                  "streams": [
+                    {
+                      "id": "st-dc82539834",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "Xôi Xoài 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4ef896631a",
+                          "name": "Xôi Xoài 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub3.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi League",
+            "team_a": "Al Kholood",
+            "team_b": "Al Qadsiah",
+            "logo_a": "https://apiv3.apifootball.com/badges/18893_al-kholood.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/6330_al-qadsiah.jpg",
+            "time": "20:50",
+            "date": "09/10",
+            "blv": "Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34460_22b0a35e_20261008.png?v=22b0a35e",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
