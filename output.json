@@ -777,7 +777,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-873eea3f40",
-                          "name": "BLV Tày 1",
+                          "name": "Tày 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub10/index.m3u8",
@@ -794,7 +794,7 @@
                         },
                         {
                           "id": "lnk-58a006abe0",
-                          "name": "BLV Tày 2",
+                          "name": "Tày 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub10.flv",
@@ -824,7 +824,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/391_al-gharafa.jpg",
             "time": "00:00",
             "date": "09/10",
-            "blv": "BLV Tày",
+            "blv": "Tày",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
