@@ -773,6 +773,81 @@
           }
         },
         {
+          "id": "xc-9e2820cf5c",
+          "name": "Alaves vs Atl. Madrid | 21:15 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9e2820cf5c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-9e2820cf5c",
+                  "name": "Alaves vs Atl. Madrid",
+                  "streams": [
+                    {
+                      "id": "st-9e2820cf5c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c210608a27",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Alaves",
+            "team_b": "Atl. Madrid",
+            "logo_a": "https://apiv3.apifootball.com/badges/7275_alaves.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/73_atletico-de-madrid.jpg",
+            "time": "21:15",
+            "date": "10/10",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36049_cb571969_20261010.png?v=cb571969",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-aeb677b971",
           "name": "Barcelona vs Getafe | 23:30 10/10",
           "type": "single",
@@ -892,10 +967,27 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
+                          "id": "lnk-c210608a27",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
                           "id": "lnk-873eea3f40",
                           "name": "BLV Tày 1",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
                           "url": "https://live.khoga.space/live/livehub10/index.m3u8",
                           "request_headers": [
                             {
@@ -940,7 +1032,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/164_tottenham-hotspur.jpg",
             "time": "23:30",
             "date": "10/10",
-            "blv": "BLV Tày",
+            "blv": "BLV Khô Cay, BLV Tày",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -952,6 +1044,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36305_894833b8_20261010.png?v=894833b8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-2b66636acb",
+          "name": "Real Madrid vs Villarreal | 02:00 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2b66636acb",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-2b66636acb",
+                  "name": "Real Madrid vs Villarreal",
+                  "streams": [
+                    {
+                      "id": "st-2b66636acb",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c210608a27",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Real Madrid",
+            "team_b": "Villarreal",
+            "logo_a": "https://apiv3.apifootball.com/badges/76_real-madrid.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/162_villarreal.jpg",
+            "time": "02:00",
+            "date": "11/10",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36418_3d164708_20261010.png?v=3d164708",
             "width": 1600,
             "height": 1200
           }
