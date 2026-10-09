@@ -13,98 +13,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-dec0f43386",
-          "name": "CSKA Moscow U19 vs Konoplev Academy U19 | 19:00 09/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dec0f43386",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-dec0f43386",
-                  "name": "CSKA Moscow U19 vs Konoplev Academy U19",
-                  "streams": [
-                    {
-                      "id": "st-dec0f43386",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b3e89c2b5b",
-                          "name": "BLV Khô Bò 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub12/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8bcf71e3b1",
-                          "name": "BLV Khô Bò 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub12.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Youth Championship",
-            "team_a": "CSKA Moscow U19",
-            "team_b": "Konoplev Academy U19",
-            "logo_a": "https://apiv3.apifootball.com/badges/10083_cska-moskva-u19.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/10101_akademiya-konopleva-u19.jpg",
-            "time": "19:00",
-            "date": "09/10",
-            "blv": "BLV Khô Bò",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34372_d9ccd70c_20261009.png?v=d9ccd70c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-c9591e48b0",
           "name": "Zhejiang Professional vs Shanghai Port | 19:00 09/10",
           "type": "single",
@@ -192,6 +100,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34377_0c73ad30_20261009.png?v=0c73ad30",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-dec0f43386",
+          "name": "CSKA Moscow U19 vs Konoplev Academy U19 | 19:00 09/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dec0f43386",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-dec0f43386",
+                  "name": "CSKA Moscow U19 vs Konoplev Academy U19",
+                  "streams": [
+                    {
+                      "id": "st-dec0f43386",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b3e89c2b5b",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub12/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Youth Championship",
+            "team_a": "CSKA Moscow U19",
+            "team_b": "Konoplev Academy U19",
+            "logo_a": "https://apiv3.apifootball.com/badges/10083_cska-moskva-u19.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/10101_akademiya-konopleva-u19.jpg",
+            "time": "19:00",
+            "date": "09/10",
+            "blv": "BLV Khô Bò",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 1,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34372_d9ccd70c_20261009.png?v=d9ccd70c",
             "width": 1600,
             "height": 1200
           }
