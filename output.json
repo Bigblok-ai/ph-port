@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -100,98 +100,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34550_dabc5eb9_20261010.png?v=dabc5eb9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-3e9202b0e4",
-          "name": "FK Rostov vs Akron Togliatti | 23:30 09/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3e9202b0e4",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-3e9202b0e4",
-                  "name": "FK Rostov vs Akron Togliatti",
-                  "streams": [
-                    {
-                      "id": "st-3e9202b0e4",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f945d702bc",
-                          "name": "BLV Xôi Xéo 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-7e381e0b63",
-                          "name": "BLV Xôi Xéo 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub1.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "FK Rostov",
-            "team_b": "Akron Togliatti",
-            "logo_a": "https://apiv3.apifootball.com/badges/184_rostov.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/6281_akron.jpg",
-            "time": "23:30",
-            "date": "09/10",
-            "blv": "BLV Xôi Xéo",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34546_d467aa82_20261010.png?v=d467aa82",
             "width": 1600,
             "height": 1200
           }
@@ -868,44 +776,10 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-f945d702bc",
-                          "name": "BLV Xôi Xéo 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-7e381e0b63",
-                          "name": "BLV Xôi Xéo 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub1.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
                           "id": "lnk-f22a137722",
                           "name": "BLV Tam Mao",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://live.khoga.space/live/livehub8/index.m3u8",
                           "request_headers": [
                             {
@@ -933,7 +807,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/376_melbourne-victory.jpg",
             "time": "15:35",
             "date": "10/10",
-            "blv": "BLV Xôi Xéo, BLV Tam Mao",
+            "blv": "BLV Tam Mao",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1512,44 +1386,10 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-f945d702bc",
-                          "name": "BLV Xôi Xéo 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-7e381e0b63",
-                          "name": "BLV Xôi Xéo 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub1.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
                           "id": "lnk-873eea3f40",
                           "name": "BLV Tày 1",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://live.khoga.space/live/livehub10/index.m3u8",
                           "request_headers": [
                             {
@@ -1594,7 +1434,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/164_tottenham-hotspur.jpg",
             "time": "23:30",
             "date": "10/10",
-            "blv": "BLV Xôi Xéo, BLV Tày",
+            "blv": "BLV Tày",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1606,98 +1446,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36305_894833b8_20261010.png?v=894833b8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-2b66636acb",
-          "name": "Real Madrid vs Villarreal | 02:00 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2b66636acb",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-2b66636acb",
-                  "name": "Real Madrid vs Villarreal",
-                  "streams": [
-                    {
-                      "id": "st-2b66636acb",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f945d702bc",
-                          "name": "BLV Xôi Xéo 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-7e381e0b63",
-                          "name": "BLV Xôi Xéo 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub1.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Real Madrid",
-            "team_b": "Villarreal",
-            "logo_a": "https://apiv3.apifootball.com/badges/76_real-madrid.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/162_villarreal.jpg",
-            "time": "02:00",
-            "date": "11/10",
-            "blv": "BLV Xôi Xéo",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36418_3d164708_20261010.png?v=3d164708",
             "width": 1600,
             "height": 1200
           }
@@ -1787,8 +1535,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-bed5823a2b",
-          "name": "ITA TOOLS STAL Mielec vs Metalkas Pałac Bydgoszcz | 22:30 09/10",
+          "id": "xc-47db93bccb",
+          "name": "Aluron CMC Warta Zawiercie vs Halkbank Ankara | 22:30 09/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1802,23 +1550,23 @@
           ],
           "sources": [
             {
-              "id": "src-bed5823a2b",
+              "id": "src-47db93bccb",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-bed5823a2b",
-                  "name": "ITA TOOLS STAL Mielec vs Metalkas Pałac Bydgoszcz",
+                  "id": "ct-47db93bccb",
+                  "name": "Aluron CMC Warta Zawiercie vs Halkbank Ankara",
                   "streams": [
                     {
-                      "id": "st-bed5823a2b",
+                      "id": "st-47db93bccb",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-9f449fe69c",
-                          "name": "BLV Xôi Bắp 1",
+                          "id": "lnk-873eea3f40",
+                          "name": "BLV Tày 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub6/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub10/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1831,45 +1579,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-9fd6836274",
-                          "name": "BLV Xôi Bắp 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub6.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c5c6cf2509",
-                          "name": "BLV Tày",
+                          "id": "lnk-58a006abe0",
+                          "name": "BLV Tày 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub10.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-873eea3f40",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub10/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1889,14 +1603,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Tauron Liga Ba Lan Nữ",
-            "team_a": "ITA TOOLS STAL Mielec",
-            "team_b": "Metalkas Pałac Bydgoszcz",
+            "league": "TAURON Giganci Siatkówki / M",
+            "team_a": "Aluron CMC Warta Zawiercie",
+            "team_b": "Halkbank Ankara",
             "logo_a": "",
             "logo_b": "",
             "time": "22:30",
             "date": "09/10",
-            "blv": "BLV Xôi Bắp, BLV Tày, Server",
+            "blv": "BLV Tày",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -1907,7 +1621,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38588_43a03299_20261010.png?v=43a03299",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38589_43a03299_20261010.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
