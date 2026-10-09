@@ -258,7 +258,7 @@
             "blv": "BLV Khô Bò",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 2,
             "away_score": 1
           },
