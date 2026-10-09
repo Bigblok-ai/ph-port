@@ -565,6 +565,98 @@
           }
         },
         {
+          "id": "xc-2b12c0d47f",
+          "name": "Shenzhen Xinpengcheng vs Henan Songshan Longmen | 18:35 09/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2b12c0d47f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-2b12c0d47f",
+                  "name": "Shenzhen Xinpengcheng vs Henan Songshan Longmen",
+                  "streams": [
+                    {
+                      "id": "st-2b12c0d47f",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-698a969677",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub11/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Super League",
+            "team_a": "Shenzhen Xinpengcheng",
+            "team_b": "Henan Songshan Longmen",
+            "logo_a": "https://apiv3.apifootball.com/badges/2241_shenzhen-peng-city.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/2255_henan.jpg",
+            "time": "18:35",
+            "date": "09/10",
+            "blv": "BLV Xôi Gấc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34370_9e9d97fb_20261009.png?v=9e9d97fb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-c9591e48b0",
           "name": "Zhejiang Professional vs Shanghai Port | 19:00 09/10",
           "type": "single",
@@ -1204,6 +1296,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34546_d467aa82_20261009.png?v=d467aa82",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-e736230e56",
+          "name": "Galatasaray vs Kasimpasa | 00:00 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e736230e56",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e736230e56",
+                  "name": "Galatasaray vs Kasimpasa",
+                  "streams": [
+                    {
+                      "id": "st-e736230e56",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-698a969677",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub11/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Süper Lig",
+            "team_a": "Galatasaray",
+            "team_b": "Kasimpasa",
+            "logo_a": "https://apiv3.apifootball.com/badges/192_galatasaray.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7699_kasimpaa.jpg",
+            "time": "00:00",
+            "date": "10/10",
+            "blv": "BLV Xôi Gấc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34863_53a07651_20261009.png?v=53a07651",
             "width": 1600,
             "height": 1200
           }
