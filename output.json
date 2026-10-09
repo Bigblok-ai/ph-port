@@ -1127,137 +1127,11 @@
     },
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-365adce66c",
-          "name": "PGE Budowlani Łódź vs ŁKS Commercecon Łódź | 01:30 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-365adce66c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-365adce66c",
-                  "name": "PGE Budowlani Łódź vs ŁKS Commercecon Łódź",
-                  "streams": [
-                    {
-                      "id": "st-365adce66c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b3e89c2b5b",
-                          "name": "BLV Khô Bò 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub12/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8bcf71e3b1",
-                          "name": "BLV Khô Bò 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub12.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-98f8b351cf",
-                          "name": "BLV Xôi Bắp",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub6.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4ead39db03",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub2/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Tauron Liga Ba Lan Nữ",
-            "team_a": "PGE Budowlani Łódź",
-            "team_b": "ŁKS Commercecon Łódź",
-            "logo_a": "https://xoiche.live/media/teams/logos/pge-budowlani-lodz-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/lks-commercecon-lodz-vb.png",
-            "time": "01:30",
-            "date": "10/10",
-            "blv": "BLV Khô Bò, BLV Xôi Bắp, Server",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38590_7a1c475a_20261010.png?v=7a1c475a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-6e5ddfaed8",
           "name": "Osaka Bluteon vs JTEKT Stings Aichi | 11:00 10/10",
@@ -1656,6 +1530,115 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38592_77717e74_20261010.png?v=77717e74",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-4942d5cf1f",
+          "name": "Imoco Conegliano vs Laica UYBA Busto Arsizio | 01:30 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4942d5cf1f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-4942d5cf1f",
+                  "name": "Imoco Conegliano vs Laica UYBA Busto Arsizio",
+                  "streams": [
+                    {
+                      "id": "st-4942d5cf1f",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4ead39db03",
+                          "name": "BLV Xôi Gà",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub2/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-98f8b351cf",
+                          "name": "BLV Xôi Bắp",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub6.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9f449fe69c",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub6/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A1 Ý / W",
+            "team_a": "Imoco Conegliano",
+            "team_b": "Laica UYBA Busto Arsizio",
+            "logo_a": "https://xoiche.live/media/teams/logos/imoco-conegliano-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/laica-uyba-busto-arsizio-vb.png",
+            "time": "01:30",
+            "date": "11/10",
+            "blv": "BLV Xôi Gà, BLV Xôi Bắp, Server",
+            "is_live": false,
+            "cate_type": "volleyball",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38593_4a92781b_20261010.png?v=4a92781b",
             "width": 1600,
             "height": 1200
           }
