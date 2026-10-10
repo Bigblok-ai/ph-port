@@ -7,14 +7,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-7cbaabc637",
-          "name": "Napoli vs Frosinone | 01:45 11/10",
+          "id": "xc-79daceb948",
+          "name": "PSG vs Le Mans | 01:45 11/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,23 +28,23 @@
           ],
           "sources": [
             {
-              "id": "src-7cbaabc637",
+              "id": "src-79daceb948",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-7cbaabc637",
-                  "name": "Napoli vs Frosinone",
+                  "id": "ct-79daceb948",
+                  "name": "PSG vs Le Mans",
                   "streams": [
                     {
-                      "id": "st-7cbaabc637",
+                      "id": "st-79daceb948",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-873eea3f40",
-                          "name": "BLV Tày 1",
+                          "id": "lnk-c4e6a4ba43",
+                          "name": "BLV Khô Chè 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub10/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -58,27 +58,10 @@
                         },
                         {
                           "id": "lnk-4db4eeb939",
-                          "name": "BLV Tày 2",
+                          "name": "BLV Khô Chè 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://xoiche.live/live/backup/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f144c43884",
-                          "name": "BLV Tày 3",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub10.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -98,25 +81,25 @@
             }
           ],
           "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Napoli",
-            "team_b": "Frosinone",
-            "logo_a": "https://apiv3.apifootball.com/badges/152_napoli.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/5000_frosinone.jpg",
+            "league": "Ligue 1",
+            "team_a": "PSG",
+            "team_b": "Le Mans",
+            "logo_a": "https://apiv3.apifootball.com/badges/100_psg.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3884_le-mans.jpg",
             "time": "01:45",
             "date": "11/10",
-            "blv": "BLV Tày",
+            "blv": "BLV Khô Chè",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 2,
-            "away_score": 0
+            "home_score": 3,
+            "away_score": 1
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36407_a1edf4ec_20261011.png?v=a1edf4ec",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36411_786a1b7d_20261011.png?v=786a1b7d",
             "width": 1600,
             "height": 1200
           }
@@ -209,98 +192,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36410_9e238993_20261011.png?v=9e238993",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-79daceb948",
-          "name": "PSG vs Le Mans | 01:45 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-79daceb948",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-79daceb948",
-                  "name": "PSG vs Le Mans",
-                  "streams": [
-                    {
-                      "id": "st-79daceb948",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c4e6a4ba43",
-                          "name": "BLV Khô Chè 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4db4eeb939",
-                          "name": "BLV Khô Chè 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "PSG",
-            "team_b": "Le Mans",
-            "logo_a": "https://apiv3.apifootball.com/badges/100_psg.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3884_le-mans.jpg",
-            "time": "01:45",
-            "date": "11/10",
-            "blv": "BLV Khô Chè",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 3,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36411_786a1b7d_20261011.png?v=786a1b7d",
             "width": 1600,
             "height": 1200
           }
