@@ -202,7 +202,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 2,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -2533,8 +2533,8 @@
           }
         },
         {
-          "id": "xc-4942d5cf1f",
-          "name": "Imoco Conegliano vs Laica UYBA Busto Arsizio | 01:30 11/10",
+          "id": "xc-fe8327c8ea",
+          "name": "Cucine Lube Civitanova vs Suntory Sunbirds Osaka | 01:30 11/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2548,23 +2548,23 @@
           ],
           "sources": [
             {
-              "id": "src-4942d5cf1f",
+              "id": "src-fe8327c8ea",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-4942d5cf1f",
-                  "name": "Imoco Conegliano vs Laica UYBA Busto Arsizio",
+                  "id": "ct-fe8327c8ea",
+                  "name": "Cucine Lube Civitanova vs Suntory Sunbirds Osaka",
                   "streams": [
                     {
-                      "id": "st-4942d5cf1f",
+                      "id": "st-fe8327c8ea",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-4ead39db03",
-                          "name": "BLV Xôi Gà 1",
+                          "id": "lnk-9f449fe69c",
+                          "name": "BLV Xôi Bắp 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub2/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub6/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2577,25 +2577,8 @@
                           ]
                         },
                         {
-                          "id": "lnk-4db4eeb939",
-                          "name": "BLV Xôi Gà 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-98f8b351cf",
-                          "name": "BLV Xôi Bắp",
+                          "id": "lnk-9fd6836274",
+                          "name": "BLV Xôi Bắp 2",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub6.flv",
@@ -2611,11 +2594,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-9f449fe69c",
+                          "id": "lnk-4ead39db03",
                           "name": "Server",
                           "type": "hls",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub6/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub2/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2635,14 +2618,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Serie A1 Ý / W",
-            "team_a": "Imoco Conegliano",
-            "team_b": "Laica UYBA Busto Arsizio",
-            "logo_a": "https://xoiche.live/media/teams/logos/imoco-conegliano-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/laica-uyba-busto-arsizio-vb.png",
+            "league": "Giao Hữu",
+            "team_a": "Cucine Lube Civitanova",
+            "team_b": "Suntory Sunbirds Osaka",
+            "logo_a": "https://xoiche.live/media/teams/logos/cucine-lube-civitanova-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/suntory-sunbirds-osaka-vb.png",
             "time": "01:30",
             "date": "11/10",
-            "blv": "BLV Xôi Gà, BLV Xôi Bắp, Server",
+            "blv": "BLV Xôi Bắp, Server",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -2653,7 +2636,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38593_4a92781b_20261011.png?v=4a92781b",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39252_4165796b_20261011.png?v=4165796b",
             "width": 1600,
             "height": 1200
           }
