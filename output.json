@@ -224,11 +224,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-c210608a27",
-                          "name": "BLV Khô Cay 1",
+                          "id": "lnk-873eea3f40",
+                          "name": "BLV Tày 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub10/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -242,7 +242,7 @@
                         },
                         {
                           "id": "lnk-4db4eeb939",
-                          "name": "BLV Khô Cay 2",
+                          "name": "BLV Tày 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://xoiche.live/live/backup/index.m3u8",
@@ -258,11 +258,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-873eea3f40",
-                          "name": "BLV Tày 1",
-                          "type": "hls",
+                          "id": "lnk-f144c43884",
+                          "name": "BLV Tày 3",
+                          "type": "httpflv",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub10/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub10.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -275,11 +275,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-58a006abe0",
-                          "name": "BLV Tày 2",
-                          "type": "httpflv",
+                          "id": "lnk-c210608a27",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub10.flv",
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -306,7 +306,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/164_tottenham-hotspur.jpg",
             "time": "23:30",
             "date": "10/10",
-            "blv": "BLV Khô Cay, BLV Tày",
+            "blv": "BLV Tày, BLV Khô Cay",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
