@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -167,7 +167,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
@@ -187,10 +187,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -256,9 +256,9 @@
             "time": "21:00",
             "date": "10/10",
             "blv": "BLV Khô Chè",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -279,10 +279,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -348,9 +348,9 @@
             "time": "21:00",
             "date": "10/10",
             "blv": "BLV Gà Rừng",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
