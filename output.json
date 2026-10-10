@@ -76,7 +76,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 2,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
@@ -116,10 +116,27 @@
                       "stream_links": [
                         {
                           "id": "lnk-f22a137722",
-                          "name": "BLV Tam Mao",
+                          "name": "BLV Tam Mao 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Tam Mao 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -191,10 +208,27 @@
                       "stream_links": [
                         {
                           "id": "lnk-c4e6a4ba43",
-                          "name": "BLV Khô Chè",
+                          "name": "BLV Khô Chè 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Khô Chè 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -266,10 +300,27 @@
                       "stream_links": [
                         {
                           "id": "lnk-f22a137722",
-                          "name": "BLV Tam Mao",
+                          "name": "BLV Tam Mao 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Tam Mao 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -308,6 +359,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/35125_6fa5a06b_20261010.png?v=6fa5a06b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-028e7cccc0",
+          "name": "Nam Dinh vs Phu Dong Ninh Binh | 18:00 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-028e7cccc0",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-028e7cccc0",
+                  "name": "Nam Dinh vs Phu Dong Ninh Binh",
+                  "streams": [
+                    {
+                      "id": "st-028e7cccc0",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "BLV Xôi Xoài 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Xôi Xoài 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Nam Dinh",
+            "team_b": "Phu Dong Ninh Binh",
+            "logo_a": "https://apiv3.apifootball.com/badges/8060_nam-nh.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/8051_ninh-binh.jpg",
+            "time": "18:00",
+            "date": "10/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/35262_12ceed4d_20261010.png?v=12ceed4d",
             "width": 1600,
             "height": 1200
           }
@@ -357,11 +500,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-a2f0db0c21",
+                          "id": "lnk-4db4eeb939",
                           "name": "BLV Gà Rừng 2",
-                          "type": "httpflv",
+                          "type": "hls",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub4.flv",
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -449,8 +592,25 @@
                           ]
                         },
                         {
-                          "id": "lnk-8bcf71e3b1",
+                          "id": "lnk-4db4eeb939",
                           "name": "BLV Khô Bò 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-800e867b4f",
+                          "name": "BLV Khô Bò 3",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub12.flv",
@@ -541,11 +701,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-f788bd15ca",
+                          "id": "lnk-4db4eeb939",
                           "name": "BLV Tam Mao 2",
-                          "type": "httpflv",
+                          "type": "hls",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub8.flv",
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -633,11 +793,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-ce4efc789c",
+                          "id": "lnk-4db4eeb939",
                           "name": "BLV Khô Chè 2",
-                          "type": "httpflv",
+                          "type": "hls",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub5.flv",
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -676,6 +836,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/35937_444e5638_20261010.png?v=444e5638",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-595b808605",
+          "name": "Aston Villa vs Brentford | 21:00 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-595b808605",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-595b808605",
+                  "name": "Aston Villa vs Brentford",
+                  "streams": [
+                    {
+                      "id": "st-595b808605",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "BLV Xôi Xoài 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Xôi Xoài 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Aston Villa",
+            "team_b": "Brentford",
+            "logo_a": "https://apiv3.apifootball.com/badges/3088_aston-villa.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3086_brentford.jpg",
+            "time": "21:00",
+            "date": "10/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/35936_e723e404_20261010.png?v=e723e404",
             "width": 1600,
             "height": 1200
           }
@@ -725,8 +977,25 @@
                           ]
                         },
                         {
-                          "id": "lnk-f6cba213a8",
+                          "id": "lnk-4db4eeb939",
                           "name": "BLV Xôi Gấc 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-a9b9df5670",
+                          "name": "BLV Xôi Gấc 3",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub11.flv",
@@ -801,10 +1070,27 @@
                       "stream_links": [
                         {
                           "id": "lnk-d96bd0dded",
-                          "name": "BLV Gà Rừng",
+                          "name": "BLV Gà Rừng 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Gà Rừng 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -876,10 +1162,27 @@
                       "stream_links": [
                         {
                           "id": "lnk-c210608a27",
-                          "name": "BLV Khô Cay",
+                          "name": "BLV Khô Cay 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Khô Cay 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -918,6 +1221,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36049_cb571969_20261010.png?v=cb571969",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-a645a4db80",
+          "name": "Inter vs Parma | 23:00 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a645a4db80",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-a645a4db80",
+                  "name": "Inter vs Parma",
+                  "streams": [
+                    {
+                      "id": "st-a645a4db80",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "BLV Xôi Xoài 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Xôi Xoài 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Inter",
+            "team_b": "Parma",
+            "logo_a": "https://apiv3.apifootball.com/badges/79_internazionale.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4978_parma.jpg",
+            "time": "23:00",
+            "date": "10/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36257_f2422173_20261010.png?v=f2422173",
             "width": 1600,
             "height": 1200
           }
@@ -967,11 +1362,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-f788bd15ca",
+                          "id": "lnk-4db4eeb939",
                           "name": "BLV Tam Mao 2",
-                          "type": "httpflv",
+                          "type": "hls",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub8.flv",
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1042,27 +1437,10 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-c210608a27",
-                          "name": "BLV Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
                           "id": "lnk-873eea3f40",
                           "name": "BLV Tày 1",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://live.khoga.space/live/livehub10/index.m3u8",
                           "request_headers": [
                             {
@@ -1076,11 +1454,45 @@
                           ]
                         },
                         {
-                          "id": "lnk-58a006abe0",
+                          "id": "lnk-4db4eeb939",
                           "name": "BLV Tày 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f144c43884",
+                          "name": "BLV Tày 3",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub10.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-c210608a27",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1107,7 +1519,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/164_tottenham-hotspur.jpg",
             "time": "23:30",
             "date": "10/10",
-            "blv": "BLV Khô Cay, BLV Tày",
+            "blv": "BLV Tày, BLV Khô Cay",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1119,6 +1531,500 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36305_894833b8_20261010.png?v=894833b8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-5dbafbb281",
+          "name": "RB Leipzig vs Eintracht Frankfurt | 23:30 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5dbafbb281",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-5dbafbb281",
+                  "name": "RB Leipzig vs Eintracht Frankfurt",
+                  "streams": [
+                    {
+                      "id": "st-5dbafbb281",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c4e6a4ba43",
+                          "name": "BLV Khô Chè 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Khô Chè 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "RB Leipzig",
+            "team_b": "Eintracht Frankfurt",
+            "logo_a": "https://apiv3.apifootball.com/badges/101_rb-leipzig.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3945_eintracht-frankfurt.jpg",
+            "time": "23:30",
+            "date": "10/10",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36304_5e91906f_20261010.png?v=5e91906f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-207750f9f2",
+          "name": "Maritimo vs FC Porto | 00:00 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-207750f9f2",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-207750f9f2",
+                  "name": "Maritimo vs FC Porto",
+                  "streams": [
+                    {
+                      "id": "st-207750f9f2",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-698a969677",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub11/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-a9b9df5670",
+                          "name": "BLV Xôi Gấc 3",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Primeira Liga",
+            "team_a": "Maritimo",
+            "team_b": "FC Porto",
+            "logo_a": "https://apiv3.apifootball.com/badges/5995_maritimo.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/81_porto.jpg",
+            "time": "00:00",
+            "date": "11/10",
+            "blv": "BLV Xôi Gấc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36329_d8379b98_20261010.png?v=d8379b98",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-7cbaabc637",
+          "name": "Napoli vs Frosinone | 01:45 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7cbaabc637",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-7cbaabc637",
+                  "name": "Napoli vs Frosinone",
+                  "streams": [
+                    {
+                      "id": "st-7cbaabc637",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-873eea3f40",
+                          "name": "BLV Tày 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub10/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Tày 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f144c43884",
+                          "name": "BLV Tày 3",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub10.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Napoli",
+            "team_b": "Frosinone",
+            "logo_a": "https://apiv3.apifootball.com/badges/152_napoli.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5000_frosinone.jpg",
+            "time": "01:45",
+            "date": "11/10",
+            "blv": "BLV Tày",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36407_a1edf4ec_20261010.png?v=a1edf4ec",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-ec5ab2bab6",
+          "name": "Monaco vs Toulouse | 01:45 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ec5ab2bab6",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-ec5ab2bab6",
+                  "name": "Monaco vs Toulouse",
+                  "streams": [
+                    {
+                      "id": "st-ec5ab2bab6",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "BLV Xôi Xoài 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Xôi Xoài 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Monaco",
+            "team_b": "Toulouse",
+            "logo_a": "https://apiv3.apifootball.com/badges/3817_monaco.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3794_toulouse.jpg",
+            "time": "01:45",
+            "date": "11/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36410_9e238993_20261010.png?v=9e238993",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-79daceb948",
+          "name": "PSG vs Le Mans | 01:45 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-79daceb948",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-79daceb948",
+                  "name": "PSG vs Le Mans",
+                  "streams": [
+                    {
+                      "id": "st-79daceb948",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c4e6a4ba43",
+                          "name": "BLV Khô Chè 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Khô Chè 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "PSG",
+            "team_b": "Le Mans",
+            "logo_a": "https://apiv3.apifootball.com/badges/100_psg.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3884_le-mans.jpg",
+            "time": "01:45",
+            "date": "11/10",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36411_786a1b7d_20261010.png?v=786a1b7d",
             "width": 1600,
             "height": 1200
           }
@@ -1152,10 +2058,27 @@
                       "stream_links": [
                         {
                           "id": "lnk-c210608a27",
-                          "name": "BLV Khô Cay",
+                          "name": "BLV Khô Cay 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Khô Cay 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1227,10 +2150,27 @@
                       "stream_links": [
                         {
                           "id": "lnk-d96bd0dded",
-                          "name": "BLV Gà Rừng",
+                          "name": "BLV Gà Rừng 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Gà Rừng 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1274,6 +2214,115 @@
           }
         },
         {
+          "id": "xc-e3dd0f24ae",
+          "name": "Club America vs Monterrey | 10:10 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e3dd0f24ae",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e3dd0f24ae",
+                  "name": "Club America vs Monterrey",
+                  "streams": [
+                    {
+                      "id": "st-e3dd0f24ae",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-698a969677",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub11/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-a9b9df5670",
+                          "name": "BLV Xôi Gấc 3",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga MX",
+            "team_a": "Club America",
+            "team_b": "Monterrey",
+            "logo_a": "https://apiv3.apifootball.com/badges/284_club-america.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/308_monterrey.jpg",
+            "time": "10:10",
+            "date": "11/10",
+            "blv": "BLV Xôi Gấc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36553_24f8c52b_20261010.png?v=24f8c52b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-5fb48cf4ff",
           "name": "Gwangju FC vs Ulsan HD | 12:00 11/10",
           "type": "single",
@@ -1302,10 +2351,27 @@
                       "stream_links": [
                         {
                           "id": "lnk-f22a137722",
-                          "name": "BLV Tam Mao",
+                          "name": "BLV Tam Mao 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Tam Mao 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1349,6 +2415,190 @@
           }
         },
         {
+          "id": "xc-e6960d515e",
+          "name": "Kawasaki Frontale vs Nagoya Grampus | 14:00 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e6960d515e",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e6960d515e",
+                  "name": "Kawasaki Frontale vs Nagoya Grampus",
+                  "streams": [
+                    {
+                      "id": "st-e6960d515e",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c210608a27",
+                          "name": "BLV Khô Cay 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Khô Cay 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Kawasaki Frontale",
+            "team_b": "Nagoya Grampus",
+            "logo_a": "https://apiv3.apifootball.com/badges/417_kawasaki-frontale.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/415_nagoya-grampus.jpg",
+            "time": "14:00",
+            "date": "11/10",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36573_4c61b60f_20261010.png?v=4c61b60f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-85acd71b35",
+          "name": "Como vs AS Roma | 17:30 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-85acd71b35",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-85acd71b35",
+                  "name": "Como vs AS Roma",
+                  "streams": [
+                    {
+                      "id": "st-85acd71b35",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d96bd0dded",
+                          "name": "BLV Gà Rừng 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Gà Rừng 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Como",
+            "team_b": "AS Roma",
+            "logo_a": "https://apiv3.apifootball.com/badges/8239_como.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/139_roma.jpg",
+            "time": "17:30",
+            "date": "11/10",
+            "blv": "BLV Gà Rừng",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36710_a9b4d0c6_20261010.png?v=a9b4d0c6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-13326db9a2",
           "name": "Song Lam Nghe An vs Ho Chi Minh | 18:00 11/10",
           "type": "single",
@@ -1377,10 +2627,27 @@
                       "stream_links": [
                         {
                           "id": "lnk-f22a137722",
-                          "name": "BLV Tam Mao",
+                          "name": "BLV Tam Mao 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Tam Mao 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1424,6 +2691,483 @@
           }
         },
         {
+          "id": "xc-2c43925465",
+          "name": "Elche vs Celta Vigo | 19:00 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2c43925465",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-2c43925465",
+                  "name": "Elche vs Celta Vigo",
+                  "streams": [
+                    {
+                      "id": "st-2c43925465",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c4e6a4ba43",
+                          "name": "BLV Khô Chè 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Khô Chè 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Elche",
+            "team_b": "Celta Vigo",
+            "logo_a": "https://apiv3.apifootball.com/badges/7274_elche.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7290_celta-de-vigo.jpg",
+            "time": "19:00",
+            "date": "11/10",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36844_941533ae_20261010.png?v=941533ae",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-52b01d1cf7",
+          "name": "Hanoi FC vs Bac Ninh | 19:15 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-52b01d1cf7",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-52b01d1cf7",
+                  "name": "Hanoi FC vs Bac Ninh",
+                  "streams": [
+                    {
+                      "id": "st-52b01d1cf7",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "BLV Xôi Xoài 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Xôi Xoài 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Hanoi FC",
+            "team_b": "Bac Ninh",
+            "logo_a": "https://apiv3.apifootball.com/badges/473_ha-ni.jpg",
+            "logo_b": "",
+            "time": "19:15",
+            "date": "11/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36880_06d6f857_20261010.png?v=06d6f857",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-153f1e0bb4",
+          "name": "Crystal Palace vs Nottingham | 20:00 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-153f1e0bb4",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-153f1e0bb4",
+                  "name": "Crystal Palace vs Nottingham",
+                  "streams": [
+                    {
+                      "id": "st-153f1e0bb4",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c210608a27",
+                          "name": "BLV Khô Cay 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Khô Cay 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Crystal Palace",
+            "team_b": "Nottingham",
+            "logo_a": "https://apiv3.apifootball.com/badges/3429_crystal-palace.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3089_nottingham-forest.jpg",
+            "time": "20:00",
+            "date": "11/10",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36995_a2d1e89a_20261010.png?v=a2d1e89a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-8e5ac35e16",
+          "name": "Hull vs Everton | 20:00 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8e5ac35e16",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-8e5ac35e16",
+                  "name": "Hull vs Everton",
+                  "streams": [
+                    {
+                      "id": "st-8e5ac35e16",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d96bd0dded",
+                          "name": "BLV Gà Rừng 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Gà Rừng 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Hull",
+            "team_b": "Everton",
+            "logo_a": "https://apiv3.apifootball.com/badges/3119_hull-city.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3073_everton.jpg",
+            "time": "20:00",
+            "date": "11/10",
+            "blv": "BLV Gà Rừng",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36996_e77bf2ee_20261010.png?v=e77bf2ee",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-9407be1bd4",
+          "name": "FC Koln vs B. Monchengladbach | 20:30 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9407be1bd4",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-9407be1bd4",
+                  "name": "FC Koln vs B. Monchengladbach",
+                  "streams": [
+                    {
+                      "id": "st-9407be1bd4",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-698a969677",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub11/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-a9b9df5670",
+                          "name": "BLV Xôi Gấc 3",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "FC Koln",
+            "team_b": "B. Monchengladbach",
+            "logo_a": "https://apiv3.apifootball.com/badges/3932_koln.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/77_borussia-mgladbach.jpg",
+            "time": "20:30",
+            "date": "11/10",
+            "blv": "BLV Xôi Gấc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/37180_500b8830_20261010.png?v=500b8830",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-ccc5dd5279",
           "name": "Real Sociedad vs Dep. A Coruna | 21:15 11/10",
           "type": "single",
@@ -1452,10 +3196,27 @@
                       "stream_links": [
                         {
                           "id": "lnk-f22a137722",
-                          "name": "BLV Tam Mao",
+                          "name": "BLV Tam Mao 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Tam Mao 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1494,6 +3255,207 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/37291_9569d590_20261010.png?v=9569d590",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-8236746330",
+          "name": "Liverpool vs Manchester City | 22:30 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8236746330",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-8236746330",
+                  "name": "Liverpool vs Manchester City",
+                  "streams": [
+                    {
+                      "id": "st-8236746330",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4ead39db03",
+                          "name": "BLV Xôi Gà 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub2/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Xôi Gà 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Liverpool",
+            "team_b": "Manchester City",
+            "logo_a": "https://apiv3.apifootball.com/badges/84_liverpool.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
+            "time": "22:30",
+            "date": "11/10",
+            "blv": "BLV Xôi Gà, BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/37418_ab9869c6_20261010.png?v=ab9869c6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-994a4ef065",
+          "name": "Sassuolo vs AC Milan | 23:00 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-994a4ef065",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-994a4ef065",
+                  "name": "Sassuolo vs AC Milan",
+                  "streams": [
+                    {
+                      "id": "st-994a4ef065",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c4e6a4ba43",
+                          "name": "BLV Khô Chè 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Khô Chè 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Sassuolo",
+            "team_b": "AC Milan",
+            "logo_a": "https://apiv3.apifootball.com/badges/4975_sassuolo.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/159_milan.jpg",
+            "time": "23:00",
+            "date": "11/10",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/37457_762435d3_20261010.png?v=762435d3",
             "width": 1600,
             "height": 1200
           }
@@ -1552,11 +3514,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-9fd6836274",
+                          "id": "lnk-4db4eeb939",
                           "name": "BLV Xôi Bắp 2",
-                          "type": "httpflv",
+                          "type": "hls",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub6.flv",
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1569,11 +3531,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-b3e89c2b5b",
-                          "name": "Server",
-                          "type": "hls",
+                          "id": "lnk-2e6fe61c9c",
+                          "name": "BLV Xôi Bắp 3",
+                          "type": "httpflv",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub12/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub6.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1600,7 +3562,7 @@
             "logo_b": "https://xoiche.live/media/teams/logos/wolfdogs-nagoya-vb.png",
             "time": "15:30",
             "date": "10/10",
-            "blv": "BLV Xôi Bắp, Server",
+            "blv": "BLV Xôi Bắp",
             "is_live": false,
             "cate_type": "volleyball",
             "status": "scheduled",
@@ -1661,8 +3623,25 @@
                           ]
                         },
                         {
-                          "id": "lnk-58a006abe0",
+                          "id": "lnk-4db4eeb939",
                           "name": "BLV Tày 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f144c43884",
+                          "name": "BLV Tày 3",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub10.flv",
@@ -1693,23 +3672,6 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-9f449fe69c",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub6/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -1726,7 +3688,7 @@
             "logo_b": "https://xoiche.live/media/teams/logos/queenseis-kariya-vb.png",
             "time": "16:05",
             "date": "10/10",
-            "blv": "BLV Tày, BLV Xôi Bắp, Server",
+            "blv": "BLV Tày, BLV Xôi Bắp",
             "is_live": false,
             "cate_type": "volleyball",
             "status": "scheduled",
@@ -1787,8 +3749,25 @@
                           ]
                         },
                         {
-                          "id": "lnk-8bcf71e3b1",
+                          "id": "lnk-4db4eeb939",
                           "name": "BLV Khô Bò 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-800e867b4f",
+                          "name": "BLV Khô Bò 3",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub12.flv",
@@ -1863,10 +3842,27 @@
                       "stream_links": [
                         {
                           "id": "lnk-4ead39db03",
-                          "name": "BLV Xôi Gà",
+                          "name": "BLV Xôi Gà 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub2/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Xôi Gà 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1988,8 +3984,25 @@
                           ]
                         },
                         {
-                          "id": "lnk-58a006abe0",
+                          "id": "lnk-4db4eeb939",
                           "name": "BLV Tày 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f144c43884",
+                          "name": "BLV Tày 3",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub10.flv",
@@ -2020,23 +4033,6 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-9f449fe69c",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub6/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -2053,7 +4049,7 @@
             "logo_b": "https://xoiche.live/media/teams/logos/nilufer-belediyespor-eker-vb.png",
             "time": "17:00",
             "date": "11/10",
-            "blv": "BLV Tày, BLV Xôi Bắp, Server",
+            "blv": "BLV Tày, BLV Xôi Bắp",
             "is_live": false,
             "cate_type": "volleyball",
             "status": "scheduled",
@@ -2114,8 +4110,25 @@
                           ]
                         },
                         {
-                          "id": "lnk-8bcf71e3b1",
+                          "id": "lnk-4db4eeb939",
                           "name": "BLV Khô Bò 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-800e867b4f",
+                          "name": "BLV Khô Bò 3",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub12.flv",
@@ -2206,8 +4219,25 @@
                           ]
                         },
                         {
-                          "id": "lnk-9fd6836274",
+                          "id": "lnk-4db4eeb939",
                           "name": "BLV Xôi Bắp 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-2e6fe61c9c",
+                          "name": "BLV Xôi Bắp 3",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub6.flv",
@@ -2238,23 +4268,6 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-873eea3f40",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub10/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -2271,7 +4284,7 @@
             "logo_b": "https://xoiche.live/media/teams/logos/images_RHi333C.jpg",
             "time": "20:00",
             "date": "11/10",
-            "blv": "BLV Xôi Bắp, BLV Tày, Server",
+            "blv": "BLV Xôi Bắp, BLV Tày",
             "is_live": false,
             "cate_type": "volleyball",
             "status": "scheduled",
@@ -2332,8 +4345,25 @@
                           ]
                         },
                         {
-                          "id": "lnk-58a006abe0",
+                          "id": "lnk-4db4eeb939",
                           "name": "BLV Tày 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f144c43884",
+                          "name": "BLV Tày 3",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub10.flv",
@@ -2441,8 +4471,25 @@
                           ]
                         },
                         {
-                          "id": "lnk-9fd6836274",
+                          "id": "lnk-4db4eeb939",
                           "name": "BLV Xôi Bắp 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-2e6fe61c9c",
+                          "name": "BLV Xôi Bắp 3",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub6.flv",
@@ -2473,23 +4520,6 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-b3e89c2b5b",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub12/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -2506,7 +4536,7 @@
             "logo_b": "https://xoiche.live/media/teams/logos/choruslife-volley-bergamo-vb.png",
             "time": "23:00",
             "date": "11/10",
-            "blv": "BLV Xôi Bắp, BLV Khô Bò, Server",
+            "blv": "BLV Xôi Bắp, BLV Khô Bò",
             "is_live": false,
             "cate_type": "volleyball",
             "status": "scheduled",
