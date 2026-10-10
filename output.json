@@ -74,7 +74,7 @@
             "blv": "BLV Gà Rừng",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 2,
             "away_score": 1
           },
@@ -400,6 +400,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/35285_dbb0ef34_20261010.png?v=dbb0ef34",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-ce1542ca94",
+          "name": "Rayo Vallecano vs Ath Bilbao | 19:00 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ce1542ca94",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-ce1542ca94",
+                  "name": "Rayo Vallecano vs Ath Bilbao",
+                  "streams": [
+                    {
+                      "id": "st-ce1542ca94",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b3e89c2b5b",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub12/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Rayo Vallecano",
+            "team_b": "Ath Bilbao",
+            "logo_a": "https://apiv3.apifootball.com/badges/7264_rayo-vallecano.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7258_athletic-club.jpg",
+            "time": "19:00",
+            "date": "10/10",
+            "blv": "BLV Khô Bò",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/35395_3e6261e1_20261010.png?v=3e6261e1",
             "width": 1600,
             "height": 1200
           }
@@ -1102,6 +1194,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36418_3d164708_20261010.png?v=3d164708",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-2006a1ab49",
+          "name": "Inter Miami vs DC United | 06:30 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2006a1ab49",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-2006a1ab49",
+                  "name": "Inter Miami vs DC United",
+                  "streams": [
+                    {
+                      "id": "st-2006a1ab49",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d96bd0dded",
+                          "name": "BLV Gà Rừng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLS",
+            "team_a": "Inter Miami",
+            "team_b": "DC United",
+            "logo_a": "https://apiv3.apifootball.com/badges/7953_inter-miami.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/293_dc-united.jpg",
+            "time": "06:30",
+            "date": "11/10",
+            "blv": "BLV Gà Rừng",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36512_743cb072_20261010.png?v=743cb072",
             "width": 1600,
             "height": 1200
           }
