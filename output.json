@@ -2791,6 +2791,224 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-aacdba4f27",
+          "name": "Oviedo vs Eibar | 23:30 12/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aacdba4f27",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-aacdba4f27",
+                  "name": "Oviedo vs Eibar",
+                  "streams": [
+                    {
+                      "id": "st-aacdba4f27",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b3e89c2b5b",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub12/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Khô Bò 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-800e867b4f",
+                          "name": "BLV Khô Bò 3",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Segunda División",
+            "team_a": "Oviedo",
+            "team_b": "Eibar",
+            "logo_a": "https://apiv3.apifootball.com/badges/7282_real-oviedo.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7278_eibar.jpg",
+            "time": "23:30",
+            "date": "12/10",
+            "blv": "BLV Khô Bò",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/37747_c674e9d1_20261011.png?v=c674e9d1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-23bc3ae5e0",
+          "name": "Atalanta vs Venezia | 23:30 12/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-23bc3ae5e0",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-23bc3ae5e0",
+                  "name": "Atalanta vs Venezia",
+                  "streams": [
+                    {
+                      "id": "st-23bc3ae5e0",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-698a969677",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub11/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-a9b9df5670",
+                          "name": "BLV Xôi Gấc 3",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Atalanta",
+            "team_b": "Venezia",
+            "logo_a": "https://apiv3.apifootball.com/badges/85_atalanta.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5007_venezia.jpg",
+            "time": "23:30",
+            "date": "12/10",
+            "blv": "BLV Xôi Gấc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/37748_ea6b6328_20261011.png?v=ea6b6328",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
