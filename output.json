@@ -202,7 +202,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 1,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
@@ -2939,137 +2939,11 @@
     },
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-98b2a70939",
-          "name": "Göztepe Yuppo vs VakıfBank | 20:00 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-98b2a70939",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-98b2a70939",
-                  "name": "Göztepe Yuppo vs VakıfBank",
-                  "streams": [
-                    {
-                      "id": "st-98b2a70939",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9f449fe69c",
-                          "name": "BLV Xôi Bắp 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub6/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d7fe2804d9",
-                          "name": "BLV Xôi Bắp 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche2.live/live/backup/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-2e6fe61c9c",
-                          "name": "BLV Xôi Bắp 3",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub6.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c5c6cf2509",
-                          "name": "BLV Tày",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub10.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sultanlar Ligi Nữ",
-            "team_a": "Göztepe Yuppo",
-            "team_b": "VakıfBank",
-            "logo_a": "https://xoiche2.live/media/teams/logos/goztepe-yuppo-vb.png",
-            "logo_b": "https://xoiche2.live/media/teams/logos/images_RHi333C.jpg",
-            "time": "20:00",
-            "date": "11/10",
-            "blv": "BLV Xôi Bắp, BLV Tày",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38597_9f6f9a77_20261011.png?v=9f6f9a77",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-ef58f7ffe0",
           "name": "CBF Balducci HR Macerata vs Numia Vero Volley Milano | 21:00 11/10",
