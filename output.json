@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -231,98 +231,6 @@
           }
         },
         {
-          "id": "xc-853d6d4dc6",
-          "name": "Troyes vs Marseille | 01:45 12/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-853d6d4dc6",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-853d6d4dc6",
-                  "name": "Troyes vs Marseille",
-                  "streams": [
-                    {
-                      "id": "st-853d6d4dc6",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c4e6a4ba43",
-                          "name": "BLV Khô Chè 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4db4eeb939",
-                          "name": "BLV Khô Chè 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Troyes",
-            "team_b": "Marseille",
-            "logo_a": "https://apiv3.apifootball.com/badges/3792_troyes.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/83_olympique-marseille.jpg",
-            "time": "01:45",
-            "date": "12/10",
-            "blv": "BLV Khô Chè",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/37556_cd90c38a_20261012.png?v=cd90c38a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-78641fbbed",
           "name": "Cagliari vs Juventus | 01:45 12/10",
           "type": "single",
@@ -330,10 +238,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -399,9 +307,9 @@
             "time": "01:45",
             "date": "12/10",
             "blv": "BLV Tam Mao",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -410,6 +318,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/37555_c2c85322_20261012.png?v=c2c85322",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-853d6d4dc6",
+          "name": "Troyes vs Marseille | 01:45 12/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-853d6d4dc6",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-853d6d4dc6",
+                  "name": "Troyes vs Marseille",
+                  "streams": [
+                    {
+                      "id": "st-853d6d4dc6",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c4e6a4ba43",
+                          "name": "BLV Khô Chè 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Khô Chè 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Troyes",
+            "team_b": "Marseille",
+            "logo_a": "https://apiv3.apifootball.com/badges/3792_troyes.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/83_olympique-marseille.jpg",
+            "time": "01:45",
+            "date": "12/10",
+            "blv": "BLV Khô Chè",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/37556_cd90c38a_20261012.png?v=cd90c38a",
             "width": 1600,
             "height": 1200
           }
@@ -2342,8 +2342,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-620d7bfbd5",
-          "name": "Igor Gorgonzola Novara vs ChorusLife Volley Bergamo | 23:00 11/10",
+          "id": "xc-1767cd08de",
+          "name": "Beşiktaş vs Fenerbahçe Medicana | 23:00 11/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2357,23 +2357,23 @@
           ],
           "sources": [
             {
-              "id": "src-620d7bfbd5",
+              "id": "src-1767cd08de",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-620d7bfbd5",
-                  "name": "Igor Gorgonzola Novara vs ChorusLife Volley Bergamo",
+                  "id": "ct-1767cd08de",
+                  "name": "Beşiktaş vs Fenerbahçe Medicana",
                   "streams": [
                     {
-                      "id": "st-620d7bfbd5",
+                      "id": "st-1767cd08de",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-9f449fe69c",
-                          "name": "BLV Xôi Bắp 1",
+                          "id": "lnk-b3e89c2b5b",
+                          "name": "BLV Khô Bò 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub6/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub12/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2387,7 +2387,7 @@
                         },
                         {
                           "id": "lnk-4db4eeb939",
-                          "name": "BLV Xôi Bắp 2",
+                          "name": "BLV Khô Bò 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://xoiche.live/live/backup/index.m3u8",
@@ -2403,11 +2403,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-2e6fe61c9c",
-                          "name": "BLV Xôi Bắp 3",
+                          "id": "lnk-800e867b4f",
+                          "name": "BLV Khô Bò 3",
                           "type": "httpflv",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub6.flv",
+                          "url": "https://live.khoga.space/live/livehub12.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2420,11 +2420,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-65081a3bc8",
-                          "name": "BLV Khô Bò",
-                          "type": "httpflv",
+                          "id": "lnk-4ead39db03",
+                          "name": "Server",
+                          "type": "hls",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "url": "https://live.khoga.space/live/livehub2/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2444,14 +2444,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Serie A1 Ý / W",
-            "team_a": "Igor Gorgonzola Novara",
-            "team_b": "ChorusLife Volley Bergamo",
-            "logo_a": "https://xoiche.live/media/teams/logos/igor-gorgonzola-novara-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/choruslife-volley-bergamo-vb.png",
+            "league": "Sultanlar Ligi Nữ",
+            "team_a": "Beşiktaş",
+            "team_b": "Fenerbahçe Medicana",
+            "logo_a": "https://xoiche.live/media/teams/logos/besiktas-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/fenerbahce-medicana-vb.png",
             "time": "23:00",
             "date": "11/10",
-            "blv": "BLV Xôi Bắp, BLV Khô Bò",
+            "blv": "BLV Khô Bò, Server",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -2462,7 +2462,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38599_2ae56ea0_20261012.png?v=2ae56ea0",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38600_9e5cd8af_20261012.png?v=9e5cd8af",
             "width": 1600,
             "height": 1200
           }
