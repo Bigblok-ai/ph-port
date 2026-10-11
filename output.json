@@ -7,212 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-153f1e0bb4",
-          "name": "Crystal Palace vs Nottingham | 20:00 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-153f1e0bb4",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-153f1e0bb4",
-                  "name": "Crystal Palace vs Nottingham",
-                  "streams": [
-                    {
-                      "id": "st-153f1e0bb4",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c210608a27",
-                          "name": "BLV Khô Cay 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d7fe2804d9",
-                          "name": "BLV Khô Cay 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche2.live/live/backup/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Crystal Palace",
-            "team_b": "Nottingham",
-            "logo_a": "https://apiv3.apifootball.com/badges/3429_crystal-palace.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3089_nottingham-forest.jpg",
-            "time": "20:00",
-            "date": "11/10",
-            "blv": "BLV Khô Cay",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 3,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36995_a2d1e89a_20261011.png?v=a2d1e89a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-8e5ac35e16",
-          "name": "Hull vs Everton | 20:00 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8e5ac35e16",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-8e5ac35e16",
-                  "name": "Hull vs Everton",
-                  "streams": [
-                    {
-                      "id": "st-8e5ac35e16",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c1c41ef192",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub13/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d96bd0dded",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Hull",
-            "team_b": "Everton",
-            "logo_a": "https://apiv3.apifootball.com/badges/3119_hull-city.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3073_everton.jpg",
-            "time": "20:00",
-            "date": "11/10",
-            "blv": "BLV Khô Mật, Server",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36996_e77bf2ee_20261011.png?v=e77bf2ee",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-9407be1bd4",
           "name": "FC Koln vs B. Monchengladbach | 20:30 11/10",
@@ -442,11 +241,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-4ead39db03",
-                          "name": "BLV Xôi Gà 1",
+                          "id": "lnk-afc0aa1332",
+                          "name": "BLV Xôi Xoài 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub2/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -460,7 +259,7 @@
                         },
                         {
                           "id": "lnk-d7fe2804d9",
-                          "name": "BLV Xôi Gà 2",
+                          "name": "BLV Xôi Xoài 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://xoiche2.live/live/backup/index.m3u8",
@@ -476,11 +275,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-afc0aa1332",
-                          "name": "BLV Xôi Xoài",
+                          "id": "lnk-4ead39db03",
+                          "name": "BLV Xôi Gà",
                           "type": "hls",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub2/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -507,7 +306,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
             "time": "22:30",
             "date": "11/10",
-            "blv": "BLV Xôi Gà, BLV Xôi Xoài",
+            "blv": "BLV Xôi Xoài, BLV Xôi Gà",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
