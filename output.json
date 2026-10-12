@@ -2210,7 +2210,7 @@
     },
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2223,10 +2223,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2243,11 +2243,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-873eea3f40",
-                          "name": "BLV Tày 1",
+                          "id": "lnk-4ead39db03",
+                          "name": "BLV Xôi Gà",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub10/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub2/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2260,8 +2260,8 @@
                           ]
                         },
                         {
-                          "id": "lnk-d7fe2804d9",
-                          "name": "BLV Tày 2",
+                          "id": "lnk-39c24460c3",
+                          "name": "BLV Xôi Bắp 1",
                           "type": "hls",
                           "default": false,
                           "url": "https://xoiche2.live/live/backup/index.m3u8",
@@ -2277,11 +2277,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-f144c43884",
-                          "name": "BLV Tày 3",
+                          "id": "lnk-9fd6836274",
+                          "name": "BLV Xôi Bắp 2",
                           "type": "httpflv",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub10.flv",
+                          "url": "https://live.khoga.space/live/livehub6.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2294,11 +2294,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-4ead39db03",
-                          "name": "BLV Xôi Gà",
+                          "id": "lnk-873eea3f40",
+                          "name": "Server",
                           "type": "hls",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub2/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub10/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2325,10 +2325,10 @@
             "logo_b": "https://xoiche2.live/media/teams/logos/korea-expressway-hi-pass-vb.png",
             "time": "17:00",
             "date": "12/10",
-            "blv": "BLV Tày, BLV Xôi Gà",
-            "is_live": false,
+            "blv": "BLV Xôi Gà, BLV Xôi Bắp, Server",
+            "is_live": true,
             "cate_type": "volleyball",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
