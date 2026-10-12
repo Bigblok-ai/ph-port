@@ -1,13 +1,13 @@
 {
   "id": "xoiche",
-  "url": "https://xoiche.live",
+  "url": "https://xoiche2.live",
   "name": "Xôi Chè TV",
   "color": "#00a86b",
   "grid_number": 3,
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -48,7 +48,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -57,15 +57,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-4db4eeb939",
+                          "id": "lnk-d7fe2804d9",
                           "name": "BLV Tày 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -82,7 +82,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -157,7 +157,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -174,7 +174,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -201,123 +201,14 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
-            "away_score": 2
+            "home_score": 2,
+            "away_score": 3
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39108_6d67582d_20261013.png?v=6d67582d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-d14f11f89a",
-          "name": "Coventry vs Newcastle | 02:00 13/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d14f11f89a",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-d14f11f89a",
-                  "name": "Coventry vs Newcastle",
-                  "streams": [
-                    {
-                      "id": "st-d14f11f89a",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-698a969677",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub11/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4db4eeb939",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-a9b9df5670",
-                          "name": "BLV Xôi Gấc 3",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Coventry",
-            "team_b": "Newcastle",
-            "logo_a": "https://apiv3.apifootball.com/badges/3094_coventry-city.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3100_newcastle-united.jpg",
-            "time": "02:00",
-            "date": "13/10",
-            "blv": "BLV Xôi Gấc",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 4,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39110_30e825f4_20261013.png?v=30e825f4",
             "width": 1600,
             "height": 1200
           }
@@ -358,7 +249,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -375,7 +266,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -392,7 +283,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -467,7 +358,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -476,15 +367,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-4db4eeb939",
+                          "id": "lnk-d7fe2804d9",
                           "name": "BLV Tam Mao 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -559,7 +450,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -576,7 +467,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -593,7 +484,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -668,7 +559,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -677,15 +568,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-4db4eeb939",
+                          "id": "lnk-d7fe2804d9",
                           "name": "BLV Khô Cay 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -760,7 +651,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -769,15 +660,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-4db4eeb939",
+                          "id": "lnk-d7fe2804d9",
                           "name": "BLV Khô Bò 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -794,7 +685,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -869,7 +760,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -878,15 +769,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-4db4eeb939",
+                          "id": "lnk-d7fe2804d9",
                           "name": "BLV Tam Mao 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -961,7 +852,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -970,15 +861,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-4db4eeb939",
+                          "id": "lnk-d7fe2804d9",
                           "name": "BLV Khô Chè 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1053,7 +944,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1070,7 +961,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1087,7 +978,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1162,7 +1053,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1171,15 +1062,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-4db4eeb939",
+                          "id": "lnk-d7fe2804d9",
                           "name": "BLV Xôi Gấc 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1196,7 +1087,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1271,7 +1162,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1280,15 +1171,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-4db4eeb939",
+                          "id": "lnk-d7fe2804d9",
                           "name": "BLV Tày 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1305,7 +1196,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1380,7 +1271,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1389,15 +1280,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-4db4eeb939",
+                          "id": "lnk-d7fe2804d9",
                           "name": "BLV Xôi Xoài 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1472,7 +1363,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1489,7 +1380,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1564,7 +1455,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1639,7 +1530,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1714,7 +1605,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1798,7 +1689,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1815,7 +1706,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1832,7 +1723,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1841,15 +1732,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-9f1ad19924",
+                          "id": "lnk-39c24460c3",
                           "name": "BLV Xôi Bắp",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1868,8 +1759,8 @@
             "league": "KOVO Cup Hàn Quốc / W",
             "team_a": "Heungkuk Life Pink Spiders",
             "team_b": "IBK Altos",
-            "logo_a": "https://xoiche.live/media/teams/logos/heungkuk-life-pink-spiders-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/ibk-altos-vb.png",
+            "logo_a": "https://xoiche2.live/media/teams/logos/heungkuk-life-pink-spiders-vb.png",
+            "logo_b": "https://xoiche2.live/media/teams/logos/ibk-altos-vb.png",
             "time": "17:00",
             "date": "13/10",
             "blv": "BLV Xôi Gà, BLV Tày, BLV Xôi Bắp",
@@ -1883,7 +1774,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38660_fc945e63_20261013.png?v=fc945e63",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38660_a42e5b93_20261013.png?v=a42e5b93",
             "width": 1600,
             "height": 1200
           }
