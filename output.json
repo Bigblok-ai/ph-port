@@ -334,27 +334,10 @@
                       "stream_links": [
                         {
                           "id": "lnk-c210608a27",
-                          "name": "BLV Khô Cay 1",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub9/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d7fe2804d9",
-                          "name": "BLV Khô Cay 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -381,7 +364,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/3541_gnistan.jpg",
             "time": "22:00",
             "date": "12/10",
-            "blv": "BLV Khô Cay",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
@@ -2595,7 +2578,7 @@
     },
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2608,10 +2591,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2677,9 +2660,9 @@
             "time": "22:30",
             "date": "12/10",
             "blv": "BLV Xôi Bắp",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "volleyball",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
