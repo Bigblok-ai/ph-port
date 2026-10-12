@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -214,81 +214,6 @@
           }
         },
         {
-          "id": "xc-445fa0405d",
-          "name": "Al Quwa Al Jawiya vs Al Ain | 01:15 13/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-445fa0405d",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-445fa0405d",
-                  "name": "Al Quwa Al Jawiya vs Al Ain",
-                  "streams": [
-                    {
-                      "id": "st-445fa0405d",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-afc0aa1332",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Elite",
-            "team_a": "Al Quwa Al Jawiya",
-            "team_b": "Al Ain",
-            "logo_a": "https://apiv3.apifootball.com/badges/9726_al-quwa-al-jawiya.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/374_al-ain.jpg",
-            "time": "01:15",
-            "date": "13/10",
-            "blv": "Server",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 4
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39093_3445e27a_20261013.png?v=3445e27a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-eea4b36884",
           "name": "Torino vs Udinese | 01:45 13/10",
           "type": "single",
@@ -351,7 +276,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 1
           },
           "image": {
