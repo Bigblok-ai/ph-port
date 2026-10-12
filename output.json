@@ -201,8 +201,8 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
-            "away_score": 0
+            "home_score": 2,
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -364,98 +364,6 @@
           }
         },
         {
-          "id": "xc-3ee7da2b11",
-          "name": "Levante vs Sevilla | 02:00 13/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3ee7da2b11",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-3ee7da2b11",
-                  "name": "Levante vs Sevilla",
-                  "streams": [
-                    {
-                      "id": "st-3ee7da2b11",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-afc0aa1332",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b3e89c2b5b",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub12/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Levante",
-            "team_b": "Sevilla",
-            "logo_a": "https://apiv3.apifootball.com/badges/7259_levante.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/89_sevilla.jpg",
-            "time": "02:00",
-            "date": "13/10",
-            "blv": "BLV Xôi Xoài, Server",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "half_time",
-            "home_score": 0,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39108_6d67582d_20261013.png?v=6d67582d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-d14f11f89a",
           "name": "Coventry vs Newcastle | 02:00 13/10",
           "type": "single",
@@ -551,7 +459,7 @@
             "blv": "BLV Xôi Gấc",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 1,
             "away_score": 0
           },
@@ -560,6 +468,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39110_30e825f4_20261013.png?v=30e825f4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-3ee7da2b11",
+          "name": "Levante vs Sevilla | 02:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3ee7da2b11",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-3ee7da2b11",
+                  "name": "Levante vs Sevilla",
+                  "streams": [
+                    {
+                      "id": "st-3ee7da2b11",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b3e89c2b5b",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Levante",
+            "team_b": "Sevilla",
+            "logo_a": "https://apiv3.apifootball.com/badges/7259_levante.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/89_sevilla.jpg",
+            "time": "02:00",
+            "date": "13/10",
+            "blv": "BLV Xôi Xoài, Server",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "half_time",
+            "home_score": 0,
+            "away_score": 1
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39108_6d67582d_20261013.png?v=6d67582d",
             "width": 1600,
             "height": 1200
           }
