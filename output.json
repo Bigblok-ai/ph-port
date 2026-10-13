@@ -260,7 +260,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 1,
-            "away_score": 1
+            "away_score": 3
           },
           "image": {
             "padding": 1,
@@ -502,7 +502,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 2,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -1068,6 +1068,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39696_40b2115f_20261014.png?v=40b2115f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-ffacbb7db9",
+          "name": "AS Roma vs Real Madrid | 02:00 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ffacbb7db9",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-ffacbb7db9",
+                  "name": "AS Roma vs Real Madrid",
+                  "streams": [
+                    {
+                      "id": "st-ffacbb7db9",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c210608a27",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "AS Roma",
+            "team_b": "Real Madrid",
+            "logo_a": "https://apiv3.apifootball.com/badges/139_roma.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/76_real-madrid.jpg",
+            "time": "02:00",
+            "date": "15/10",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39992_b872367b_20261014.png?v=b872367b",
             "width": 1600,
             "height": 1200
           }
