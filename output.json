@@ -74,8 +74,8 @@
             "blv": "BLV Khô Chè",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
-            "home_score": 1,
+            "status": "live",
+            "home_score": 2,
             "away_score": 1
           },
           "image": {
@@ -149,9 +149,9 @@
             "blv": "BLV Xôi Xoài",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 0,
-            "away_score": 3
+            "away_score": 4
           },
           "image": {
             "padding": 1,
