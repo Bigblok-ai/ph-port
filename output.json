@@ -1,6 +1,6 @@
 {
   "id": "xoiche",
-  "url": "https://xoiche2.live",
+  "url": "https://xoiche.live",
   "name": "Xôi Chè TV",
   "color": "#00a86b",
   "grid_number": 3,
@@ -48,7 +48,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -74,7 +74,7 @@
             "blv": "BLV Khô Cay",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 1,
             "away_score": 1
           },
@@ -83,6 +83,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39992_b872367b_20261015.png?v=b872367b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-a463cac232",
+          "name": "Aston Villa vs Fenerbahce | 02:00 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a463cac232",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-a463cac232",
+                  "name": "Aston Villa vs Fenerbahce",
+                  "streams": [
+                    {
+                      "id": "st-a463cac232",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Aston Villa",
+            "team_b": "Fenerbahce",
+            "logo_a": "https://apiv3.apifootball.com/badges/3088_aston-villa.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7694_fenerbahce.jpg",
+            "time": "02:00",
+            "date": "15/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 3,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39993_0208a28d_20261015.png?v=0208a28d",
             "width": 1600,
             "height": 1200
           }
@@ -123,7 +198,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -158,6 +233,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39994_f72b0e6b_20261015.png?v=f72b0e6b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-3724f1b309",
+          "name": "Bodo/Glimt vs Dortmund | 02:00 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3724f1b309",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-3724f1b309",
+                  "name": "Bodo/Glimt vs Dortmund",
+                  "streams": [
+                    {
+                      "id": "st-3724f1b309",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-698a969677",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub11/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Bodo/Glimt",
+            "team_b": "Dortmund",
+            "logo_a": "https://apiv3.apifootball.com/badges/215_bod--glimt.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/92_borussia-dortmund.jpg",
+            "time": "02:00",
+            "date": "15/10",
+            "blv": "BLV Xôi Gấc",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39995_3d1619c5_20261015.png?v=3d1619c5",
             "width": 1600,
             "height": 1200
           }
@@ -198,7 +365,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -215,7 +382,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -290,7 +457,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -307,7 +474,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -333,7 +500,7 @@
             "blv": "BLV Khô Bò",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 1,
             "away_score": 1
           },
@@ -382,7 +549,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -408,7 +575,7 @@
             "blv": "BLV Khô Chè",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 0,
             "away_score": 1
           },
@@ -417,173 +584,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39998_ecde9559_20261015.png?v=ecde9559",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-a463cac232",
-          "name": "Aston Villa vs Fenerbahce | 02:00 15/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a463cac232",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-a463cac232",
-                  "name": "Aston Villa vs Fenerbahce",
-                  "streams": [
-                    {
-                      "id": "st-a463cac232",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-afc0aa1332",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Aston Villa",
-            "team_b": "Fenerbahce",
-            "logo_a": "https://apiv3.apifootball.com/badges/3088_aston-villa.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/7694_fenerbahce.jpg",
-            "time": "02:00",
-            "date": "15/10",
-            "blv": "BLV Xôi Xoài",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "half_time",
-            "home_score": 3,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39993_0208a28d_20261015.png?v=0208a28d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-3724f1b309",
-          "name": "Bodo/Glimt vs Dortmund | 02:00 15/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3724f1b309",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-3724f1b309",
-                  "name": "Bodo/Glimt vs Dortmund",
-                  "streams": [
-                    {
-                      "id": "st-3724f1b309",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-698a969677",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub11/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Bodo/Glimt",
-            "team_b": "Dortmund",
-            "logo_a": "https://apiv3.apifootball.com/badges/215_bod--glimt.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/92_borussia-dortmund.jpg",
-            "time": "02:00",
-            "date": "15/10",
-            "blv": "BLV Xôi Gấc",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "half_time",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39995_3d1619c5_20261015.png?v=3d1619c5",
             "width": 1600,
             "height": 1200
           }
@@ -624,7 +624,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -641,7 +641,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -676,6 +676,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/40037_da7bbdd8_20261015.png?v=da7bbdd8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-2c563887fb",
+          "name": "Fluminense vs Palmeiras | 07:30 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2c563887fb",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-2c563887fb",
+                  "name": "Fluminense vs Palmeiras",
+                  "streams": [
+                    {
+                      "id": "st-2c563887fb",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c210608a27",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Libertadores",
+            "team_a": "Fluminense",
+            "team_b": "Palmeiras",
+            "logo_a": "https://apiv3.apifootball.com/badges/1879_fluminense.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/546_palmeiras.jpg",
+            "time": "07:30",
+            "date": "15/10",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/40048_96734c8a_20261015.png?v=96734c8a",
             "width": 1600,
             "height": 1200
           }
@@ -716,7 +791,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -733,7 +808,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -808,7 +883,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -825,7 +900,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -900,7 +975,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -975,7 +1050,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -992,7 +1067,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1067,7 +1142,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1142,7 +1217,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1217,7 +1292,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1234,7 +1309,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1309,7 +1384,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1326,7 +1401,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1401,7 +1476,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1485,7 +1560,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1502,7 +1577,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1521,8 +1596,8 @@
             "league": "Serie A1 Ý / W",
             "team_a": "CBF Balducci HR Macerata",
             "team_b": "Savino Del Bene Scandicci",
-            "logo_a": "https://xoiche2.live/media/teams/logos/cbf-balducci-hr-macerata-vb.png",
-            "logo_b": "https://xoiche2.live/media/teams/logos/savino-del-bene-scandicci-vb.png",
+            "logo_a": "https://xoiche.live/media/teams/logos/cbf-balducci-hr-macerata-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/savino-del-bene-scandicci-vb.png",
             "time": "01:00",
             "date": "15/10",
             "blv": "BLV Xôi Bắp",
@@ -1536,7 +1611,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38670_14d110bc_20261015.png?v=14d110bc",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38670_e9372f50_20261015.png?v=e9372f50",
             "width": 1600,
             "height": 1200
           }
@@ -1577,7 +1652,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1594,7 +1669,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1613,8 +1688,8 @@
             "league": "KOVO Cup Hàn Quốc / W",
             "team_a": "IBK Altos",
             "team_b": "Jung Kwan Jang Red Sparks",
-            "logo_a": "https://xoiche2.live/media/teams/logos/ibk-altos-vb.png",
-            "logo_b": "https://xoiche2.live/media/teams/logos/jung-kwan-jang-red-sparks-vb.png",
+            "logo_a": "https://xoiche.live/media/teams/logos/ibk-altos-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/jung-kwan-jang-red-sparks-vb.png",
             "time": "17:00",
             "date": "15/10",
             "blv": "BLV Xôi Bắp",
@@ -1628,7 +1703,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38673_a1625bba_20261015.png?v=a1625bba",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38673_a4d11f41_20261015.png?v=a4d11f41",
             "width": 1600,
             "height": 1200
           }
