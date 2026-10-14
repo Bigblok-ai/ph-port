@@ -241,7 +241,7 @@
             "blv": "BLV Tày",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 0,
             "away_score": 3
           },
@@ -1444,7 +1444,7 @@
     },
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1537,81 +1537,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38670_14d110bc_20261015.png?v=14d110bc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-9bd81dc888",
-          "name": "Reale Mutua Fenera Chieri ’76 vs Imoco Conegliano | 01:30 15/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9bd81dc888",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-9bd81dc888",
-                  "name": "Reale Mutua Fenera Chieri ’76 vs Imoco Conegliano",
-                  "streams": [
-                    {
-                      "id": "st-9bd81dc888",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4ead39db03",
-                          "name": "BLV Xôi Gà",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub2/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A1 Ý / W",
-            "team_a": "Reale Mutua Fenera Chieri ’76",
-            "team_b": "Imoco Conegliano",
-            "logo_a": "https://xoiche2.live/media/teams/logos/reale-mutua-fenera-chieri-76-vb.png",
-            "logo_b": "https://xoiche2.live/media/teams/logos/imoco-conegliano-vb.png",
-            "time": "01:30",
-            "date": "15/10",
-            "blv": "BLV Xôi Gà",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38671_52f4d128_20261015.png?v=52f4d128",
             "width": 1600,
             "height": 1200
           }
