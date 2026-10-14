@@ -1692,8 +1692,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-2a01266322",
-          "name": "İlbank vs Eczacıbaşı Peron İstanbul | 23:00 14/10",
+          "id": "xc-b72e2fb16e",
+          "name": "VakıfBank vs Zeren Spor | 23:00 14/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1707,56 +1707,22 @@
           ],
           "sources": [
             {
-              "id": "src-2a01266322",
+              "id": "src-b72e2fb16e",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-2a01266322",
-                  "name": "İlbank vs Eczacıbaşı Peron İstanbul",
+                  "id": "ct-b72e2fb16e",
+                  "name": "VakıfBank vs Zeren Spor",
                   "streams": [
                     {
-                      "id": "st-2a01266322",
+                      "id": "st-b72e2fb16e",
                       "name": "XoiChe TV",
                       "stream_links": [
-                        {
-                          "id": "lnk-9f449fe69c",
-                          "name": "BLV Xôi Bắp 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub6/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9fd6836274",
-                          "name": "BLV Xôi Bắp 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub6.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
                         {
                           "id": "lnk-b3e89c2b5b",
                           "name": "BLV Khô Bò 1",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://live.khoga.space/live/livehub12/index.m3u8",
                           "request_headers": [
                             {
@@ -1785,6 +1751,40 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
+                        },
+                        {
+                          "id": "lnk-800e867b4f",
+                          "name": "BLV Khô Bò 3",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9f449fe69c",
+                          "name": "BLV Xôi Bắp",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub6/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -1795,13 +1795,13 @@
           ],
           "org_metadata": {
             "league": "Sultanlar Ligi Nữ",
-            "team_a": "İlbank",
-            "team_b": "Eczacıbaşı Peron İstanbul",
-            "logo_a": "https://xoiche.live/media/teams/logos/i-lbank-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/big_1677603180cIuV2.webp",
+            "team_a": "VakıfBank",
+            "team_b": "Zeren Spor",
+            "logo_a": "https://xoiche.live/media/teams/logos/images_RHi333C.jpg",
+            "logo_b": "https://xoiche.live/media/teams/logos/zeren-spor-vb.png",
             "time": "23:00",
             "date": "14/10",
-            "blv": "BLV Xôi Bắp, BLV Khô Bò",
+            "blv": "BLV Khô Bò, BLV Xôi Bắp",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -1812,7 +1812,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38667_3e0d0bd8_20261014.png?v=3e0d0bd8",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38668_769f4f75_20261014.png?v=769f4f75",
             "width": 1600,
             "height": 1200
           }
