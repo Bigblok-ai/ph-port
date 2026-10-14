@@ -1756,6 +1756,81 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-89188e01d3",
+          "name": "Celta Vigo vs Juventus | 02:00 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-89188e01d3",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-89188e01d3",
+                  "name": "Celta Vigo vs Juventus",
+                  "streams": [
+                    {
+                      "id": "st-89188e01d3",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f22a137722",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Celta Vigo",
+            "team_b": "Juventus",
+            "logo_a": "https://apiv3.apifootball.com/badges/7290_celta-de-vigo.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/96_juventus-fc.jpg",
+            "time": "02:00",
+            "date": "16/10",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/40459_fdab99f5_20261014.png?v=fdab99f5",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
