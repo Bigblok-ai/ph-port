@@ -1,13 +1,13 @@
 {
   "id": "xoiche",
-  "url": "https://xoiche2.live",
+  "url": "https://xoiche.live",
   "name": "Xôi Chè TV",
   "color": "#00a86b",
   "grid_number": 3,
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -48,7 +48,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -65,7 +65,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -100,357 +100,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/40451_e65556f7_20261016.png?v=e65556f7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-e9c550b97a",
-          "name": "Bournemouth vs Sturm Graz | 02:00 16/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e9c550b97a",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-e9c550b97a",
-                  "name": "Bournemouth vs Sturm Graz",
-                  "streams": [
-                    {
-                      "id": "st-e9c550b97a",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b3e89c2b5b",
-                          "name": "BLV Khô Bò 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub12/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8bcf71e3b1",
-                          "name": "BLV Khô Bò 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub12.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Bournemouth",
-            "team_b": "Sturm Graz",
-            "logo_a": "https://apiv3.apifootball.com/badges/3071_afc-bournemouth.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/1236_sturm-graz.jpg",
-            "time": "02:00",
-            "date": "16/10",
-            "blv": "BLV Khô Bò",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/40458_837dbfa9_20261016.png?v=837dbfa9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-89188e01d3",
-          "name": "Celta Vigo vs Juventus | 02:00 16/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-89188e01d3",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-89188e01d3",
-                  "name": "Celta Vigo vs Juventus",
-                  "streams": [
-                    {
-                      "id": "st-89188e01d3",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-873eea3f40",
-                          "name": "BLV Tày 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub10/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-58a006abe0",
-                          "name": "BLV Tày 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub10.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Celta Vigo",
-            "team_b": "Juventus",
-            "logo_a": "https://apiv3.apifootball.com/badges/7290_celta-de-vigo.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/96_juventus-fc.jpg",
-            "time": "02:00",
-            "date": "16/10",
-            "blv": "BLV Tày",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/40459_fdab99f5_20261016.png?v=fdab99f5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-b923dbd86d",
-          "name": "Hoffenheim vs Besiktas | 02:00 16/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b923dbd86d",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-b923dbd86d",
-                  "name": "Hoffenheim vs Besiktas",
-                  "streams": [
-                    {
-                      "id": "st-b923dbd86d",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c210608a27",
-                          "name": "BLV Khô Cay 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-61f3cec5ec",
-                          "name": "BLV Khô Cay 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub9.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Hoffenheim",
-            "team_b": "Besiktas",
-            "logo_a": "https://apiv3.apifootball.com/badges/170_hoffenheim.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/187_beikta.jpg",
-            "time": "02:00",
-            "date": "16/10",
-            "blv": "BLV Khô Cay",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 3
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/40462_3ad7bede_20261016.png?v=3ad7bede",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-c6078c876c",
-          "name": "Marseille vs Olympiacos Piraeus | 02:00 16/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c6078c876c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-c6078c876c",
-                  "name": "Marseille vs Olympiacos Piraeus",
-                  "streams": [
-                    {
-                      "id": "st-c6078c876c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c4e6a4ba43",
-                          "name": "BLV Khô Chè",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Marseille",
-            "team_b": "Olympiacos Piraeus",
-            "logo_a": "https://apiv3.apifootball.com/badges/83_olympique-marseille.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/82_olympiakos-piraeus.jpg",
-            "time": "02:00",
-            "date": "16/10",
-            "blv": "BLV Khô Chè",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/40464_8493e339_20261016.png?v=8493e339",
             "width": 1600,
             "height": 1200
           }
@@ -491,7 +140,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -508,7 +157,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -583,7 +232,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -600,7 +249,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -675,7 +324,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -692,7 +341,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -767,7 +416,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -784,7 +433,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -859,7 +508,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -876,7 +525,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -951,7 +600,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1026,7 +675,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1043,7 +692,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1118,7 +767,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1135,7 +784,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1210,7 +859,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1227,7 +876,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1302,7 +951,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1377,7 +1026,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1394,7 +1043,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1469,7 +1118,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1486,7 +1135,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1570,7 +1219,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1587,7 +1236,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1606,8 +1255,8 @@
             "league": "KOVO Cup Hàn Quốc / W",
             "team_a": "Hyundai E&C Hillstate",
             "team_b": "GS Caltex Seoul KIXX",
-            "logo_a": "https://xoiche2.live/media/teams/logos/hyundai-e-c-hillstate-vb.png",
-            "logo_b": "https://xoiche2.live/media/teams/logos/gs-caltex-seoul-kixx-vb.png",
+            "logo_a": "https://xoiche.live/media/teams/logos/hyundai-e-c-hillstate-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/gs-caltex-seoul-kixx-vb.png",
             "time": "17:00",
             "date": "16/10",
             "blv": "BLV Tày",
@@ -1621,7 +1270,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45421_a91f6f3d_20261016.png?v=a91f6f3d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45421_833550a0_20261016.png?v=833550a0",
             "width": 1600,
             "height": 1200
           }
@@ -1662,7 +1311,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1679,7 +1328,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1698,8 +1347,8 @@
             "league": "PlusLiga Ba Lan Nam",
             "team_a": "GKS Katowice",
             "team_b": "Aluron CMC Warta Zawiercie",
-            "logo_a": "https://xoiche2.live/media/teams/logos/gks-katowice-vb.png",
-            "logo_b": "https://xoiche2.live/media/teams/logos/aluron-cmc-warta-zawiercie-vb.png",
+            "logo_a": "https://xoiche.live/media/teams/logos/gks-katowice-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/aluron-cmc-warta-zawiercie-vb.png",
             "time": "22:30",
             "date": "16/10",
             "blv": "BLV Xôi Bắp",
@@ -1713,7 +1362,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38675_1f547514_20261016.png?v=1f547514",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38675_4ee48e3a_20261016.png?v=4ee48e3a",
             "width": 1600,
             "height": 1200
           }
@@ -1754,7 +1403,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1771,7 +1420,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1790,8 +1439,8 @@
             "league": "SV.League Nhật Bản Nam",
             "team_a": "Tokyo Great Bears",
             "team_b": "Hokkaido Yellow Stars",
-            "logo_a": "https://xoiche2.live/media/teams/logos/tokyo-great-bears-vb.png",
-            "logo_b": "https://xoiche2.live/media/teams/logos/hokkaido-yellow-stars-vb.png",
+            "logo_a": "https://xoiche.live/media/teams/logos/tokyo-great-bears-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/hokkaido-yellow-stars-vb.png",
             "time": "12:05",
             "date": "17/10",
             "blv": "BLV Xôi Bắp",
@@ -1805,7 +1454,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38684_d0c67bcd_20261016.png?v=d0c67bcd",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38684_fb76f9b1_20261016.png?v=fb76f9b1",
             "width": 1600,
             "height": 1200
           }
