@@ -882,6 +882,98 @@
           }
         },
         {
+          "id": "xc-e9c550b97a",
+          "name": "Bournemouth vs Sturm Graz | 02:00 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e9c550b97a",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e9c550b97a",
+                  "name": "Bournemouth vs Sturm Graz",
+                  "streams": [
+                    {
+                      "id": "st-e9c550b97a",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b3e89c2b5b",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub12/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Bournemouth",
+            "team_b": "Sturm Graz",
+            "logo_a": "https://apiv3.apifootball.com/badges/3071_afc-bournemouth.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/1236_sturm-graz.jpg",
+            "time": "02:00",
+            "date": "16/10",
+            "blv": "BLV Khô Bò",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/40458_837dbfa9_20261016.png?v=837dbfa9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-89188e01d3",
           "name": "Celta Vigo vs Juventus | 02:00 16/10",
           "type": "single",
