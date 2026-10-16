@@ -1490,6 +1490,190 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-d7686a221f",
+          "name": "Fulham vs Hull | 21:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d7686a221f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-d7686a221f",
+                  "name": "Fulham vs Hull",
+                  "streams": [
+                    {
+                      "id": "st-d7686a221f",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c1c41ef192",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub13/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Fulham",
+            "team_b": "Hull",
+            "logo_a": "https://apiv3.apifootball.com/badges/3085_fulham.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3119_hull-city.jpg",
+            "time": "21:00",
+            "date": "17/10",
+            "blv": "BLV Khô Mật",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/42152_a1e4cfcb_20261016.png?v=a1e4cfcb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-70217dd96d",
+          "name": "Manchester City vs Ipswich | 21:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-70217dd96d",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-70217dd96d",
+                  "name": "Manchester City vs Ipswich",
+                  "streams": [
+                    {
+                      "id": "st-70217dd96d",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "BLV Xôi Xoài 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4ef896631a",
+                          "name": "BLV Xôi Xoài 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub3.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Manchester City",
+            "team_b": "Ipswich",
+            "logo_a": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3121_ipswich-town.jpg",
+            "time": "21:00",
+            "date": "17/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/42153_4c1dfb8b_20261016.png?v=4c1dfb8b",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
