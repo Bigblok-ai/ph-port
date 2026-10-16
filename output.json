@@ -2143,6 +2143,98 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-a60a9cff8f",
+          "name": "Fenerbahçe Medicana vs Ziraat Bankkart | 23:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a60a9cff8f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-a60a9cff8f",
+                  "name": "Fenerbahçe Medicana vs Ziraat Bankkart",
+                  "streams": [
+                    {
+                      "id": "st-a60a9cff8f",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-873eea3f40",
+                          "name": "BLV Tày 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub10/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-58a006abe0",
+                          "name": "BLV Tày 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub10.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Efeler Ligi Thổ Nhĩ Kỳ Nam",
+            "team_a": "Fenerbahçe Medicana",
+            "team_b": "Ziraat Bankkart",
+            "logo_a": "https://xoiche.live/media/teams/logos/fenerbahce-medicana-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/ziraat-bankkart-vb.png",
+            "time": "23:00",
+            "date": "17/10",
+            "blv": "BLV Tày",
+            "is_live": false,
+            "cate_type": "volleyball",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38693_97a7649e_20261016.png?v=97a7649e",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
