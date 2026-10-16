@@ -716,7 +716,7 @@
         },
         {
           "id": "xc-b2f07227df",
-          "name": "Club Tijuana vs Puebla | 10:00 17/10",
+          "name": "Club Tijuana vs Puebla | 10:05 17/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -788,7 +788,7 @@
             "team_b": "Puebla",
             "logo_a": "https://apiv3.apifootball.com/badges/5350_tijuana.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/5349_puebla.jpg",
-            "time": "10:00",
+            "time": "10:05",
             "date": "17/10",
             "blv": "BLV Xôi Gấc",
             "is_live": false,
