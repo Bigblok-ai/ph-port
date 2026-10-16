@@ -7,86 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-7f306704b5",
-          "name": "Eintracht Frankfurt vs FC Koln | 01:30 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7f306704b5",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-7f306704b5",
-                  "name": "Eintracht Frankfurt vs FC Koln",
-                  "streams": [
-                    {
-                      "id": "st-7f306704b5",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c4e6a4ba43",
-                          "name": "BLV Khô Chè",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Eintracht Frankfurt",
-            "team_b": "FC Koln",
-            "logo_a": "https://apiv3.apifootball.com/badges/3945_eintracht-frankfurt.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3932_koln.jpg",
-            "time": "01:30",
-            "date": "17/10",
-            "blv": "BLV Khô Chè",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/41074_f2909d31_20261017.png?v=f2909d31",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-f1e513f02d",
           "name": "Frosinone vs Sassuolo | 01:45 17/10",
