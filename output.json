@@ -2010,6 +2010,81 @@
           }
         },
         {
+          "id": "xc-b7be6030ef",
+          "name": "Cruz Azul vs Juarez | 10:10 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b7be6030ef",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b7be6030ef",
+                  "name": "Cruz Azul vs Juarez",
+                  "streams": [
+                    {
+                      "id": "st-b7be6030ef",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f22a137722",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga MX",
+            "team_a": "Cruz Azul",
+            "team_b": "Juarez",
+            "logo_a": "https://apiv3.apifootball.com/badges/301_cruz-azul.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5357_juarez.jpg",
+            "time": "10:10",
+            "date": "18/10",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/43457_7a049be6_20261017.png?v=7a049be6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-d41e2a728f",
           "name": "Machida vs Avispa Fukuoka | 14:00 18/10",
           "type": "single",
@@ -2189,6 +2264,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/43485_44520885_20261017.png?v=44520885",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-d2c9fe5f90",
+          "name": "Wuhan Three Towns vs Shanghai Shenhua | 17:00 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d2c9fe5f90",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-d2c9fe5f90",
+                  "name": "Wuhan Three Towns vs Shanghai Shenhua",
+                  "streams": [
+                    {
+                      "id": "st-d2c9fe5f90",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f22a137722",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Super League",
+            "team_a": "Wuhan Three Towns",
+            "team_b": "Shanghai Shenhua",
+            "logo_a": "https://apiv3.apifootball.com/badges/11814_wuhan-three-towns.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/381_shanghai-shenhua.jpg",
+            "time": "17:00",
+            "date": "18/10",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/43564_6365296d_20261017.png?v=6365296d",
             "width": 1600,
             "height": 1200
           }
