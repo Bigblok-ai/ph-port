@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -167,7 +167,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
@@ -250,6 +250,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/42551_23bbc9c2_20261017.png?v=23bbc9c2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-721fcc3b7c",
+          "name": "Newcastle vs Aston Villa | 23:30 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-721fcc3b7c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-721fcc3b7c",
+                  "name": "Newcastle vs Aston Villa",
+                  "streams": [
+                    {
+                      "id": "st-721fcc3b7c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c1c41ef192",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub13/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Newcastle",
+            "team_b": "Aston Villa",
+            "logo_a": "https://apiv3.apifootball.com/badges/3100_newcastle-united.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3088_aston-villa.jpg",
+            "time": "23:30",
+            "date": "17/10",
+            "blv": "BLV Khô Mật",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/42558_52a05220_20261017.png?v=52a05220",
             "width": 1600,
             "height": 1200
           }
@@ -342,98 +434,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/42556_4521ce85_20261017.png?v=4521ce85",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-721fcc3b7c",
-          "name": "Newcastle vs Aston Villa | 23:30 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-721fcc3b7c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-721fcc3b7c",
-                  "name": "Newcastle vs Aston Villa",
-                  "streams": [
-                    {
-                      "id": "st-721fcc3b7c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c1c41ef192",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub13/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Newcastle",
-            "team_b": "Aston Villa",
-            "logo_a": "https://apiv3.apifootball.com/badges/3100_newcastle-united.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3088_aston-villa.jpg",
-            "time": "23:30",
-            "date": "17/10",
-            "blv": "BLV Khô Mật",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/42558_52a05220_20261017.png?v=52a05220",
             "width": 1600,
             "height": 1200
           }
