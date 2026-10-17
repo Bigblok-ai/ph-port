@@ -75,7 +75,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 1
           },
           "image": {
@@ -2005,6 +2005,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/43457_7a049be6_20261017.png?v=7a049be6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-a4caf71cf3",
+          "name": "Okayama vs Vissel Kobe | 11:55 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a4caf71cf3",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-a4caf71cf3",
+                  "name": "Okayama vs Vissel Kobe",
+                  "streams": [
+                    {
+                      "id": "st-a4caf71cf3",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c210608a27",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Okayama",
+            "team_b": "Vissel Kobe",
+            "logo_a": "https://apiv3.apifootball.com/badges/5084_fagiano-okayama.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/383_vissel-kobe.jpg",
+            "time": "11:55",
+            "date": "18/10",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/43463_6815e63b_20261017.png?v=6815e63b",
             "width": 1600,
             "height": 1200
           }
