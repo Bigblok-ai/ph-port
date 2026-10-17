@@ -3198,8 +3198,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-543aaea0b0",
-          "name": "Saitama Ageo Medics vs Denso Airybees | 11:05 17/10",
+          "id": "xc-d692938baf",
+          "name": "PFU BlueCats vs Toray Arrows Shiga | 11:05 17/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3213,56 +3213,22 @@
           ],
           "sources": [
             {
-              "id": "src-543aaea0b0",
+              "id": "src-d692938baf",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-543aaea0b0",
-                  "name": "Saitama Ageo Medics vs Denso Airybees",
+                  "id": "ct-d692938baf",
+                  "name": "PFU BlueCats vs Toray Arrows Shiga",
                   "streams": [
                     {
-                      "id": "st-543aaea0b0",
+                      "id": "st-d692938baf",
                       "name": "XoiChe TV",
                       "stream_links": [
-                        {
-                          "id": "lnk-873eea3f40",
-                          "name": "BLV Tày 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub10/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-58a006abe0",
-                          "name": "BLV Tày 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub10.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
                         {
                           "id": "lnk-b3e89c2b5b",
                           "name": "BLV Khô Bò 1",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://live.khoga.space/live/livehub12/index.m3u8",
                           "request_headers": [
                             {
@@ -3291,6 +3257,40 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
+                        },
+                        {
+                          "id": "lnk-873eea3f40",
+                          "name": "BLV Tày 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub10/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-58a006abe0",
+                          "name": "BLV Tày 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub10.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -3301,13 +3301,13 @@
           ],
           "org_metadata": {
             "league": "SV.League Nhật Bản / W",
-            "team_a": "Saitama Ageo Medics",
-            "team_b": "Denso Airybees",
-            "logo_a": "https://xoiche2.live/media/teams/logos/saitama-ageo-medics-vb.png",
-            "logo_b": "https://xoiche2.live/media/teams/logos/denso-airybees-vb.png",
+            "team_a": "PFU BlueCats",
+            "team_b": "Toray Arrows Shiga",
+            "logo_a": "https://xoiche2.live/media/teams/logos/pfu-bluecats-vb.png",
+            "logo_b": "https://xoiche2.live/media/teams/logos/toray-arrows-shiga-vb.png",
             "time": "11:05",
             "date": "17/10",
-            "blv": "BLV Tày, BLV Khô Bò",
+            "blv": "BLV Khô Bò, BLV Tày",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -3318,7 +3318,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38679_c44aa5ef_20261017.png?v=c44aa5ef",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38680_481d719c_20261017.png?v=481d719c",
             "width": 1600,
             "height": 1200
           }
@@ -3383,6 +3383,40 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
+                        },
+                        {
+                          "id": "lnk-873eea3f40",
+                          "name": "BLV Tày 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub10/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-58a006abe0",
+                          "name": "BLV Tày 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub10.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -3399,7 +3433,7 @@
             "logo_b": "https://xoiche2.live/media/teams/logos/hokkaido-yellow-stars-vb.png",
             "time": "12:05",
             "date": "17/10",
-            "blv": "BLV Xôi Bắp",
+            "blv": "BLV Xôi Bắp, BLV Tày",
             "is_live": false,
             "cate_type": "volleyball",
             "status": "scheduled",
