@@ -3215,8 +3215,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-9426616861",
-          "name": "Astemo Rivale Ibaraki vs Gunma Green Wings | 12:05 17/10",
+          "id": "xc-00d2d1201f",
+          "name": "Tokyo Great Bears vs Hokkaido Yellow Stars | 12:05 17/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3230,56 +3230,22 @@
           ],
           "sources": [
             {
-              "id": "src-9426616861",
+              "id": "src-00d2d1201f",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-9426616861",
-                  "name": "Astemo Rivale Ibaraki vs Gunma Green Wings",
+                  "id": "ct-00d2d1201f",
+                  "name": "Tokyo Great Bears vs Hokkaido Yellow Stars",
                   "streams": [
                     {
-                      "id": "st-9426616861",
+                      "id": "st-00d2d1201f",
                       "name": "XoiChe TV",
                       "stream_links": [
-                        {
-                          "id": "lnk-873eea3f40",
-                          "name": "BLV Tày 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub10/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-58a006abe0",
-                          "name": "BLV Tày 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub10.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
                         {
                           "id": "lnk-9f449fe69c",
                           "name": "BLV Xôi Bắp 1",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://live.khoga.space/live/livehub6/index.m3u8",
                           "request_headers": [
                             {
@@ -3308,6 +3274,40 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
+                        },
+                        {
+                          "id": "lnk-873eea3f40",
+                          "name": "BLV Tày 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub10/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-58a006abe0",
+                          "name": "BLV Tày 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub10.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -3317,14 +3317,14 @@
             }
           ],
           "org_metadata": {
-            "league": "SV.League Nhật Bản / W",
-            "team_a": "Astemo Rivale Ibaraki",
-            "team_b": "Gunma Green Wings",
-            "logo_a": "https://xoiche.live/media/teams/logos/astemo-rivale-ibaraki-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/gunma-green-wings-vb.png",
+            "league": "SV.League Nhật Bản Nam",
+            "team_a": "Tokyo Great Bears",
+            "team_b": "Hokkaido Yellow Stars",
+            "logo_a": "https://xoiche.live/media/teams/logos/tokyo-great-bears-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/hokkaido-yellow-stars-vb.png",
             "time": "12:05",
             "date": "17/10",
-            "blv": "BLV Tày, BLV Xôi Bắp",
+            "blv": "BLV Xôi Bắp, BLV Tày",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -3335,7 +3335,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38682_e9750492_20261017.png?v=e9750492",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38684_fb76f9b1_20261017.png?v=fb76f9b1",
             "width": 1600,
             "height": 1200
           }
