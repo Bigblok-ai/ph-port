@@ -7,86 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-b2f07227df",
-          "name": "Club Tijuana vs Puebla | 10:05 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b2f07227df",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-b2f07227df",
-                  "name": "Club Tijuana vs Puebla",
-                  "streams": [
-                    {
-                      "id": "st-b2f07227df",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c210608a27",
-                          "name": "BLV Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga MX",
-            "team_a": "Club Tijuana",
-            "team_b": "Puebla",
-            "logo_a": "https://apiv3.apifootball.com/badges/5350_tijuana.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/5349_puebla.jpg",
-            "time": "10:05",
-            "date": "17/10",
-            "blv": "BLV Khô Cay",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/41165_078e80a6_20261017.png?v=078e80a6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-b2f24ad529",
           "name": "Auckland FC vs Melbourne City | 11:00 17/10",
