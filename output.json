@@ -272,98 +272,6 @@
           }
         },
         {
-          "id": "xc-d41e2a728f",
-          "name": "Machida vs Avispa Fukuoka | 14:00 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d41e2a728f",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-d41e2a728f",
-                  "name": "Machida vs Avispa Fukuoka",
-                  "streams": [
-                    {
-                      "id": "st-d41e2a728f",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-afc0aa1332",
-                          "name": "BLV Xôi Xoài 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4ef896631a",
-                          "name": "BLV Xôi Xoài 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub3.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Machida",
-            "team_b": "Avispa Fukuoka",
-            "logo_a": "https://apiv3.apifootball.com/badges/5085_machida-zelvia.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/5048_avispa-fukuoka.jpg",
-            "time": "14:00",
-            "date": "18/10",
-            "blv": "BLV Xôi Xoài",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/43479_4ad467d2_20261018.png?v=4ad467d2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-24111b1ff9",
           "name": "Persebaya vs PSS Sleman | 15:30 18/10",
           "type": "single",
@@ -618,6 +526,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/43655_fb082cd5_20261018.png?v=fb082cd5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-569195aae6",
+          "name": "Osasuna vs Racing Santander | 19:00 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-569195aae6",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-569195aae6",
+                  "name": "Osasuna vs Racing Santander",
+                  "streams": [
+                    {
+                      "id": "st-569195aae6",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Osasuna",
+            "team_b": "Racing Santander",
+            "logo_a": "https://apiv3.apifootball.com/badges/7269_osasuna.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7220_racing-de-santander.jpg",
+            "time": "19:00",
+            "date": "18/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/43847_f5909b12_20261018.png?v=f5909b12",
             "width": 1600,
             "height": 1200
           }
@@ -1076,10 +1059,27 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
+                          "id": "lnk-afc0aa1332",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
                           "id": "lnk-c210608a27",
                           "name": "BLV Khô Cay 1",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
                           "url": "https://live.khoga.space/live/livehub9/index.m3u8",
                           "request_headers": [
                             {
@@ -1124,7 +1124,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/3817_monaco.jpg",
             "time": "22:15",
             "date": "18/10",
-            "blv": "BLV Khô Cay",
+            "blv": "BLV Xôi Xoài, BLV Khô Cay",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1654,6 +1654,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45206_e5aef59e_20261018.png?v=e5aef59e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-019344ffa8",
+          "name": "Lyon vs Nice | 01:45 19/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-019344ffa8",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-019344ffa8",
+                  "name": "Lyon vs Nice",
+                  "streams": [
+                    {
+                      "id": "st-019344ffa8",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Lyon",
+            "team_b": "Nice",
+            "logo_a": "https://apiv3.apifootball.com/badges/3815_olympique-lyonnais.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/145_nice.jpg",
+            "time": "01:45",
+            "date": "19/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45207_2d4315fb_20261018.png?v=2d4315fb",
             "width": 1600,
             "height": 1200
           }
