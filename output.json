@@ -13,8 +13,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-530b3b13bf",
-          "name": "Phu Dong Ninh Binh vs Gia Lai | 18:00 18/10",
+          "id": "xc-0b845236da",
+          "name": "Fiorentina vs Como | 20:00 18/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,15 +28,15 @@
           ],
           "sources": [
             {
-              "id": "src-530b3b13bf",
+              "id": "src-0b845236da",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-530b3b13bf",
-                  "name": "Phu Dong Ninh Binh vs Gia Lai",
+                  "id": "ct-0b845236da",
+                  "name": "Fiorentina vs Como",
                   "streams": [
                     {
-                      "id": "st-530b3b13bf",
+                      "id": "st-0b845236da",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
@@ -64,25 +64,25 @@
             }
           ],
           "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Phu Dong Ninh Binh",
-            "team_b": "Gia Lai",
-            "logo_a": "https://apiv3.apifootball.com/badges/8051_ninh-binh.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/8054_hoang-anh-gia-lai.jpg",
-            "time": "18:00",
+            "league": "Serie A",
+            "team_a": "Fiorentina",
+            "team_b": "Como",
+            "logo_a": "https://apiv3.apifootball.com/badges/4974_fiorentina.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/8239_como.jpg",
+            "time": "20:00",
             "date": "18/10",
             "blv": "BLV Khô Cay",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 4,
-            "away_score": 3
+            "home_score": 0,
+            "away_score": 0
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/43721_e2bdbd1d_20261018.png?v=e2bdbd1d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/44005_ed1aee99_20261018.png?v=ed1aee99",
             "width": 1600,
             "height": 1200
           }
@@ -325,81 +325,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/44010_8ab98f77_20261018.png?v=8ab98f77",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-0b845236da",
-          "name": "Fiorentina vs Como | 20:00 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0b845236da",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-0b845236da",
-                  "name": "Fiorentina vs Como",
-                  "streams": [
-                    {
-                      "id": "st-0b845236da",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c210608a27",
-                          "name": "BLV Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Fiorentina",
-            "team_b": "Como",
-            "logo_a": "https://apiv3.apifootball.com/badges/4974_fiorentina.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/8239_como.jpg",
-            "time": "20:00",
-            "date": "18/10",
-            "blv": "BLV Khô Cay",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/44005_ed1aee99_20261018.png?v=ed1aee99",
             "width": 1600,
             "height": 1200
           }
@@ -1644,6 +1569,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45359_4da3162d_20261018.png?v=4da3162d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-c3583cf2c1",
+          "name": "Al Fayha vs Al Ahli SC | 22:05 19/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c3583cf2c1",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-c3583cf2c1",
+                  "name": "Al Fayha vs Al Ahli SC",
+                  "streams": [
+                    {
+                      "id": "st-c3583cf2c1",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c1c41ef192",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub13/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi League",
+            "team_a": "Al Fayha",
+            "team_b": "Al Ahli SC",
+            "logo_a": "https://apiv3.apifootball.com/badges/6308_al-fayha.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/359_al-ahli.jpg",
+            "time": "22:05",
+            "date": "19/10",
+            "blv": "BLV Khô Mật",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45367_55bc17c3_20261018.png?v=55bc17c3",
             "width": 1600,
             "height": 1200
           }
