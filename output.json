@@ -13,81 +13,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-d2c9fe5f90",
-          "name": "Wuhan Three Towns vs Shanghai Shenhua | 17:00 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d2c9fe5f90",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-d2c9fe5f90",
-                  "name": "Wuhan Three Towns vs Shanghai Shenhua",
-                  "streams": [
-                    {
-                      "id": "st-d2c9fe5f90",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f22a137722",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Super League",
-            "team_a": "Wuhan Three Towns",
-            "team_b": "Shanghai Shenhua",
-            "logo_a": "https://apiv3.apifootball.com/badges/11814_wuhan-three-towns.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/381_shanghai-shenhua.jpg",
-            "time": "17:00",
-            "date": "18/10",
-            "blv": "BLV Tam Mao",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 3
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/43564_6365296d_20261018.png?v=6365296d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-a8c050c6ba",
           "name": "Udinese vs Lecce | 17:30 18/10",
           "type": "single",
@@ -262,10 +187,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -314,9 +239,9 @@
             "time": "19:00",
             "date": "18/10",
             "blv": "BLV Xôi Xoài",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
