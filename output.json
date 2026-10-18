@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -167,7 +167,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 1
           },
           "image": {
@@ -175,6 +175,173 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/44200_6914db7b_20261018.png?v=6914db7b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-1e2001dab6",
+          "name": "B. Monchengladbach vs Hoffenheim | 22:30 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1e2001dab6",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-1e2001dab6",
+                  "name": "B. Monchengladbach vs Hoffenheim",
+                  "streams": [
+                    {
+                      "id": "st-1e2001dab6",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c4e6a4ba43",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "B. Monchengladbach",
+            "team_b": "Hoffenheim",
+            "logo_a": "https://apiv3.apifootball.com/badges/77_borussia-mgladbach.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/170_hoffenheim.jpg",
+            "time": "22:30",
+            "date": "18/10",
+            "blv": "BLV Khô Chè",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/44443_5744a80e_20261018.png?v=5744a80e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-79b7cdcd14",
+          "name": "Nottingham vs Arsenal | 22:30 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-79b7cdcd14",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-79b7cdcd14",
+                  "name": "Nottingham vs Arsenal",
+                  "streams": [
+                    {
+                      "id": "st-79b7cdcd14",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c1c41ef192",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub13/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Nottingham",
+            "team_b": "Arsenal",
+            "logo_a": "https://apiv3.apifootball.com/badges/3089_nottingham-forest.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/141_arsenal-fc.jpg",
+            "time": "22:30",
+            "date": "18/10",
+            "blv": "BLV Khô Mật",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/44444_4f8d3b08_20261018.png?v=4f8d3b08",
             "width": 1600,
             "height": 1200
           }
@@ -250,173 +417,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/44434_b7c57101_20261018.png?v=b7c57101",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-1e2001dab6",
-          "name": "B. Monchengladbach vs Hoffenheim | 22:30 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1e2001dab6",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-1e2001dab6",
-                  "name": "B. Monchengladbach vs Hoffenheim",
-                  "streams": [
-                    {
-                      "id": "st-1e2001dab6",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c4e6a4ba43",
-                          "name": "BLV Khô Chè",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "B. Monchengladbach",
-            "team_b": "Hoffenheim",
-            "logo_a": "https://apiv3.apifootball.com/badges/77_borussia-mgladbach.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/170_hoffenheim.jpg",
-            "time": "22:30",
-            "date": "18/10",
-            "blv": "BLV Khô Chè",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/44443_5744a80e_20261018.png?v=5744a80e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-79b7cdcd14",
-          "name": "Nottingham vs Arsenal | 22:30 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-79b7cdcd14",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-79b7cdcd14",
-                  "name": "Nottingham vs Arsenal",
-                  "streams": [
-                    {
-                      "id": "st-79b7cdcd14",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c1c41ef192",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub13/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Nottingham",
-            "team_b": "Arsenal",
-            "logo_a": "https://apiv3.apifootball.com/badges/3089_nottingham-forest.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/141_arsenal-fc.jpg",
-            "time": "22:30",
-            "date": "18/10",
-            "blv": "BLV Khô Mật",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/44444_4f8d3b08_20261018.png?v=4f8d3b08",
             "width": 1600,
             "height": 1200
           }
