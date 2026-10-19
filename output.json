@@ -1,6 +1,6 @@
 {
   "id": "xoiche",
-  "url": "https://xoiche3.live",
+  "url": "https://xoiche.live",
   "name": "Xôi Chè TV",
   "color": "#00a86b",
   "grid_number": 3,
@@ -48,7 +48,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -65,7 +65,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -140,7 +140,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -157,7 +157,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -232,7 +232,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -249,7 +249,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -324,7 +324,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -341,7 +341,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -376,6 +376,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46123_3f2c3d79_20261020.png?v=3f2c3d79",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-8fd7f87418",
+          "name": "Tottenham vs Coventry | 02:00 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8fd7f87418",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-8fd7f87418",
+                  "name": "Tottenham vs Coventry",
+                  "streams": [
+                    {
+                      "id": "st-8fd7f87418",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c4e6a4ba43",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Tottenham",
+            "team_b": "Coventry",
+            "logo_a": "https://apiv3.apifootball.com/badges/164_tottenham-hotspur.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3094_coventry-city.jpg",
+            "time": "02:00",
+            "date": "20/10",
+            "blv": "BLV Khô Chè, BLV Xôi Xoài",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46130_e755e55c_20261020.png?v=e755e55c",
             "width": 1600,
             "height": 1200
           }
@@ -416,7 +508,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -451,81 +543,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46129_a62c1630_20261020.png?v=a62c1630",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-8fd7f87418",
-          "name": "Tottenham vs Coventry | 02:00 20/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8fd7f87418",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-8fd7f87418",
-                  "name": "Tottenham vs Coventry",
-                  "streams": [
-                    {
-                      "id": "st-8fd7f87418",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-afc0aa1332",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Tottenham",
-            "team_b": "Coventry",
-            "logo_a": "https://apiv3.apifootball.com/badges/164_tottenham-hotspur.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3094_coventry-city.jpg",
-            "time": "02:00",
-            "date": "20/10",
-            "blv": "BLV Xôi Xoài",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46130_e755e55c_20261020.png?v=e755e55c",
             "width": 1600,
             "height": 1200
           }
@@ -566,7 +583,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -583,7 +600,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -658,7 +675,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -733,7 +750,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -808,7 +825,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -883,7 +900,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -958,7 +975,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -975,7 +992,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1050,7 +1067,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1067,7 +1084,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1142,7 +1159,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1217,7 +1234,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1234,7 +1251,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1309,7 +1326,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1384,7 +1401,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1401,7 +1418,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1476,7 +1493,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1551,7 +1568,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1568,7 +1585,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1643,7 +1660,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
