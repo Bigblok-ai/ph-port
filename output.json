@@ -449,27 +449,10 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-f22a137722",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
                           "id": "lnk-b3e89c2b5b",
                           "name": "BLV Khô Bò 1",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://live.khoga.space/live/livehub12/index.m3u8",
                           "request_headers": [
                             {
@@ -514,7 +497,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/6265_orenburg.jpg",
             "time": "23:30",
             "date": "19/10",
-            "blv": "BLV Tam Mao, BLV Khô Bò",
+            "blv": "BLV Khô Bò",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
