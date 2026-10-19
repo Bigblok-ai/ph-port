@@ -1,6 +1,6 @@
 {
   "id": "xoiche",
-  "url": "https://xoiche.live",
+  "url": "https://xoiche3.live",
   "name": "Xôi Chè TV",
   "color": "#00a86b",
   "grid_number": 3,
@@ -48,7 +48,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -82,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45359_4da3162d_20261019.png?v=4da3162d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45359_4da3162d_20261020.png?v=4da3162d",
             "width": 1600,
             "height": 1200
           }
@@ -123,7 +123,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -140,7 +140,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -174,7 +174,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45367_55bc17c3_20261019.png?v=55bc17c3",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45367_55bc17c3_20261020.png?v=55bc17c3",
             "width": 1600,
             "height": 1200
           }
@@ -215,7 +215,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -249,7 +249,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45369_08529d77_20261019.png?v=08529d77",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45369_08529d77_20261020.png?v=08529d77",
             "width": 1600,
             "height": 1200
           }
@@ -290,7 +290,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -307,7 +307,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -341,7 +341,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45391_b7fb1549_20261019.png?v=b7fb1549",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45391_b7fb1549_20261020.png?v=b7fb1549",
             "width": 1600,
             "height": 1200
           }
@@ -382,7 +382,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -416,7 +416,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45392_56d41da4_20261019.png?v=56d41da4",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45392_56d41da4_20261020.png?v=56d41da4",
             "width": 1600,
             "height": 1200
           }
@@ -457,7 +457,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -474,7 +474,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -508,7 +508,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46088_0fd4400d_20261019.png?v=0fd4400d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46088_0fd4400d_20261020.png?v=0fd4400d",
             "width": 1600,
             "height": 1200
           }
@@ -549,7 +549,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -566,7 +566,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -600,7 +600,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46105_7bf659ea_20261019.png?v=7bf659ea",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46105_7bf659ea_20261020.png?v=7bf659ea",
             "width": 1600,
             "height": 1200
           }
@@ -641,7 +641,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -658,7 +658,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -692,7 +692,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46123_3f2c3d79_20261019.png?v=3f2c3d79",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46123_3f2c3d79_20261020.png?v=3f2c3d79",
             "width": 1600,
             "height": 1200
           }
@@ -733,7 +733,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -767,7 +767,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46129_a62c1630_20261019.png?v=a62c1630",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46129_a62c1630_20261020.png?v=a62c1630",
             "width": 1600,
             "height": 1200
           }
@@ -808,7 +808,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -842,7 +842,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46130_e755e55c_20261019.png?v=e755e55c",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46130_e755e55c_20261020.png?v=e755e55c",
             "width": 1600,
             "height": 1200
           }
@@ -883,7 +883,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -900,7 +900,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -934,7 +934,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46158_b563e254_20261019.png?v=b563e254",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46158_b563e254_20261020.png?v=b563e254",
             "width": 1600,
             "height": 1200
           }
@@ -975,7 +975,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1009,7 +1009,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46166_439d11d5_20261019.png?v=439d11d5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46166_439d11d5_20261020.png?v=439d11d5",
             "width": 1600,
             "height": 1200
           }
@@ -1050,7 +1050,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1084,7 +1084,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46184_00697a77_20261019.png?v=00697a77",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46184_00697a77_20261020.png?v=00697a77",
             "width": 1600,
             "height": 1200
           }
@@ -1125,7 +1125,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1159,7 +1159,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46185_b00669e5_20261019.png?v=b00669e5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46185_b00669e5_20261020.png?v=b00669e5",
             "width": 1600,
             "height": 1200
           }
@@ -1200,7 +1200,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1234,7 +1234,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46207_dc64c886_20261019.png?v=dc64c886",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46207_dc64c886_20261020.png?v=dc64c886",
             "width": 1600,
             "height": 1200
           }
@@ -1275,7 +1275,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1292,7 +1292,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1326,7 +1326,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46216_feb9b4ae_20261019.png?v=feb9b4ae",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46216_feb9b4ae_20261020.png?v=feb9b4ae",
             "width": 1600,
             "height": 1200
           }
@@ -1367,7 +1367,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1384,7 +1384,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1418,7 +1418,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46231_e21a8213_20261019.png?v=e21a8213",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46231_e21a8213_20261020.png?v=e21a8213",
             "width": 1600,
             "height": 1200
           }
@@ -1459,7 +1459,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1493,7 +1493,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46239_19f1bf72_20261019.png?v=19f1bf72",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46239_19f1bf72_20261020.png?v=19f1bf72",
             "width": 1600,
             "height": 1200
           }
@@ -1534,7 +1534,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1551,7 +1551,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1585,7 +1585,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46243_817066f5_20261019.png?v=817066f5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46243_817066f5_20261020.png?v=817066f5",
             "width": 1600,
             "height": 1200
           }
@@ -1626,7 +1626,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1660,7 +1660,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/47221_0f9c4a55_20261019.png?v=0f9c4a55",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/47221_0f9c4a55_20261020.png?v=0f9c4a55",
             "width": 1600,
             "height": 1200
           }
@@ -1701,7 +1701,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1718,7 +1718,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1752,7 +1752,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/47303_76bb9a80_20261019.png?v=76bb9a80",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/47303_76bb9a80_20261020.png?v=76bb9a80",
             "width": 1600,
             "height": 1200
           }
@@ -1793,7 +1793,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1827,7 +1827,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/47306_94c4dfda_20261019.png?v=94c4dfda",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/47306_94c4dfda_20261020.png?v=94c4dfda",
             "width": 1600,
             "height": 1200
           }
@@ -1868,7 +1868,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1885,7 +1885,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1919,7 +1919,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/47307_1caca6b7_20261019.png?v=1caca6b7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/47307_1caca6b7_20261020.png?v=1caca6b7",
             "width": 1600,
             "height": 1200
           }
@@ -1960,7 +1960,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1994,7 +1994,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/47308_301f0dee_20261019.png?v=301f0dee",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/47308_301f0dee_20261020.png?v=301f0dee",
             "width": 1600,
             "height": 1200
           }
