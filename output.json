@@ -105,98 +105,6 @@
           }
         },
         {
-          "id": "xc-a7a8f7739d",
-          "name": "Rodina Moscow vs Orenburg | 23:30 19/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a7a8f7739d",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-a7a8f7739d",
-                  "name": "Rodina Moscow vs Orenburg",
-                  "streams": [
-                    {
-                      "id": "st-a7a8f7739d",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b3e89c2b5b",
-                          "name": "BLV Khô Bò 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub12/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8bcf71e3b1",
-                          "name": "BLV Khô Bò 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub12.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Rodina Moscow",
-            "team_b": "Orenburg",
-            "logo_a": "https://apiv3.apifootball.com/badges/6221_rodina-moskva.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/6265_orenburg.jpg",
-            "time": "23:30",
-            "date": "19/10",
-            "blv": "BLV Khô Bò",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45391_b7fb1549_20261020.png?v=b7fb1549",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-7ee9f617c8",
           "name": "Trabzonspor vs Besiktas | 00:00 20/10",
           "type": "single",
@@ -388,10 +296,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -457,9 +365,9 @@
             "time": "01:45",
             "date": "20/10",
             "blv": "BLV Khô Bò",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
