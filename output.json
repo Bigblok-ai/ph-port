@@ -7,103 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-cf1bdb0bb9",
-          "name": "Monterrey vs Pachuca | 08:00 19/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cf1bdb0bb9",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-cf1bdb0bb9",
-                  "name": "Monterrey vs Pachuca",
-                  "streams": [
-                    {
-                      "id": "st-cf1bdb0bb9",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c1c41ef192",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub13/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga MX",
-            "team_a": "Monterrey",
-            "team_b": "Pachuca",
-            "logo_a": "https://apiv3.apifootball.com/badges/308_monterrey.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/5352_pachuca.jpg",
-            "time": "08:00",
-            "date": "19/10",
-            "blv": "BLV Khô Mật",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45288_89b57bc4_20261019.png?v=89b57bc4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-181d697ba3",
           "name": "Ho Chi Minh vs Viettel | 18:00 19/10",
@@ -1107,6 +1015,98 @@
           }
         },
         {
+          "id": "xc-f7dd3d5812",
+          "name": "Dep. Pasto vs Alianza | 08:05 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f7dd3d5812",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-f7dd3d5812",
+                  "name": "Dep. Pasto vs Alianza",
+                  "streams": [
+                    {
+                      "id": "st-f7dd3d5812",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c1c41ef192",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub13/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Primera A",
+            "team_a": "Dep. Pasto",
+            "team_b": "Alianza",
+            "logo_a": "https://apiv3.apifootball.com/badges/2276_deportivo-pasto.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/2283_alianza.jpg",
+            "time": "08:05",
+            "date": "20/10",
+            "blv": "BLV Khô Mật",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46158_b563e254_20261019.png?v=b563e254",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-9adb0d5271",
           "name": "Fortis vs Goa | 20:25 20/10",
           "type": "single",
@@ -1269,6 +1269,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46216_feb9b4ae_20261019.png?v=feb9b4ae",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-30f9addb44",
+          "name": "Al Taawon vs Al Qadsiah | 22:10 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-30f9addb44",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-30f9addb44",
+                  "name": "Al Taawon vs Al Qadsiah",
+                  "streams": [
+                    {
+                      "id": "st-30f9addb44",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c210608a27",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi League",
+            "team_a": "Al Taawon",
+            "team_b": "Al Qadsiah",
+            "logo_a": "https://apiv3.apifootball.com/badges/368_al-taawoun.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/6330_al-qadsiah.jpg",
+            "time": "22:10",
+            "date": "20/10",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46239_19f1bf72_20261019.png?v=19f1bf72",
             "width": 1600,
             "height": 1200
           }
