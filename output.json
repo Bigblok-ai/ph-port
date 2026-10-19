@@ -1,6 +1,6 @@
 {
   "id": "xoiche",
-  "url": "https://xoiche3.live",
+  "url": "https://xoiche.live",
   "name": "Xôi Chè TV",
   "color": "#00a86b",
   "grid_number": 3,
@@ -48,7 +48,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -65,7 +65,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -100,81 +100,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45367_55bc17c3_20261020.png?v=55bc17c3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-dbf1c3af76",
-          "name": "Abha vs Al Kholood | 22:20 19/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dbf1c3af76",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-dbf1c3af76",
-                  "name": "Abha vs Al Kholood",
-                  "streams": [
-                    {
-                      "id": "st-dbf1c3af76",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c210608a27",
-                          "name": "BLV Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche3.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi League",
-            "team_a": "Abha",
-            "team_b": "Al Kholood",
-            "logo_a": "https://apiv3.apifootball.com/badges/6332_abha.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/18893_al-kholood.jpg",
-            "time": "22:20",
-            "date": "19/10",
-            "blv": "BLV Khô Cay",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45369_08529d77_20261020.png?v=08529d77",
             "width": 1600,
             "height": 1200
           }
@@ -215,7 +140,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -232,7 +157,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -307,7 +232,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -382,7 +307,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -399,7 +324,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -446,10 +371,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -474,7 +399,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -491,7 +416,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -515,9 +440,9 @@
             "time": "01:00",
             "date": "20/10",
             "blv": "BLV Xôi Bắp",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -566,7 +491,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -583,7 +508,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -658,7 +583,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -733,7 +658,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -808,7 +733,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -825,7 +750,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -900,7 +825,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -975,7 +900,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1050,7 +975,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1125,7 +1050,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1200,7 +1125,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1217,7 +1142,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1292,7 +1217,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1309,7 +1234,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1384,7 +1309,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1459,7 +1384,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1476,7 +1401,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1551,7 +1476,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1626,7 +1551,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1643,7 +1568,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1718,7 +1643,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1793,7 +1718,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1810,7 +1735,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1885,7 +1810,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
