@@ -1,6 +1,6 @@
 {
   "id": "xoiche",
-  "url": "https://xoiche3.live",
+  "url": "https://xoiche.live",
   "name": "Xôi Chè TV",
   "color": "#00a86b",
   "grid_number": 3,
@@ -48,7 +48,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -65,7 +65,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -140,7 +140,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -215,7 +215,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -290,7 +290,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -307,7 +307,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -382,7 +382,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -457,7 +457,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -474,7 +474,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -549,7 +549,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -624,7 +624,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -641,7 +641,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -716,7 +716,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -733,7 +733,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -808,7 +808,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -883,7 +883,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -958,7 +958,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1033,7 +1033,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1050,7 +1050,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1085,6 +1085,156 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46158_b563e254_20261019.png?v=b563e254",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-8433ddfeaa",
+          "name": "Isenmulang Kalteng vs Java United | 15:30 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8433ddfeaa",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-8433ddfeaa",
+                  "name": "Isenmulang Kalteng vs Java United",
+                  "streams": [
+                    {
+                      "id": "st-8433ddfeaa",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f22a137722",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga 1",
+            "team_a": "Isenmulang Kalteng",
+            "team_b": "Java United",
+            "logo_a": "https://apiv3.apifootball.com/badges/37768_adhyaksa.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/33228_malut-united.jpg",
+            "time": "15:30",
+            "date": "20/10",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46166_439d11d5_20261019.png?v=439d11d5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-3f8b2ace80",
+          "name": "FC Bhayangkara vs PSIM Yogyakarta | 19:00 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3f8b2ace80",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-3f8b2ace80",
+                  "name": "FC Bhayangkara vs PSIM Yogyakarta",
+                  "streams": [
+                    {
+                      "id": "st-3f8b2ace80",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f22a137722",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga 1",
+            "team_a": "FC Bhayangkara",
+            "team_b": "PSIM Yogyakarta",
+            "logo_a": "https://apiv3.apifootball.com/badges/4723_bhayangkara.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/8804_psim-yogyakarta.jpg",
+            "time": "19:00",
+            "date": "20/10",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46185_b00669e5_20261019.png?v=b00669e5",
             "width": 1600,
             "height": 1200
           }
@@ -1125,7 +1275,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1200,7 +1350,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1217,7 +1367,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1292,7 +1442,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1367,7 +1517,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1384,7 +1534,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1459,7 +1609,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1534,7 +1684,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1609,7 +1759,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1626,7 +1776,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
