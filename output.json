@@ -466,11 +466,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-c1c41ef192",
+                          "id": "lnk-6acc3c909a",
                           "name": "BLV Khô Mật 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub13/index.m3u8",
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=2s7I168olNPU6vVKWV6SfASXbWkPwQ27KoV9g69eolg&expires=1855579061&token_path=%2Flive%2Flivehub13/live/livehub13/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -500,11 +500,28 @@
                           ]
                         },
                         {
-                          "id": "lnk-f22a137722",
-                          "name": "BLV Tam Mao",
+                          "id": "lnk-3aa3868db4",
+                          "name": "BLV Tam Mao 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=FK4zR2467DvcA9Fn4dCuA9l8E2pj4aXUFkktxkc6_GM&expires=1855579061&token_path=%2Flive%2Flivehub8/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-26c6adad08",
+                          "name": "BLV Tam Mao 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub8/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
