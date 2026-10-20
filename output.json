@@ -224,11 +224,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-4ead39db03",
+                          "id": "lnk-3bd3605c6a",
                           "name": "BLV Xôi Gà",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub2/index.m3u8",
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=Qlu9bUGHx8fS14O2mr32Bm0jndtWCKPpUlzAQ5DYecI&expires=1855579061&token_path=%2Flive%2Flivehub2/live/livehub2/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
