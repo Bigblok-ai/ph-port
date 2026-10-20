@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -20,10 +20,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -89,9 +89,9 @@
             "time": "01:00",
             "date": "21/10",
             "blv": "BLV Khô Chè",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -100,98 +100,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/47221_0f9c4a55_20261021.png?v=0f9c4a55",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-5ae6ade6f0",
-          "name": "AS Roma vs Slovan Bratislava | 02:00 21/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5ae6ade6f0",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-5ae6ade6f0",
-                  "name": "AS Roma vs Slovan Bratislava",
-                  "streams": [
-                    {
-                      "id": "st-5ae6ade6f0",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-31c05c8e7b",
-                          "name": "BLV Xôi Bắp 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=3lsMy5IgFqP3UuPYzg-wTh7YZR6ew7W8GTccyfyGvwo&expires=1855579061&token_path=%2Flive%2Flivehub6/live/livehub6/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9fd6836274",
-                          "name": "BLV Xôi Bắp 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub6.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "AS Roma",
-            "team_b": "Slovan Bratislava",
-            "logo_a": "https://apiv3.apifootball.com/badges/139_roma.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/6565_slovan-bratislava.jpg",
-            "time": "02:00",
-            "date": "21/10",
-            "blv": "BLV Xôi Bắp",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/47303_76bb9a80_20261021.png?v=76bb9a80",
             "width": 1600,
             "height": 1200
           }
@@ -626,11 +534,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-2419f71255",
-                          "name": "BLV Khô Chè 1",
+                          "id": "lnk-31c05c8e7b",
+                          "name": "BLV Xôi Bắp 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=k2Np4muA1CnINe3Ho4ek9IIT350VErv-UbOvlumoGdk&expires=1855579061&token_path=%2Flive%2Flivehub5/live/livehub5/index.m3u8",
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=3lsMy5IgFqP3UuPYzg-wTh7YZR6ew7W8GTccyfyGvwo&expires=1855579061&token_path=%2Flive%2Flivehub6/live/livehub6/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -643,11 +551,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-cb4092b51c",
-                          "name": "BLV Khô Chè 2",
-                          "type": "hls",
+                          "id": "lnk-9fd6836274",
+                          "name": "BLV Xôi Bắp 2",
+                          "type": "httpflv",
                           "default": false,
-                          "url": "https://xoiche.live/live/livehub5/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub6.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -674,7 +582,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/73_atletico-de-madrid.jpg",
             "time": "02:00",
             "date": "21/10",
-            "blv": "BLV Khô Chè",
+            "blv": "BLV Xôi Bắp",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
