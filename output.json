@@ -1,109 +1,17 @@
 {
   "id": "xoiche",
-  "url": "https://xoiche.live",
+  "url": "https://xoiche3.live",
   "name": "Xôi Chè TV",
   "color": "#00a86b",
   "grid_number": 3,
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-0405baaf88",
-          "name": "Al Nassr vs Neom SC | 01:00 21/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0405baaf88",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-0405baaf88",
-                  "name": "Al Nassr vs Neom SC",
-                  "streams": [
-                    {
-                      "id": "st-0405baaf88",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2419f71255",
-                          "name": "BLV Khô Chè 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=k2Np4muA1CnINe3Ho4ek9IIT350VErv-UbOvlumoGdk&expires=1855579061&token_path=%2Flive%2Flivehub5/live/livehub5/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-cb4092b51c",
-                          "name": "BLV Khô Chè 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/livehub5/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi League",
-            "team_a": "Al Nassr",
-            "team_b": "Neom SC",
-            "logo_a": "https://apiv3.apifootball.com/badges/371_al-nassr.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/18904_neom.jpg",
-            "time": "01:00",
-            "date": "21/10",
-            "blv": "BLV Khô Chè",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/47221_0f9c4a55_20261021.png?v=0f9c4a55",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-b5257afcdc",
           "name": "FC Porto vs PSV | 02:00 21/10",
@@ -140,7 +48,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -157,7 +65,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -232,7 +140,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -307,7 +215,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -316,15 +224,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-3b0600d131",
+                          "id": "lnk-20f8aaa897",
                           "name": "BLV Xôi Xoài 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/livehub3/index.m3u8",
+                          "url": "https://xoiche3.live/live/livehub3/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -399,7 +307,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -416,7 +324,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -491,7 +399,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -500,15 +408,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-26c6adad08",
+                          "id": "lnk-57eb2d6035",
                           "name": "BLV Tam Mao 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/livehub8/index.m3u8",
+                          "url": "https://xoiche3.live/live/livehub8/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -525,7 +433,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -542,7 +450,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -617,7 +525,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -634,7 +542,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -709,7 +617,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -726,7 +634,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -801,7 +709,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -818,7 +726,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -893,7 +801,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -910,7 +818,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -985,7 +893,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1002,7 +910,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1077,7 +985,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1152,7 +1060,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1169,7 +1077,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1244,7 +1152,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1279,6 +1187,156 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/47464_dcd8b2b4_20261021.png?v=dcd8b2b4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-53209bbef5",
+          "name": "Lille vs Galatasaray | 23:45 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-53209bbef5",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-53209bbef5",
+                  "name": "Lille vs Galatasaray",
+                  "streams": [
+                    {
+                      "id": "st-53209bbef5",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c4e6a4ba43",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Lille",
+            "team_b": "Galatasaray",
+            "logo_a": "https://apiv3.apifootball.com/badges/160_lille.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/192_galatasaray.jpg",
+            "time": "23:45",
+            "date": "21/10",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/47465_4a6518d7_20261021.png?v=4a6518d7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-f90a844dcd",
+          "name": "Inter vs Shakhtar Donetsk | 02:00 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f90a844dcd",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-f90a844dcd",
+                  "name": "Inter vs Shakhtar Donetsk",
+                  "streams": [
+                    {
+                      "id": "st-f90a844dcd",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c4e6a4ba43",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Inter",
+            "team_b": "Shakhtar Donetsk",
+            "logo_a": "https://apiv3.apifootball.com/badges/79_internazionale.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/78_shakhtar-donetsk.jpg",
+            "time": "02:00",
+            "date": "22/10",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/48540_8b0a2f5a_20261021.png?v=8b0a2f5a",
             "width": 1600,
             "height": 1200
           }
@@ -1328,7 +1386,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1345,7 +1403,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1364,8 +1422,8 @@
             "league": "Serie A1 Ý / W",
             "team_a": "Laica UYBA Busto Arsizio",
             "team_b": "CDA Volley Talmassons FVG",
-            "logo_a": "https://xoiche.live/media/teams/logos/laica-uyba-busto-arsizio-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/cda-volley-talmassons-fvg-vb.png",
+            "logo_a": "https://xoiche3.live/media/teams/logos/laica-uyba-busto-arsizio-vb.png",
+            "logo_b": "https://xoiche3.live/media/teams/logos/cda-volley-talmassons-fvg-vb.png",
             "time": "01:30",
             "date": "22/10",
             "blv": "BLV Xôi Bắp",
@@ -1379,7 +1437,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38732_3cff337a_20261021.png?v=3cff337a",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38732_4750eca6_20261021.png?v=4750eca6",
             "width": 1600,
             "height": 1200
           }
