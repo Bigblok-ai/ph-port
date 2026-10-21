@@ -1,6 +1,6 @@
 {
   "id": "xoiche",
-  "url": "https://xoiche3.live",
+  "url": "https://xoiche.live",
   "name": "Xôi Chè TV",
   "color": "#00a86b",
   "grid_number": 3,
@@ -48,7 +48,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -65,7 +65,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -140,7 +140,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -157,7 +157,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -232,7 +232,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -307,7 +307,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -382,7 +382,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -399,7 +399,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -474,7 +474,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -549,7 +549,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -624,7 +624,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -641,7 +641,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -708,15 +708,32 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
+                          "id": "lnk-f22a137722",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
                           "id": "lnk-c1c41ef192",
                           "name": "BLV Khô Mật 1",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
                           "url": "https://live.khoga.space/live/livehub13/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -733,7 +750,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -756,7 +773,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/141_arsenal-fc.jpg",
             "time": "02:00",
             "date": "22/10",
-            "blv": "BLV Khô Mật",
+            "blv": "BLV Tam Mao, BLV Khô Mật",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -808,7 +825,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -883,7 +900,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -900,7 +917,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -935,6 +952,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/48590_23bb2a8c_20261021.png?v=23bb2a8c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-22c84acf4e",
+          "name": "PSM Makassar vs Persebaya | 15:30 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-22c84acf4e",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-22c84acf4e",
+                  "name": "PSM Makassar vs Persebaya",
+                  "streams": [
+                    {
+                      "id": "st-22c84acf4e",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f22a137722",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga 1",
+            "team_a": "PSM Makassar",
+            "team_b": "Persebaya",
+            "logo_a": "https://apiv3.apifootball.com/badges/445_psm-makassar.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4727_persebaya-surabaya.jpg",
+            "time": "15:30",
+            "date": "22/10",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/48597_4c356c54_20261021.png?v=4c356c54",
             "width": 1600,
             "height": 1200
           }
@@ -975,7 +1067,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -992,7 +1084,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1067,7 +1159,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1084,7 +1176,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1159,7 +1251,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1176,7 +1268,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1260,7 +1352,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1277,7 +1369,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche3.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1296,8 +1388,8 @@
             "league": "Serie A1 Ý / W",
             "team_a": "Laica UYBA Busto Arsizio",
             "team_b": "CDA Volley Talmassons FVG",
-            "logo_a": "https://xoiche3.live/media/teams/logos/laica-uyba-busto-arsizio-vb.png",
-            "logo_b": "https://xoiche3.live/media/teams/logos/cda-volley-talmassons-fvg-vb.png",
+            "logo_a": "https://xoiche.live/media/teams/logos/laica-uyba-busto-arsizio-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/cda-volley-talmassons-fvg-vb.png",
             "time": "01:30",
             "date": "22/10",
             "blv": "BLV Xôi Bắp",
@@ -1311,7 +1403,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38732_4750eca6_20261021.png?v=4750eca6",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38732_3cff337a_20261021.png?v=3cff337a",
             "width": 1600,
             "height": 1200
           }
