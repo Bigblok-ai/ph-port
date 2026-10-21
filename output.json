@@ -790,6 +790,81 @@
           }
         },
         {
+          "id": "xc-3ada11ee52",
+          "name": "Betis vs Feyenoord | 02:00 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3ada11ee52",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-3ada11ee52",
+                  "name": "Betis vs Feyenoord",
+                  "streams": [
+                    {
+                      "id": "st-3ada11ee52",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Betis",
+            "team_b": "Feyenoord",
+            "logo_a": "https://apiv3.apifootball.com/badges/7261_real-betis.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/168_feyenoord.jpg",
+            "time": "02:00",
+            "date": "22/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/48538_88bff149_20261021.png?v=88bff149",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-0e975254c6",
           "name": "Club Brugge KV vs Lens | 02:00 22/10",
           "type": "single",
@@ -1453,6 +1528,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/48617_ee9e58ce_20261021.png?v=ee9e58ce",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-372bf62b72",
+          "name": "Cong An Ha Noi vs Thanh Hoa | 19:15 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-372bf62b72",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-372bf62b72",
+                  "name": "Cong An Ha Noi vs Thanh Hoa",
+                  "streams": [
+                    {
+                      "id": "st-372bf62b72",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Cong An Ha Noi",
+            "team_b": "Thanh Hoa",
+            "logo_a": "https://apiv3.apifootball.com/badges/8045_cong-an-ha-ni.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/8061_thanh-hoa.jpg",
+            "time": "19:15",
+            "date": "22/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/48622_1a55e4ea_20261021.png?v=1a55e4ea",
             "width": 1600,
             "height": 1200
           }
