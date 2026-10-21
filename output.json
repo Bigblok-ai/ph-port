@@ -40,11 +40,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-c1c41ef192",
+                          "id": "lnk-6acc3c909a",
                           "name": "BLV Khô Mật 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub13/index.m3u8",
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=2s7I168olNPU6vVKWV6SfASXbWkPwQ27KoV9g69eolg&expires=1855579061&token_path=%2Flive%2Flivehub13/live/livehub13/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
