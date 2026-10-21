@@ -1002,7 +1002,7 @@
         },
         {
           "id": "xc-0f6fdc250a",
-          "name": "Pachuca vs Cruz Azul | 10:00 22/10",
+          "name": "Pachuca vs Cruz Azul | 10:10 22/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1074,7 +1074,7 @@
             "team_b": "Cruz Azul",
             "logo_a": "https://apiv3.apifootball.com/badges/5352_pachuca.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/301_cruz-azul.jpg",
-            "time": "10:00",
+            "time": "10:10",
             "date": "22/10",
             "blv": "BLV Khô Mật",
             "is_live": false,
