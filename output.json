@@ -7,14 +7,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-77b72cfe26",
-          "name": "Como vs Manchester Utd | 23:45 21/10",
+          "id": "xc-6c15297805",
+          "name": "Bayern Munich vs Arsenal | 02:00 22/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,22 +28,56 @@
           ],
           "sources": [
             {
-              "id": "src-77b72cfe26",
+              "id": "src-6c15297805",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-77b72cfe26",
-                  "name": "Como vs Manchester Utd",
+                  "id": "ct-6c15297805",
+                  "name": "Bayern Munich vs Arsenal",
                   "streams": [
                     {
-                      "id": "st-77b72cfe26",
+                      "id": "st-6c15297805",
                       "name": "XoiChe TV",
                       "stream_links": [
+                        {
+                          "id": "lnk-3aa3868db4",
+                          "name": "BLV Tam Mao 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=FK4zR2467DvcA9Fn4dCuA9l8E2pj4aXUFkktxkc6_GM&expires=1855579061&token_path=%2Flive%2Flivehub8/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-26c6adad08",
+                          "name": "BLV Tam Mao 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
                         {
                           "id": "lnk-6acc3c909a",
                           "name": "BLV Khô Mật 1",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
                           "url": "https://khogalive.b-cdn.net/bcdn_token=2s7I168olNPU6vVKWV6SfASXbWkPwQ27KoV9g69eolg&expires=1855579061&token_path=%2Flive%2Flivehub13/live/livehub13/index.m3u8",
                           "request_headers": [
                             {
@@ -72,40 +106,6 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-505c243ce4",
-                          "name": "BLV Khô Cay 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=C8MIz3iBie0TxQ7IJVbKl2wxYeMCDiQBpnhj9zedeTs&expires=1855579061&token_path=%2Flive%2Flivehub9/live/livehub9/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-bb86ed7b8f",
-                          "name": "BLV Khô Cay 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/livehub9/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -116,116 +116,24 @@
           ],
           "org_metadata": {
             "league": "UEFA Champions League",
-            "team_a": "Como",
-            "team_b": "Manchester Utd",
-            "logo_a": "https://apiv3.apifootball.com/badges/8239_como.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/102_manchester-united.jpg",
-            "time": "23:45",
-            "date": "21/10",
-            "blv": "BLV Khô Mật, BLV Khô Cay",
+            "team_a": "Bayern Munich",
+            "team_b": "Arsenal",
+            "logo_a": "https://apiv3.apifootball.com/badges/72_bayern-munchen.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/141_arsenal-fc.jpg",
+            "time": "02:00",
+            "date": "22/10",
+            "blv": "BLV Tam Mao, BLV Khô Mật",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 4,
-            "away_score": 1
+            "home_score": 0,
+            "away_score": 0
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/47464_dcd8b2b4_20261022.png?v=dcd8b2b4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-53209bbef5",
-          "name": "Lille vs Galatasaray | 23:45 21/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-53209bbef5",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-53209bbef5",
-                  "name": "Lille vs Galatasaray",
-                  "streams": [
-                    {
-                      "id": "st-53209bbef5",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2419f71255",
-                          "name": "BLV Khô Chè 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=k2Np4muA1CnINe3Ho4ek9IIT350VErv-UbOvlumoGdk&expires=1855579061&token_path=%2Flive%2Flivehub5/live/livehub5/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-cb4092b51c",
-                          "name": "BLV Khô Chè 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/livehub5/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Lille",
-            "team_b": "Galatasaray",
-            "logo_a": "https://apiv3.apifootball.com/badges/160_lille.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/192_galatasaray.jpg",
-            "time": "23:45",
-            "date": "21/10",
-            "blv": "BLV Khô Chè",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 4
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/47465_4a6518d7_20261022.png?v=4a6518d7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/48537_1a3591db_20261022.png?v=1a3591db",
             "width": 1600,
             "height": 1200
           }
@@ -410,132 +318,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/48536_5c0d7a37_20261022.png?v=5c0d7a37",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-6c15297805",
-          "name": "Bayern Munich vs Arsenal | 02:00 22/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6c15297805",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-6c15297805",
-                  "name": "Bayern Munich vs Arsenal",
-                  "streams": [
-                    {
-                      "id": "st-6c15297805",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3aa3868db4",
-                          "name": "BLV Tam Mao 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=FK4zR2467DvcA9Fn4dCuA9l8E2pj4aXUFkktxkc6_GM&expires=1855579061&token_path=%2Flive%2Flivehub8/live/livehub8/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-26c6adad08",
-                          "name": "BLV Tam Mao 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/livehub8/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-6acc3c909a",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=2s7I168olNPU6vVKWV6SfASXbWkPwQ27KoV9g69eolg&expires=1855579061&token_path=%2Flive%2Flivehub13/live/livehub13/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Bayern Munich",
-            "team_b": "Arsenal",
-            "logo_a": "https://apiv3.apifootball.com/badges/72_bayern-munchen.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/141_arsenal-fc.jpg",
-            "time": "02:00",
-            "date": "22/10",
-            "blv": "BLV Tam Mao, BLV Khô Mật",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/48537_1a3591db_20261022.png?v=1a3591db",
             "width": 1600,
             "height": 1200
           }
