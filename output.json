@@ -91,7 +91,7 @@
             "blv": "BLV Tam Mao",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 0,
             "away_score": 0
           },
@@ -100,98 +100,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/48666_89b32b15_20261023.png?v=89b32b15",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-c706723a17",
-          "name": "Trabzonspor vs Hearts | 23:45 22/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c706723a17",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-c706723a17",
-                  "name": "Trabzonspor vs Hearts",
-                  "streams": [
-                    {
-                      "id": "st-c706723a17",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ed916b9464",
-                          "name": "BLV Xôi Xoài 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=94NMTHEad6UpOwuY7elPOUFb0h1wMdcj5SpUVwmlwg0&expires=1855579061&token_path=%2Flive%2Flivehub3/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-3b0600d131",
-                          "name": "BLV Xôi Xoài 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Conference League",
-            "team_a": "Trabzonspor",
-            "team_b": "Hearts",
-            "logo_a": "https://apiv3.apifootball.com/badges/7689_trabzonspor.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/6422_hearts.jpg",
-            "time": "23:45",
-            "date": "22/10",
-            "blv": "BLV Xôi Xoài",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/48670_1bfce400_20261023.png?v=1bfce400",
             "width": 1600,
             "height": 1200
           }
@@ -275,7 +183,7 @@
             "blv": "BLV Khô Mật",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 1,
             "away_score": 2
           },
@@ -284,98 +192,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/48674_d92c0d1b_20261023.png?v=d92c0d1b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-e030f4ce7b",
-          "name": "Lech Poznan vs Sunderland | 23:45 22/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e030f4ce7b",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-e030f4ce7b",
-                  "name": "Lech Poznan vs Sunderland",
-                  "streams": [
-                    {
-                      "id": "st-e030f4ce7b",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-422f42089b",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=dRYFWOS8NR3jV1Miob0kGctX5UCvdUiohqB83sdbUfM&expires=1855579061&token_path=%2Flive%2Flivehub11/live/livehub11/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Lech Poznan",
-            "team_b": "Sunderland",
-            "logo_a": "https://apiv3.apifootball.com/badges/149_lech-pozna.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3111_sunderland.jpg",
-            "time": "23:45",
-            "date": "22/10",
-            "blv": "BLV Xôi Gấc",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/48675_c1cf0209_20261023.png?v=c1cf0209",
             "width": 1600,
             "height": 1200
           }
@@ -459,7 +275,7 @@
             "blv": "BLV Khô Cay",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 0,
             "away_score": 2
           },
@@ -551,7 +367,7 @@
             "blv": "BLV Khô Chè",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 1,
             "away_score": 0
           },
@@ -560,6 +376,190 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/48678_85fc0d98_20261023.png?v=85fc0d98",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-c706723a17",
+          "name": "Trabzonspor vs Hearts | 23:45 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c706723a17",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-c706723a17",
+                  "name": "Trabzonspor vs Hearts",
+                  "streams": [
+                    {
+                      "id": "st-c706723a17",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ed916b9464",
+                          "name": "BLV Xôi Xoài 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=94NMTHEad6UpOwuY7elPOUFb0h1wMdcj5SpUVwmlwg0&expires=1855579061&token_path=%2Flive%2Flivehub3/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-3b0600d131",
+                          "name": "BLV Xôi Xoài 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Conference League",
+            "team_a": "Trabzonspor",
+            "team_b": "Hearts",
+            "logo_a": "https://apiv3.apifootball.com/badges/7689_trabzonspor.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/6422_hearts.jpg",
+            "time": "23:45",
+            "date": "22/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "half_time",
+            "home_score": 1,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/48670_1bfce400_20261023.png?v=1bfce400",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-e030f4ce7b",
+          "name": "Lech Poznan vs Sunderland | 23:45 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e030f4ce7b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e030f4ce7b",
+                  "name": "Lech Poznan vs Sunderland",
+                  "streams": [
+                    {
+                      "id": "st-e030f4ce7b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-422f42089b",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=dRYFWOS8NR3jV1Miob0kGctX5UCvdUiohqB83sdbUfM&expires=1855579061&token_path=%2Flive%2Flivehub11/live/livehub11/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Lech Poznan",
+            "team_b": "Sunderland",
+            "logo_a": "https://apiv3.apifootball.com/badges/149_lech-pozna.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3111_sunderland.jpg",
+            "time": "23:45",
+            "date": "22/10",
+            "blv": "BLV Xôi Gấc",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "half_time",
+            "home_score": 0,
+            "away_score": 1
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/48675_c1cf0209_20261023.png?v=c1cf0209",
             "width": 1600,
             "height": 1200
           }
