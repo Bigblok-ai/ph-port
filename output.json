@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -231,115 +231,6 @@
           }
         },
         {
-          "id": "xc-a24f9fefe9",
-          "name": "Celtic vs Celta Vigo | 02:00 23/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a24f9fefe9",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-a24f9fefe9",
-                  "name": "Celtic vs Celta Vigo",
-                  "streams": [
-                    {
-                      "id": "st-a24f9fefe9",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4fca55e5d3",
-                          "name": "BLV Khô Bò 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=l4pDy0sHUT4YQntQMGRIcbffxilU69IFYUv7JVypDgc&expires=1855579061&token_path=%2Flive%2Flivehub12/live/livehub12/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f665690a76",
-                          "name": "BLV Khô Bò 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/livehub12/live/livehub12/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-800e867b4f",
-                          "name": "BLV Khô Bò 3",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub12.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Celtic",
-            "team_b": "Celta Vigo",
-            "logo_a": "https://apiv3.apifootball.com/badges/127_celtic.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/7290_celta-de-vigo.jpg",
-            "time": "02:00",
-            "date": "23/10",
-            "blv": "BLV Khô Bò",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/49321_332bdbff_20261023.png?v=332bdbff",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-812d061915",
           "name": "Hoffenheim vs Lyon | 02:00 23/10",
           "type": "single",
@@ -449,132 +340,6 @@
           }
         },
         {
-          "id": "xc-6f25a1fecb",
-          "name": "Ajax vs Atalanta | 02:00 23/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6f25a1fecb",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-6f25a1fecb",
-                  "name": "Ajax vs Atalanta",
-                  "streams": [
-                    {
-                      "id": "st-6f25a1fecb",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-31c05c8e7b",
-                          "name": "BLV Xôi Bắp 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=3lsMy5IgFqP3UuPYzg-wTh7YZR6ew7W8GTccyfyGvwo&expires=1855579061&token_path=%2Flive%2Flivehub6/live/livehub6/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9fd6836274",
-                          "name": "BLV Xôi Bắp 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub6.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-2419f71255",
-                          "name": "Server 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=k2Np4muA1CnINe3Ho4ek9IIT350VErv-UbOvlumoGdk&expires=1855579061&token_path=%2Flive%2Flivehub5/live/livehub5/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4367dd1015",
-                          "name": "Server 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/livehub5/live/livehub5/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Ajax",
-            "team_b": "Atalanta",
-            "logo_a": "https://apiv3.apifootball.com/badges/86_ajax.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/85_atalanta.jpg",
-            "time": "02:00",
-            "date": "23/10",
-            "blv": "BLV Xôi Bắp, Server",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/49325_01287415_20261023.png?v=01287415",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-4e7c4a8df5",
           "name": "Monaco vs Freiburg | 02:00 23/10",
           "type": "single",
@@ -671,7 +436,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 2,
+            "home_score": 3,
             "away_score": 0
           },
           "image": {
