@@ -13,115 +13,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-97e8a8937a",
-          "name": "Bochum vs Wolfsburg | 23:30 23/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-97e8a8937a",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-97e8a8937a",
-                  "name": "Bochum vs Wolfsburg",
-                  "streams": [
-                    {
-                      "id": "st-97e8a8937a",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-31c05c8e7b",
-                          "name": "BLV Xôi Bắp 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=3lsMy5IgFqP3UuPYzg-wTh7YZR6ew7W8GTccyfyGvwo&expires=1855579061&token_path=%2Flive%2Flivehub6/live/livehub6/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4cb398a75f",
-                          "name": "BLV Xôi Bắp 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/livehub6/live/livehub6/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-2e6fe61c9c",
-                          "name": "BLV Xôi Bắp 3",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub6.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2. Bundesliga",
-            "team_a": "Bochum",
-            "team_b": "Wolfsburg",
-            "logo_a": "https://apiv3.apifootball.com/badges/3911_bochum.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/196_wolfsburg.jpg",
-            "time": "23:30",
-            "date": "23/10",
-            "blv": "BLV Xôi Bắp",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/49334_5cafb8e0_20261024.png?v=5cafb8e0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-c3449c7cc8",
           "name": "Al Qadsiah vs Al Hilal | 01:00 24/10",
           "type": "single",
@@ -323,6 +214,98 @@
           }
         },
         {
+          "id": "xc-da8285d6f7",
+          "name": "Torino vs Monza | 01:45 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da8285d6f7",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-da8285d6f7",
+                  "name": "Torino vs Monza",
+                  "streams": [
+                    {
+                      "id": "st-da8285d6f7",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-31c05c8e7b",
+                          "name": "BLV Xôi Bắp 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=3lsMy5IgFqP3UuPYzg-wTh7YZR6ew7W8GTccyfyGvwo&expires=1855579061&token_path=%2Flive%2Flivehub6/live/livehub6/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9fd6836274",
+                          "name": "BLV Xôi Bắp 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub6.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Torino",
+            "team_b": "Monza",
+            "logo_a": "https://apiv3.apifootball.com/badges/4973_torino.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4990_monza.jpg",
+            "time": "01:45",
+            "date": "24/10",
+            "blv": "BLV Xôi Bắp",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/49337_187bbe71_20261024.png?v=187bbe71",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-79c57bf41c",
           "name": "Brest vs Nice | 01:45 24/10",
           "type": "single",
@@ -432,8 +415,8 @@
           }
         },
         {
-          "id": "xc-da8285d6f7",
-          "name": "Torino vs Monza | 01:45 24/10",
+          "id": "xc-d5ebe74a70",
+          "name": "Alaves vs Malaga | 02:00 24/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -447,23 +430,23 @@
           ],
           "sources": [
             {
-              "id": "src-da8285d6f7",
+              "id": "src-d5ebe74a70",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-da8285d6f7",
-                  "name": "Torino vs Monza",
+                  "id": "ct-d5ebe74a70",
+                  "name": "Alaves vs Malaga",
                   "streams": [
                     {
-                      "id": "st-da8285d6f7",
+                      "id": "st-d5ebe74a70",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-31c05c8e7b",
-                          "name": "BLV Xôi Bắp 1",
+                          "id": "lnk-4fca55e5d3",
+                          "name": "BLV Khô Bò 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=3lsMy5IgFqP3UuPYzg-wTh7YZR6ew7W8GTccyfyGvwo&expires=1855579061&token_path=%2Flive%2Flivehub6/live/livehub6/index.m3u8",
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=l4pDy0sHUT4YQntQMGRIcbffxilU69IFYUv7JVypDgc&expires=1855579061&token_path=%2Flive%2Flivehub12/live/livehub12/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -476,11 +459,28 @@
                           ]
                         },
                         {
-                          "id": "lnk-9fd6836274",
-                          "name": "BLV Xôi Bắp 2",
+                          "id": "lnk-f665690a76",
+                          "name": "BLV Khô Bò 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub12/live/livehub12/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-800e867b4f",
+                          "name": "BLV Khô Bò 3",
                           "type": "httpflv",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub6.flv",
+                          "url": "https://live.khoga.space/live/livehub12.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -500,14 +500,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Torino",
-            "team_b": "Monza",
-            "logo_a": "https://apiv3.apifootball.com/badges/4973_torino.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/4990_monza.jpg",
-            "time": "01:45",
+            "league": "La Liga",
+            "team_a": "Alaves",
+            "team_b": "Malaga",
+            "logo_a": "https://apiv3.apifootball.com/badges/7275_alaves.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7267_malaga.jpg",
+            "time": "02:00",
             "date": "24/10",
-            "blv": "BLV Xôi Bắp",
+            "blv": "BLV Khô Bò",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -518,7 +518,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/49337_187bbe71_20261024.png?v=187bbe71",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/49340_2a9b1697_20261024.png?v=2a9b1697",
             "width": 1600,
             "height": 1200
           }
@@ -628,115 +628,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/49339_d773c63b_20261024.png?v=d773c63b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-d5ebe74a70",
-          "name": "Alaves vs Malaga | 02:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d5ebe74a70",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-d5ebe74a70",
-                  "name": "Alaves vs Malaga",
-                  "streams": [
-                    {
-                      "id": "st-d5ebe74a70",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4fca55e5d3",
-                          "name": "BLV Khô Bò 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=l4pDy0sHUT4YQntQMGRIcbffxilU69IFYUv7JVypDgc&expires=1855579061&token_path=%2Flive%2Flivehub12/live/livehub12/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f665690a76",
-                          "name": "BLV Khô Bò 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/livehub12/live/livehub12/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-800e867b4f",
-                          "name": "BLV Khô Bò 3",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub12.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Alaves",
-            "team_b": "Malaga",
-            "logo_a": "https://apiv3.apifootball.com/badges/7275_alaves.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/7267_malaga.jpg",
-            "time": "02:00",
-            "date": "24/10",
-            "blv": "BLV Khô Bò",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/49340_2a9b1697_20261024.png?v=2a9b1697",
             "width": 1600,
             "height": 1200
           }
