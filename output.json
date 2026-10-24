@@ -1958,6 +1958,98 @@
           }
         },
         {
+          "id": "xc-0ba5eff28e",
+          "name": "New York Red Bulls vs Inter Miami | 04:30 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0ba5eff28e",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-0ba5eff28e",
+                  "name": "New York Red Bulls vs Inter Miami",
+                  "streams": [
+                    {
+                      "id": "st-0ba5eff28e",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ed916b9464",
+                          "name": "BLV Xôi Xoài 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=94NMTHEad6UpOwuY7elPOUFb0h1wMdcj5SpUVwmlwg0&expires=1855579061&token_path=%2Flive%2Flivehub3/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-3b0600d131",
+                          "name": "BLV Xôi Xoài 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLS",
+            "team_a": "New York Red Bulls",
+            "team_b": "Inter Miami",
+            "logo_a": "https://apiv3.apifootball.com/badges/7958_new-york-rb.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7953_inter-miami.jpg",
+            "time": "04:30",
+            "date": "25/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/52015_e4514383_20261024.png?v=e4514383",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-92a972196a",
           "name": "Santos vs Bahia | 07:00 25/10",
           "type": "single",
@@ -2234,6 +2326,98 @@
           }
         },
         {
+          "id": "xc-15ec8344c9",
+          "name": "Arema FC vs Dewa United | 15:30 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-15ec8344c9",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-15ec8344c9",
+                  "name": "Arema FC vs Dewa United",
+                  "streams": [
+                    {
+                      "id": "st-15ec8344c9",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ed916b9464",
+                          "name": "BLV Xôi Xoài 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=94NMTHEad6UpOwuY7elPOUFb0h1wMdcj5SpUVwmlwg0&expires=1855579061&token_path=%2Flive%2Flivehub3/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-3b0600d131",
+                          "name": "BLV Xôi Xoài 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga 1",
+            "team_a": "Arema FC",
+            "team_b": "Dewa United",
+            "logo_a": "https://apiv3.apifootball.com/badges/4724_arema.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/21934_dewa-united.jpg",
+            "time": "15:30",
+            "date": "25/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/52286_87a50967_20261024.png?v=87a50967",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-59dc3736c8",
           "name": "Da Nang vs Hanoi FC | 18:00 25/10",
           "type": "single",
@@ -2413,6 +2597,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/52640_d2c75ee3_20261024.png?v=d2c75ee3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-ccea1f66b0",
+          "name": "Crystal Palace vs Newcastle | 21:00 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ccea1f66b0",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-ccea1f66b0",
+                  "name": "Crystal Palace vs Newcastle",
+                  "streams": [
+                    {
+                      "id": "st-ccea1f66b0",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ed916b9464",
+                          "name": "BLV Xôi Xoài 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=94NMTHEad6UpOwuY7elPOUFb0h1wMdcj5SpUVwmlwg0&expires=1855579061&token_path=%2Flive%2Flivehub3/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-3b0600d131",
+                          "name": "BLV Xôi Xoài 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Crystal Palace",
+            "team_b": "Newcastle",
+            "logo_a": "https://apiv3.apifootball.com/badges/3429_crystal-palace.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3100_newcastle-united.jpg",
+            "time": "21:00",
+            "date": "25/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/53384_01762120_20261024.png?v=01762120",
             "width": 1600,
             "height": 1200
           }
@@ -2795,8 +3071,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-c3f779e1cf",
-          "name": "Hokkaido Yellow Stars vs Osaka Bluteon | 12:05 24/10",
+          "id": "xc-3567cb56b2",
+          "name": "Astemo Rivale Ibaraki vs NEC Red Rockets Kawasaki | 12:05 24/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2810,56 +3086,22 @@
           ],
           "sources": [
             {
-              "id": "src-c3f779e1cf",
+              "id": "src-3567cb56b2",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-c3f779e1cf",
-                  "name": "Hokkaido Yellow Stars vs Osaka Bluteon",
+                  "id": "ct-3567cb56b2",
+                  "name": "Astemo Rivale Ibaraki vs NEC Red Rockets Kawasaki",
                   "streams": [
                     {
-                      "id": "st-c3f779e1cf",
+                      "id": "st-3567cb56b2",
                       "name": "XoiChe TV",
                       "stream_links": [
-                        {
-                          "id": "lnk-4fca55e5d3",
-                          "name": "BLV Khô Bò 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=l4pDy0sHUT4YQntQMGRIcbffxilU69IFYUv7JVypDgc&expires=1855579061&token_path=%2Flive%2Flivehub12/live/livehub12/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8bcf71e3b1",
-                          "name": "BLV Khô Bò 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub12.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
                         {
                           "id": "lnk-31c05c8e7b",
                           "name": "BLV Xôi Bắp 1",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://khogalive.b-cdn.net/bcdn_token=3lsMy5IgFqP3UuPYzg-wTh7YZR6ew7W8GTccyfyGvwo&expires=1855579061&token_path=%2Flive%2Flivehub6/live/livehub6/index.m3u8",
                           "request_headers": [
                             {
@@ -2888,6 +3130,40 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
+                        },
+                        {
+                          "id": "lnk-4fca55e5d3",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=l4pDy0sHUT4YQntQMGRIcbffxilU69IFYUv7JVypDgc&expires=1855579061&token_path=%2Flive%2Flivehub12/live/livehub12/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -2897,14 +3173,14 @@
             }
           ],
           "org_metadata": {
-            "league": "SV.League Nhật Bản Nam",
-            "team_a": "Hokkaido Yellow Stars",
-            "team_b": "Osaka Bluteon",
-            "logo_a": "https://xoiche.live/media/teams/logos/hokkaido-yellow-stars-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/1791593223804661668_d88a000d.png",
+            "league": "SV.League Nhật Bản / W",
+            "team_a": "Astemo Rivale Ibaraki",
+            "team_b": "NEC Red Rockets Kawasaki",
+            "logo_a": "https://xoiche.live/media/teams/logos/astemo-rivale-ibaraki-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/nec-red-rockets-kawasaki-vb.png",
             "time": "12:05",
             "date": "24/10",
-            "blv": "BLV Khô Bò, BLV Xôi Bắp",
+            "blv": "BLV Xôi Bắp, BLV Khô Bò",
             "is_live": false,
             "cate_type": "volleyball",
             "status": "scheduled",
@@ -2915,7 +3191,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38741_3c796444_20261024.png?v=3c796444",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38743_d4d59da1_20261024.png?v=d4d59da1",
             "width": 1600,
             "height": 1200
           }
