@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -238,10 +238,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -324,9 +324,9 @@
             "time": "23:00",
             "date": "24/10",
             "blv": "BLV Khô Cay",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -2516,8 +2516,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-35f48f3c40",
-          "name": "Numia Vero Volley Milano vs Laica UYBA Busto Arsizio | 21:00 24/10",
+          "id": "xc-ecc008a2e2",
+          "name": "Imoco Conegliano vs Savino Del Bene Scandicci | 23:00 24/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2527,81 +2527,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-35f48f3c40",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-35f48f3c40",
-                  "name": "Numia Vero Volley Milano vs Laica UYBA Busto Arsizio",
-                  "streams": [
-                    {
-                      "id": "st-35f48f3c40",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3bd3605c6a",
-                          "name": "BLV Lương Khô",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=Qlu9bUGHx8fS14O2mr32Bm0jndtWCKPpUlzAQ5DYecI&expires=1855579061&token_path=%2Flive%2Flivehub2/live/livehub2/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A1 Ý / W",
-            "team_a": "Numia Vero Volley Milano",
-            "team_b": "Laica UYBA Busto Arsizio",
-            "logo_a": "https://xoiche.live/media/teams/logos/numia-vero-volley-milano-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/laica-uyba-busto-arsizio-vb.png",
-            "time": "21:00",
-            "date": "24/10",
-            "blv": "BLV Lương Khô",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38757_2932a9bc_20261024.png?v=2932a9bc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-ecc008a2e2",
-          "name": "Imoco Conegliano vs Savino Del Bene Scandicci | 23:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -2667,9 +2592,9 @@
             "time": "23:00",
             "date": "24/10",
             "blv": "BLV Khô Bò",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "volleyball",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
