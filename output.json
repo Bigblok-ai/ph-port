@@ -108,7 +108,7 @@
             "blv": "BLV Khô Chè",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -218,7 +218,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 2,
+            "home_score": 3,
             "away_score": 1
           },
           "image": {
@@ -3232,103 +3232,11 @@
     },
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-3567cb56b2",
-          "name": "Astemo Rivale Ibaraki vs NEC Red Rockets Kawasaki | 12:05 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3567cb56b2",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-3567cb56b2",
-                  "name": "Astemo Rivale Ibaraki vs NEC Red Rockets Kawasaki",
-                  "streams": [
-                    {
-                      "id": "st-3567cb56b2",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-31c05c8e7b",
-                          "name": "BLV Xôi Bắp 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=3lsMy5IgFqP3UuPYzg-wTh7YZR6ew7W8GTccyfyGvwo&expires=1855579061&token_path=%2Flive%2Flivehub6/live/livehub6/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9fd6836274",
-                          "name": "BLV Xôi Bắp 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub6.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "SV.League Nhật Bản / W",
-            "team_a": "Astemo Rivale Ibaraki",
-            "team_b": "NEC Red Rockets Kawasaki",
-            "logo_a": "https://xoiche.live/media/teams/logos/astemo-rivale-ibaraki-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/nec-red-rockets-kawasaki-vb.png",
-            "time": "12:05",
-            "date": "24/10",
-            "blv": "BLV Xôi Bắp",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38743_d4d59da1_20261024.png?v=d4d59da1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-daa4c479f8",
           "name": "Galatasaray vs Akedaş Onikişubat Belediye Spor | 17:00 24/10",
@@ -3601,6 +3509,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38765_4255a2ea_20261024.png?v=4255a2ea",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-98fc5ad418",
+          "name": "Astemo Rivale Ibaraki vs NEC Red Rockets Kawasaki | 12:05 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-98fc5ad418",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-98fc5ad418",
+                  "name": "Astemo Rivale Ibaraki vs NEC Red Rockets Kawasaki",
+                  "streams": [
+                    {
+                      "id": "st-98fc5ad418",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-31c05c8e7b",
+                          "name": "BLV Xôi Bắp 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=3lsMy5IgFqP3UuPYzg-wTh7YZR6ew7W8GTccyfyGvwo&expires=1855579061&token_path=%2Flive%2Flivehub6/live/livehub6/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9fd6836274",
+                          "name": "BLV Xôi Bắp 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub6.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SV.League Nhật Bản / W",
+            "team_a": "Astemo Rivale Ibaraki",
+            "team_b": "NEC Red Rockets Kawasaki",
+            "logo_a": "https://xoiche.live/media/teams/logos/astemo-rivale-ibaraki-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/nec-red-rockets-kawasaki-vb.png",
+            "time": "12:05",
+            "date": "25/10",
+            "blv": "BLV Xôi Bắp",
+            "is_live": false,
+            "cate_type": "volleyball",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38773_d4d59da1_20261024.png?v=d4d59da1",
             "width": 1600,
             "height": 1200
           }
