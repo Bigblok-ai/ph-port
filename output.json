@@ -184,7 +184,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 1
           },
           "image": {
@@ -2391,103 +2391,11 @@
     },
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-b08895656b",
-          "name": "CDA Volley Talmassons FVG vs Reale Mutua Fenera Chieri ’76 | 01:45 25/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b08895656b",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-b08895656b",
-                  "name": "CDA Volley Talmassons FVG vs Reale Mutua Fenera Chieri ’76",
-                  "streams": [
-                    {
-                      "id": "st-b08895656b",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-31c05c8e7b",
-                          "name": "BLV Xôi Bắp 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=3lsMy5IgFqP3UuPYzg-wTh7YZR6ew7W8GTccyfyGvwo&expires=1855579061&token_path=%2Flive%2Flivehub6/live/livehub6/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9fd6836274",
-                          "name": "BLV Xôi Bắp 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub6.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A1 Ý / W",
-            "team_a": "CDA Volley Talmassons FVG",
-            "team_b": "Reale Mutua Fenera Chieri ’76",
-            "logo_a": "https://xoiche.live/media/teams/logos/cda-volley-talmassons-fvg-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/reale-mutua-fenera-chieri-76-vb.png",
-            "time": "01:45",
-            "date": "25/10",
-            "blv": "BLV Xôi Bắp",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38765_4255a2ea_20261025.png?v=4255a2ea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-98fc5ad418",
           "name": "Astemo Rivale Ibaraki vs NEC Red Rockets Kawasaki | 12:05 25/10",
