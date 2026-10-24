@@ -1774,6 +1774,98 @@
           }
         },
         {
+          "id": "xc-c3bf22170c",
+          "name": "Lazio vs Parma | 01:45 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c3bf22170c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-c3bf22170c",
+                  "name": "Lazio vs Parma",
+                  "streams": [
+                    {
+                      "id": "st-c3bf22170c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-505c243ce4",
+                          "name": "BLV Khô Cay 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=C8MIz3iBie0TxQ7IJVbKl2wxYeMCDiQBpnhj9zedeTs&expires=1855579061&token_path=%2Flive%2Flivehub9/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-bb86ed7b8f",
+                          "name": "BLV Khô Cay 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Lazio",
+            "team_b": "Parma",
+            "logo_a": "https://apiv3.apifootball.com/badges/93_lazio.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4978_parma.jpg",
+            "time": "01:45",
+            "date": "25/10",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/51890_cf7cbd11_20261024.png?v=cf7cbd11",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-503cd3ce8f",
           "name": "Lens vs Paris FC | 01:45 25/10",
           "type": "single",
@@ -2786,8 +2878,8 @@
           }
         },
         {
-          "id": "xc-0722189e33",
-          "name": "Manchester Utd vs Bournemouth | 21:00 25/10",
+          "id": "xc-26bce83691",
+          "name": "Liverpool vs Brighton | 21:00 25/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2801,15 +2893,15 @@
           ],
           "sources": [
             {
-              "id": "src-0722189e33",
+              "id": "src-26bce83691",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-0722189e33",
-                  "name": "Manchester Utd vs Bournemouth",
+                  "id": "ct-26bce83691",
+                  "name": "Liverpool vs Brighton",
                   "streams": [
                     {
-                      "id": "st-0722189e33",
+                      "id": "st-26bce83691",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
@@ -2855,10 +2947,10 @@
           ],
           "org_metadata": {
             "league": "Premier League",
-            "team_a": "Manchester Utd",
-            "team_b": "Bournemouth",
-            "logo_a": "https://apiv3.apifootball.com/badges/102_manchester-united.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3071_afc-bournemouth.jpg",
+            "team_a": "Liverpool",
+            "team_b": "Brighton",
+            "logo_a": "https://apiv3.apifootball.com/badges/84_liverpool.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3079_brighton--hove-albion.jpg",
             "time": "21:00",
             "date": "25/10",
             "blv": "BLV Khô Mật",
@@ -2872,7 +2964,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/53390_555bfba8_20261024.png?v=555bfba8",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/53388_17e2e6e3_20261024.png?v=17e2e6e3",
             "width": 1600,
             "height": 1200
           }
@@ -3065,7 +3157,7 @@
     },
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3078,10 +3170,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3181,9 +3273,9 @@
             "time": "12:05",
             "date": "24/10",
             "blv": "BLV Xôi Bắp, BLV Khô Bò",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "volleyball",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
