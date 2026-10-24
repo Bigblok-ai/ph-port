@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -134,115 +134,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/49356_3d381638_20261025.png?v=3d381638",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-d9e76e452a",
-          "name": "Dortmund vs Eintracht Frankfurt | 23:30 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d9e76e452a",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-d9e76e452a",
-                  "name": "Dortmund vs Eintracht Frankfurt",
-                  "streams": [
-                    {
-                      "id": "st-d9e76e452a",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6acc3c909a",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=2s7I168olNPU6vVKWV6SfASXbWkPwQ27KoV9g69eolg&expires=1855579061&token_path=%2Flive%2Flivehub13/live/livehub13/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-628f41c863",
-                          "name": "BLV Khô Mật 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/livehub13/live/livehub13/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-3736924eb8",
-                          "name": "BLV Khô Mật 3",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Dortmund",
-            "team_b": "Eintracht Frankfurt",
-            "logo_a": "https://apiv3.apifootball.com/badges/92_borussia-dortmund.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3945_eintracht-frankfurt.jpg",
-            "time": "23:30",
-            "date": "24/10",
-            "blv": "BLV Khô Mật",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/49357_2c5cda9e_20261025.png?v=2c5cda9e",
             "width": 1600,
             "height": 1200
           }
@@ -2459,11 +2350,103 @@
     },
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-4aa01bbc62",
+          "name": "Gunma Green Wings vs Aranmare Yamagata | 00:00 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4aa01bbc62",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-4aa01bbc62",
+                  "name": "Gunma Green Wings vs Aranmare Yamagata",
+                  "streams": [
+                    {
+                      "id": "st-4aa01bbc62",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4fca55e5d3",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=l4pDy0sHUT4YQntQMGRIcbffxilU69IFYUv7JVypDgc&expires=1855579061&token_path=%2Flive%2Flivehub12/live/livehub12/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SV.League Nhật Bản / W",
+            "team_a": "Gunma Green Wings",
+            "team_b": "Aranmare Yamagata",
+            "logo_a": "https://xoiche.live/media/teams/logos/gunma-green-wings-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/aranmare-yamagata-vb.png",
+            "time": "00:00",
+            "date": "25/10",
+            "blv": "BLV Khô Bò",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38788_49f24b0d_20261025.png?v=49f24b0d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-98fc5ad418",
           "name": "Astemo Rivale Ibaraki vs NEC Red Rockets Kawasaki | 12:05 25/10",
