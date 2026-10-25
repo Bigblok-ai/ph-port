@@ -316,11 +316,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-ed916b9464",
+                          "id": "lnk-f1a5066e1a",
                           "name": "BLV Xôi Xoài 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=94NMTHEad6UpOwuY7elPOUFb0h1wMdcj5SpUVwmlwg0&expires=1855579061&token_path=%2Flive%2Flivehub3/live/livehub3/index.m3u8",
+                          "url": "https://ngoaihang2.cpcnew.store/nhlive/ngoaihang1/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
