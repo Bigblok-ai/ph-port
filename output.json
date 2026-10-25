@@ -316,11 +316,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-f1a5066e1a",
+                          "id": "lnk-eb91491581",
                           "name": "BLV Xôi Xoài 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ngoaihang2.cpcnew.store/nhlive/ngoaihang1/index.m3u8",
+                          "url": "http://rtmp.cdnfastter.xyz/live/live_1bab106a2c/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
