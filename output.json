@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -93,7 +93,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 2
+            "away_score": 3
           },
           "image": {
             "padding": 1,
@@ -202,13 +202,105 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 2
+            "away_score": 3
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/53390_555bfba8_20261025.png?v=555bfba8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-261200b4ea",
+          "name": "Celta Vigo vs Betis | 22:15 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-261200b4ea",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-261200b4ea",
+                  "name": "Celta Vigo vs Betis",
+                  "streams": [
+                    {
+                      "id": "st-261200b4ea",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4fca55e5d3",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=l4pDy0sHUT4YQntQMGRIcbffxilU69IFYUv7JVypDgc&expires=1855579061&token_path=%2Flive%2Flivehub12/live/livehub12/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Celta Vigo",
+            "team_b": "Betis",
+            "logo_a": "https://apiv3.apifootball.com/badges/7290_celta-de-vigo.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7261_real-betis.jpg",
+            "time": "22:15",
+            "date": "25/10",
+            "blv": "BLV Khô Bò",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/53784_471ea7c2_20261025.png?v=471ea7c2",
             "width": 1600,
             "height": 1200
           }
