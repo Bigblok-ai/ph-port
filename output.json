@@ -164,40 +164,6 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-ed916b9464",
-                          "name": "BLV Xôi Xoài 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=94NMTHEad6UpOwuY7elPOUFb0h1wMdcj5SpUVwmlwg0&expires=1855579061&token_path=%2Flive%2Flivehub3/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-3b0600d131",
-                          "name": "BLV Xôi Xoài 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -214,7 +180,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/21934_dewa-united.jpg",
             "time": "15:30",
             "date": "25/10",
-            "blv": "BLV Tam Mao, BLV Xôi Xoài",
+            "blv": "BLV Tam Mao",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
