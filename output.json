@@ -7,103 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-33769ddfe7",
-          "name": "Lecce vs Juventus | 00:00 26/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-33769ddfe7",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-33769ddfe7",
-                  "name": "Lecce vs Juventus",
-                  "streams": [
-                    {
-                      "id": "st-33769ddfe7",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ed916b9464",
-                          "name": "BLV Xôi Xoài 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=94NMTHEad6UpOwuY7elPOUFb0h1wMdcj5SpUVwmlwg0&expires=1855579061&token_path=%2Flive%2Flivehub3/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-3b0600d131",
-                          "name": "BLV Xôi Xoài 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Lecce",
-            "team_b": "Juventus",
-            "logo_a": "https://apiv3.apifootball.com/badges/5010_lecce.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/96_juventus-fc.jpg",
-            "time": "00:00",
-            "date": "26/10",
-            "blv": "BLV Xôi Xoài",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54175_80e19b31_20261026.png?v=80e19b31",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-76a46febd7",
           "name": "Real Sociedad vs Levante | 00:30 26/10",
