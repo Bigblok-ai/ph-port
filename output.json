@@ -7,14 +7,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-261200b4ea",
-          "name": "Celta Vigo vs Betis | 17:15 25/10",
+          "id": "xc-1e56669199",
+          "name": "Ath Bilbao vs Getafe | 15:00 25/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,15 +28,15 @@
           ],
           "sources": [
             {
-              "id": "src-261200b4ea",
+              "id": "src-1e56669199",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-261200b4ea",
-                  "name": "Celta Vigo vs Betis",
+                  "id": "ct-1e56669199",
+                  "name": "Ath Bilbao vs Getafe",
                   "streams": [
                     {
-                      "id": "st-261200b4ea",
+                      "id": "st-1e56669199",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
@@ -82,11 +82,11 @@
           ],
           "org_metadata": {
             "league": "La Liga",
-            "team_a": "Celta Vigo",
-            "team_b": "Betis",
-            "logo_a": "https://apiv3.apifootball.com/badges/7290_celta-de-vigo.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/7261_real-betis.jpg",
-            "time": "17:15",
+            "team_a": "Ath Bilbao",
+            "team_b": "Getafe",
+            "logo_a": "https://apiv3.apifootball.com/badges/7258_athletic-club.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7288_getafe.jpg",
+            "time": "15:00",
             "date": "25/10",
             "blv": "BLV Khô Bò",
             "is_live": true,
@@ -99,7 +99,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/53784_471ea7c2_20261025.png?v=471ea7c2",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/52920_8707d3ec_20261025.png?v=8707d3ec",
             "width": 1600,
             "height": 1200
           }
@@ -381,30 +381,30 @@
           }
         },
         {
-          "id": "xc-76a46febd7",
-          "name": "Real Sociedad vs Levante | 19:30 25/10",
+          "id": "xc-261200b4ea",
+          "name": "Celta Vigo vs Betis | 17:15 25/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-76a46febd7",
+              "id": "src-261200b4ea",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-76a46febd7",
-                  "name": "Real Sociedad vs Levante",
+                  "id": "ct-261200b4ea",
+                  "name": "Celta Vigo vs Betis",
                   "streams": [
                     {
-                      "id": "st-76a46febd7",
+                      "id": "st-261200b4ea",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
@@ -450,16 +450,16 @@
           ],
           "org_metadata": {
             "league": "La Liga",
-            "team_a": "Real Sociedad",
-            "team_b": "Levante",
-            "logo_a": "https://apiv3.apifootball.com/badges/153_real-sociedad.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/7259_levante.jpg",
-            "time": "19:30",
+            "team_a": "Celta Vigo",
+            "team_b": "Betis",
+            "logo_a": "https://apiv3.apifootball.com/badges/7290_celta-de-vigo.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7261_real-betis.jpg",
+            "time": "17:15",
             "date": "25/10",
             "blv": "BLV Khô Bò",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "football",
-            "status": "live",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -467,7 +467,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54184_4c89bab5_20261025.png?v=4c89bab5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/53784_471ea7c2_20261025.png?v=471ea7c2",
             "width": 1600,
             "height": 1200
           }
