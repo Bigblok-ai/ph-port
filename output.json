@@ -183,7 +183,7 @@
             "blv": "BLV Xôi Bắp",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 0,
             "away_score": 0
           },
@@ -316,11 +316,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-4fca55e5d3",
+                          "id": "lnk-fae8ed2c4d",
                           "name": "BLV Khô Bò 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=l4pDy0sHUT4YQntQMGRIcbffxilU69IFYUv7JVypDgc&expires=1855579061&token_path=%2Flive%2Flivehub12/live/livehub12/index.m3u8",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
                           "request_headers": [
                             {
                               "key": "Referer",
