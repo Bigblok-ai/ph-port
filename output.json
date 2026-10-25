@@ -13,8 +13,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-59dc3736c8",
-          "name": "Da Nang vs Hanoi FC | 18:00 25/10",
+          "id": "xc-b94bbd6ea2",
+          "name": "Inter vs Fiorentina | 18:30 25/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,23 +28,23 @@
           ],
           "sources": [
             {
-              "id": "src-59dc3736c8",
+              "id": "src-b94bbd6ea2",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-59dc3736c8",
-                  "name": "Da Nang vs Hanoi FC",
+                  "id": "ct-b94bbd6ea2",
+                  "name": "Inter vs Fiorentina",
                   "streams": [
                     {
-                      "id": "st-59dc3736c8",
+                      "id": "st-b94bbd6ea2",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-422f42089b",
-                          "name": "BLV Xôi Gấc 1",
+                          "id": "lnk-6acc3c909a",
+                          "name": "BLV Khô Mật 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=dRYFWOS8NR3jV1Miob0kGctX5UCvdUiohqB83sdbUfM&expires=1855579061&token_path=%2Flive%2Flivehub11/live/livehub11/index.m3u8",
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=2s7I168olNPU6vVKWV6SfASXbWkPwQ27KoV9g69eolg&expires=1855579061&token_path=%2Flive%2Flivehub13/live/livehub13/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -57,11 +57,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
                           "type": "httpflv",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "url": "https://live.khoga.space/live/livehub13.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -81,25 +81,25 @@
             }
           ],
           "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Da Nang",
-            "team_b": "Hanoi FC",
-            "logo_a": "https://apiv3.apifootball.com/badges/8056_a-nng.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/473_ha-ni.jpg",
-            "time": "18:00",
+            "league": "Serie A",
+            "team_a": "Inter",
+            "team_b": "Fiorentina",
+            "logo_a": "https://apiv3.apifootball.com/badges/79_internazionale.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4974_fiorentina.jpg",
+            "time": "18:30",
             "date": "25/10",
-            "blv": "BLV Xôi Gấc",
+            "blv": "BLV Khô Mật",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
-            "away_score": 0
+            "home_score": 0,
+            "away_score": 1
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/52600_74d97509_20261025.png?v=74d97509",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/52640_d2c75ee3_20261025.png?v=d2c75ee3",
             "width": 1600,
             "height": 1200
           }
@@ -1129,6 +1129,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54175_80e19b31_20261025.png?v=80e19b31",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-76a46febd7",
+          "name": "Real Sociedad vs Levante | 00:30 26/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-76a46febd7",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-76a46febd7",
+                  "name": "Real Sociedad vs Levante",
+                  "streams": [
+                    {
+                      "id": "st-76a46febd7",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4fca55e5d3",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=l4pDy0sHUT4YQntQMGRIcbffxilU69IFYUv7JVypDgc&expires=1855579061&token_path=%2Flive%2Flivehub12/live/livehub12/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Real Sociedad",
+            "team_b": "Levante",
+            "logo_a": "https://apiv3.apifootball.com/badges/153_real-sociedad.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7259_levante.jpg",
+            "time": "00:30",
+            "date": "26/10",
+            "blv": "BLV Khô Bò",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54184_4c89bab5_20261025.png?v=4c89bab5",
             "width": 1600,
             "height": 1200
           }
