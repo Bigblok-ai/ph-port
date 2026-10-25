@@ -7,103 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-1e56669199",
-          "name": "Ath Bilbao vs Getafe | 15:00 25/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1e56669199",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-1e56669199",
-                  "name": "Ath Bilbao vs Getafe",
-                  "streams": [
-                    {
-                      "id": "st-1e56669199",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4fca55e5d3",
-                          "name": "BLV Khô Bò 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=l4pDy0sHUT4YQntQMGRIcbffxilU69IFYUv7JVypDgc&expires=1855579061&token_path=%2Flive%2Flivehub12/live/livehub12/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8bcf71e3b1",
-                          "name": "BLV Khô Bò 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub12.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Ath Bilbao",
-            "team_b": "Getafe",
-            "logo_a": "https://apiv3.apifootball.com/badges/7258_athletic-club.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/7288_getafe.jpg",
-            "time": "15:00",
-            "date": "25/10",
-            "blv": "BLV Khô Bò",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/52920_8707d3ec_20261025.png?v=8707d3ec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-59dc3736c8",
           "name": "Da Nang vs Hanoi FC | 18:00 25/10",
@@ -197,8 +105,8 @@
           }
         },
         {
-          "id": "xc-89760519c6",
-          "name": "Sunderland vs Leeds | 18:30 25/10",
+          "id": "xc-1e56669199",
+          "name": "Ath Bilbao vs Getafe | 20:00 25/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -212,199 +120,15 @@
           ],
           "sources": [
             {
-              "id": "src-89760519c6",
+              "id": "src-1e56669199",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-89760519c6",
-                  "name": "Sunderland vs Leeds",
+                  "id": "ct-1e56669199",
+                  "name": "Ath Bilbao vs Getafe",
                   "streams": [
                     {
-                      "id": "st-89760519c6",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-31c05c8e7b",
-                          "name": "BLV Xôi Bắp 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=3lsMy5IgFqP3UuPYzg-wTh7YZR6ew7W8GTccyfyGvwo&expires=1855579061&token_path=%2Flive%2Flivehub6/live/livehub6/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9fd6836274",
-                          "name": "BLV Xôi Bắp 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub6.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Sunderland",
-            "team_b": "Leeds",
-            "logo_a": "https://apiv3.apifootball.com/badges/3111_sunderland.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3103_leeds-united.jpg",
-            "time": "18:30",
-            "date": "25/10",
-            "blv": "BLV Xôi Bắp",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54003_47b3d546_20261025.png?v=47b3d546",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-33769ddfe7",
-          "name": "Lecce vs Juventus | 19:00 25/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-33769ddfe7",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-33769ddfe7",
-                  "name": "Lecce vs Juventus",
-                  "streams": [
-                    {
-                      "id": "st-33769ddfe7",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ed916b9464",
-                          "name": "BLV Xôi Xoài 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=94NMTHEad6UpOwuY7elPOUFb0h1wMdcj5SpUVwmlwg0&expires=1855579061&token_path=%2Flive%2Flivehub3/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-3b0600d131",
-                          "name": "BLV Xôi Xoài 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Lecce",
-            "team_b": "Juventus",
-            "logo_a": "https://apiv3.apifootball.com/badges/5010_lecce.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/96_juventus-fc.jpg",
-            "time": "19:00",
-            "date": "25/10",
-            "blv": "BLV Xôi Xoài",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54175_80e19b31_20261025.png?v=80e19b31",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-261200b4ea",
-          "name": "Celta Vigo vs Betis | 17:15 25/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-261200b4ea",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-261200b4ea",
-                  "name": "Celta Vigo vs Betis",
-                  "streams": [
-                    {
-                      "id": "st-261200b4ea",
+                      "id": "st-1e56669199",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
@@ -450,16 +174,16 @@
           ],
           "org_metadata": {
             "league": "La Liga",
-            "team_a": "Celta Vigo",
-            "team_b": "Betis",
-            "logo_a": "https://apiv3.apifootball.com/badges/7290_celta-de-vigo.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/7261_real-betis.jpg",
-            "time": "17:15",
+            "team_a": "Ath Bilbao",
+            "team_b": "Getafe",
+            "logo_a": "https://apiv3.apifootball.com/badges/7258_athletic-club.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7288_getafe.jpg",
+            "time": "20:00",
             "date": "25/10",
             "blv": "BLV Khô Bò",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -467,14 +191,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/53784_471ea7c2_20261025.png?v=471ea7c2",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/52920_8707d3ec_20261025.png?v=8707d3ec",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "xc-d52782e2ba",
-          "name": "Nacional vs Braga | 20:00 25/10",
+          "id": "xc-5fbda49f87",
+          "name": "Monaco vs Lille | 21:00 25/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -488,15 +212,291 @@
           ],
           "sources": [
             {
-              "id": "src-d52782e2ba",
+              "id": "src-5fbda49f87",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-d52782e2ba",
-                  "name": "Nacional vs Braga",
+                  "id": "ct-5fbda49f87",
+                  "name": "Monaco vs Lille",
                   "streams": [
                     {
-                      "id": "st-d52782e2ba",
+                      "id": "st-5fbda49f87",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2419f71255",
+                          "name": "BLV Khô Chè 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=k2Np4muA1CnINe3Ho4ek9IIT350VErv-UbOvlumoGdk&expires=1855579061&token_path=%2Flive%2Flivehub5/live/livehub5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-cb4092b51c",
+                          "name": "BLV Khô Chè 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Monaco",
+            "team_b": "Lille",
+            "logo_a": "https://apiv3.apifootball.com/badges/3817_monaco.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/160_lille.jpg",
+            "time": "21:00",
+            "date": "25/10",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/53382_e3222567_20261025.png?v=e3222567",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-ccea1f66b0",
+          "name": "Crystal Palace vs Newcastle | 21:00 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ccea1f66b0",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-ccea1f66b0",
+                  "name": "Crystal Palace vs Newcastle",
+                  "streams": [
+                    {
+                      "id": "st-ccea1f66b0",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ed916b9464",
+                          "name": "BLV Xôi Xoài 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=94NMTHEad6UpOwuY7elPOUFb0h1wMdcj5SpUVwmlwg0&expires=1855579061&token_path=%2Flive%2Flivehub3/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-3b0600d131",
+                          "name": "BLV Xôi Xoài 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Crystal Palace",
+            "team_b": "Newcastle",
+            "logo_a": "https://apiv3.apifootball.com/badges/3429_crystal-palace.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3100_newcastle-united.jpg",
+            "time": "21:00",
+            "date": "25/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/53384_01762120_20261025.png?v=01762120",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-faa306dfe1",
+          "name": "Hull vs Brentford | 21:00 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-faa306dfe1",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-faa306dfe1",
+                  "name": "Hull vs Brentford",
+                  "streams": [
+                    {
+                      "id": "st-faa306dfe1",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-422f42089b",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=dRYFWOS8NR3jV1Miob0kGctX5UCvdUiohqB83sdbUfM&expires=1855579061&token_path=%2Flive%2Flivehub11/live/livehub11/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Hull",
+            "team_b": "Brentford",
+            "logo_a": "https://apiv3.apifootball.com/badges/3119_hull-city.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3086_brentford.jpg",
+            "time": "21:00",
+            "date": "25/10",
+            "blv": "BLV Xôi Gấc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/53386_d34b4a16_20261025.png?v=d34b4a16",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-26bce83691",
+          "name": "Liverpool vs Brighton | 21:00 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-26bce83691",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-26bce83691",
+                  "name": "Liverpool vs Brighton",
+                  "streams": [
+                    {
+                      "id": "st-26bce83691",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
@@ -541,12 +541,12 @@
             }
           ],
           "org_metadata": {
-            "league": "Primeira Liga",
-            "team_a": "Nacional",
-            "team_b": "Braga",
-            "logo_a": "https://apiv3.apifootball.com/badges/5999_nacional.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/156_sporting-braga.jpg",
-            "time": "20:00",
+            "league": "Premier League",
+            "team_a": "Liverpool",
+            "team_b": "Brighton",
+            "logo_a": "https://apiv3.apifootball.com/badges/84_liverpool.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3079_brighton--hove-albion.jpg",
+            "time": "21:00",
             "date": "25/10",
             "blv": "BLV Khô Mật",
             "is_live": false,
@@ -559,7 +559,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54201_c75cbf57_20261025.png?v=c75cbf57",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/53388_17e2e6e3_20261025.png?v=17e2e6e3",
             "width": 1600,
             "height": 1200
           }
@@ -674,8 +674,8 @@
           }
         },
         {
-          "id": "xc-7e17935306",
-          "name": "Udinese vs AC Milan | 21:45 25/10",
+          "id": "xc-0bd1cce5c5",
+          "name": "Hoffenheim vs Bayer Leverkusen | 21:30 25/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -689,107 +689,15 @@
           ],
           "sources": [
             {
-              "id": "src-7e17935306",
+              "id": "src-0bd1cce5c5",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-7e17935306",
-                  "name": "Udinese vs AC Milan",
+                  "id": "ct-0bd1cce5c5",
+                  "name": "Hoffenheim vs Bayer Leverkusen",
                   "streams": [
                     {
-                      "id": "st-7e17935306",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-422f42089b",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=dRYFWOS8NR3jV1Miob0kGctX5UCvdUiohqB83sdbUfM&expires=1855579061&token_path=%2Flive%2Flivehub11/live/livehub11/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Udinese",
-            "team_b": "AC Milan",
-            "logo_a": "https://apiv3.apifootball.com/badges/4984_udinese.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/159_milan.jpg",
-            "time": "21:45",
-            "date": "25/10",
-            "blv": "BLV Xôi Gấc",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54264_d8068cdb_20261025.png?v=d8068cdb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-299ed0ca3a",
-          "name": "Barcelona vs Real Madrid | 22:00 25/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-299ed0ca3a",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-299ed0ca3a",
-                  "name": "Barcelona vs Real Madrid",
-                  "streams": [
-                    {
-                      "id": "st-299ed0ca3a",
+                      "id": "st-0bd1cce5c5",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
@@ -825,13 +733,88 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Hoffenheim",
+            "team_b": "Bayer Leverkusen",
+            "logo_a": "https://apiv3.apifootball.com/badges/170_hoffenheim.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/143_bayer-leverkusen.jpg",
+            "time": "21:30",
+            "date": "25/10",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/53558_b09c81f7_20261025.png?v=b09c81f7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-261200b4ea",
+          "name": "Celta Vigo vs Betis | 22:15 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-261200b4ea",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-261200b4ea",
+                  "name": "Celta Vigo vs Betis",
+                  "streams": [
+                    {
+                      "id": "st-261200b4ea",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4fca55e5d3",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=l4pDy0sHUT4YQntQMGRIcbffxilU69IFYUv7JVypDgc&expires=1855579061&token_path=%2Flive%2Flivehub12/live/livehub12/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
                         },
                         {
-                          "id": "lnk-3bd3605c6a",
-                          "name": "BLV Lương Khô",
-                          "type": "hls",
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
                           "default": false,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=Qlu9bUGHx8fS14O2mr32Bm0jndtWCKPpUlzAQ5DYecI&expires=1855579061&token_path=%2Flive%2Flivehub2/live/livehub2/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub12.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -852,13 +835,13 @@
           ],
           "org_metadata": {
             "league": "La Liga",
-            "team_a": "Barcelona",
-            "team_b": "Real Madrid",
-            "logo_a": "https://apiv3.apifootball.com/badges/97_barcelona.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/76_real-madrid.jpg",
-            "time": "22:00",
+            "team_a": "Celta Vigo",
+            "team_b": "Betis",
+            "logo_a": "https://apiv3.apifootball.com/badges/7290_celta-de-vigo.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7261_real-betis.jpg",
+            "time": "22:15",
             "date": "25/10",
-            "blv": "BLV Tam Mao, BLV Lương Khô",
+            "blv": "BLV Khô Bò",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -869,7 +852,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54276_c06ea524_20261025.png?v=c06ea524",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/53784_471ea7c2_20261025.png?v=471ea7c2",
             "width": 1600,
             "height": 1200
           }
@@ -967,8 +950,485 @@
           }
         },
         {
+          "id": "xc-89760519c6",
+          "name": "Sunderland vs Leeds | 23:30 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-89760519c6",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-89760519c6",
+                  "name": "Sunderland vs Leeds",
+                  "streams": [
+                    {
+                      "id": "st-89760519c6",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-31c05c8e7b",
+                          "name": "BLV Xôi Bắp 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=3lsMy5IgFqP3UuPYzg-wTh7YZR6ew7W8GTccyfyGvwo&expires=1855579061&token_path=%2Flive%2Flivehub6/live/livehub6/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9fd6836274",
+                          "name": "BLV Xôi Bắp 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub6.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Sunderland",
+            "team_b": "Leeds",
+            "logo_a": "https://apiv3.apifootball.com/badges/3111_sunderland.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3103_leeds-united.jpg",
+            "time": "23:30",
+            "date": "25/10",
+            "blv": "BLV Xôi Bắp",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54003_47b3d546_20261025.png?v=47b3d546",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-33769ddfe7",
+          "name": "Lecce vs Juventus | 00:00 26/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-33769ddfe7",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-33769ddfe7",
+                  "name": "Lecce vs Juventus",
+                  "streams": [
+                    {
+                      "id": "st-33769ddfe7",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ed916b9464",
+                          "name": "BLV Xôi Xoài 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=94NMTHEad6UpOwuY7elPOUFb0h1wMdcj5SpUVwmlwg0&expires=1855579061&token_path=%2Flive%2Flivehub3/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-3b0600d131",
+                          "name": "BLV Xôi Xoài 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Lecce",
+            "team_b": "Juventus",
+            "logo_a": "https://apiv3.apifootball.com/badges/5010_lecce.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/96_juventus-fc.jpg",
+            "time": "00:00",
+            "date": "26/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54175_80e19b31_20261025.png?v=80e19b31",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-d52782e2ba",
+          "name": "Nacional vs Braga | 01:00 26/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d52782e2ba",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-d52782e2ba",
+                  "name": "Nacional vs Braga",
+                  "streams": [
+                    {
+                      "id": "st-d52782e2ba",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6acc3c909a",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=2s7I168olNPU6vVKWV6SfASXbWkPwQ27KoV9g69eolg&expires=1855579061&token_path=%2Flive%2Flivehub13/live/livehub13/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Primeira Liga",
+            "team_a": "Nacional",
+            "team_b": "Braga",
+            "logo_a": "https://apiv3.apifootball.com/badges/5999_nacional.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/156_sporting-braga.jpg",
+            "time": "01:00",
+            "date": "26/10",
+            "blv": "BLV Khô Mật",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54201_c75cbf57_20261025.png?v=c75cbf57",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-7e17935306",
+          "name": "Udinese vs AC Milan | 02:45 26/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7e17935306",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-7e17935306",
+                  "name": "Udinese vs AC Milan",
+                  "streams": [
+                    {
+                      "id": "st-7e17935306",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-422f42089b",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=dRYFWOS8NR3jV1Miob0kGctX5UCvdUiohqB83sdbUfM&expires=1855579061&token_path=%2Flive%2Flivehub11/live/livehub11/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Udinese",
+            "team_b": "AC Milan",
+            "logo_a": "https://apiv3.apifootball.com/badges/4984_udinese.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/159_milan.jpg",
+            "time": "02:45",
+            "date": "26/10",
+            "blv": "BLV Xôi Gấc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54264_d8068cdb_20261025.png?v=d8068cdb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-299ed0ca3a",
+          "name": "Barcelona vs Real Madrid | 03:00 26/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-299ed0ca3a",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-299ed0ca3a",
+                  "name": "Barcelona vs Real Madrid",
+                  "streams": [
+                    {
+                      "id": "st-299ed0ca3a",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3aa3868db4",
+                          "name": "BLV Tam Mao 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=FK4zR2467DvcA9Fn4dCuA9l8E2pj4aXUFkktxkc6_GM&expires=1855579061&token_path=%2Flive%2Flivehub8/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-26c6adad08",
+                          "name": "BLV Tam Mao 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-3bd3605c6a",
+                          "name": "BLV Lương Khô",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=Qlu9bUGHx8fS14O2mr32Bm0jndtWCKPpUlzAQ5DYecI&expires=1855579061&token_path=%2Flive%2Flivehub2/live/livehub2/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Barcelona",
+            "team_b": "Real Madrid",
+            "logo_a": "https://apiv3.apifootball.com/badges/97_barcelona.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/76_real-madrid.jpg",
+            "time": "03:00",
+            "date": "26/10",
+            "blv": "BLV Tam Mao, BLV Lương Khô",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54276_c06ea524_20261025.png?v=c06ea524",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-7fb693858c",
-          "name": "Los Angeles FC vs Los Angeles Galaxy | 03:00 26/10",
+          "name": "Los Angeles FC vs Los Angeles Galaxy | 08:00 26/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1040,7 +1500,7 @@
             "team_b": "Los Angeles Galaxy",
             "logo_a": "https://apiv3.apifootball.com/badges/7964_los-angeles.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/281_la-galaxy.jpg",
-            "time": "03:00",
+            "time": "08:00",
             "date": "26/10",
             "blv": "BLV Tam Mao",
             "is_live": false,
@@ -1060,7 +1520,7 @@
         },
         {
           "id": "xc-900763d578",
-          "name": "Club America vs Pachuca | 03:05 26/10",
+          "name": "Club America vs Pachuca | 08:05 26/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1132,7 +1592,7 @@
             "team_b": "Pachuca",
             "logo_a": "https://apiv3.apifootball.com/badges/284_club-america.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/5352_pachuca.jpg",
-            "time": "03:05",
+            "time": "08:05",
             "date": "26/10",
             "blv": "BLV Xôi Xoài",
             "is_live": false,
@@ -1152,7 +1612,7 @@
         },
         {
           "id": "xc-1edee226a3",
-          "name": "Persebaya vs Madura United | 14:00 26/10",
+          "name": "Persebaya vs Madura United | 19:00 26/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1224,7 +1684,7 @@
             "team_b": "Madura United",
             "logo_a": "https://apiv3.apifootball.com/badges/4727_persebaya-surabaya.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/4720_madura-united.jpg",
-            "time": "14:00",
+            "time": "19:00",
             "date": "26/10",
             "blv": "BLV Tam Mao",
             "is_live": false,
@@ -1244,7 +1704,7 @@
         },
         {
           "id": "xc-c39e997b89",
-          "name": "Besiktas vs Basaksehir | 18:00 26/10",
+          "name": "Besiktas vs Basaksehir | 23:00 26/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1316,7 +1776,7 @@
             "team_b": "Basaksehir",
             "logo_a": "https://apiv3.apifootball.com/badges/187_beikta.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/103_stanbul-baakehir.jpg",
-            "time": "18:00",
+            "time": "23:00",
             "date": "26/10",
             "blv": "BLV Xôi Xoài",
             "is_live": false,
@@ -1336,7 +1796,7 @@
         },
         {
           "id": "xc-ca35d9a03a",
-          "name": "Al Ain vs Tractor | 18:00 26/10",
+          "name": "Al Ain vs Tractor | 23:00 26/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1408,7 +1868,7 @@
             "team_b": "Tractor",
             "logo_a": "https://apiv3.apifootball.com/badges/374_al-ain.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/414_tractor.jpg",
-            "time": "18:00",
+            "time": "23:00",
             "date": "26/10",
             "blv": "BLV Xôi Gấc",
             "is_live": false,
@@ -1428,7 +1888,7 @@
         },
         {
           "id": "xc-92795ca7ab",
-          "name": "Santa Clara vs Benfica | 20:45 26/10",
+          "name": "Santa Clara vs Benfica | 01:45 27/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1500,8 +1960,8 @@
             "team_b": "Benfica",
             "logo_a": "https://apiv3.apifootball.com/badges/5998_santa-clara.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/147_benfica.jpg",
-            "time": "20:45",
-            "date": "26/10",
+            "time": "01:45",
+            "date": "27/10",
             "blv": "BLV Xôi Gấc",
             "is_live": false,
             "cate_type": "football",
@@ -1520,7 +1980,7 @@
         },
         {
           "id": "xc-635ee98027",
-          "name": "PSG vs Lyon | 21:30 26/10",
+          "name": "PSG vs Lyon | 02:30 27/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1592,8 +2052,8 @@
             "team_b": "Lyon",
             "logo_a": "https://apiv3.apifootball.com/badges/100_psg.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/3815_olympique-lyonnais.jpg",
-            "time": "21:30",
-            "date": "26/10",
+            "time": "02:30",
+            "date": "27/10",
             "blv": "BLV Khô Cay",
             "is_live": false,
             "cate_type": "football",
