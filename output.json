@@ -7,11 +7,103 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-1e56669199",
+          "name": "Ath Bilbao vs Getafe | 20:00 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1e56669199",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-1e56669199",
+                  "name": "Ath Bilbao vs Getafe",
+                  "streams": [
+                    {
+                      "id": "st-1e56669199",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4fca55e5d3",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=l4pDy0sHUT4YQntQMGRIcbffxilU69IFYUv7JVypDgc&expires=1855579061&token_path=%2Flive%2Flivehub12/live/livehub12/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Ath Bilbao",
+            "team_b": "Getafe",
+            "logo_a": "https://apiv3.apifootball.com/badges/7258_athletic-club.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7288_getafe.jpg",
+            "time": "20:00",
+            "date": "25/10",
+            "blv": "BLV Khô Bò",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 2,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/52920_8707d3ec_20261025.png?v=8707d3ec",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-ed428de22c",
           "name": "Mân Đàn vs Bournemouth | 21:00 25/10",
@@ -1103,11 +1195,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-c1347c1289",
-                          "name": "BLV Khô Bò 1",
+                          "id": "lnk-3bd3605c6a",
+                          "name": "BLV Lương Khô",
                           "type": "hls",
                           "default": false,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=l4pDy0sHUT4YQntQMGRIcbffxilU69IFYUv7JVypDgc&expires=1855577607&token_path=%2Flive%2Flivehub12%2F/live/livehub12/index.m3u8",
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=Qlu9bUGHx8fS14O2mr32Bm0jndtWCKPpUlzAQ5DYecI&expires=1855579061&token_path=%2Flive%2Flivehub2/live/livehub2/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1120,11 +1212,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-8bcf71e3b1",
-                          "name": "BLV Khô Bò 2",
-                          "type": "httpflv",
+                          "id": "lnk-c1347c1289",
+                          "name": "BLV Khô Bò",
+                          "type": "hls",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=l4pDy0sHUT4YQntQMGRIcbffxilU69IFYUv7JVypDgc&expires=1855577607&token_path=%2Flive%2Flivehub12%2F/live/livehub12/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1151,7 +1243,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/76_real-madrid.jpg",
             "time": "03:00",
             "date": "26/10",
-            "blv": "BLV Tam Mao, BLV Khô Bò",
+            "blv": "BLV Tam Mao, BLV Lương Khô, BLV Khô Bò",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
