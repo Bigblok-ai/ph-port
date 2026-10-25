@@ -1614,103 +1614,11 @@
     },
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-aebecc5022",
-          "name": "VakıfBank vs Galatasaray Daikin | 18:00 25/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-aebecc5022",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-aebecc5022",
-                  "name": "VakıfBank vs Galatasaray Daikin",
-                  "streams": [
-                    {
-                      "id": "st-aebecc5022",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3bd3605c6a",
-                          "name": "BLV Lương Khô",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=Qlu9bUGHx8fS14O2mr32Bm0jndtWCKPpUlzAQ5DYecI&expires=1855579061&token_path=%2Flive%2Flivehub2/live/livehub2/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f8ea69edd6",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sultanlar Ligi Nữ",
-            "team_a": "VakıfBank",
-            "team_b": "Galatasaray Daikin",
-            "logo_a": "https://xoiche.live/media/teams/logos/vakifbank-sk.png",
-            "logo_b": "https://apiv3.apifootball.com/badges/192_galatasaray.jpg",
-            "time": "18:00",
-            "date": "25/10",
-            "blv": "BLV Lương Khô, Server",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38778_b876f3ed_20261025.png?v=b876f3ed",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-918d2d3961",
           "name": "Aluron CMC Warta Zawiercie vs BOGDANKA LUK Lublin | 20:45 25/10",
