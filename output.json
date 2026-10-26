@@ -750,7 +750,7 @@
         },
         {
           "id": "xc-30d1c0efdb",
-          "name": "Lễ Trao Giải vs Quả Bóng Vàng 2024 | 02:00 27/10",
+          "name": "Lễ Trao Giải vs Quả Bóng Vàng 2026 | 02:00 27/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -769,7 +769,7 @@
               "contents": [
                 {
                   "id": "ct-30d1c0efdb",
-                  "name": "Lễ Trao Giải vs Quả Bóng Vàng 2024",
+                  "name": "Lễ Trao Giải vs Quả Bóng Vàng 2026",
                   "streams": [
                     {
                       "id": "st-30d1c0efdb",
@@ -817,11 +817,11 @@
             }
           ],
           "org_metadata": {
-            "league": "Gala Quả Bóng Vàng 2024",
+            "league": "Gala Quả Bóng Vàng 2026",
             "team_a": "Lễ Trao Giải",
-            "team_b": "Quả Bóng Vàng 2024",
+            "team_b": "Quả Bóng Vàng 2026",
             "logo_a": "https://xoiche.live/media/matches/ballon_dor_2024.jpg",
-            "logo_b": "https://xoiche.live/media/matches/ballon_dor_2024.jpg",
+            "logo_b": "https://xoiche.live/media/teams/logos/1793010864218896327_d9299e20.png",
             "time": "02:00",
             "date": "27/10",
             "blv": "BLV Tam Mao",
@@ -835,7 +835,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55884_4f98ec9c_20261026.png?v=4f98ec9c",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55884_21efb55a_20261026.png?v=21efb55a",
             "width": 1600,
             "height": 1200
           }
