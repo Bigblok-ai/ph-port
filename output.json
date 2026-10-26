@@ -198,7 +198,7 @@
         },
         {
           "id": "xc-07c65274e2",
-          "name": "Club Tijuana vs Santos Laguna | 10:10 26/10",
+          "name": "Club Tijuana vs Santos Laguna | 10:00 26/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -270,7 +270,7 @@
             "team_b": "Santos Laguna",
             "logo_a": "https://apiv3.apifootball.com/badges/5350_tijuana.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/272_santos-laguna.jpg",
-            "time": "10:10",
+            "time": "10:00",
             "date": "26/10",
             "blv": "BLV Khô Chè",
             "is_live": false,
