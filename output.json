@@ -7,195 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-d9c5453001",
-          "name": "Johor DT vs Port MTI FC | 17:00 27/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d9c5453001",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-d9c5453001",
-                  "name": "Johor DT vs Port MTI FC",
-                  "streams": [
-                    {
-                      "id": "st-d9c5453001",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-422f42089b",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=dRYFWOS8NR3jV1Miob0kGctX5UCvdUiohqB83sdbUfM&expires=1855579061&token_path=%2Flive%2Flivehub11/live/livehub11/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Elite",
-            "team_a": "Johor DT",
-            "team_b": "Port MTI FC",
-            "logo_a": "https://apiv3.apifootball.com/badges/386_johor-darul-tazim.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/413_port.jpg",
-            "time": "17:00",
-            "date": "27/10",
-            "blv": "BLV Xôi Gấc",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54578_83c7c3ad_20261027.png?v=83c7c3ad",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-f5b9430e25",
-          "name": "Kyoto vs Newcastle Jets | 17:00 27/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f5b9430e25",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-f5b9430e25",
-                  "name": "Kyoto vs Newcastle Jets",
-                  "streams": [
-                    {
-                      "id": "st-f5b9430e25",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ed916b9464",
-                          "name": "BLV Xôi Xoài 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=94NMTHEad6UpOwuY7elPOUFb0h1wMdcj5SpUVwmlwg0&expires=1855579061&token_path=%2Flive%2Flivehub3/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-3b0600d131",
-                          "name": "BLV Xôi Xoài 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Elite",
-            "team_a": "Kyoto",
-            "team_b": "Newcastle Jets",
-            "logo_a": "https://apiv3.apifootball.com/badges/5078_kyoto-sanga.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/1056_newcastle-jets-fc.jpg",
-            "time": "17:00",
-            "date": "27/10",
-            "blv": "BLV Xôi Xoài",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54579_c654c68e_20261027.png?v=c654c68e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-a5d04859b4",
           "name": "Daejeon vs Vissel Kobe | 17:00 27/10",
@@ -204,10 +20,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -273,9 +89,9 @@
             "time": "17:00",
             "date": "27/10",
             "blv": "BLV Khô Chè",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -284,6 +100,190 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54577_052e7493_20261027.png?v=052e7493",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-d9c5453001",
+          "name": "Johor DT vs Port MTI FC | 17:00 27/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d9c5453001",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-d9c5453001",
+                  "name": "Johor DT vs Port MTI FC",
+                  "streams": [
+                    {
+                      "id": "st-d9c5453001",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-422f42089b",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=dRYFWOS8NR3jV1Miob0kGctX5UCvdUiohqB83sdbUfM&expires=1855579061&token_path=%2Flive%2Flivehub11/live/livehub11/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Elite",
+            "team_a": "Johor DT",
+            "team_b": "Port MTI FC",
+            "logo_a": "https://apiv3.apifootball.com/badges/386_johor-darul-tazim.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/413_port.jpg",
+            "time": "17:00",
+            "date": "27/10",
+            "blv": "BLV Xôi Gấc",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54578_83c7c3ad_20261027.png?v=83c7c3ad",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-f5b9430e25",
+          "name": "Kyoto vs Newcastle Jets | 17:00 27/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f5b9430e25",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-f5b9430e25",
+                  "name": "Kyoto vs Newcastle Jets",
+                  "streams": [
+                    {
+                      "id": "st-f5b9430e25",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ed916b9464",
+                          "name": "BLV Xôi Xoài 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=94NMTHEad6UpOwuY7elPOUFb0h1wMdcj5SpUVwmlwg0&expires=1855579061&token_path=%2Flive%2Flivehub3/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-3b0600d131",
+                          "name": "BLV Xôi Xoài 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Elite",
+            "team_a": "Kyoto",
+            "team_b": "Newcastle Jets",
+            "logo_a": "https://apiv3.apifootball.com/badges/5078_kyoto-sanga.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/1056_newcastle-jets-fc.jpg",
+            "time": "17:00",
+            "date": "27/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54579_c654c68e_20261027.png?v=c654c68e",
             "width": 1600,
             "height": 1200
           }
@@ -565,6 +565,98 @@
           }
         },
         {
+          "id": "xc-d5f86dc658",
+          "name": "Al-Shabab vs Neom SC | 21:45 27/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d5f86dc658",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-d5f86dc658",
+                  "name": "Al-Shabab vs Neom SC",
+                  "streams": [
+                    {
+                      "id": "st-d5f86dc658",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2419f71255",
+                          "name": "BLV Khô Chè 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=k2Np4muA1CnINe3Ho4ek9IIT350VErv-UbOvlumoGdk&expires=1855579061&token_path=%2Flive%2Flivehub5/live/livehub5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-cb4092b51c",
+                          "name": "BLV Khô Chè 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AGCFF Gulf Champions League",
+            "team_a": "Al-Shabab",
+            "team_b": "Neom SC",
+            "logo_a": "https://apiv3.apifootball.com/badges/12217_al-shabab.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/18904_neom.jpg",
+            "time": "21:45",
+            "date": "27/10",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54655_11b173fe_20261027.png?v=11b173fe",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-5351d78cb3",
           "name": "Shabab Al-Ahli Dubai vs Esteghlal F.C. | 23:00 27/10",
           "type": "single",
@@ -744,6 +836,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54677_9dd5a18b_20261027.png?v=9dd5a18b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-9aa9725e0b",
+          "name": "Hamburger SV vs Eintracht Frankfurt | 00:00 28/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9aa9725e0b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-9aa9725e0b",
+                  "name": "Hamburger SV vs Eintracht Frankfurt",
+                  "streams": [
+                    {
+                      "id": "st-9aa9725e0b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2419f71255",
+                          "name": "BLV Khô Chè 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=k2Np4muA1CnINe3Ho4ek9IIT350VErv-UbOvlumoGdk&expires=1855579061&token_path=%2Flive%2Flivehub5/live/livehub5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-cb4092b51c",
+                          "name": "BLV Khô Chè 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "DFB Pokal",
+            "team_a": "Hamburger SV",
+            "team_b": "Eintracht Frankfurt",
+            "logo_a": "https://apiv3.apifootball.com/badges/3912_hamburger-sv.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3945_eintracht-frankfurt.jpg",
+            "time": "00:00",
+            "date": "28/10",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54899_5b106967_20261027.png?v=5b106967",
             "width": 1600,
             "height": 1200
           }
@@ -2473,6 +2657,40 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
+                        },
+                        {
+                          "id": "lnk-4fca55e5d3",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=l4pDy0sHUT4YQntQMGRIcbffxilU69IFYUv7JVypDgc&expires=1855579061&token_path=%2Flive%2Flivehub12/live/livehub12/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -2489,7 +2707,7 @@
             "logo_b": "https://xoiche.live/media/teams/logos/halkbank-vb.png",
             "time": "21:00",
             "date": "27/10",
-            "blv": "BLV Xôi Bắp",
+            "blv": "BLV Xôi Bắp, BLV Khô Bò",
             "is_live": false,
             "cate_type": "volleyball",
             "status": "scheduled",
