@@ -75,7 +75,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 2,
+            "home_score": 3,
             "away_score": 1
           },
           "image": {
@@ -2605,11 +2605,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-98f8b351cf",
-                          "name": "BLV Xôi Bắp",
-                          "type": "httpflv",
+                          "id": "lnk-38d254311a",
+                          "name": "BLV Xôi Bắp 1",
+                          "type": "hls",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub6.flv",
+                          "url": "https://ngoaihang2.cpcnew.store/nhlive/ngoaihang4/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2622,11 +2622,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-18310047d2",
-                          "name": "Server",
-                          "type": "hls",
+                          "id": "lnk-9fd6836274",
+                          "name": "BLV Xôi Bắp 2",
+                          "type": "httpflv",
                           "default": false,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw&expires=1852800615",
+                          "url": "https://live.khoga.space/live/livehub6.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2653,7 +2653,7 @@
             "logo_b": "https://xoiche.live/media/teams/logos/gaziantep-genclik-spor-vb.png",
             "time": "23:00",
             "date": "27/10",
-            "blv": "BLV Khô Bò, BLV Xôi Bắp, Server",
+            "blv": "BLV Khô Bò, BLV Xôi Bắp",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
