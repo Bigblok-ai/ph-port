@@ -93,7 +93,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 2,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
@@ -676,6 +676,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54910_338cb929_20261027.png?v=338cb929",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-0fa99a0a64",
+          "name": "Shamal vs Al Hilal | 01:15 28/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0fa99a0a64",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-0fa99a0a64",
+                  "name": "Shamal vs Al Hilal",
+                  "streams": [
+                    {
+                      "id": "st-0fa99a0a64",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-245e47f94f",
+                          "name": "BLV Lương Khô",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Elite",
+            "team_a": "Shamal",
+            "team_b": "Al Hilal",
+            "logo_a": "https://apiv3.apifootball.com/badges/8583_al-shamal.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/366_al-hilal-fc.jpg",
+            "time": "01:15",
+            "date": "28/10",
+            "blv": "BLV Lương Khô",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54935_2bf1d2e8_20261027.png?v=2bf1d2e8",
             "width": 1600,
             "height": 1200
           }
