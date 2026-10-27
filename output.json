@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -192,81 +192,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54935_2bf1d2e8_20261028.png?v=2bf1d2e8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-6ecbf5eca9",
-          "name": "Al Shorta vs Al Hussein | 01:15 28/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6ecbf5eca9",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-6ecbf5eca9",
-                  "name": "Al Shorta vs Al Hussein",
-                  "streams": [
-                    {
-                      "id": "st-6ecbf5eca9",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Two",
-            "team_a": "Al Shorta",
-            "team_b": "Al Hussein",
-            "logo_a": "https://apiv3.apifootball.com/badges/361_al-shorta.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/5098_al-hussein.jpg",
-            "time": "01:15",
-            "date": "28/10",
-            "blv": "Server",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54936_d72ade9d_20261028.png?v=d72ade9d",
             "width": 1600,
             "height": 1200
           }
