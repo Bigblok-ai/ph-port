@@ -7,103 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-577c869d68",
-          "name": "Sassuolo vs Lazio | 00:30 28/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-577c869d68",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-577c869d68",
-                  "name": "Sassuolo vs Lazio",
-                  "streams": [
-                    {
-                      "id": "st-577c869d68",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-88fe1a05f9",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Sassuolo",
-            "team_b": "Lazio",
-            "logo_a": "https://apiv3.apifootball.com/badges/4975_sassuolo.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/93_lazio.jpg",
-            "time": "00:30",
-            "date": "28/10",
-            "blv": "BLV Xôi Xoài, Server",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 6
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54910_338cb929_20261028.png?v=338cb929",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-0fa99a0a64",
           "name": "Shamal vs Al Hilal | 01:15 28/10",
@@ -184,7 +92,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 1
           },
           "image": {
@@ -272,8 +180,8 @@
           }
         },
         {
-          "id": "xc-d1315acafd",
-          "name": "Torino vs Como | 02:45 28/10",
+          "id": "xc-f0281cee08",
+          "name": "AS Roma vs Cagliari | 02:45 28/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -287,40 +195,23 @@
           ],
           "sources": [
             {
-              "id": "src-d1315acafd",
+              "id": "src-f0281cee08",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-d1315acafd",
-                  "name": "Torino vs Como",
+                  "id": "ct-f0281cee08",
+                  "name": "AS Roma vs Cagliari",
                   "streams": [
                     {
-                      "id": "st-d1315acafd",
+                      "id": "st-f0281cee08",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e3b4108ed2",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -341,13 +232,13 @@
           ],
           "org_metadata": {
             "league": "Serie A",
-            "team_a": "Torino",
-            "team_b": "Como",
-            "logo_a": "https://apiv3.apifootball.com/badges/4973_torino.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/8239_como.jpg",
+            "team_a": "AS Roma",
+            "team_b": "Cagliari",
+            "logo_a": "https://apiv3.apifootball.com/badges/139_roma.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4981_cagliari.jpg",
             "time": "02:45",
             "date": "28/10",
-            "blv": "BLV Tam Mao, Server",
+            "blv": "BLV Xôi Xoài",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
@@ -358,7 +249,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55004_52aabc72_20261028.png?v=52aabc72",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55003_2effa76d_20261028.png?v=2effa76d",
             "width": 1600,
             "height": 1200
           }
@@ -456,8 +347,8 @@
           }
         },
         {
-          "id": "xc-f0281cee08",
-          "name": "AS Roma vs Cagliari | 02:45 28/10",
+          "id": "xc-d1315acafd",
+          "name": "Torino vs Como | 02:45 28/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -471,23 +362,40 @@
           ],
           "sources": [
             {
-              "id": "src-f0281cee08",
+              "id": "src-d1315acafd",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-f0281cee08",
-                  "name": "AS Roma vs Cagliari",
+                  "id": "ct-d1315acafd",
+                  "name": "Torino vs Como",
                   "streams": [
                     {
-                      "id": "st-f0281cee08",
+                      "id": "st-d1315acafd",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -508,13 +416,13 @@
           ],
           "org_metadata": {
             "league": "Serie A",
-            "team_a": "AS Roma",
-            "team_b": "Cagliari",
-            "logo_a": "https://apiv3.apifootball.com/badges/139_roma.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/4981_cagliari.jpg",
+            "team_a": "Torino",
+            "team_b": "Como",
+            "logo_a": "https://apiv3.apifootball.com/badges/4973_torino.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/8239_como.jpg",
             "time": "02:45",
             "date": "28/10",
-            "blv": "BLV Xôi Xoài",
+            "blv": "BLV Tam Mao, Server",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -525,7 +433,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55003_2effa76d_20261028.png?v=2effa76d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55004_52aabc72_20261028.png?v=52aabc72",
             "width": 1600,
             "height": 1200
           }
