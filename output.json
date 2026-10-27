@@ -40,11 +40,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-88fe1a05f9",
+                          "id": "lnk-83b8ec308b",
                           "name": "BLV Khô Mật 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+                          "url": "https://rtmp.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
