@@ -334,7 +334,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 1
           },
           "image": {
@@ -2660,8 +2660,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-3fd28bdb83",
-          "name": "Altekma vs Halkbank | 21:00 27/10",
+          "id": "xc-41e915bdc1",
+          "name": "Sungurlu Belediyesi Spor vs Galatasaray | 20:00 27/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2675,15 +2675,15 @@
           ],
           "sources": [
             {
-              "id": "src-3fd28bdb83",
+              "id": "src-41e915bdc1",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-3fd28bdb83",
-                  "name": "Altekma vs Halkbank",
+                  "id": "ct-41e915bdc1",
+                  "name": "Sungurlu Belediyesi Spor vs Galatasaray",
                   "streams": [
                     {
-                      "id": "st-3fd28bdb83",
+                      "id": "st-41e915bdc1",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
@@ -2719,12 +2719,70 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
-                        },
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Efeler Ligi Thổ Nhĩ Kỳ Nam",
+            "team_a": "Sungurlu Belediyesi Spor",
+            "team_b": "Galatasaray",
+            "logo_a": "https://xoiche.live/media/teams/logos/sungurlu-belediyesi-spor-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/galatasaray-vb.png",
+            "time": "20:00",
+            "date": "27/10",
+            "blv": "BLV Xôi Bắp",
+            "is_live": false,
+            "cate_type": "volleyball",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38795_6ab8ee2a_20261027.png?v=6ab8ee2a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-3fd28bdb83",
+          "name": "Altekma vs Halkbank | 21:00 27/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3fd28bdb83",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-3fd28bdb83",
+                  "name": "Altekma vs Halkbank",
+                  "streams": [
+                    {
+                      "id": "st-3fd28bdb83",
+                      "name": "XoiChe TV",
+                      "stream_links": [
                         {
                           "id": "lnk-e750a8400a",
                           "name": "BLV Khô Bò 1",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615",
                           "request_headers": [
                             {
@@ -2769,7 +2827,7 @@
             "logo_b": "https://xoiche.live/media/teams/logos/halkbank-vb.png",
             "time": "21:00",
             "date": "27/10",
-            "blv": "BLV Xôi Bắp, BLV Khô Bò",
+            "blv": "BLV Khô Bò",
             "is_live": false,
             "cate_type": "volleyball",
             "status": "scheduled",
