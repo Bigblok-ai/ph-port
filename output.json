@@ -1025,6 +1025,98 @@
           }
         },
         {
+          "id": "xc-27a1c492f0",
+          "name": "Fleetwood vs Arsenal | 03:00 28/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-27a1c492f0",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-27a1c492f0",
+                  "name": "Fleetwood vs Arsenal",
+                  "streams": [
+                    {
+                      "id": "st-27a1c492f0",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4fca55e5d3",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=l4pDy0sHUT4YQntQMGRIcbffxilU69IFYUv7JVypDgc&expires=1855579061&token_path=%2Flive%2Flivehub12/live/livehub12/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Cup",
+            "team_a": "Fleetwood",
+            "team_b": "Arsenal",
+            "logo_a": "https://apiv3.apifootball.com/badges/3120_fleetwood-town.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/141_arsenal-fc.jpg",
+            "time": "03:00",
+            "date": "28/10",
+            "blv": "BLV Khô Bò",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55052_e5a2eddb_20261027.png?v=e5a2eddb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-a75f274ac9",
           "name": "Sporting CP vs Maritimo | 03:15 28/10",
           "type": "single",
@@ -1494,8 +1586,8 @@
           }
         },
         {
-          "id": "xc-ff1e417887",
-          "name": "Fenerbahçe Medicana vs On Hotels Alanya Belediyespor | 23:00 27/10",
+          "id": "xc-a3ce0e9bbd",
+          "name": "Ziraat Bankkart vs Gaziantep Gençlik Spor | 23:00 27/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1509,22 +1601,56 @@
           ],
           "sources": [
             {
-              "id": "src-ff1e417887",
+              "id": "src-a3ce0e9bbd",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-ff1e417887",
-                  "name": "Fenerbahçe Medicana vs On Hotels Alanya Belediyespor",
+                  "id": "ct-a3ce0e9bbd",
+                  "name": "Ziraat Bankkart vs Gaziantep Gençlik Spor",
                   "streams": [
                     {
-                      "id": "st-ff1e417887",
+                      "id": "st-a3ce0e9bbd",
                       "name": "XoiChe TV",
                       "stream_links": [
+                        {
+                          "id": "lnk-4fca55e5d3",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=l4pDy0sHUT4YQntQMGRIcbffxilU69IFYUv7JVypDgc&expires=1855579061&token_path=%2Flive%2Flivehub12/live/livehub12/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
                         {
                           "id": "lnk-31c05c8e7b",
                           "name": "BLV Xôi Bắp 1",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
                           "url": "https://khogalive.b-cdn.net/bcdn_token=3lsMy5IgFqP3UuPYzg-wTh7YZR6ew7W8GTccyfyGvwo&expires=1855579061&token_path=%2Flive%2Flivehub6/live/livehub6/index.m3u8",
                           "request_headers": [
                             {
@@ -1563,13 +1689,13 @@
           ],
           "org_metadata": {
             "league": "Efeler Ligi Thổ Nhĩ Kỳ Nam",
-            "team_a": "Fenerbahçe Medicana",
-            "team_b": "On Hotels Alanya Belediyespor",
-            "logo_a": "https://xoiche.live/media/teams/logos/fenerbahce-medicana-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/on-hotels-alanya-belediyespor-vb.png",
+            "team_a": "Ziraat Bankkart",
+            "team_b": "Gaziantep Gençlik Spor",
+            "logo_a": "https://xoiche.live/media/teams/logos/ziraat-bankkart-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/gaziantep-genclik-spor-vb.png",
             "time": "23:00",
             "date": "27/10",
-            "blv": "BLV Xôi Bắp",
+            "blv": "BLV Khô Bò, BLV Xôi Bắp",
             "is_live": false,
             "cate_type": "volleyball",
             "status": "scheduled",
@@ -1580,7 +1706,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38800_03be1cc4_20261027.png?v=03be1cc4",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38798_c294b7c8_20261027.png?v=c294b7c8",
             "width": 1600,
             "height": 1200
           }
