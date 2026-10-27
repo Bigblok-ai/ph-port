@@ -184,7 +184,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 0
           },
           "image": {
@@ -259,7 +259,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
+            "home_score": 3,
             "away_score": 2
           },
           "image": {
@@ -352,7 +352,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 2,
-            "away_score": 2
+            "away_score": 3
           },
           "image": {
             "padding": 1,
@@ -2501,6 +2501,98 @@
           }
         },
         {
+          "id": "xc-13dc99fef8",
+          "name": "Bayern Munich vs Magdeburg | 02:45 29/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-13dc99fef8",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-13dc99fef8",
+                  "name": "Bayern Munich vs Magdeburg",
+                  "streams": [
+                    {
+                      "id": "st-13dc99fef8",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-88fe1a05f9",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "DFB Pokal",
+            "team_a": "Bayern Munich",
+            "team_b": "Magdeburg",
+            "logo_a": "https://apiv3.apifootball.com/badges/72_bayern-munchen.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3960_magdeburg.jpg",
+            "time": "02:45",
+            "date": "29/10",
+            "blv": "BLV Khô Mật",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55644_f8ba6049_20261027.png?v=f8ba6049",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-4b4488c37e",
           "name": "Bournemouth vs Aston Villa | 02:45 29/10",
           "type": "single",
@@ -2663,6 +2755,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55649_284bfe74_20261027.png?v=284bfe74",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-d963c89a2d",
+          "name": "Inter Miami vs FC Cincinnati | 06:30 29/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d963c89a2d",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-d963c89a2d",
+                  "name": "Inter Miami vs FC Cincinnati",
+                  "streams": [
+                    {
+                      "id": "st-d963c89a2d",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLS",
+            "team_a": "Inter Miami",
+            "team_b": "FC Cincinnati",
+            "logo_a": "https://apiv3.apifootball.com/badges/7953_inter-miami.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7952_cincinnati.jpg",
+            "time": "06:30",
+            "date": "29/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55711_2929e2f9_20261027.png?v=2929e2f9",
             "width": 1600,
             "height": 1200
           }
