@@ -115,11 +115,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-e3b4108ed2",
+                          "id": "lnk-9a898600ec",
                           "name": "BLV Khô Cay",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
