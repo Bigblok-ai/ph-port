@@ -364,6 +364,98 @@
           }
         },
         {
+          "id": "xc-39b36583cc",
+          "name": "Shab Hadramaut vs Al-Duhail | 22:15 28/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-39b36583cc",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-39b36583cc",
+                  "name": "Shab Hadramaut vs Al-Duhail",
+                  "streams": [
+                    {
+                      "id": "st-39b36583cc",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e750a8400a",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AGCFF Gulf Champions League",
+            "team_a": "Shab Hadramaut",
+            "team_b": "Al-Duhail",
+            "logo_a": "https://apiv3.apifootball.com/badges/21786_al-shaab-hadhramaut.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/369_al-duhail.jpg",
+            "time": "22:15",
+            "date": "28/10",
+            "blv": "BLV Khô Bò",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55272_b0e77c7a_20261028.png?v=b0e77c7a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-473007ba95",
           "name": "Al Jazira vs Al-Muharraq | 23:00 28/10",
           "type": "single",
@@ -698,6 +790,98 @@
           }
         },
         {
+          "id": "xc-de661ab890",
+          "name": "Parma vs Udinese | 00:30 29/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-de661ab890",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-de661ab890",
+                  "name": "Parma vs Udinese",
+                  "streams": [
+                    {
+                      "id": "st-de661ab890",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e750a8400a",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Parma",
+            "team_b": "Udinese",
+            "logo_a": "https://apiv3.apifootball.com/badges/4978_parma.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4984_udinese.jpg",
+            "time": "00:30",
+            "date": "29/10",
+            "blv": "BLV Khô Bò",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55502_07096824_20261028.png?v=07096824",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-34ae914811",
           "name": "Venezia vs Inter | 00:30 29/10",
           "type": "single",
@@ -843,6 +1027,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55613_6e897869_20261028.png?v=6e897869",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-a80b0d7880",
+          "name": "Genoa vs Juventus | 02:45 29/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a80b0d7880",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-a80b0d7880",
+                  "name": "Genoa vs Juventus",
+                  "streams": [
+                    {
+                      "id": "st-a80b0d7880",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e750a8400a",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Genoa",
+            "team_b": "Juventus",
+            "logo_a": "https://apiv3.apifootball.com/badges/4986_genoa.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/96_juventus-fc.jpg",
+            "time": "02:45",
+            "date": "29/10",
+            "blv": "BLV Khô Bò",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55634_d51a09d5_20261028.png?v=d51a09d5",
             "width": 1600,
             "height": 1200
           }
@@ -1252,6 +1528,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55649_284bfe74_20261028.png?v=284bfe74",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-2b016d00b4",
+          "name": "Liverpool vs Chelsea | 03:00 29/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2b016d00b4",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-2b016d00b4",
+                  "name": "Liverpool vs Chelsea",
+                  "streams": [
+                    {
+                      "id": "st-2b016d00b4",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-245e47f94f",
+                          "name": "BLV Lương Khô",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Cup",
+            "team_a": "Liverpool",
+            "team_b": "Chelsea",
+            "logo_a": "https://apiv3.apifootball.com/badges/84_liverpool.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/88_chelsea.jpg",
+            "time": "03:00",
+            "date": "29/10",
+            "blv": "BLV Lương Khô",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55654_570cb2fa_20261028.png?v=570cb2fa",
             "width": 1600,
             "height": 1200
           }
