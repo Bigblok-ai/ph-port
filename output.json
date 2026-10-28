@@ -7,86 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-d678e63143",
-          "name": "Yokohama F. Marinos vs Sanfrecce Hiroshima | 17:00 28/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d678e63143",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-d678e63143",
-                  "name": "Yokohama F. Marinos vs Sanfrecce Hiroshima",
-                  "streams": [
-                    {
-                      "id": "st-d678e63143",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9a898600ec",
-                          "name": "BLV Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J-League Cup",
-            "team_a": "Yokohama F. Marinos",
-            "team_b": "Sanfrecce Hiroshima",
-            "logo_a": "https://apiv3.apifootball.com/badges/387_yokohama-f.-marinos.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/5046_sanfrecce-hiroshima.jpg",
-            "time": "17:00",
-            "date": "28/10",
-            "blv": "BLV Khô Cay",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 4,
-            "away_score": 3
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55099_74eff369_20261028.png?v=74eff369",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-2d5c9e72cf",
           "name": "Viettel vs Seoul | 19:15 28/10",
@@ -168,7 +93,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
