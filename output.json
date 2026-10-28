@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -91,7 +91,7 @@
             "blv": "BLV Khô Mật",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 0,
             "away_score": 4
           },
@@ -166,8 +166,8 @@
             "blv": "BLV Tam Mao",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
-            "home_score": 0,
+            "status": "live",
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
@@ -180,6 +180,98 @@
           }
         },
         {
+          "id": "xc-3ee61fdf9d",
+          "name": "Gol Gohar vs Arkadag | 20:45 28/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3ee61fdf9d",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-3ee61fdf9d",
+                  "name": "Gol Gohar vs Arkadag",
+                  "streams": [
+                    {
+                      "id": "st-3ee61fdf9d",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-38d254311a",
+                          "name": "BLV Xôi Bắp 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ngoaihang2.cpcnew.store/nhlive/ngoaihang4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9fd6836274",
+                          "name": "BLV Xôi Bắp 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub6.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Two",
+            "team_a": "Gol Gohar",
+            "team_b": "Arkadag",
+            "logo_a": "https://apiv3.apifootball.com/badges/4735_gol-gohar.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/31430_arkadag.jpg",
+            "time": "20:45",
+            "date": "28/10",
+            "blv": "BLV Xôi Bắp",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55232_1bec2ff4_20261028.png?v=1bec2ff4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-1238ce902c",
           "name": "Nasaf Qarshi vs Al Kuwait | 20:45 28/10",
           "type": "single",
@@ -187,10 +279,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -256,9 +348,9 @@
             "time": "20:45",
             "date": "28/10",
             "blv": "BLV Xôi Gấc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -267,98 +359,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55233_c3980c78_20261028.png?v=c3980c78",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-3ee61fdf9d",
-          "name": "Gol Gohar vs Arkadag | 20:45 28/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3ee61fdf9d",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-3ee61fdf9d",
-                  "name": "Gol Gohar vs Arkadag",
-                  "streams": [
-                    {
-                      "id": "st-3ee61fdf9d",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-18310047d2",
-                          "name": "BLV Xôi Bắp 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9fd6836274",
-                          "name": "BLV Xôi Bắp 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub6.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Two",
-            "team_a": "Gol Gohar",
-            "team_b": "Arkadag",
-            "logo_a": "https://apiv3.apifootball.com/badges/4735_gol-gohar.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/31430_arkadag.jpg",
-            "time": "20:45",
-            "date": "28/10",
-            "blv": "BLV Xôi Bắp",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55232_1bec2ff4_20261028.png?v=1bec2ff4",
             "width": 1600,
             "height": 1200
           }
@@ -1978,6 +1978,107 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56104_4bf79e66_20261028.png?v=4bf79e66",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_volleyball",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "xc-5d02327b6b",
+          "name": "Savino Del Bene Scandicci vs Igor Gorgonzola Novara | 02:30 29/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5d02327b6b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-5d02327b6b",
+                  "name": "Savino Del Bene Scandicci vs Igor Gorgonzola Novara",
+                  "streams": [
+                    {
+                      "id": "st-5d02327b6b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-18310047d2",
+                          "name": "BLV Xôi Bắp 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9fd6836274",
+                          "name": "BLV Xôi Bắp 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub6.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A1 Ý / W",
+            "team_a": "Savino Del Bene Scandicci",
+            "team_b": "Igor Gorgonzola Novara",
+            "logo_a": "https://xoiche.live/media/teams/logos/savino-del-bene-scandicci-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/igor-gorgonzola-novara-vb.png",
+            "time": "02:30",
+            "date": "29/10",
+            "blv": "BLV Xôi Bắp",
+            "is_live": false,
+            "cate_type": "volleyball",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38809_42ef1a20_20261028.png?v=42ef1a20",
             "width": 1600,
             "height": 1200
           }
