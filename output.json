@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -167,7 +167,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
@@ -243,7 +243,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -334,8 +334,8 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 0,
-            "away_score": 0
+            "home_score": 1,
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -596,10 +596,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -648,9 +648,9 @@
             "time": "03:00",
             "date": "29/10",
             "blv": "BLV Lương Khô",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "football",
-            "status": "live",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -1552,11 +1552,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-63ff24d1ff",
+                          "id": "lnk-c2acc758a7",
                           "name": "BLV Xôi Bắp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_cd89e31e8c/index.m3u8?token=OKOVXrivUmQDrHywOTO9kCd14gEZ2KcAc1QAYwmcwZc&expires=1852800615",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_cd89e31e8c/index.m3u8?token=OKOVXrivUmQDrHywOTO9kCd14gEZ2KcAc1QAYwmcwZc",
                           "request_headers": [
                             {
                               "key": "Referer",
