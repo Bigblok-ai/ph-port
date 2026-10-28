@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -93,7 +93,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 2,
-            "away_score": 3
+            "away_score": 4
           },
           "image": {
             "padding": 1,
@@ -354,10 +354,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -423,9 +423,9 @@
             "time": "02:45",
             "date": "29/10",
             "blv": "BLV Xôi Gấc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -434,6 +434,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55647_6f6b9860_20261029.png?v=6f6b9860",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-ce2b8aedd1",
+          "name": "Fulham vs Crystal Palace | 02:45 29/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ce2b8aedd1",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-ce2b8aedd1",
+                  "name": "Fulham vs Crystal Palace",
+                  "streams": [
+                    {
+                      "id": "st-ce2b8aedd1",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-86a6eeb999",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ngoaihang2.cpcnew.store/nhlive/ngoaihang3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Cup",
+            "team_a": "Fulham",
+            "team_b": "Crystal Palace",
+            "logo_a": "https://apiv3.apifootball.com/badges/3085_fulham.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3429_crystal-palace.jpg",
+            "time": "02:45",
+            "date": "29/10",
+            "blv": "BLV Khô Chè",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55648_e4765e85_20261029.png?v=e4765e85",
             "width": 1600,
             "height": 1200
           }
@@ -693,81 +768,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55644_f8ba6049_20261029.png?v=f8ba6049",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-ce2b8aedd1",
-          "name": "Fulham vs Crystal Palace | 02:45 29/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ce2b8aedd1",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-ce2b8aedd1",
-                  "name": "Fulham vs Crystal Palace",
-                  "streams": [
-                    {
-                      "id": "st-ce2b8aedd1",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-86a6eeb999",
-                          "name": "BLV Khô Chè",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ngoaihang2.cpcnew.store/nhlive/ngoaihang3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "League Cup",
-            "team_a": "Fulham",
-            "team_b": "Crystal Palace",
-            "logo_a": "https://apiv3.apifootball.com/badges/3085_fulham.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3429_crystal-palace.jpg",
-            "time": "02:45",
-            "date": "29/10",
-            "blv": "BLV Khô Chè",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55648_e4765e85_20261029.png?v=e4765e85",
             "width": 1600,
             "height": 1200
           }
