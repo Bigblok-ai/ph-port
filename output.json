@@ -497,6 +497,81 @@
           }
         },
         {
+          "id": "xc-b62de6d35b",
+          "name": "Tai Po vs Pathum United | 19:15 29/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b62de6d35b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b62de6d35b",
+                  "name": "Tai Po vs Pathum United",
+                  "streams": [
+                    {
+                      "id": "st-b62de6d35b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Two",
+            "team_a": "Tai Po",
+            "team_b": "Pathum United",
+            "logo_a": "https://apiv3.apifootball.com/badges/448_wofoo-tai-po.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/418_bg-pathum-united.jpg",
+            "time": "19:15",
+            "date": "29/10",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55760_01b8cdab_20261029.png?v=01b8cdab",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-d014392a8e",
           "name": "Al Khaleej vs Al Hazem | 21:35 29/10",
           "type": "single",
@@ -734,6 +809,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56039_9f9369bf_20261029.png?v=9f9369bf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-488a6b6c95",
+          "name": "Frosinone vs Lecce | 00:30 30/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-488a6b6c95",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-488a6b6c95",
+                  "name": "Frosinone vs Lecce",
+                  "streams": [
+                    {
+                      "id": "st-488a6b6c95",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Frosinone",
+            "team_b": "Lecce",
+            "logo_a": "https://apiv3.apifootball.com/badges/5000_frosinone.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5010_lecce.jpg",
+            "time": "00:30",
+            "date": "30/10",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56046_962d02c0_20261029.png?v=962d02c0",
             "width": 1600,
             "height": 1200
           }
