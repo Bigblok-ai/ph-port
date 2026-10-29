@@ -7,178 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-c1c7e024c3",
-          "name": "Shanghai Shenhua vs Machida | 19:15 29/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c1c7e024c3",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-c1c7e024c3",
-                  "name": "Shanghai Shenhua vs Machida",
-                  "streams": [
-                    {
-                      "id": "st-c1c7e024c3",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-88fe1a05f9",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Two",
-            "team_a": "Shanghai Shenhua",
-            "team_b": "Machida",
-            "logo_a": "https://apiv3.apifootball.com/badges/381_shanghai-shenhua.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/5085_machida-zelvia.jpg",
-            "time": "19:15",
-            "date": "29/10",
-            "blv": "BLV Khô Mật",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55759_d223898a_20261029.png?v=d223898a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-b62de6d35b",
-          "name": "Tai Po vs Pathum United | 19:15 29/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b62de6d35b",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-b62de6d35b",
-                  "name": "Tai Po vs Pathum United",
-                  "streams": [
-                    {
-                      "id": "st-b62de6d35b",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fae8ed2c4d",
-                          "name": "BLV Khô Chè",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Two",
-            "team_a": "Tai Po",
-            "team_b": "Pathum United",
-            "logo_a": "https://apiv3.apifootball.com/badges/448_wofoo-tai-po.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/418_bg-pathum-united.jpg",
-            "time": "19:15",
-            "date": "29/10",
-            "blv": "BLV Khô Chè",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 3
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55760_01b8cdab_20261029.png?v=01b8cdab",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-d014392a8e",
           "name": "Al Khaleej vs Al Hazem | 21:35 29/10",
@@ -187,10 +20,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -239,9 +72,9 @@
             "time": "21:35",
             "date": "29/10",
             "blv": "BLV Xôi Xoài",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -1627,6 +1460,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56797_c85e2ad2_20261029.png?v=c85e2ad2",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_volleyball",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "xc-3e139177cb",
+          "name": "ŁKS Commercecon Łódź vs LOTTO Chemik Police | 00:00 30/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3e139177cb",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-3e139177cb",
+                  "name": "ŁKS Commercecon Łódź vs LOTTO Chemik Police",
+                  "streams": [
+                    {
+                      "id": "st-3e139177cb",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-486428156e",
+                          "name": "BLV Xôi Bắp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tauron Liga Ba Lan Nữ",
+            "team_a": "ŁKS Commercecon Łódź",
+            "team_b": "LOTTO Chemik Police",
+            "logo_a": "https://xoiche.live/media/teams/logos/lks-commercecon-lodz-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/lotto-chemik-police-vb.png",
+            "time": "00:00",
+            "date": "30/10",
+            "blv": "BLV Xôi Bắp",
+            "is_live": false,
+            "cate_type": "volleyball",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38814_f9895f1c_20261029.png?v=f9895f1c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-332da72e6f",
+          "name": "NEC Red Rockets Kawasaki vs Kurobe AquaFairies | 16:35 30/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-332da72e6f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-332da72e6f",
+                  "name": "NEC Red Rockets Kawasaki vs Kurobe AquaFairies",
+                  "streams": [
+                    {
+                      "id": "st-332da72e6f",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-486428156e",
+                          "name": "BLV Xôi Bắp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SV.League Nhật Bản / W",
+            "team_a": "NEC Red Rockets Kawasaki",
+            "team_b": "Kurobe AquaFairies",
+            "logo_a": "https://xoiche.live/media/teams/logos/nec-red-rockets-kawasaki-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/kurobe-aquafairies-vb.png",
+            "time": "16:35",
+            "date": "30/10",
+            "blv": "BLV Xôi Bắp",
+            "is_live": false,
+            "cate_type": "volleyball",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38812_f5a21478_20261029.png?v=f5a21478",
             "width": 1600,
             "height": 1200
           }
