@@ -88,6 +88,81 @@
           }
         },
         {
+          "id": "xc-6c9aa53766",
+          "name": "Club America vs Club Tijuana | 10:00 29/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6c9aa53766",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-6c9aa53766",
+                  "name": "Club America vs Club Tijuana",
+                  "streams": [
+                    {
+                      "id": "st-6c9aa53766",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga MX",
+            "team_a": "Club America",
+            "team_b": "Club Tijuana",
+            "logo_a": "https://apiv3.apifootball.com/badges/284_club-america.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5350_tijuana.jpg",
+            "time": "10:00",
+            "date": "29/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55734_739e207a_20261029.png?v=739e207a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-97d328fb7d",
           "name": "Adelaide United vs Lion City | 14:45 29/10",
           "type": "single",
