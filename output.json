@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -20,10 +20,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -89,9 +89,9 @@
             "time": "17:00",
             "date": "29/10",
             "blv": "BLV Xôi Gấc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -906,6 +906,81 @@
           }
         },
         {
+          "id": "xc-17fc5e2d66",
+          "name": "Brisbane Roar vs Auckland FC | 16:00 30/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-17fc5e2d66",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-17fc5e2d66",
+                  "name": "Brisbane Roar vs Auckland FC",
+                  "streams": [
+                    {
+                      "id": "st-17fc5e2d66",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "A-League Men",
+            "team_a": "Brisbane Roar",
+            "team_b": "Auckland FC",
+            "logo_a": "https://apiv3.apifootball.com/badges/399_brisbane-roar-fc.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/36856_auckland.jpg",
+            "time": "16:00",
+            "date": "30/10",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56131_c9c5b767_20261029.png?v=c9c5b767",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-71db2e20bf",
           "name": "Thanh Hoa vs Hong Linh Ha Tinh | 17:00 30/10",
           "type": "single",
@@ -1090,6 +1165,81 @@
           }
         },
         {
+          "id": "xc-ff99ba166c",
+          "name": "Persebaya vs Persijap Jepara | 19:00 30/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ff99ba166c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-ff99ba166c",
+                  "name": "Persebaya vs Persijap Jepara",
+                  "streams": [
+                    {
+                      "id": "st-ff99ba166c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga 1",
+            "team_a": "Persebaya",
+            "team_b": "Persijap Jepara",
+            "logo_a": "https://apiv3.apifootball.com/badges/4727_persebaya-surabaya.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/8789_persijap.jpg",
+            "time": "19:00",
+            "date": "30/10",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56178_21c142f2_20261029.png?v=21c142f2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-e10ddd1e1a",
           "name": "Abha vs Al Ittihad | 19:30 30/10",
           "type": "single",
@@ -1252,6 +1402,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56276_c886d6de_20261029.png?v=c886d6de",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-2583461ee4",
+          "name": "Konyaspor vs Galatasaray | 00:00 31/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2583461ee4",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-2583461ee4",
+                  "name": "Konyaspor vs Galatasaray",
+                  "streams": [
+                    {
+                      "id": "st-2583461ee4",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Süper Lig",
+            "team_a": "Konyaspor",
+            "team_b": "Galatasaray",
+            "logo_a": "https://apiv3.apifootball.com/badges/7692_konyaspor.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/192_galatasaray.jpg",
+            "time": "00:00",
+            "date": "31/10",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56643_8d55f54e_20261029.png?v=8d55f54e",
             "width": 1600,
             "height": 1200
           }
