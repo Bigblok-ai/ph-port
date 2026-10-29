@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -187,10 +187,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -239,9 +239,9 @@
             "time": "00:30",
             "date": "30/10",
             "blv": "BLV Khô Chè",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "football",
-            "status": "live",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -977,7 +977,7 @@
             "league": "V.League 1",
             "team_a": "Bac Ninh",
             "team_b": "Gia Lai",
-            "logo_a": "",
+            "logo_a": "https://xoiche.live/media/teams/logos/1793294995035109175_73ac892c.png",
             "logo_b": "https://apiv3.apifootball.com/badges/8054_hoang-anh-gia-lai.jpg",
             "time": "18:00",
             "date": "30/10",
@@ -992,7 +992,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56157_593d8606_20261030.png?v=593d8606",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56157_8fad0541_20261030.png?v=8fad0541",
             "width": 1600,
             "height": 1200
           }
@@ -1294,7 +1294,7 @@
             "league": "Saudi League",
             "team_a": "Al Diriyah",
             "team_b": "Neom SC",
-            "logo_a": "",
+            "logo_a": "https://xoiche.live/media/teams/logos/1793295028822189673_f447cd72.webp",
             "logo_b": "https://apiv3.apifootball.com/badges/18904_neom.jpg",
             "time": "21:50",
             "date": "30/10",
@@ -1309,7 +1309,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56276_c886d6de_20261030.png?v=c886d6de",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56276_a86767a1_20261030.png?v=a86767a1",
             "width": 1600,
             "height": 1200
           }
@@ -1819,86 +1819,11 @@
     },
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-3e139177cb",
-          "name": "ŁKS Commercecon Łódź vs LOTTO Chemik Police | 00:00 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3e139177cb",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-3e139177cb",
-                  "name": "ŁKS Commercecon Łódź vs LOTTO Chemik Police",
-                  "streams": [
-                    {
-                      "id": "st-3e139177cb",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-486428156e",
-                          "name": "BLV Xôi Bắp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Tauron Liga Ba Lan Nữ",
-            "team_a": "ŁKS Commercecon Łódź",
-            "team_b": "LOTTO Chemik Police",
-            "logo_a": "https://xoiche.live/media/teams/logos/lks-commercecon-lodz-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/1793294533816455678_1b18285f.png",
-            "time": "00:00",
-            "date": "30/10",
-            "blv": "BLV Xôi Bắp",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38814_725358d9_20261030.png?v=725358d9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-332da72e6f",
           "name": "NEC Red Rockets Kawasaki vs Kurobe AquaFairies | 16:35 30/10",
@@ -1970,6 +1895,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38812_f5a21478_20261030.png?v=f5a21478",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-3e139177cb",
+          "name": "ŁKS Commercecon Łódź vs LOTTO Chemik Police | 23:30 30/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3e139177cb",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-3e139177cb",
+                  "name": "ŁKS Commercecon Łódź vs LOTTO Chemik Police",
+                  "streams": [
+                    {
+                      "id": "st-3e139177cb",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-486428156e",
+                          "name": "BLV Xôi Bắp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tauron Liga Ba Lan Nữ",
+            "team_a": "ŁKS Commercecon Łódź",
+            "team_b": "LOTTO Chemik Police",
+            "logo_a": "https://xoiche.live/media/teams/logos/lks-commercecon-lodz-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/1793294533816455678_1b18285f.png",
+            "time": "23:30",
+            "date": "30/10",
+            "blv": "BLV Xôi Bắp",
+            "is_live": false,
+            "cate_type": "volleyball",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38814_725358d9_20261030.png?v=725358d9",
             "width": 1600,
             "height": 1200
           }
