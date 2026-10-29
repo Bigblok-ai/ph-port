@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -258,8 +258,8 @@
             "blv": "BLV Khô Cá",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
+            "status": "half_time",
+            "home_score": 2,
             "away_score": 0
           },
           "image": {
@@ -279,10 +279,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -331,9 +331,9 @@
             "time": "03:45",
             "date": "30/10",
             "blv": "BLV Xôi Bắp",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -1978,6 +1978,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56911_073cf1d2_20261030.png?v=073cf1d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-cb1a501c37",
+          "name": "Macarthur FC vs WS Wanderers | 15:40 31/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cb1a501c37",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-cb1a501c37",
+                  "name": "Macarthur FC vs WS Wanderers",
+                  "streams": [
+                    {
+                      "id": "st-cb1a501c37",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "A-League Men",
+            "team_a": "Macarthur FC",
+            "team_b": "WS Wanderers",
+            "logo_a": "https://apiv3.apifootball.com/badges/1053_macarthur-fc.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/1051_western-sydney-wanderers.jpg",
+            "time": "15:40",
+            "date": "31/10",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56928_e484d6c8_20261030.png?v=e484d6c8",
             "width": 1600,
             "height": 1200
           }
