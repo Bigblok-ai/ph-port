@@ -7,587 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-cef98f91b1",
-          "name": "Inter Turku vs HJK | 23:00 29/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cef98f91b1",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-cef98f91b1",
-                  "name": "Inter Turku vs HJK",
-                  "streams": [
-                    {
-                      "id": "st-cef98f91b1",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Veikkausliiga",
-            "team_a": "Inter Turku",
-            "team_b": "HJK",
-            "logo_a": "https://apiv3.apifootball.com/badges/3542_inter-turku.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3549_hjk.jpg",
-            "time": "23:00",
-            "date": "29/10",
-            "blv": "BLV Tam Mao",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55809_d097eac0_20261029.png?v=d097eac0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-a85a0d80e9",
-          "name": "KuPS vs Gnistan | 00:00 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a85a0d80e9",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-a85a0d80e9",
-                  "name": "KuPS vs Gnistan",
-                  "streams": [
-                    {
-                      "id": "st-a85a0d80e9",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-88fe1a05f9",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Veikkausliiga",
-            "team_a": "KuPS",
-            "team_b": "Gnistan",
-            "logo_a": "https://apiv3.apifootball.com/badges/180_kups.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3541_gnistan.jpg",
-            "time": "00:00",
-            "date": "30/10",
-            "blv": "BLV Khô Mật",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56039_9f9369bf_20261029.png?v=9f9369bf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-488a6b6c95",
-          "name": "Frosinone vs Lecce | 00:30 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-488a6b6c95",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-488a6b6c95",
-                  "name": "Frosinone vs Lecce",
-                  "streams": [
-                    {
-                      "id": "st-488a6b6c95",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fae8ed2c4d",
-                          "name": "BLV Khô Chè",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Frosinone",
-            "team_b": "Lecce",
-            "logo_a": "https://apiv3.apifootball.com/badges/5000_frosinone.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/5010_lecce.jpg",
-            "time": "00:30",
-            "date": "30/10",
-            "blv": "BLV Khô Chè",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56046_962d02c0_20261029.png?v=962d02c0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-ecfe75f34d",
-          "name": "Al Nassr vs Al Kholood | 01:00 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ecfe75f34d",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-ecfe75f34d",
-                  "name": "Al Nassr vs Al Kholood",
-                  "streams": [
-                    {
-                      "id": "st-ecfe75f34d",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-245e47f94f",
-                          "name": "BLV Lương Khô",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi League",
-            "team_a": "Al Nassr",
-            "team_b": "Al Kholood",
-            "logo_a": "https://apiv3.apifootball.com/badges/371_al-nassr.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/18893_al-kholood.jpg",
-            "time": "01:00",
-            "date": "30/10",
-            "blv": "BLV Lương Khô",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56055_19135c79_20261029.png?v=19135c79",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-c991ed71d6",
-          "name": "Al Riyadh vs Al Qadsiah | 01:00 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c991ed71d6",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-c991ed71d6",
-                  "name": "Al Riyadh vs Al Qadsiah",
-                  "streams": [
-                    {
-                      "id": "st-c991ed71d6",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi League",
-            "team_a": "Al Riyadh",
-            "team_b": "Al Qadsiah",
-            "logo_a": "https://apiv3.apifootball.com/badges/16129_al-riyadh.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/6330_al-qadsiah.jpg",
-            "time": "01:00",
-            "date": "30/10",
-            "blv": "BLV Xôi Xoài",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56056_fbfa8cc5_20261029.png?v=fbfa8cc5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-8da8a6f6d3",
-          "name": "Braga vs Famalicao | 01:45 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8da8a6f6d3",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-8da8a6f6d3",
-                  "name": "Braga vs Famalicao",
-                  "streams": [
-                    {
-                      "id": "st-8da8a6f6d3",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e750a8400a",
-                          "name": "BLV Khô Bò 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8bcf71e3b1",
-                          "name": "BLV Khô Bò 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub12.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Taça da Liga",
-            "team_a": "Braga",
-            "team_b": "Famalicao",
-            "logo_a": "https://apiv3.apifootball.com/badges/156_sporting-braga.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/6008_famalicao.jpg",
-            "time": "01:45",
-            "date": "30/10",
-            "blv": "BLV Khô Bò",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56079_d2306202_20261029.png?v=d2306202",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-0520f27468",
-          "name": "Fiorentina vs Atalanta | 02:45 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0520f27468",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-0520f27468",
-                  "name": "Fiorentina vs Atalanta",
-                  "streams": [
-                    {
-                      "id": "st-0520f27468",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Fiorentina",
-            "team_b": "Atalanta",
-            "logo_a": "https://apiv3.apifootball.com/badges/4974_fiorentina.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/85_atalanta.jpg",
-            "time": "02:45",
-            "date": "30/10",
-            "blv": "BLV Xôi Gấc",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56094_e19f0cbe_20261029.png?v=e19f0cbe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-464272b1e3",
           "name": "Everton vs Newcastle | 02:45 30/10",
@@ -664,83 +88,8 @@
           }
         },
         {
-          "id": "xc-60b6c4eb76",
-          "name": "Benfica vs Gil Vicente | 03:45 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-60b6c4eb76",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-60b6c4eb76",
-                  "name": "Benfica vs Gil Vicente",
-                  "streams": [
-                    {
-                      "id": "st-60b6c4eb76",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-486428156e",
-                          "name": "BLV Xôi Bắp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Taça da Liga",
-            "team_a": "Benfica",
-            "team_b": "Gil Vicente",
-            "logo_a": "https://apiv3.apifootball.com/badges/147_benfica.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/5996_gil-vicente.jpg",
-            "time": "03:45",
-            "date": "30/10",
-            "blv": "BLV Xôi Bắp",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56107_7d90d795_20261029.png?v=7d90d795",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-17fc5e2d66",
-          "name": "Brisbane Roar vs Auckland FC | 16:00 30/10",
+          "name": "Brisbane Roar vs Auckland FC | 09:00 30/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -795,7 +144,7 @@
             "team_b": "Auckland FC",
             "logo_a": "https://apiv3.apifootball.com/badges/399_brisbane-roar-fc.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/36856_auckland.jpg",
-            "time": "16:00",
+            "time": "09:00",
             "date": "30/10",
             "blv": "BLV Tam Mao",
             "is_live": false,
@@ -809,6 +158,415 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56131_c9c5b767_20261029.png?v=c9c5b767",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-1c555091db",
+          "name": "Bac Ninh vs Gia Lai | 11:00 30/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1c555091db",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-1c555091db",
+                  "name": "Bac Ninh vs Gia Lai",
+                  "streams": [
+                    {
+                      "id": "st-1c555091db",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Bac Ninh",
+            "team_b": "Gia Lai",
+            "logo_a": "",
+            "logo_b": "https://apiv3.apifootball.com/badges/8054_hoang-anh-gia-lai.jpg",
+            "time": "11:00",
+            "date": "30/10",
+            "blv": "BLV Xôi Gấc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56157_593d8606_20261029.png?v=593d8606",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-ff99ba166c",
+          "name": "Persebaya vs Persijap Jepara | 12:00 30/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ff99ba166c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-ff99ba166c",
+                  "name": "Persebaya vs Persijap Jepara",
+                  "streams": [
+                    {
+                      "id": "st-ff99ba166c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga 1",
+            "team_a": "Persebaya",
+            "team_b": "Persijap Jepara",
+            "logo_a": "https://apiv3.apifootball.com/badges/4727_persebaya-surabaya.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/8789_persijap.jpg",
+            "time": "12:00",
+            "date": "30/10",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56178_21c142f2_20261029.png?v=21c142f2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-b5f3152550",
+          "name": "Hanoi FC vs Phu Dong Ninh Binh | 12:15 30/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b5f3152550",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b5f3152550",
+                  "name": "Hanoi FC vs Phu Dong Ninh Binh",
+                  "streams": [
+                    {
+                      "id": "st-b5f3152550",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-245e47f94f",
+                          "name": "BLV Lương Khô",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Hanoi FC",
+            "team_b": "Phu Dong Ninh Binh",
+            "logo_a": "https://apiv3.apifootball.com/badges/473_ha-ni.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/8051_ninh-binh.jpg",
+            "time": "12:15",
+            "date": "30/10",
+            "blv": "BLV Lương Khô",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56185_1c6109de_20261029.png?v=1c6109de",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-e10ddd1e1a",
+          "name": "Abha vs Al Ittihad | 12:30 30/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e10ddd1e1a",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e10ddd1e1a",
+                  "name": "Abha vs Al Ittihad",
+                  "streams": [
+                    {
+                      "id": "st-e10ddd1e1a",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi League",
+            "team_a": "Abha",
+            "team_b": "Al Ittihad",
+            "logo_a": "https://apiv3.apifootball.com/badges/6332_abha.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/6328_al-ittihad.jpg",
+            "time": "12:30",
+            "date": "30/10",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56249_add6e952_20261029.png?v=add6e952",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-67fd590c0c",
+          "name": "Al Diriyah vs Neom SC | 14:50 30/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-67fd590c0c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-67fd590c0c",
+                  "name": "Al Diriyah vs Neom SC",
+                  "streams": [
+                    {
+                      "id": "st-67fd590c0c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-88fe1a05f9",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi League",
+            "team_a": "Al Diriyah",
+            "team_b": "Neom SC",
+            "logo_a": "",
+            "logo_b": "https://apiv3.apifootball.com/badges/18904_neom.jpg",
+            "time": "14:50",
+            "date": "30/10",
+            "blv": "BLV Khô Mật",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56276_c886d6de_20261029.png?v=c886d6de",
             "width": 1600,
             "height": 1200
           }
@@ -906,417 +664,8 @@
           }
         },
         {
-          "id": "xc-1c555091db",
-          "name": "Bac Ninh vs Gia Lai | 18:00 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1c555091db",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-1c555091db",
-                  "name": "Bac Ninh vs Gia Lai",
-                  "streams": [
-                    {
-                      "id": "st-1c555091db",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Bac Ninh",
-            "team_b": "Gia Lai",
-            "logo_a": "",
-            "logo_b": "https://apiv3.apifootball.com/badges/8054_hoang-anh-gia-lai.jpg",
-            "time": "18:00",
-            "date": "30/10",
-            "blv": "BLV Xôi Gấc",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56157_593d8606_20261029.png?v=593d8606",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-ff99ba166c",
-          "name": "Persebaya vs Persijap Jepara | 19:00 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ff99ba166c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-ff99ba166c",
-                  "name": "Persebaya vs Persijap Jepara",
-                  "streams": [
-                    {
-                      "id": "st-ff99ba166c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga 1",
-            "team_a": "Persebaya",
-            "team_b": "Persijap Jepara",
-            "logo_a": "https://apiv3.apifootball.com/badges/4727_persebaya-surabaya.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/8789_persijap.jpg",
-            "time": "19:00",
-            "date": "30/10",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56178_21c142f2_20261029.png?v=21c142f2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-b5f3152550",
-          "name": "Hanoi FC vs Phu Dong Ninh Binh | 19:15 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b5f3152550",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-b5f3152550",
-                  "name": "Hanoi FC vs Phu Dong Ninh Binh",
-                  "streams": [
-                    {
-                      "id": "st-b5f3152550",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-245e47f94f",
-                          "name": "BLV Lương Khô",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Hanoi FC",
-            "team_b": "Phu Dong Ninh Binh",
-            "logo_a": "https://apiv3.apifootball.com/badges/473_ha-ni.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/8051_ninh-binh.jpg",
-            "time": "19:15",
-            "date": "30/10",
-            "blv": "BLV Lương Khô",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56185_1c6109de_20261029.png?v=1c6109de",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-e10ddd1e1a",
-          "name": "Abha vs Al Ittihad | 19:30 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e10ddd1e1a",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-e10ddd1e1a",
-                  "name": "Abha vs Al Ittihad",
-                  "streams": [
-                    {
-                      "id": "st-e10ddd1e1a",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3b4108ed2",
-                          "name": "BLV Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi League",
-            "team_a": "Abha",
-            "team_b": "Al Ittihad",
-            "logo_a": "https://apiv3.apifootball.com/badges/6332_abha.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/6328_al-ittihad.jpg",
-            "time": "19:30",
-            "date": "30/10",
-            "blv": "BLV Khô Cay",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56249_add6e952_20261029.png?v=add6e952",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-67fd590c0c",
-          "name": "Al Diriyah vs Neom SC | 21:50 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-67fd590c0c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-67fd590c0c",
-                  "name": "Al Diriyah vs Neom SC",
-                  "streams": [
-                    {
-                      "id": "st-67fd590c0c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-88fe1a05f9",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi League",
-            "team_a": "Al Diriyah",
-            "team_b": "Neom SC",
-            "logo_a": "",
-            "logo_b": "https://apiv3.apifootball.com/badges/18904_neom.jpg",
-            "time": "21:50",
-            "date": "30/10",
-            "blv": "BLV Khô Mật",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56276_c886d6de_20261029.png?v=c886d6de",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-2583461ee4",
-          "name": "Konyaspor vs Galatasaray | 00:00 31/10",
+          "name": "Konyaspor vs Galatasaray | 17:00 30/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1371,8 +720,8 @@
             "team_b": "Galatasaray",
             "logo_a": "https://apiv3.apifootball.com/badges/7692_konyaspor.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/192_galatasaray.jpg",
-            "time": "00:00",
-            "date": "31/10",
+            "time": "17:00",
+            "date": "30/10",
             "blv": "BLV Tam Mao",
             "is_live": false,
             "cate_type": "football",
@@ -1391,7 +740,7 @@
         },
         {
           "id": "xc-2cc727ff16",
-          "name": "Le Havre vs PSG | 01:00 31/10",
+          "name": "Le Havre vs PSG | 18:00 30/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1446,8 +795,8 @@
             "team_b": "PSG",
             "logo_a": "https://apiv3.apifootball.com/badges/3804_le-havre.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/100_psg.jpg",
-            "time": "01:00",
-            "date": "31/10",
+            "time": "18:00",
+            "date": "30/10",
             "blv": "BLV Khô Cá",
             "is_live": false,
             "cate_type": "football",
@@ -1466,7 +815,7 @@
         },
         {
           "id": "xc-3a33c7642d",
-          "name": "Nice vs Rennes | 01:00 31/10",
+          "name": "Nice vs Rennes | 18:00 30/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1538,8 +887,8 @@
             "team_b": "Rennes",
             "logo_a": "https://apiv3.apifootball.com/badges/145_nice.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/91_rennes.jpg",
-            "time": "01:00",
-            "date": "31/10",
+            "time": "18:00",
+            "date": "30/10",
             "blv": "BLV Khô Mật",
             "is_live": false,
             "cate_type": "football",
@@ -1558,7 +907,7 @@
         },
         {
           "id": "xc-63fd3c3e40",
-          "name": "Villarreal vs Espanyol | 03:00 31/10",
+          "name": "Villarreal vs Espanyol | 20:00 30/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1613,8 +962,8 @@
             "team_b": "Espanyol",
             "logo_a": "https://apiv3.apifootball.com/badges/162_villarreal.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/7268_espanyol.jpg",
-            "time": "03:00",
-            "date": "31/10",
+            "time": "20:00",
+            "date": "30/10",
             "blv": "BLV Xôi Xoài",
             "is_live": false,
             "cate_type": "football",
@@ -1725,7 +1074,7 @@
         },
         {
           "id": "xc-8deddf03f0",
-          "name": "Newcastle Jets vs Wellington Phoenix | 11:00 31/10",
+          "name": "Newcastle Jets vs Wellington Phoenix | 04:00 31/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1797,7 +1146,7 @@
             "team_b": "Wellington Phoenix",
             "logo_a": "https://apiv3.apifootball.com/badges/1056_newcastle-jets-fc.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/1054_wellington-phoenix.jpg",
-            "time": "11:00",
+            "time": "04:00",
             "date": "31/10",
             "blv": "BLV Khô Mật",
             "is_live": false,
@@ -1811,6 +1160,415 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56847_860d87dd_20261029.png?v=860d87dd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-b30d2d279b",
+          "name": "Kashima Antlers vs Cerezo Osaka | 06:00 31/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b30d2d279b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b30d2d279b",
+                  "name": "Kashima Antlers vs Cerezo Osaka",
+                  "streams": [
+                    {
+                      "id": "st-b30d2d279b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Kashima Antlers",
+            "team_b": "Cerezo Osaka",
+            "logo_a": "https://apiv3.apifootball.com/badges/5053_kashima-antlers.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5045_cerezo-osaka.jpg",
+            "time": "06:00",
+            "date": "31/10",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56887_30127bd8_20261029.png?v=30127bd8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-ae5db9a2f9",
+          "name": "Vissel Kobe vs Nagoya Grampus | 06:00 31/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ae5db9a2f9",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-ae5db9a2f9",
+                  "name": "Vissel Kobe vs Nagoya Grampus",
+                  "streams": [
+                    {
+                      "id": "st-ae5db9a2f9",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-486428156e",
+                          "name": "BLV Xôi Bắp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Vissel Kobe",
+            "team_b": "Nagoya Grampus",
+            "logo_a": "https://apiv3.apifootball.com/badges/383_vissel-kobe.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/415_nagoya-grampus.jpg",
+            "time": "06:00",
+            "date": "31/10",
+            "blv": "BLV Xôi Bắp",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56888_9a93fb42_20261029.png?v=9a93fb42",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-9ed6952542",
+          "name": "Melbourne City vs Sydney FC | 06:00 31/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9ed6952542",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-9ed6952542",
+                  "name": "Melbourne City vs Sydney FC",
+                  "streams": [
+                    {
+                      "id": "st-9ed6952542",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "A-League Men",
+            "team_a": "Melbourne City",
+            "team_b": "Sydney FC",
+            "logo_a": "https://apiv3.apifootball.com/badges/401_melbourne-city-fc.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/390_sydney.jpg",
+            "time": "06:00",
+            "date": "31/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56889_d6df4b5d_20261029.png?v=d6df4b5d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-0709f4c889",
+          "name": "Kashiwa Reysol vs Urawa Reds | 07:00 31/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0709f4c889",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-0709f4c889",
+                  "name": "Kashiwa Reysol vs Urawa Reds",
+                  "streams": [
+                    {
+                      "id": "st-0709f4c889",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-88fe1a05f9",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Kashiwa Reysol",
+            "team_b": "Urawa Reds",
+            "logo_a": "https://apiv3.apifootball.com/badges/5055_kashiwa-reysol.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5051_urawa-reds.jpg",
+            "time": "07:00",
+            "date": "31/10",
+            "blv": "BLV Khô Mật",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56911_073cf1d2_20261029.png?v=073cf1d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-ecd058faaf",
+          "name": "Nam Dinh vs Viettel | 11:00 31/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ecd058faaf",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-ecd058faaf",
+                  "name": "Nam Dinh vs Viettel",
+                  "streams": [
+                    {
+                      "id": "st-ecd058faaf",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Nam Dinh",
+            "team_b": "Viettel",
+            "logo_a": "https://apiv3.apifootball.com/badges/8060_nam-nh.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/409_th-cong-viettel.jpg",
+            "time": "11:00",
+            "date": "31/10",
+            "blv": "BLV Xôi Gấc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/57058_f58b92f1_20261029.png?v=f58b92f1",
             "width": 1600,
             "height": 1200
           }
