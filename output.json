@@ -480,6 +480,98 @@
           }
         },
         {
+          "id": "xc-8da8a6f6d3",
+          "name": "Braga vs Famalicao | 01:45 30/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8da8a6f6d3",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-8da8a6f6d3",
+                  "name": "Braga vs Famalicao",
+                  "streams": [
+                    {
+                      "id": "st-8da8a6f6d3",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e750a8400a",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Taça da Liga",
+            "team_a": "Braga",
+            "team_b": "Famalicao",
+            "logo_a": "https://apiv3.apifootball.com/badges/156_sporting-braga.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/6008_famalicao.jpg",
+            "time": "01:45",
+            "date": "30/10",
+            "blv": "BLV Khô Bò",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56079_d2306202_20261029.png?v=d2306202",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-0520f27468",
           "name": "Fiorentina vs Atalanta | 02:45 30/10",
           "type": "single",
@@ -1051,6 +1143,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56178_21c142f2_20261029.png?v=21c142f2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-b5f3152550",
+          "name": "Hanoi FC vs Phu Dong Ninh Binh | 19:15 30/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b5f3152550",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b5f3152550",
+                  "name": "Hanoi FC vs Phu Dong Ninh Binh",
+                  "streams": [
+                    {
+                      "id": "st-b5f3152550",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-245e47f94f",
+                          "name": "BLV Lương Khô",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Hanoi FC",
+            "team_b": "Phu Dong Ninh Binh",
+            "logo_a": "https://apiv3.apifootball.com/badges/473_ha-ni.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/8051_ninh-binh.jpg",
+            "time": "19:15",
+            "date": "30/10",
+            "blv": "BLV Lương Khô",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56185_1c6109de_20261029.png?v=1c6109de",
             "width": 1600,
             "height": 1200
           }
