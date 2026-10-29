@@ -93,7 +93,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 1,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -241,9 +241,9 @@
             "blv": "BLV Lương Khô",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 2,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
@@ -316,7 +316,7 @@
             "blv": "BLV Xôi Xoài",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 0,
             "away_score": 2
           },
@@ -734,6 +734,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56116_1a7bcae7_20261030.png?v=1a7bcae7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-b7cfaaa6f2",
+          "name": "Java United vs FC Bhayangkara | 15:30 30/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b7cfaaa6f2",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b7cfaaa6f2",
+                  "name": "Java United vs FC Bhayangkara",
+                  "streams": [
+                    {
+                      "id": "st-b7cfaaa6f2",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga 1",
+            "team_a": "Java United",
+            "team_b": "FC Bhayangkara",
+            "logo_a": "https://apiv3.apifootball.com/badges/33228_malut-united.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4723_bhayangkara.jpg",
+            "time": "15:30",
+            "date": "30/10",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56125_d07da5f2_20261030.png?v=d07da5f2",
             "width": 1600,
             "height": 1200
           }
