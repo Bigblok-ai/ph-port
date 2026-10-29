@@ -167,7 +167,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
@@ -1880,7 +1880,7 @@
             "team_a": "ŁKS Commercecon Łódź",
             "team_b": "LOTTO Chemik Police",
             "logo_a": "https://xoiche.live/media/teams/logos/lks-commercecon-lodz-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/lotto-chemik-police-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/1793294533816455678_1b18285f.png",
             "time": "00:00",
             "date": "30/10",
             "blv": "BLV Xôi Bắp",
@@ -1894,7 +1894,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38814_f9895f1c_20261030.png?v=f9895f1c",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38814_725358d9_20261030.png?v=725358d9",
             "width": 1600,
             "height": 1200
           }
