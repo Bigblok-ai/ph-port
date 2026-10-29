@@ -1814,6 +1814,231 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-b30d2d279b",
+          "name": "Kashima Antlers vs Cerezo Osaka | 13:00 31/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b30d2d279b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b30d2d279b",
+                  "name": "Kashima Antlers vs Cerezo Osaka",
+                  "streams": [
+                    {
+                      "id": "st-b30d2d279b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Kashima Antlers",
+            "team_b": "Cerezo Osaka",
+            "logo_a": "https://apiv3.apifootball.com/badges/5053_kashima-antlers.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5045_cerezo-osaka.jpg",
+            "time": "13:00",
+            "date": "31/10",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56887_30127bd8_20261030.png?v=30127bd8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-ae5db9a2f9",
+          "name": "Vissel Kobe vs Nagoya Grampus | 13:00 31/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ae5db9a2f9",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-ae5db9a2f9",
+                  "name": "Vissel Kobe vs Nagoya Grampus",
+                  "streams": [
+                    {
+                      "id": "st-ae5db9a2f9",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-486428156e",
+                          "name": "BLV Xôi Bắp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Vissel Kobe",
+            "team_b": "Nagoya Grampus",
+            "logo_a": "https://apiv3.apifootball.com/badges/383_vissel-kobe.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/415_nagoya-grampus.jpg",
+            "time": "13:00",
+            "date": "31/10",
+            "blv": "BLV Xôi Bắp",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56888_9a93fb42_20261030.png?v=9a93fb42",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-9ed6952542",
+          "name": "Melbourne City vs Sydney FC | 13:00 31/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9ed6952542",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-9ed6952542",
+                  "name": "Melbourne City vs Sydney FC",
+                  "streams": [
+                    {
+                      "id": "st-9ed6952542",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "A-League Men",
+            "team_a": "Melbourne City",
+            "team_b": "Sydney FC",
+            "logo_a": "https://apiv3.apifootball.com/badges/401_melbourne-city-fc.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/390_sydney.jpg",
+            "time": "13:00",
+            "date": "31/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56889_d6df4b5d_20261030.png?v=d6df4b5d",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
