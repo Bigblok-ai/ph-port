@@ -91,7 +91,7 @@
             "blv": "BLV Khô Mật",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 0,
             "away_score": 1
           },
@@ -166,9 +166,9 @@
             "blv": "BLV Khô Chè",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 0,
-            "away_score": 2
+            "away_score": 3
           },
           "image": {
             "padding": 1,
@@ -916,11 +916,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -933,11 +933,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-e3b4108ed2",
-                          "name": "BLV Khô Cay",
+                          "id": "lnk-982b8d1a7c",
+                          "name": "Server",
                           "type": "hls",
                           "default": false,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -964,7 +964,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/8062_hng-lnh-ha-tnh.jpg",
             "time": "17:00",
             "date": "30/10",
-            "blv": "BLV Xôi Xoài, BLV Khô Cay",
+            "blv": "BLV Khô Cay, Server",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
