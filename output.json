@@ -7,103 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-67fd590c0c",
-          "name": "Al Diriyah vs Neom SC | 21:50 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-67fd590c0c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-67fd590c0c",
-                  "name": "Al Diriyah vs Neom SC",
-                  "streams": [
-                    {
-                      "id": "st-67fd590c0c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-88fe1a05f9",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi League",
-            "team_a": "Al Diriyah",
-            "team_b": "Neom SC",
-            "logo_a": "https://xoiche.live/media/teams/logos/1793295028822189673_f447cd72.webp",
-            "logo_b": "https://apiv3.apifootball.com/badges/18904_neom.jpg",
-            "time": "21:50",
-            "date": "30/10",
-            "blv": "BLV Khô Mật",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56276_a86767a1_20261030.png?v=a86767a1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-2583461ee4",
           "name": "Konyaspor vs Galatasaray | 00:00 31/10",
@@ -174,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56643_8d55f54e_20261030.png?v=8d55f54e",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56643_8d55f54e_20261031.png?v=8d55f54e",
             "width": 1600,
             "height": 1200
           }
@@ -249,7 +157,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56694_e276fd5d_20261030.png?v=e276fd5d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56694_e276fd5d_20261031.png?v=e276fd5d",
             "width": 1600,
             "height": 1200
           }
@@ -324,7 +232,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56699_d4fe889d_20261030.png?v=d4fe889d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56699_d4fe889d_20261031.png?v=d4fe889d",
             "width": 1600,
             "height": 1200
           }
@@ -416,7 +324,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/58094_7c857d73_20261030.png?v=7c857d73",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/58094_7c857d73_20261031.png?v=7c857d73",
             "width": 1600,
             "height": 1200
           }
@@ -491,7 +399,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56762_581b62f9_20261030.png?v=581b62f9",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56762_581b62f9_20261031.png?v=581b62f9",
             "width": 1600,
             "height": 1200
           }
@@ -566,7 +474,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56790_28048ca1_20261030.png?v=28048ca1",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56790_28048ca1_20261031.png?v=28048ca1",
             "width": 1600,
             "height": 1200
           }
@@ -658,7 +566,99 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56797_c85e2ad2_20261030.png?v=c85e2ad2",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56797_c85e2ad2_20261031.png?v=c85e2ad2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-1ebf172090",
+          "name": "Juarez vs Queretaro | 08:00 31/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1ebf172090",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-1ebf172090",
+                  "name": "Juarez vs Queretaro",
+                  "streams": [
+                    {
+                      "id": "st-1ebf172090",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e750a8400a",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga MX",
+            "team_a": "Juarez",
+            "team_b": "Queretaro",
+            "logo_a": "https://apiv3.apifootball.com/badges/5357_juarez.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/278_queretaro.jpg",
+            "time": "08:00",
+            "date": "31/10",
+            "blv": "BLV Khô Bò",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56827_541fe3e8_20261031.png?v=541fe3e8",
             "width": 1600,
             "height": 1200
           }
@@ -750,7 +750,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56847_860d87dd_20261030.png?v=860d87dd",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56847_860d87dd_20261031.png?v=860d87dd",
             "width": 1600,
             "height": 1200
           }
@@ -825,7 +825,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56887_30127bd8_20261030.png?v=30127bd8",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56887_30127bd8_20261031.png?v=30127bd8",
             "width": 1600,
             "height": 1200
           }
@@ -900,7 +900,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56888_9a93fb42_20261030.png?v=9a93fb42",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56888_9a93fb42_20261031.png?v=9a93fb42",
             "width": 1600,
             "height": 1200
           }
@@ -975,7 +975,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56889_d6df4b5d_20261030.png?v=d6df4b5d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56889_d6df4b5d_20261031.png?v=d6df4b5d",
             "width": 1600,
             "height": 1200
           }
@@ -1067,7 +1067,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56911_073cf1d2_20261030.png?v=073cf1d2",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56911_073cf1d2_20261031.png?v=073cf1d2",
             "width": 1600,
             "height": 1200
           }
@@ -1142,7 +1142,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56928_e484d6c8_20261030.png?v=e484d6c8",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56928_e484d6c8_20261031.png?v=e484d6c8",
             "width": 1600,
             "height": 1200
           }
@@ -1234,7 +1234,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/57058_f58b92f1_20261030.png?v=f58b92f1",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/57058_f58b92f1_20261031.png?v=f58b92f1",
             "width": 1600,
             "height": 1200
           }
@@ -1309,7 +1309,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/57382_2c56cbe5_20261030.png?v=2c56cbe5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/57382_2c56cbe5_20261031.png?v=2c56cbe5",
             "width": 1600,
             "height": 1200
           }
@@ -1384,7 +1384,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/57696_f1770ce2_20261030.png?v=f1770ce2",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/57696_f1770ce2_20261031.png?v=f1770ce2",
             "width": 1600,
             "height": 1200
           }
@@ -1476,7 +1476,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/57866_f45bc9d5_20261030.png?v=f45bc9d5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/57866_f45bc9d5_20261031.png?v=f45bc9d5",
             "width": 1600,
             "height": 1200
           }
@@ -1551,7 +1551,99 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/57867_e5dc8786_20261030.png?v=e5dc8786",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/57867_e5dc8786_20261031.png?v=e5dc8786",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-f525562cfa",
+          "name": "Hull vs Ipswich | 22:00 31/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f525562cfa",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-f525562cfa",
+                  "name": "Hull vs Ipswich",
+                  "streams": [
+                    {
+                      "id": "st-f525562cfa",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e750a8400a",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Hull",
+            "team_b": "Ipswich",
+            "logo_a": "https://apiv3.apifootball.com/badges/3119_hull-city.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3121_ipswich-town.jpg",
+            "time": "22:00",
+            "date": "31/10",
+            "blv": "BLV Khô Bò",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/57868_7f238c51_20261031.png?v=7f238c51",
             "width": 1600,
             "height": 1200
           }
@@ -1626,7 +1718,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/57869_6e897869_20261030.png?v=6e897869",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/57869_6e897869_20261031.png?v=6e897869",
             "width": 1600,
             "height": 1200
           }
@@ -1718,7 +1810,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/58608_2a16d0a2_20261030.png?v=2a16d0a2",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/58608_2a16d0a2_20261031.png?v=2a16d0a2",
             "width": 1600,
             "height": 1200
           }
@@ -1793,7 +1885,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/58727_f1675b23_20261030.png?v=f1675b23",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/58727_f1675b23_20261031.png?v=f1675b23",
             "width": 1600,
             "height": 1200
           }
@@ -1885,7 +1977,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/58807_f91f4c53_20261030.png?v=f91f4c53",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/58807_f91f4c53_20261031.png?v=f91f4c53",
             "width": 1600,
             "height": 1200
           }
@@ -1969,7 +2061,99 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38814_725358d9_20261030.png?v=725358d9",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38814_725358d9_20261031.png?v=725358d9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-e7b52ca13b",
+          "name": "Suntory Sunbirds Osaka vs Nippon Steel Sakai Blazers | 11:05 31/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e7b52ca13b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e7b52ca13b",
+                  "name": "Suntory Sunbirds Osaka vs Nippon Steel Sakai Blazers",
+                  "streams": [
+                    {
+                      "id": "st-e7b52ca13b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e750a8400a",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SV.League Nhật Bản Nam",
+            "team_a": "Suntory Sunbirds Osaka",
+            "team_b": "Nippon Steel Sakai Blazers",
+            "logo_a": "https://xoiche.live/media/teams/logos/suntory-sunbirds-osaka-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/nippon-steel-sakai-blazers-vb.png",
+            "time": "11:05",
+            "date": "31/10",
+            "blv": "BLV Khô Bò",
+            "is_live": false,
+            "cate_type": "volleyball",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38817_0312d196_20261031.png?v=0312d196",
             "width": 1600,
             "height": 1200
           }
@@ -2044,7 +2228,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38831_f124fb81_20261030.png?v=f124fb81",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38831_f124fb81_20261031.png?v=f124fb81",
             "width": 1600,
             "height": 1200
           }
@@ -2119,7 +2303,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38834_059b2f3f_20261030.png?v=059b2f3f",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38834_059b2f3f_20261031.png?v=059b2f3f",
             "width": 1600,
             "height": 1200
           }
