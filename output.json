@@ -2365,6 +2365,81 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-96a65578dd",
+          "name": "Galatasaray vs Sultanbeyli Belediye Spor | 23:00 31/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-96a65578dd",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-96a65578dd",
+                  "name": "Galatasaray vs Sultanbeyli Belediye Spor",
+                  "streams": [
+                    {
+                      "id": "st-96a65578dd",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-486428156e",
+                          "name": "BLV Xôi Bắp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Efeler Ligi Thổ Nhĩ Kỳ Nam",
+            "team_a": "Galatasaray",
+            "team_b": "Sultanbeyli Belediye Spor",
+            "logo_a": "https://xoiche.live/media/teams/logos/galatasaray-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/sultanbeyli-belediye-spor-vb.png",
+            "time": "23:00",
+            "date": "31/10",
+            "blv": "BLV Xôi Bắp",
+            "is_live": false,
+            "cate_type": "volleyball",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38834_059b2f3f_20261030.png?v=059b2f3f",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
