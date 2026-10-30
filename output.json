@@ -7,86 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-b5f3152550",
-          "name": "Hanoi FC vs Phu Dong Ninh Binh | 19:15 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b5f3152550",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-b5f3152550",
-                  "name": "Hanoi FC vs Phu Dong Ninh Binh",
-                  "streams": [
-                    {
-                      "id": "st-b5f3152550",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-486428156e",
-                          "name": "BLV Xôi Bắp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Hanoi FC",
-            "team_b": "Phu Dong Ninh Binh",
-            "logo_a": "https://apiv3.apifootball.com/badges/473_ha-ni.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/8051_ninh-binh.jpg",
-            "time": "19:15",
-            "date": "30/10",
-            "blv": "BLV Xôi Bắp",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56185_1c6109de_20261030.png?v=1c6109de",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-e10ddd1e1a",
           "name": "Abha vs Al Ittihad | 19:30 30/10",
@@ -150,7 +75,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 1
           },
           "image": {
