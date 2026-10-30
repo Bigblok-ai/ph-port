@@ -2309,6 +2309,98 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "xc-37728c9dbe",
+          "name": "Osaka Marvelous vs Aranmare Yamagata | 16:05 30/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-37728c9dbe",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-37728c9dbe",
+                  "name": "Osaka Marvelous vs Aranmare Yamagata",
+                  "streams": [
+                    {
+                      "id": "st-37728c9dbe",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e750a8400a",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SV.League Nhật Bản / W",
+            "team_a": "Osaka Marvelous",
+            "team_b": "Aranmare Yamagata",
+            "logo_a": "https://xoiche.live/media/teams/logos/osaka-marvelous-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/aranmare-yamagata-vb.png",
+            "time": "16:05",
+            "date": "30/10",
+            "blv": "BLV Khô Bò",
+            "is_live": false,
+            "cate_type": "volleyball",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38811_461a5f50_20261030.png?v=461a5f50",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-332da72e6f",
           "name": "NEC Red Rockets Kawasaki vs Kurobe AquaFairies | 16:35 30/10",
           "type": "single",
