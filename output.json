@@ -13,81 +13,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-cd4428925a",
-          "name": "Levante vs Atl. Madrid | 20:00 31/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cd4428925a",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-cd4428925a",
-                  "name": "Levante vs Atl. Madrid",
-                  "streams": [
-                    {
-                      "id": "st-cd4428925a",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3b4108ed2",
-                          "name": "BLV Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Levante",
-            "team_b": "Atl. Madrid",
-            "logo_a": "https://apiv3.apifootball.com/badges/7259_levante.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/73_atletico-de-madrid.jpg",
-            "time": "20:00",
-            "date": "31/10",
-            "blv": "BLV Khô Cay",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/57382_2c56cbe5_20261031.png?v=2c56cbe5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-4b9ef0c611",
           "name": "Bayer Leverkusen vs Stuttgart | 21:30 31/10",
           "type": "single",
@@ -168,7 +93,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
@@ -282,27 +207,10 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-245e47f94f",
-                          "name": "BLV Lương Khô",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
                           "id": "lnk-982b8d1a7c",
                           "name": "BLV Xôi Xoài",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
                           "request_headers": [
                             {
@@ -330,7 +238,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/3079_brighton--hove-albion.jpg",
             "time": "22:00",
             "date": "31/10",
-            "blv": "BLV Lương Khô, BLV Xôi Xoài",
+            "blv": "BLV Xôi Xoài",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
@@ -688,10 +596,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -740,9 +648,9 @@
             "time": "22:15",
             "date": "31/10",
             "blv": "BLV Khô Cay",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
