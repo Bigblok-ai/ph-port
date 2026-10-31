@@ -91,7 +91,7 @@
             "blv": "BLV Khô Mật",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 1,
             "away_score": 2
           },
@@ -166,7 +166,7 @@
             "blv": "BLV Khô Cá",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 0,
             "away_score": 1
           },
@@ -175,81 +175,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/57696_f1770ce2_20261031.png?v=f1770ce2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-2969a9247e",
-          "name": "Manchester City vs Brighton | 22:00 31/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2969a9247e",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-2969a9247e",
-                  "name": "Manchester City vs Brighton",
-                  "streams": [
-                    {
-                      "id": "st-2969a9247e",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Manchester City",
-            "team_b": "Brighton",
-            "logo_a": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3079_brighton--hove-albion.jpg",
-            "time": "22:00",
-            "date": "31/10",
-            "blv": "BLV Xôi Xoài",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/57869_6e897869_20261031.png?v=6e897869",
             "width": 1600,
             "height": 1200
           }
@@ -318,7 +243,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 1
+            "away_score": 0
           },
           "image": {
             "padding": 1,
@@ -484,7 +409,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
@@ -584,6 +509,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/57868_7f238c51_20261031.png?v=7f238c51",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-2969a9247e",
+          "name": "Manchester City vs Brighton | 22:00 31/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2969a9247e",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-2969a9247e",
+                  "name": "Manchester City vs Brighton",
+                  "streams": [
+                    {
+                      "id": "st-2969a9247e",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Manchester City",
+            "team_b": "Brighton",
+            "logo_a": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3079_brighton--hove-albion.jpg",
+            "time": "22:00",
+            "date": "31/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 1
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/57869_6e897869_20261031.png?v=6e897869",
             "width": 1600,
             "height": 1200
           }
@@ -1240,8 +1240,8 @@
           }
         },
         {
-          "id": "xc-130ef52d48",
-          "name": "Club America vs Toluca | 10:10 01/11",
+          "id": "xc-fcbee6ab5d",
+          "name": "Monterrey vs Club Tijuana | 08:05 01/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1255,15 +1255,15 @@
           ],
           "sources": [
             {
-              "id": "src-130ef52d48",
+              "id": "src-fcbee6ab5d",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-130ef52d48",
-                  "name": "Club America vs Toluca",
+                  "id": "ct-fcbee6ab5d",
+                  "name": "Monterrey vs Club Tijuana",
                   "streams": [
                     {
-                      "id": "st-130ef52d48",
+                      "id": "st-fcbee6ab5d",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
@@ -1299,12 +1299,70 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
-                        },
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga MX",
+            "team_a": "Monterrey",
+            "team_b": "Club Tijuana",
+            "logo_a": "https://apiv3.apifootball.com/badges/308_monterrey.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5350_tijuana.jpg",
+            "time": "08:05",
+            "date": "01/11",
+            "blv": "BLV Xôi Gấc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/58798_13624e39_20261031.png?v=13624e39",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-130ef52d48",
+          "name": "Club America vs Toluca | 10:10 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-130ef52d48",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-130ef52d48",
+                  "name": "Club America vs Toluca",
+                  "streams": [
+                    {
+                      "id": "st-130ef52d48",
+                      "name": "XoiChe TV",
+                      "stream_links": [
                         {
                           "id": "lnk-88fe1a05f9",
                           "name": "BLV Khô Mật 1",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
                           "request_headers": [
                             {
@@ -1349,7 +1407,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/5347_toluca.jpg",
             "time": "10:10",
             "date": "01/11",
-            "blv": "BLV Xôi Gấc, BLV Khô Mật",
+            "blv": "BLV Khô Mật",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
