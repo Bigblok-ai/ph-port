@@ -7,86 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-ae5db9a2f9",
-          "name": "Vissel Kobe vs Nagoya Grampus | 13:00 31/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ae5db9a2f9",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-ae5db9a2f9",
-                  "name": "Vissel Kobe vs Nagoya Grampus",
-                  "streams": [
-                    {
-                      "id": "st-ae5db9a2f9",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-486428156e",
-                          "name": "BLV Xôi Bắp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Vissel Kobe",
-            "team_b": "Nagoya Grampus",
-            "logo_a": "https://apiv3.apifootball.com/badges/383_vissel-kobe.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/415_nagoya-grampus.jpg",
-            "time": "13:00",
-            "date": "31/10",
-            "blv": "BLV Xôi Bắp",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 3,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56888_9a93fb42_20261031.png?v=9a93fb42",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-0709f4c889",
           "name": "Kashiwa Reysol vs Urawa Reds | 14:00 31/10",
@@ -149,7 +74,7 @@
             "blv": "BLV Tam Mao",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 1,
             "away_score": 0
           },
