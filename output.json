@@ -1758,6 +1758,81 @@
           }
         },
         {
+          "id": "xc-f5d3b0e747",
+          "name": "Barcelona vs Alaves | 03:00 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f5d3b0e747",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-f5d3b0e747",
+                  "name": "Barcelona vs Alaves",
+                  "streams": [
+                    {
+                      "id": "st-f5d3b0e747",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Barcelona",
+            "team_b": "Alaves",
+            "logo_a": "https://apiv3.apifootball.com/badges/97_barcelona.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7275_alaves.jpg",
+            "time": "03:00",
+            "date": "01/11",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/58734_aa0a32c4_20261031.png?v=aa0a32c4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-928f820925",
           "name": "Aston Villa vs Fulham | 03:00 01/11",
           "type": "single",
@@ -1942,6 +2017,81 @@
           }
         },
         {
+          "id": "xc-7acd9244e7",
+          "name": "Melbourne Victory vs Central Coast Mariners | 11:00 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7acd9244e7",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-7acd9244e7",
+                  "name": "Melbourne Victory vs Central Coast Mariners",
+                  "streams": [
+                    {
+                      "id": "st-7acd9244e7",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "A-League Men",
+            "team_a": "Melbourne Victory",
+            "team_b": "Central Coast Mariners",
+            "logo_a": "https://apiv3.apifootball.com/badges/376_melbourne-victory.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/1050_central-coast-mariners.jpg",
+            "time": "11:00",
+            "date": "01/11",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/58812_875b1b47_20261031.png?v=875b1b47",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-31f569abcf",
           "name": "Seoul vs Incheon | 14:30 01/11",
           "type": "single",
@@ -2029,6 +2179,156 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/58839_d92a6f1e_20261031.png?v=d92a6f1e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-1e2833ca6d",
+          "name": "Como vs Venezia | 18:30 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1e2833ca6d",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-1e2833ca6d",
+                  "name": "Como vs Venezia",
+                  "streams": [
+                    {
+                      "id": "st-1e2833ca6d",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Como",
+            "team_b": "Venezia",
+            "logo_a": "https://apiv3.apifootball.com/badges/8239_como.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5007_venezia.jpg",
+            "time": "18:30",
+            "date": "01/11",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/59078_f0b2265c_20261031.png?v=f0b2265c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-b644fc4612",
+          "name": "Union Berlin vs FC Koln | 21:30 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b644fc4612",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b644fc4612",
+                  "name": "Union Berlin vs FC Koln",
+                  "streams": [
+                    {
+                      "id": "st-b644fc4612",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Union Berlin",
+            "team_b": "FC Koln",
+            "logo_a": "https://apiv3.apifootball.com/badges/3936_union-berlin.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3932_koln.jpg",
+            "time": "21:30",
+            "date": "01/11",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/59517_df6c0b18_20261031.png?v=df6c0b18",
             "width": 1600,
             "height": 1200
           }
