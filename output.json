@@ -616,11 +616,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-fae8ed2c4d",
-                          "name": "BLV Khô Chè",
+                          "id": "lnk-245e47f94f",
+                          "name": "BLV Lương Khô",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -633,11 +633,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-245e47f94f",
-                          "name": "BLV Lương Khô",
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
                           "type": "hls",
                           "default": false,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -664,7 +664,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/102_manchester-united.jpg",
             "time": "19:30",
             "date": "31/10",
-            "blv": "BLV Khô Chè, BLV Lương Khô",
+            "blv": "BLV Lương Khô, BLV Khô Chè",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
