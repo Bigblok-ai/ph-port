@@ -242,7 +242,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 1
           },
           "image": {
@@ -2184,6 +2184,81 @@
           }
         },
         {
+          "id": "xc-e2414f9b2c",
+          "name": "Perth Glory vs Adelaide United | 15:00 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e2414f9b2c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e2414f9b2c",
+                  "name": "Perth Glory vs Adelaide United",
+                  "streams": [
+                    {
+                      "id": "st-e2414f9b2c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "A-League Men",
+            "team_a": "Perth Glory",
+            "team_b": "Adelaide United",
+            "logo_a": "https://apiv3.apifootball.com/badges/382_perth-glory.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/1052_adelaide-united-fc.jpg",
+            "time": "15:00",
+            "date": "01/11",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/58841_01c7e2ff_20261031.png?v=01c7e2ff",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-1e2833ca6d",
           "name": "Como vs Venezia | 18:30 01/11",
           "type": "single",
@@ -2259,6 +2334,81 @@
           }
         },
         {
+          "id": "xc-7d55b99416",
+          "name": "Lazio vs Cagliari | 21:00 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7d55b99416",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-7d55b99416",
+                  "name": "Lazio vs Cagliari",
+                  "streams": [
+                    {
+                      "id": "st-7d55b99416",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Lazio",
+            "team_b": "Cagliari",
+            "logo_a": "https://apiv3.apifootball.com/badges/93_lazio.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4981_cagliari.jpg",
+            "time": "21:00",
+            "date": "01/11",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/59456_9b54b379_20261031.png?v=9b54b379",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-b644fc4612",
           "name": "Union Berlin vs FC Koln | 21:30 01/11",
           "type": "single",
@@ -2329,6 +2479,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/59517_df6c0b18_20261031.png?v=df6c0b18",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-7f346bb939",
+          "name": "Paris FC vs Monaco | 23:15 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7f346bb939",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-7f346bb939",
+                  "name": "Paris FC vs Monaco",
+                  "streams": [
+                    {
+                      "id": "st-7f346bb939",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Paris FC",
+            "team_b": "Monaco",
+            "logo_a": "https://apiv3.apifootball.com/badges/3796_paris-fc.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3817_monaco.jpg",
+            "time": "23:15",
+            "date": "01/11",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/59721_4408fbd2_20261031.png?v=4408fbd2",
             "width": 1600,
             "height": 1200
           }
