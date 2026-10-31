@@ -1635,60 +1635,43 @@
     },
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-411c820218",
-          "name": "BOGDANKA LUK Lublin vs GKS Katowice | 02:30 01/11",
+          "id": "xc-bed72a7299",
+          "name": "Reale Mutua Fenera Chieri ’76 vs Laica UYBA Busto Arsizio | 02:30 01/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-411c820218",
+              "id": "src-bed72a7299",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-411c820218",
-                  "name": "BOGDANKA LUK Lublin vs GKS Katowice",
+                  "id": "ct-bed72a7299",
+                  "name": "Reale Mutua Fenera Chieri ’76 vs Laica UYBA Busto Arsizio",
                   "streams": [
                     {
-                      "id": "st-411c820218",
+                      "id": "st-bed72a7299",
                       "name": "XoiChe TV",
                       "stream_links": [
-                        {
-                          "id": "lnk-486428156e",
-                          "name": "BLV Xôi Bắp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
                         {
                           "id": "lnk-e750a8400a",
                           "name": "BLV Khô Bò 1",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615",
                           "request_headers": [
                             {
@@ -1717,6 +1700,23 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
+                        },
+                        {
+                          "id": "lnk-486428156e",
+                          "name": "BLV Xôi Bắp",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -1726,17 +1726,17 @@
             }
           ],
           "org_metadata": {
-            "league": "PlusLiga Ba Lan Nam",
-            "team_a": "BOGDANKA LUK Lublin",
-            "team_b": "GKS Katowice",
-            "logo_a": "https://xoiche.live/media/teams/logos/bogdanka-luk-lublin-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/gks-katowice-vb.png",
+            "league": "Serie A1 Ý / W",
+            "team_a": "Reale Mutua Fenera Chieri ’76",
+            "team_b": "Laica UYBA Busto Arsizio",
+            "logo_a": "https://xoiche.live/media/teams/logos/reale-mutua-fenera-chieri-76-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/laica-uyba-busto-arsizio-vb.png",
             "time": "02:30",
             "date": "01/11",
-            "blv": "BLV Xôi Bắp, BLV Khô Bò",
-            "is_live": false,
+            "blv": "BLV Khô Bò, BLV Xôi Bắp",
+            "is_live": true,
             "cate_type": "volleyball",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -1744,7 +1744,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/61924_46359ae9_20261101.png?v=46359ae9",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/61925_830d3ad3_20261101.png?v=830d3ad3",
             "width": 1600,
             "height": 1200
           }
