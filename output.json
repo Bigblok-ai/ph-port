@@ -13,98 +13,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-8deddf03f0",
-          "name": "Newcastle Jets vs Wellington Phoenix | 11:00 31/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8deddf03f0",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-8deddf03f0",
-                  "name": "Newcastle Jets vs Wellington Phoenix",
-                  "streams": [
-                    {
-                      "id": "st-8deddf03f0",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-88fe1a05f9",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "A-League Men",
-            "team_a": "Newcastle Jets",
-            "team_b": "Wellington Phoenix",
-            "logo_a": "https://apiv3.apifootball.com/badges/1056_newcastle-jets-fc.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/1054_wellington-phoenix.jpg",
-            "time": "11:00",
-            "date": "31/10",
-            "blv": "BLV Khô Mật",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 3
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56847_860d87dd_20261031.png?v=860d87dd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-b30d2d279b",
           "name": "Kashima Antlers vs Cerezo Osaka | 13:00 31/10",
           "type": "single",
@@ -262,10 +170,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -331,9 +239,9 @@
             "time": "13:00",
             "date": "31/10",
             "blv": "BLV Khô Mật",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
