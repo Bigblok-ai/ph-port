@@ -1560,86 +1560,11 @@
     },
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-411c820218",
-          "name": "BOGDANKA LUK Lublin vs GKS Katowice | 02:30 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-411c820218",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-411c820218",
-                  "name": "BOGDANKA LUK Lublin vs GKS Katowice",
-                  "streams": [
-                    {
-                      "id": "st-411c820218",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-486428156e",
-                          "name": "BLV Xôi Bắp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PlusLiga Ba Lan Nam",
-            "team_a": "BOGDANKA LUK Lublin",
-            "team_b": "GKS Katowice",
-            "logo_a": "https://xoiche.live/media/teams/logos/bogdanka-luk-lublin-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/gks-katowice-vb.png",
-            "time": "02:30",
-            "date": "01/11",
-            "blv": "BLV Xôi Bắp",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/61924_46359ae9_20261101.png?v=46359ae9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-d69f6b7d7c",
           "name": "Suntory Sunbirds Osaka vs Nippon Steel Sakai Blazers | 11:05 01/11",
