@@ -151,7 +151,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -734,6 +734,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/59728_3a79f3b2_20261101.png?v=3a79f3b2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-8490b8235a",
+          "name": "Lecce vs Genoa | 00:00 02/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8490b8235a",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-8490b8235a",
+                  "name": "Lecce vs Genoa",
+                  "streams": [
+                    {
+                      "id": "st-8490b8235a",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Lecce",
+            "team_b": "Genoa",
+            "logo_a": "https://apiv3.apifootball.com/badges/5010_lecce.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4986_genoa.jpg",
+            "time": "00:00",
+            "date": "02/11",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60048_c8ac498a_20261101.png?v=c8ac498a",
             "width": 1600,
             "height": 1200
           }
