@@ -1107,6 +1107,81 @@
           }
         },
         {
+          "id": "xc-27302a7522",
+          "name": "Tractor vs Neftchi Fargona | 23:00 02/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-27302a7522",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-27302a7522",
+                  "name": "Tractor vs Neftchi Fargona",
+                  "streams": [
+                    {
+                      "id": "st-27302a7522",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Elite",
+            "team_a": "Tractor",
+            "team_b": "Neftchi Fargona",
+            "logo_a": "https://apiv3.apifootball.com/badges/414_tractor.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/10543_neftchi.jpg",
+            "time": "23:00",
+            "date": "02/11",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60317_1e60ef70_20261102.png?v=1e60ef70",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-ca9e994cf0",
           "name": "Inter Turku vs Gnistan | 23:00 02/11",
           "type": "single",
@@ -1402,6 +1477,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60995_0dc2c431_20261102.png?v=0dc2c431",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-e64e4fda9b",
+          "name": "Dep. A Coruna vs Osasuna | 03:00 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e64e4fda9b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e64e4fda9b",
+                  "name": "Dep. A Coruna vs Osasuna",
+                  "streams": [
+                    {
+                      "id": "st-e64e4fda9b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Dep. A Coruna",
+            "team_b": "Osasuna",
+            "logo_a": "https://apiv3.apifootball.com/badges/7200_deportivo-de-la-coruna.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7269_osasuna.jpg",
+            "time": "03:00",
+            "date": "03/11",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/61000_4dd56b5e_20261102.png?v=4dd56b5e",
             "width": 1600,
             "height": 1200
           }
