@@ -7,86 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-7f346bb939",
-          "name": "Paris FC vs Monaco | 23:15 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7f346bb939",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-7f346bb939",
-                  "name": "Paris FC vs Monaco",
-                  "streams": [
-                    {
-                      "id": "st-7f346bb939",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Paris FC",
-            "team_b": "Monaco",
-            "logo_a": "https://apiv3.apifootball.com/badges/3796_paris-fc.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3817_monaco.jpg",
-            "time": "23:15",
-            "date": "01/11",
-            "blv": "BLV Xôi Xoài",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 3,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/59721_4408fbd2_20261102.png?v=4408fbd2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-46e99e96e8",
           "name": "Eintracht Frankfurt vs Hamburger SV | 23:30 01/11",
@@ -1119,6 +1044,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60254_86f90b74_20261102.png?v=86f90b74",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-399878d7eb",
+          "name": "Pakhtakor vs Al Nassr | 20:45 02/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-399878d7eb",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-399878d7eb",
+                  "name": "Pakhtakor vs Al Nassr",
+                  "streams": [
+                    {
+                      "id": "st-399878d7eb",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Elite",
+            "team_a": "Pakhtakor",
+            "team_b": "Al Nassr",
+            "logo_a": "https://apiv3.apifootball.com/badges/363_pakhtakor.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/371_al-nassr.jpg",
+            "time": "20:45",
+            "date": "02/11",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60286_0539e622_20261102.png?v=0539e622",
             "width": 1600,
             "height": 1200
           }
