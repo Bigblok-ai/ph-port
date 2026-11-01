@@ -425,8 +425,8 @@
             "blv": "BLV Khô Chè",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
+            "status": "half_time",
+            "home_score": 1,
             "away_score": 2
           },
           "image": {
@@ -1458,6 +1458,81 @@
           }
         },
         {
+          "id": "xc-ca9e994cf0",
+          "name": "Inter Turku vs Gnistan | 23:00 02/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ca9e994cf0",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-ca9e994cf0",
+                  "name": "Inter Turku vs Gnistan",
+                  "streams": [
+                    {
+                      "id": "st-ca9e994cf0",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-486428156e",
+                          "name": "BLV Xôi Bắp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "Inter Turku",
+            "team_b": "Gnistan",
+            "logo_a": "https://apiv3.apifootball.com/badges/3542_inter-turku.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3541_gnistan.jpg",
+            "time": "23:00",
+            "date": "02/11",
+            "blv": "BLV Xôi Bắp",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60318_dc8a7803_20261102.png?v=dc8a7803",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-e5a6551792",
           "name": "VPS vs HJK | 23:00 02/11",
           "type": "single",
@@ -1753,6 +1828,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/61002_9fc52d7a_20261102.png?v=9fc52d7a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-a29664bf3d",
+          "name": "Benfica vs Alverca | 03:15 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a29664bf3d",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-a29664bf3d",
+                  "name": "Benfica vs Alverca",
+                  "streams": [
+                    {
+                      "id": "st-a29664bf3d",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-486428156e",
+                          "name": "BLV Xôi Bắp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Primeira Liga",
+            "team_a": "Benfica",
+            "team_b": "Alverca",
+            "logo_a": "https://apiv3.apifootball.com/badges/147_benfica.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5935_alverca.jpg",
+            "time": "03:15",
+            "date": "03/11",
+            "blv": "BLV Xôi Bắp",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/61003_13a16c01_20261102.png?v=13a16c01",
             "width": 1600,
             "height": 1200
           }
