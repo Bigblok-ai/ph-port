@@ -2003,86 +2003,11 @@
     },
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-6c8075485f",
-          "name": "Okayama Seagulls vs Gunma Green Wings | 12:05 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6c8075485f",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-6c8075485f",
-                  "name": "Okayama Seagulls vs Gunma Green Wings",
-                  "streams": [
-                    {
-                      "id": "st-6c8075485f",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-486428156e",
-                          "name": "BLV Xôi Bắp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "SV.League Nhật Bản / W",
-            "team_a": "Okayama Seagulls",
-            "team_b": "Gunma Green Wings",
-            "logo_a": "https://xoiche.live/media/teams/logos/okayama-seagulls-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/gunma-green-wings-vb.png",
-            "time": "12:05",
-            "date": "01/11",
-            "blv": "BLV Xôi Bắp",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/61927_de70a89a_20261101.png?v=de70a89a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-c8bd18ea08",
           "name": "Sinnada Hotels Afyon Bld. Yüntaş vs VakıfBank | 19:00 01/11",
