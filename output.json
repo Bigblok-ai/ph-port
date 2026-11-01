@@ -13,81 +13,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-b2af94e387",
-          "name": "Lyon vs Angers | 23:15 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b2af94e387",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-b2af94e387",
-                  "name": "Lyon vs Angers",
-                  "streams": [
-                    {
-                      "id": "st-b2af94e387",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-486428156e",
-                          "name": "BLV Xôi Bắp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Lyon",
-            "team_b": "Angers",
-            "logo_a": "https://apiv3.apifootball.com/badges/3815_olympique-lyonnais.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3827_angers-sco.jpg",
-            "time": "23:15",
-            "date": "01/11",
-            "blv": "BLV Xôi Bắp",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/59720_243fb65a_20261102.png?v=243fb65a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-7f346bb939",
           "name": "Paris FC vs Monaco | 23:15 01/11",
           "type": "single",
@@ -158,6 +83,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/59721_4408fbd2_20261102.png?v=4408fbd2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-b2af94e387",
+          "name": "Lyon vs Angers | 23:15 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b2af94e387",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b2af94e387",
+                  "name": "Lyon vs Angers",
+                  "streams": [
+                    {
+                      "id": "st-b2af94e387",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-486428156e",
+                          "name": "BLV Xôi Bắp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Lyon",
+            "team_b": "Angers",
+            "logo_a": "https://apiv3.apifootball.com/badges/3815_olympique-lyonnais.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3827_angers-sco.jpg",
+            "time": "23:15",
+            "date": "01/11",
+            "blv": "BLV Xôi Bắp",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 2,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/59720_243fb65a_20261102.png?v=243fb65a",
             "width": 1600,
             "height": 1200
           }
