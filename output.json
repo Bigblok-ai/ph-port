@@ -739,6 +739,81 @@
           }
         },
         {
+          "id": "xc-1edbecccca",
+          "name": "Sassuolo vs Fiorentina | 00:30 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1edbecccca",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-1edbecccca",
+                  "name": "Sassuolo vs Fiorentina",
+                  "streams": [
+                    {
+                      "id": "st-1edbecccca",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Sassuolo",
+            "team_b": "Fiorentina",
+            "logo_a": "https://apiv3.apifootball.com/badges/4975_sassuolo.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4974_fiorentina.jpg",
+            "time": "00:30",
+            "date": "03/11",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60942_7a704430_20261102.png?v=7a704430",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-0bb91c9a11",
           "name": "Al-Gharafa vs Al Qadsiah | 01:15 03/11",
           "type": "single",
