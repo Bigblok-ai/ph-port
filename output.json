@@ -374,27 +374,10 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-c8987d572f",
-                          "name": "BLV Khô Cá",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
                           "id": "lnk-88fe1a05f9",
                           "name": "BLV Khô Mật 1",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
                           "request_headers": [
                             {
@@ -439,7 +422,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/359_al-ahli.jpg",
             "time": "23:00",
             "date": "02/11",
-            "blv": "BLV Khô Cá, BLV Khô Mật",
+            "blv": "BLV Khô Mật",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
