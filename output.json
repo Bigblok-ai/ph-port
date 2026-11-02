@@ -348,7 +348,7 @@
         },
         {
           "id": "xc-f3c9eeff97",
-          "name": "Al-Sadd vs Al Ahli SC | 00:00 03/11",
+          "name": "Al-Sadd vs Al Ahli SC | 23:00 02/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -420,8 +420,8 @@
             "team_b": "Al Ahli SC",
             "logo_a": "https://apiv3.apifootball.com/badges/372_al-sadd.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/359_al-ahli.jpg",
-            "time": "00:00",
-            "date": "03/11",
+            "time": "23:00",
+            "date": "02/11",
             "blv": "BLV Khô Mật",
             "is_live": false,
             "cate_type": "football",
@@ -440,7 +440,7 @@
         },
         {
           "id": "xc-7ed0393d5e",
-          "name": "Al Wasl vs Al Quwa Al Jawiya | 00:00 03/11",
+          "name": "Al Wasl vs Al Quwa Al Jawiya | 23:00 02/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -495,8 +495,8 @@
             "team_b": "Al Quwa Al Jawiya",
             "logo_a": "https://apiv3.apifootball.com/badges/7828_al-wasl.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/9726_al-quwa-al-jawiya.jpg",
-            "time": "00:00",
-            "date": "03/11",
+            "time": "23:00",
+            "date": "02/11",
             "blv": "BLV Tam Mao",
             "is_live": false,
             "cate_type": "football",
@@ -515,7 +515,7 @@
         },
         {
           "id": "xc-27302a7522",
-          "name": "Tractor vs Neftchi Fargona | 00:00 03/11",
+          "name": "Tractor vs Neftchi Fargona | 23:00 02/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -570,8 +570,8 @@
             "team_b": "Neftchi Fargona",
             "logo_a": "https://apiv3.apifootball.com/badges/414_tractor.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/10543_neftchi.jpg",
-            "time": "00:00",
-            "date": "03/11",
+            "time": "23:00",
+            "date": "02/11",
             "blv": "BLV Khô Cay",
             "is_live": false,
             "cate_type": "football",
@@ -590,7 +590,7 @@
         },
         {
           "id": "xc-ca9e994cf0",
-          "name": "Inter Turku vs Gnistan | 00:00 03/11",
+          "name": "Inter Turku vs Gnistan | 23:00 02/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -645,8 +645,8 @@
             "team_b": "Gnistan",
             "logo_a": "https://apiv3.apifootball.com/badges/3542_inter-turku.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/3541_gnistan.jpg",
-            "time": "00:00",
-            "date": "03/11",
+            "time": "23:00",
+            "date": "02/11",
             "blv": "BLV Xôi Bắp",
             "is_live": false,
             "cate_type": "football",
@@ -665,7 +665,7 @@
         },
         {
           "id": "xc-e5a6551792",
-          "name": "VPS vs HJK | 00:00 03/11",
+          "name": "VPS vs HJK | 23:00 02/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -720,8 +720,8 @@
             "team_b": "HJK",
             "logo_a": "https://apiv3.apifootball.com/badges/3544_vps.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/3549_hjk.jpg",
-            "time": "00:00",
-            "date": "03/11",
+            "time": "23:00",
+            "date": "02/11",
             "blv": "BLV Xôi Xoài",
             "is_live": false,
             "cate_type": "football",
@@ -740,7 +740,7 @@
         },
         {
           "id": "xc-1edbecccca",
-          "name": "Sassuolo vs Fiorentina | 01:30 03/11",
+          "name": "Sassuolo vs Fiorentina | 00:30 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -795,7 +795,7 @@
             "team_b": "Fiorentina",
             "logo_a": "https://apiv3.apifootball.com/badges/4975_sassuolo.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/4974_fiorentina.jpg",
-            "time": "01:30",
+            "time": "00:30",
             "date": "03/11",
             "blv": "BLV Khô Chè",
             "is_live": false,
@@ -815,7 +815,7 @@
         },
         {
           "id": "xc-0bb91c9a11",
-          "name": "Al-Gharafa vs Al Qadsiah | 02:15 03/11",
+          "name": "Al-Gharafa vs Al Qadsiah | 01:15 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -870,7 +870,7 @@
             "team_b": "Al Qadsiah",
             "logo_a": "https://apiv3.apifootball.com/badges/391_al-gharafa.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/6330_al-qadsiah.jpg",
-            "time": "02:15",
+            "time": "01:15",
             "date": "03/11",
             "blv": "BLV Tam Mao",
             "is_live": false,
@@ -890,7 +890,7 @@
         },
         {
           "id": "xc-263ccd7aa3",
-          "name": "Al Ittihad vs Al Ain | 02:15 03/11",
+          "name": "Al Ittihad vs Al Ain | 01:15 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -962,7 +962,7 @@
             "team_b": "Al Ain",
             "logo_a": "https://apiv3.apifootball.com/badges/6328_al-ittihad.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/374_al-ain.jpg",
-            "time": "02:15",
+            "time": "01:15",
             "date": "03/11",
             "blv": "BLV Khô Mật",
             "is_live": false,
@@ -976,6 +976,248 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60966_e7f38e37_20261102.png?v=e7f38e37",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-5d70d2246e",
+          "name": "Atalanta vs Parma | 02:45 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5d70d2246e",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-5d70d2246e",
+                  "name": "Atalanta vs Parma",
+                  "streams": [
+                    {
+                      "id": "st-5d70d2246e",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Atalanta",
+            "team_b": "Parma",
+            "logo_a": "https://apiv3.apifootball.com/badges/85_atalanta.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4978_parma.jpg",
+            "time": "02:45",
+            "date": "03/11",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60995_0dc2c431_20261102.png?v=0dc2c431",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-2a1a7152e7",
+          "name": "Lorient vs Brest | 02:45 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2a1a7152e7",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-2a1a7152e7",
+                  "name": "Lorient vs Brest",
+                  "streams": [
+                    {
+                      "id": "st-2a1a7152e7",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e750a8400a",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Lorient",
+            "team_b": "Brest",
+            "logo_a": "https://apiv3.apifootball.com/badges/3814_lorient.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3823_brest.jpg",
+            "time": "02:45",
+            "date": "03/11",
+            "blv": "BLV Khô Bò",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60996_00214621_20261102.png?v=00214621",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-e64e4fda9b",
+          "name": "Dep. A Coruna vs Osasuna | 03:00 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e64e4fda9b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e64e4fda9b",
+                  "name": "Dep. A Coruna vs Osasuna",
+                  "streams": [
+                    {
+                      "id": "st-e64e4fda9b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Dep. A Coruna",
+            "team_b": "Osasuna",
+            "logo_a": "https://apiv3.apifootball.com/badges/7200_deportivo-de-la-coruna.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7269_osasuna.jpg",
+            "time": "03:00",
+            "date": "03/11",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/61000_4dd56b5e_20261102.png?v=4dd56b5e",
             "width": 1600,
             "height": 1200
           }
@@ -1056,250 +1298,8 @@
           }
         },
         {
-          "id": "xc-5d70d2246e",
-          "name": "Atalanta vs Parma | 03:45 03/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5d70d2246e",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-5d70d2246e",
-                  "name": "Atalanta vs Parma",
-                  "streams": [
-                    {
-                      "id": "st-5d70d2246e",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Atalanta",
-            "team_b": "Parma",
-            "logo_a": "https://apiv3.apifootball.com/badges/85_atalanta.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/4978_parma.jpg",
-            "time": "03:45",
-            "date": "03/11",
-            "blv": "BLV Xôi Xoài",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60995_0dc2c431_20261102.png?v=0dc2c431",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-2a1a7152e7",
-          "name": "Lorient vs Brest | 03:45 03/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2a1a7152e7",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-2a1a7152e7",
-                  "name": "Lorient vs Brest",
-                  "streams": [
-                    {
-                      "id": "st-2a1a7152e7",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e750a8400a",
-                          "name": "BLV Khô Bò 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8bcf71e3b1",
-                          "name": "BLV Khô Bò 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub12.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Lorient",
-            "team_b": "Brest",
-            "logo_a": "https://apiv3.apifootball.com/badges/3814_lorient.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3823_brest.jpg",
-            "time": "03:45",
-            "date": "03/11",
-            "blv": "BLV Khô Bò",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60996_00214621_20261102.png?v=00214621",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-e64e4fda9b",
-          "name": "Dep. A Coruna vs Osasuna | 04:00 03/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e64e4fda9b",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-e64e4fda9b",
-                  "name": "Dep. A Coruna vs Osasuna",
-                  "streams": [
-                    {
-                      "id": "st-e64e4fda9b",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3b4108ed2",
-                          "name": "BLV Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Dep. A Coruna",
-            "team_b": "Osasuna",
-            "logo_a": "https://apiv3.apifootball.com/badges/7200_deportivo-de-la-coruna.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/7269_osasuna.jpg",
-            "time": "04:00",
-            "date": "03/11",
-            "blv": "BLV Khô Cay",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/61000_4dd56b5e_20261102.png?v=4dd56b5e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-a29664bf3d",
-          "name": "Benfica vs Alverca | 04:15 03/11",
+          "name": "Benfica vs Alverca | 03:15 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1354,7 +1354,7 @@
             "team_b": "Alverca",
             "logo_a": "https://apiv3.apifootball.com/badges/147_benfica.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/5935_alverca.jpg",
-            "time": "04:15",
+            "time": "03:15",
             "date": "03/11",
             "blv": "BLV Xôi Bắp",
             "is_live": false,
@@ -1374,7 +1374,7 @@
         },
         {
           "id": "xc-9fb92dbe14",
-          "name": "Toyama vs Vegalta Sendai | 12:55 03/11",
+          "name": "Toyama vs Vegalta Sendai | 11:55 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1446,7 +1446,7 @@
             "team_b": "Vegalta Sendai",
             "logo_a": "https://apiv3.apifootball.com/badges/10497_kataller-toyama.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/5056_vegalta-sendai.jpg",
-            "time": "12:55",
+            "time": "11:55",
             "date": "03/11",
             "blv": "BLV Xôi Gấc",
             "is_live": false,
@@ -1466,7 +1466,7 @@
         },
         {
           "id": "xc-03f46deabf",
-          "name": "Newcastle Jets vs Shanghai Port | 15:45 03/11",
+          "name": "Newcastle Jets vs Shanghai Port | 14:45 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1521,7 +1521,7 @@
             "team_b": "Shanghai Port",
             "logo_a": "https://apiv3.apifootball.com/badges/1056_newcastle-jets-fc.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/2256_shanghai-port.jpg",
-            "time": "15:45",
+            "time": "14:45",
             "date": "03/11",
             "blv": "BLV Xôi Xoài",
             "is_live": false,
@@ -1541,7 +1541,7 @@
         },
         {
           "id": "xc-7dc64f1f00",
-          "name": "Jeonbuk vs Johor DT | 18:00 03/11",
+          "name": "Jeonbuk vs Johor DT | 17:00 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1596,7 +1596,7 @@
             "team_b": "Johor DT",
             "logo_a": "https://apiv3.apifootball.com/badges/389_jeonbuk-motors.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/386_johor-darul-tazim.jpg",
-            "time": "18:00",
+            "time": "17:00",
             "date": "03/11",
             "blv": "BLV Tam Mao",
             "is_live": false,
@@ -1616,7 +1616,7 @@
         },
         {
           "id": "xc-cefb4b4554",
-          "name": "Cong An Ha Noi vs Kyoto | 20:15 03/11",
+          "name": "Cong An Ha Noi vs Kyoto | 19:15 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1671,7 +1671,7 @@
             "team_b": "Kyoto",
             "logo_a": "https://apiv3.apifootball.com/badges/8045_cong-an-ha-ni.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/5078_kyoto-sanga.jpg",
-            "time": "20:15",
+            "time": "19:15",
             "date": "03/11",
             "blv": "BLV Khô Cay",
             "is_live": false,
@@ -1691,7 +1691,7 @@
         },
         {
           "id": "xc-82adc7458c",
-          "name": "Port MTI FC vs Beijing Guoan | 20:15 03/11",
+          "name": "Port MTI FC vs Beijing Guoan | 19:15 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1763,7 +1763,7 @@
             "team_b": "Beijing Guoan",
             "logo_a": "https://apiv3.apifootball.com/badges/413_port.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/375_beijing-guoan.jpg",
-            "time": "20:15",
+            "time": "19:15",
             "date": "03/11",
             "blv": "BLV Xôi Gấc",
             "is_live": false,
@@ -1783,7 +1783,7 @@
         },
         {
           "id": "xc-c3cae332ad",
-          "name": "East Bengal vs Al Seeb | 21:45 03/11",
+          "name": "East Bengal vs Al Seeb | 20:45 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1855,7 +1855,7 @@
             "team_b": "Al Seeb",
             "logo_a": "https://apiv3.apifootball.com/badges/31289_east-bengal-ii.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/467_al-seeb.jpg",
-            "time": "21:45",
+            "time": "20:45",
             "date": "03/11",
             "blv": "BLV Khô Mật",
             "is_live": false,
@@ -1875,7 +1875,7 @@
         },
         {
           "id": "xc-bc224f0b34",
-          "name": "Esteghlal F.C. vs Shamal | 00:00 04/11",
+          "name": "Esteghlal F.C. vs Shamal | 23:00 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1930,8 +1930,8 @@
             "team_b": "Shamal",
             "logo_a": "https://apiv3.apifootball.com/badges/360_esteghlal.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/8583_al-shamal.jpg",
-            "time": "00:00",
-            "date": "04/11",
+            "time": "23:00",
+            "date": "03/11",
             "blv": "BLV Khô Cá",
             "is_live": false,
             "cate_type": "football",
@@ -1950,7 +1950,7 @@
         },
         {
           "id": "xc-344e0b16ef",
-          "name": "Atl. Madrid vs Bayern Munich | 04:00 04/11",
+          "name": "Atl. Madrid vs Bayern Munich | 03:00 04/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2005,7 +2005,7 @@
             "team_b": "Bayern Munich",
             "logo_a": "https://apiv3.apifootball.com/badges/73_atletico-de-madrid.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/72_bayern-munchen.jpg",
-            "time": "04:00",
+            "time": "03:00",
             "date": "04/11",
             "blv": "BLV Khô Cá",
             "is_live": false,
