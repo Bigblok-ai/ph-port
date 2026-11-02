@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -168,7 +168,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 1,
-            "away_score": 2
+            "away_score": 3
           },
           "image": {
             "padding": 1,
@@ -347,6 +347,81 @@
           }
         },
         {
+          "id": "xc-4858b5aa6c",
+          "name": "Newcastle vs Everton | 03:00 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4858b5aa6c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-4858b5aa6c",
+                  "name": "Newcastle vs Everton",
+                  "streams": [
+                    {
+                      "id": "st-4858b5aa6c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8987d572f",
+                          "name": "BLV Khô Cá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Newcastle",
+            "team_b": "Everton",
+            "logo_a": "https://apiv3.apifootball.com/badges/3100_newcastle-united.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3073_everton.jpg",
+            "time": "03:00",
+            "date": "03/11",
+            "blv": "BLV Khô Cá",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/61002_9fc52d7a_20261103.png?v=9fc52d7a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-e64e4fda9b",
           "name": "Dep. A Coruna vs Osasuna | 03:00 03/11",
           "type": "single",
@@ -417,81 +492,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/61000_4dd56b5e_20261103.png?v=4dd56b5e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-4858b5aa6c",
-          "name": "Newcastle vs Everton | 03:00 03/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4858b5aa6c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-4858b5aa6c",
-                  "name": "Newcastle vs Everton",
-                  "streams": [
-                    {
-                      "id": "st-4858b5aa6c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8987d572f",
-                          "name": "BLV Khô Cá",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Newcastle",
-            "team_b": "Everton",
-            "logo_a": "https://apiv3.apifootball.com/badges/3100_newcastle-united.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3073_everton.jpg",
-            "time": "03:00",
-            "date": "03/11",
-            "blv": "BLV Khô Cá",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/61002_9fc52d7a_20261103.png?v=9fc52d7a",
             "width": 1600,
             "height": 1200
           }
@@ -1569,6 +1569,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/61382_bcfdd67a_20261103.png?v=bcfdd67a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-6f33881d43",
+          "name": "Melbourne Victory vs Persib Bandung | 14:45 04/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f33881d43",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-6f33881d43",
+                  "name": "Melbourne Victory vs Persib Bandung",
+                  "streams": [
+                    {
+                      "id": "st-6f33881d43",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Two",
+            "team_a": "Melbourne Victory",
+            "team_b": "Persib Bandung",
+            "logo_a": "https://apiv3.apifootball.com/badges/376_melbourne-victory.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4715_persib-bandung.jpg",
+            "time": "14:45",
+            "date": "04/11",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/61952_fefd27b7_20261103.png?v=fefd27b7",
             "width": 1600,
             "height": 1200
           }
