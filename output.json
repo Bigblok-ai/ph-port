@@ -14,7 +14,7 @@
       "channels": [
         {
           "id": "xc-750535b7bd",
-          "name": "Kryvbas vs Dyn. Kyiv | 18:00 02/11",
+          "name": "Kryvbas vs Dyn. Kyiv | 19:00 02/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -86,7 +86,7 @@
             "team_b": "Dyn. Kyiv",
             "logo_a": "https://apiv3.apifootball.com/badges/7798_kryvbas-kr.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/98_dynamo-kyiv.jpg",
-            "time": "18:00",
+            "time": "19:00",
             "date": "02/11",
             "blv": "BLV Xôi Gấc",
             "is_live": true,
@@ -106,7 +106,7 @@
         },
         {
           "id": "xc-145ef9df53",
-          "name": "Chonburi vs Pathum United | 19:00 02/11",
+          "name": "Chonburi vs Pathum United | 20:00 02/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -161,7 +161,7 @@
             "team_b": "Pathum United",
             "logo_a": "https://apiv3.apifootball.com/badges/7572_chonburi.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/418_bg-pathum-united.jpg",
-            "time": "19:00",
+            "time": "20:00",
             "date": "02/11",
             "blv": "BLV Tam Mao",
             "is_live": true,
@@ -243,7 +243,7 @@
             "cate_type": "football",
             "status": "scheduled",
             "home_score": 0,
-            "away_score": 2
+            "away_score": 3
           },
           "image": {
             "padding": 1,
