@@ -13,98 +13,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-c560897e82",
-          "name": "Krylya Sovetov vs Zenit | 17:00 02/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c560897e82",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-c560897e82",
-                  "name": "Krylya Sovetov vs Zenit",
-                  "streams": [
-                    {
-                      "id": "st-c560897e82",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Krylya Sovetov",
-            "team_b": "Zenit",
-            "logo_a": "https://apiv3.apifootball.com/badges/6264_krylya-sovetov.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/95_zenit.jpg",
-            "time": "17:00",
-            "date": "02/11",
-            "blv": "BLV Xôi Gấc",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60293_9439ae72_20261102.png?v=9439ae72",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-750535b7bd",
           "name": "Kryvbas vs Dyn. Kyiv | 18:00 02/11",
           "type": "single",
@@ -197,8 +105,250 @@
           }
         },
         {
+          "id": "xc-145ef9df53",
+          "name": "Chonburi vs Pathum United | 19:00 02/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-145ef9df53",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-145ef9df53",
+                  "name": "Chonburi vs Pathum United",
+                  "streams": [
+                    {
+                      "id": "st-145ef9df53",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Thai League 1",
+            "team_a": "Chonburi",
+            "team_b": "Pathum United",
+            "logo_a": "https://apiv3.apifootball.com/badges/7572_chonburi.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/418_bg-pathum-united.jpg",
+            "time": "19:00",
+            "date": "02/11",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60254_86f90b74_20261102.png?v=86f90b74",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-399878d7eb",
+          "name": "Pakhtakor vs Al Nassr | 20:45 02/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-399878d7eb",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-399878d7eb",
+                  "name": "Pakhtakor vs Al Nassr",
+                  "streams": [
+                    {
+                      "id": "st-399878d7eb",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Elite",
+            "team_a": "Pakhtakor",
+            "team_b": "Al Nassr",
+            "logo_a": "https://apiv3.apifootball.com/badges/363_pakhtakor.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/371_al-nassr.jpg",
+            "time": "20:45",
+            "date": "02/11",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60286_0539e622_20261102.png?v=0539e622",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-c560897e82",
+          "name": "Krylya Sovetov vs Zenit | 22:00 02/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c560897e82",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-c560897e82",
+                  "name": "Krylya Sovetov vs Zenit",
+                  "streams": [
+                    {
+                      "id": "st-c560897e82",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Krylya Sovetov",
+            "team_b": "Zenit",
+            "logo_a": "https://apiv3.apifootball.com/badges/6264_krylya-sovetov.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/95_zenit.jpg",
+            "time": "22:00",
+            "date": "02/11",
+            "blv": "BLV Xôi Gấc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60293_9439ae72_20261102.png?v=9439ae72",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-f3c9eeff97",
-          "name": "Al-Sadd vs Al Ahli SC | 18:00 02/11",
+          "name": "Al-Sadd vs Al Ahli SC | 23:00 02/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -287,7 +437,7 @@
             "team_b": "Al Ahli SC",
             "logo_a": "https://apiv3.apifootball.com/badges/372_al-sadd.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/359_al-ahli.jpg",
-            "time": "18:00",
+            "time": "23:00",
             "date": "02/11",
             "blv": "BLV Khô Cá, BLV Khô Mật",
             "is_live": false,
@@ -307,7 +457,7 @@
         },
         {
           "id": "xc-7ed0393d5e",
-          "name": "Al Wasl vs Al Quwa Al Jawiya | 18:00 02/11",
+          "name": "Al Wasl vs Al Quwa Al Jawiya | 23:00 02/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -362,7 +512,7 @@
             "team_b": "Al Quwa Al Jawiya",
             "logo_a": "https://apiv3.apifootball.com/badges/7828_al-wasl.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/9726_al-quwa-al-jawiya.jpg",
-            "time": "18:00",
+            "time": "23:00",
             "date": "02/11",
             "blv": "BLV Tam Mao",
             "is_live": false,
@@ -382,7 +532,7 @@
         },
         {
           "id": "xc-27302a7522",
-          "name": "Tractor vs Neftchi Fargona | 18:00 02/11",
+          "name": "Tractor vs Neftchi Fargona | 23:00 02/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -437,7 +587,7 @@
             "team_b": "Neftchi Fargona",
             "logo_a": "https://apiv3.apifootball.com/badges/414_tractor.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/10543_neftchi.jpg",
-            "time": "18:00",
+            "time": "23:00",
             "date": "02/11",
             "blv": "BLV Khô Cay",
             "is_live": false,
@@ -457,7 +607,7 @@
         },
         {
           "id": "xc-ca9e994cf0",
-          "name": "Inter Turku vs Gnistan | 18:00 02/11",
+          "name": "Inter Turku vs Gnistan | 23:00 02/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -512,7 +662,7 @@
             "team_b": "Gnistan",
             "logo_a": "https://apiv3.apifootball.com/badges/3542_inter-turku.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/3541_gnistan.jpg",
-            "time": "18:00",
+            "time": "23:00",
             "date": "02/11",
             "blv": "BLV Xôi Bắp",
             "is_live": false,
@@ -532,7 +682,7 @@
         },
         {
           "id": "xc-e5a6551792",
-          "name": "VPS vs HJK | 18:00 02/11",
+          "name": "VPS vs HJK | 23:00 02/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -587,7 +737,7 @@
             "team_b": "HJK",
             "logo_a": "https://apiv3.apifootball.com/badges/3544_vps.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/3549_hjk.jpg",
-            "time": "18:00",
+            "time": "23:00",
             "date": "02/11",
             "blv": "BLV Xôi Xoài",
             "is_live": false,
@@ -606,83 +756,8 @@
           }
         },
         {
-          "id": "xc-145ef9df53",
-          "name": "Chonburi vs Pathum United | 19:00 02/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-145ef9df53",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-145ef9df53",
-                  "name": "Chonburi vs Pathum United",
-                  "streams": [
-                    {
-                      "id": "st-145ef9df53",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Thai League 1",
-            "team_a": "Chonburi",
-            "team_b": "Pathum United",
-            "logo_a": "https://apiv3.apifootball.com/badges/7572_chonburi.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/418_bg-pathum-united.jpg",
-            "time": "19:00",
-            "date": "02/11",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60254_86f90b74_20261102.png?v=86f90b74",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-0bb91c9a11",
-          "name": "Al-Gharafa vs Al Qadsiah | 20:15 02/11",
+          "name": "Al-Gharafa vs Al Qadsiah | 01:15 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -737,8 +812,8 @@
             "team_b": "Al Qadsiah",
             "logo_a": "https://apiv3.apifootball.com/badges/391_al-gharafa.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/6330_al-qadsiah.jpg",
-            "time": "20:15",
-            "date": "02/11",
+            "time": "01:15",
+            "date": "03/11",
             "blv": "BLV Tam Mao",
             "is_live": false,
             "cate_type": "football",
@@ -757,7 +832,7 @@
         },
         {
           "id": "xc-263ccd7aa3",
-          "name": "Al Ittihad vs Al Ain | 20:15 02/11",
+          "name": "Al Ittihad vs Al Ain | 01:15 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -829,8 +904,8 @@
             "team_b": "Al Ain",
             "logo_a": "https://apiv3.apifootball.com/badges/6328_al-ittihad.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/374_al-ain.jpg",
-            "time": "20:15",
-            "date": "02/11",
+            "time": "01:15",
+            "date": "03/11",
             "blv": "BLV Khô Mật",
             "is_live": false,
             "cate_type": "football",
@@ -848,83 +923,8 @@
           }
         },
         {
-          "id": "xc-399878d7eb",
-          "name": "Pakhtakor vs Al Nassr | 20:45 02/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-399878d7eb",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-399878d7eb",
-                  "name": "Pakhtakor vs Al Nassr",
-                  "streams": [
-                    {
-                      "id": "st-399878d7eb",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fae8ed2c4d",
-                          "name": "BLV Khô Chè",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Elite",
-            "team_a": "Pakhtakor",
-            "team_b": "Al Nassr",
-            "logo_a": "https://apiv3.apifootball.com/badges/363_pakhtakor.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/371_al-nassr.jpg",
-            "time": "20:45",
-            "date": "02/11",
-            "blv": "BLV Khô Chè",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60286_0539e622_20261102.png?v=0539e622",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-5d70d2246e",
-          "name": "Atalanta vs Parma | 21:45 02/11",
+          "name": "Atalanta vs Parma | 02:45 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -979,8 +979,8 @@
             "team_b": "Parma",
             "logo_a": "https://apiv3.apifootball.com/badges/85_atalanta.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/4978_parma.jpg",
-            "time": "21:45",
-            "date": "02/11",
+            "time": "02:45",
+            "date": "03/11",
             "blv": "BLV Xôi Xoài",
             "is_live": false,
             "cate_type": "football",
@@ -999,7 +999,7 @@
         },
         {
           "id": "xc-e64e4fda9b",
-          "name": "Dep. A Coruna vs Osasuna | 22:00 02/11",
+          "name": "Dep. A Coruna vs Osasuna | 03:00 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1054,8 +1054,8 @@
             "team_b": "Osasuna",
             "logo_a": "https://apiv3.apifootball.com/badges/7200_deportivo-de-la-coruna.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/7269_osasuna.jpg",
-            "time": "22:00",
-            "date": "02/11",
+            "time": "03:00",
+            "date": "03/11",
             "blv": "BLV Khô Cay",
             "is_live": false,
             "cate_type": "football",
@@ -1074,7 +1074,7 @@
         },
         {
           "id": "xc-4858b5aa6c",
-          "name": "Newcastle vs Everton | 22:00 02/11",
+          "name": "Newcastle vs Everton | 03:00 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1129,8 +1129,8 @@
             "team_b": "Everton",
             "logo_a": "https://apiv3.apifootball.com/badges/3100_newcastle-united.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/3073_everton.jpg",
-            "time": "22:00",
-            "date": "02/11",
+            "time": "03:00",
+            "date": "03/11",
             "blv": "BLV Khô Cá",
             "is_live": false,
             "cate_type": "football",
@@ -1149,7 +1149,7 @@
         },
         {
           "id": "xc-a29664bf3d",
-          "name": "Benfica vs Alverca | 22:15 02/11",
+          "name": "Benfica vs Alverca | 03:15 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1204,8 +1204,8 @@
             "team_b": "Alverca",
             "logo_a": "https://apiv3.apifootball.com/badges/147_benfica.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/5935_alverca.jpg",
-            "time": "22:15",
-            "date": "02/11",
+            "time": "03:15",
+            "date": "03/11",
             "blv": "BLV Xôi Bắp",
             "is_live": false,
             "cate_type": "football",
@@ -1224,7 +1224,7 @@
         },
         {
           "id": "xc-9fb92dbe14",
-          "name": "Toyama vs Vegalta Sendai | 06:55 03/11",
+          "name": "Toyama vs Vegalta Sendai | 11:55 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1296,7 +1296,7 @@
             "team_b": "Vegalta Sendai",
             "logo_a": "https://apiv3.apifootball.com/badges/10497_kataller-toyama.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/5056_vegalta-sendai.jpg",
-            "time": "06:55",
+            "time": "11:55",
             "date": "03/11",
             "blv": "BLV Xôi Gấc",
             "is_live": false,
@@ -1316,7 +1316,7 @@
         },
         {
           "id": "xc-03f46deabf",
-          "name": "Newcastle Jets vs Shanghai Port | 09:45 03/11",
+          "name": "Newcastle Jets vs Shanghai Port | 14:45 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1371,7 +1371,7 @@
             "team_b": "Shanghai Port",
             "logo_a": "https://apiv3.apifootball.com/badges/1056_newcastle-jets-fc.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/2256_shanghai-port.jpg",
-            "time": "09:45",
+            "time": "14:45",
             "date": "03/11",
             "blv": "BLV Xôi Xoài",
             "is_live": false,
@@ -1391,7 +1391,7 @@
         },
         {
           "id": "xc-7dc64f1f00",
-          "name": "Jeonbuk vs Johor DT | 12:00 03/11",
+          "name": "Jeonbuk vs Johor DT | 17:00 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1446,7 +1446,7 @@
             "team_b": "Johor DT",
             "logo_a": "https://apiv3.apifootball.com/badges/389_jeonbuk-motors.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/386_johor-darul-tazim.jpg",
-            "time": "12:00",
+            "time": "17:00",
             "date": "03/11",
             "blv": "BLV Tam Mao",
             "is_live": false,
@@ -1466,7 +1466,7 @@
         },
         {
           "id": "xc-cefb4b4554",
-          "name": "Cong An Ha Noi vs Kyoto | 14:15 03/11",
+          "name": "Cong An Ha Noi vs Kyoto | 19:15 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1521,7 +1521,7 @@
             "team_b": "Kyoto",
             "logo_a": "https://apiv3.apifootball.com/badges/8045_cong-an-ha-ni.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/5078_kyoto-sanga.jpg",
-            "time": "14:15",
+            "time": "19:15",
             "date": "03/11",
             "blv": "BLV Khô Cay",
             "is_live": false,
@@ -1541,7 +1541,7 @@
         },
         {
           "id": "xc-82adc7458c",
-          "name": "Port MTI FC vs Beijing Guoan | 14:15 03/11",
+          "name": "Port MTI FC vs Beijing Guoan | 19:15 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1613,7 +1613,7 @@
             "team_b": "Beijing Guoan",
             "logo_a": "https://apiv3.apifootball.com/badges/413_port.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/375_beijing-guoan.jpg",
-            "time": "14:15",
+            "time": "19:15",
             "date": "03/11",
             "blv": "BLV Xôi Gấc",
             "is_live": false,
@@ -1633,7 +1633,7 @@
         },
         {
           "id": "xc-c3cae332ad",
-          "name": "East Bengal vs Al Seeb | 15:45 03/11",
+          "name": "East Bengal vs Al Seeb | 20:45 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1705,7 +1705,7 @@
             "team_b": "Al Seeb",
             "logo_a": "https://apiv3.apifootball.com/badges/31289_east-bengal-ii.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/467_al-seeb.jpg",
-            "time": "15:45",
+            "time": "20:45",
             "date": "03/11",
             "blv": "BLV Khô Mật",
             "is_live": false,
@@ -1725,7 +1725,7 @@
         },
         {
           "id": "xc-bc224f0b34",
-          "name": "Esteghlal F.C. vs Shamal | 18:00 03/11",
+          "name": "Esteghlal F.C. vs Shamal | 23:00 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1780,7 +1780,7 @@
             "team_b": "Shamal",
             "logo_a": "https://apiv3.apifootball.com/badges/360_esteghlal.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/8583_al-shamal.jpg",
-            "time": "18:00",
+            "time": "23:00",
             "date": "03/11",
             "blv": "BLV Khô Cá",
             "is_live": false,
@@ -1794,81 +1794,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/61105_471f3611_20261102.png?v=471f3611",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-344e0b16ef",
-          "name": "Atl. Madrid vs Bayern Munich | 22:00 03/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-344e0b16ef",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-344e0b16ef",
-                  "name": "Atl. Madrid vs Bayern Munich",
-                  "streams": [
-                    {
-                      "id": "st-344e0b16ef",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8987d572f",
-                          "name": "BLV Khô Cá",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Atl. Madrid",
-            "team_b": "Bayern Munich",
-            "logo_a": "https://apiv3.apifootball.com/badges/73_atletico-de-madrid.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/72_bayern-munchen.jpg",
-            "time": "22:00",
-            "date": "03/11",
-            "blv": "BLV Khô Cá",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/61376_0bd57151_20261102.png?v=0bd57151",
             "width": 1600,
             "height": 1200
           }
