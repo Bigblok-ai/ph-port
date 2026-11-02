@@ -393,7 +393,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -1327,6 +1327,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/61377_6c569f44_20261103.png?v=6c569f44",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-b0953d755a",
+          "name": "Manchester Utd vs AS Roma | 03:00 04/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b0953d755a",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b0953d755a",
+                  "name": "Manchester Utd vs AS Roma",
+                  "streams": [
+                    {
+                      "id": "st-b0953d755a",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Manchester Utd",
+            "team_b": "AS Roma",
+            "logo_a": "https://apiv3.apifootball.com/badges/102_manchester-united.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/139_roma.jpg",
+            "time": "03:00",
+            "date": "04/11",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/61381_c41473b2_20261103.png?v=c41473b2",
             "width": 1600,
             "height": 1200
           }
