@@ -207,27 +207,10 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
                           "id": "lnk-30546710d8",
                           "name": "BLV Xôi Gấc 1",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
                           "request_headers": [
                             {
@@ -272,7 +255,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/386_johor-darul-tazim.jpg",
             "time": "17:00",
             "date": "03/11",
-            "blv": "BLV Tam Mao, BLV Xôi Gấc",
+            "blv": "BLV Xôi Gấc",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -509,6 +492,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/61064_93421144_20261103.png?v=93421144",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-82adc7458c",
+          "name": "Port MTI FC vs Beijing Guoan | 19:15 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-82adc7458c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-82adc7458c",
+                  "name": "Port MTI FC vs Beijing Guoan",
+                  "streams": [
+                    {
+                      "id": "st-82adc7458c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Elite",
+            "team_a": "Port MTI FC",
+            "team_b": "Beijing Guoan",
+            "logo_a": "https://apiv3.apifootball.com/badges/413_port.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/375_beijing-guoan.jpg",
+            "time": "19:15",
+            "date": "03/11",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/61065_eaf5517a_20261103.png?v=eaf5517a",
             "width": 1600,
             "height": 1200
           }
