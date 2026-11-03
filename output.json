@@ -664,6 +664,81 @@
           }
         },
         {
+          "id": "xc-7fcdf08328",
+          "name": "Al Hilal vs Shabab Al-Ahli Dubai | 01:15 04/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7fcdf08328",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-7fcdf08328",
+                  "name": "Al Hilal vs Shabab Al-Ahli Dubai",
+                  "streams": [
+                    {
+                      "id": "st-7fcdf08328",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-486428156e",
+                          "name": "BLV Xôi Bắp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Elite",
+            "team_a": "Al Hilal",
+            "team_b": "Shabab Al-Ahli Dubai",
+            "logo_a": "https://apiv3.apifootball.com/badges/366_al-hilal-fc.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/364_shabab-al-ahli.jpg",
+            "time": "01:15",
+            "date": "04/11",
+            "blv": "BLV Xôi Bắp",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/61311_7d44f4ba_20261103.png?v=7d44f4ba",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-344e0b16ef",
           "name": "Atl. Madrid vs Bayern Munich | 03:00 04/11",
           "type": "single",
