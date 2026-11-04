@@ -814,6 +814,81 @@
           }
         },
         {
+          "id": "xc-4b44191ea9",
+          "name": "Lens vs Como | 03:00 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4b44191ea9",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-4b44191ea9",
+                  "name": "Lens vs Como",
+                  "streams": [
+                    {
+                      "id": "st-4b44191ea9",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Lens",
+            "team_b": "Como",
+            "logo_a": "https://apiv3.apifootball.com/badges/3821_lens.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/8239_como.jpg",
+            "time": "03:00",
+            "date": "05/11",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/62422_3548c64c_20261104.png?v=3548c64c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-c95fb58084",
           "name": "RB Leipzig vs Manchester City | 03:00 05/11",
           "type": "single",
