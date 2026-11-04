@@ -167,7 +167,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 3,
+            "home_score": 4,
             "away_score": 1
           },
           "image": {
@@ -484,7 +484,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 2
           },
           "image": {
@@ -1491,8 +1491,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-beb55539c6",
-          "name": "BOGDANKA LUK Lublin vs PGE GiEK Skra Bełchatów | 02:30 05/11",
+          "id": "xc-56b6944da3",
+          "name": "Cucine Lube Civitanova vs Valsa Group Modena | 02:30 05/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1506,56 +1506,22 @@
           ],
           "sources": [
             {
-              "id": "src-beb55539c6",
+              "id": "src-56b6944da3",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-beb55539c6",
-                  "name": "BOGDANKA LUK Lublin vs PGE GiEK Skra Bełchatów",
+                  "id": "ct-56b6944da3",
+                  "name": "Cucine Lube Civitanova vs Valsa Group Modena",
                   "streams": [
                     {
-                      "id": "st-beb55539c6",
+                      "id": "st-56b6944da3",
                       "name": "XoiChe TV",
                       "stream_links": [
-                        {
-                          "id": "lnk-e750a8400a",
-                          "name": "BLV Khô Bò 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8bcf71e3b1",
-                          "name": "BLV Khô Bò 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub12.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
                         {
                           "id": "lnk-486428156e",
                           "name": "BLV Xôi Bắp",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw",
                           "request_headers": [
                             {
@@ -1593,14 +1559,14 @@
             }
           ],
           "org_metadata": {
-            "league": "PlusLiga Ba Lan Nam",
-            "team_a": "BOGDANKA LUK Lublin",
-            "team_b": "PGE GiEK Skra Bełchatów",
-            "logo_a": "https://xoiche.live/media/teams/logos/bogdanka-luk-lublin-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/pge-giek-skra-belchatow-vb.png",
+            "league": "SuperLega Ý Nam",
+            "team_a": "Cucine Lube Civitanova",
+            "team_b": "Valsa Group Modena",
+            "logo_a": "https://xoiche.live/media/teams/logos/cucine-lube-civitanova-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/valsa-group-modena-vb.png",
             "time": "02:30",
             "date": "05/11",
-            "blv": "BLV Khô Bò, BLV Xôi Bắp, BLV Lương Khô",
+            "blv": "BLV Xôi Bắp, BLV Lương Khô",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -1611,7 +1577,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/66004_011623c5_20261105.png?v=011623c5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/66005_afbb780a_20261105.png?v=afbb780a",
             "width": 1600,
             "height": 1200
           }
