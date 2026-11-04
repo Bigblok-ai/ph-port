@@ -7,14 +7,89 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
+          "id": "xc-a2c1ff74ac",
+          "name": "Arkadag vs Gol Gohar | 20:45 04/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a2c1ff74ac",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-a2c1ff74ac",
+                  "name": "Arkadag vs Gol Gohar",
+                  "streams": [
+                    {
+                      "id": "st-a2c1ff74ac",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Two",
+            "team_a": "Arkadag",
+            "team_b": "Gol Gohar",
+            "logo_a": "https://apiv3.apifootball.com/badges/31430_arkadag.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4735_gol-gohar.jpg",
+            "time": "20:45",
+            "date": "04/11",
+            "blv": "BLV Khô Cay",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 1,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/62019_2de5356f_20261104.png?v=2de5356f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-9bfa48c68f",
-          "name": "Rennes vs Olympiacos Piraeus | 17:30 04/11",
+          "name": "Rennes vs Olympiacos Piraeus | 22:30 04/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -69,7 +144,7 @@
             "team_b": "Olympiacos Piraeus",
             "logo_a": "https://apiv3.apifootball.com/badges/91_rennes.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/82_olympiakos-piraeus.jpg",
-            "time": "17:30",
+            "time": "22:30",
             "date": "04/11",
             "blv": "BLV Khô Cá",
             "is_live": true,
@@ -89,7 +164,7 @@
         },
         {
           "id": "xc-e220f5252c",
-          "name": "Al Rayyan vs Al Nahda | 18:00 04/11",
+          "name": "Al Rayyan vs Al Nahda | 23:00 04/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -144,7 +219,7 @@
             "team_b": "Al Nahda",
             "logo_a": "https://apiv3.apifootball.com/badges/405_al-rayyan.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/5712_al-nahda.jpg",
-            "time": "18:00",
+            "time": "23:00",
             "date": "04/11",
             "blv": "BLV Tam Mao",
             "is_live": true,
@@ -163,17 +238,167 @@
           }
         },
         {
-          "id": "xc-36818bed02",
-          "name": "Dortmund vs Betis | 22:00 04/11",
+          "id": "xc-b1e541d93c",
+          "name": "AEK Athens vs Real Madrid | 00:45 05/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b1e541d93c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b1e541d93c",
+                  "name": "AEK Athens vs Real Madrid",
+                  "streams": [
+                    {
+                      "id": "st-b1e541d93c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8987d572f",
+                          "name": "BLV Khô Cá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "AEK Athens",
+            "team_b": "Real Madrid",
+            "logo_a": "https://apiv3.apifootball.com/badges/158_aek-athens.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/76_real-madrid.jpg",
+            "time": "00:45",
+            "date": "05/11",
+            "blv": "BLV Khô Cá",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/62394_5b0e6749_20261104.png?v=5b0e6749",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-6539a61c36",
+          "name": "Fenerbahce vs Liverpool | 00:45 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6539a61c36",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-6539a61c36",
+                  "name": "Fenerbahce vs Liverpool",
+                  "streams": [
+                    {
+                      "id": "st-6539a61c36",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-245e47f94f",
+                          "name": "BLV Lương Khô",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Fenerbahce",
+            "team_b": "Liverpool",
+            "logo_a": "https://apiv3.apifootball.com/badges/7694_fenerbahce.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/84_liverpool.jpg",
+            "time": "00:45",
+            "date": "05/11",
+            "blv": "BLV Lương Khô",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/62395_4db35d13_20261104.png?v=4db35d13",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-36818bed02",
+          "name": "Dortmund vs Betis | 03:00 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -219,12 +444,12 @@
             "team_b": "Betis",
             "logo_a": "https://apiv3.apifootball.com/badges/92_borussia-dortmund.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/7261_real-betis.jpg",
-            "time": "22:00",
-            "date": "04/11",
+            "time": "03:00",
+            "date": "05/11",
             "blv": "BLV Tam Mao",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "football",
-            "status": "live",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -239,16 +464,16 @@
         },
         {
           "id": "xc-243f51719c",
-          "name": "FC Porto vs Napoli | 22:00 04/11",
+          "name": "FC Porto vs Napoli | 03:00 05/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -311,12 +536,12 @@
             "team_b": "Napoli",
             "logo_a": "https://apiv3.apifootball.com/badges/81_porto.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/152_napoli.jpg",
-            "time": "22:00",
-            "date": "04/11",
+            "time": "03:00",
+            "date": "05/11",
             "blv": "BLV Xôi Gấc",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "football",
-            "status": "live",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -325,565 +550,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/62421_7ec035b5_20261104.png?v=7ec035b5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-3c57d55efe",
-          "name": "PSV vs Club Brugge KV | 22:00 04/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3c57d55efe",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-3c57d55efe",
-                  "name": "PSV vs Club Brugge KV",
-                  "streams": [
-                    {
-                      "id": "st-3c57d55efe",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fae8ed2c4d",
-                          "name": "BLV Khô Chè",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "PSV",
-            "team_b": "Club Brugge KV",
-            "logo_a": "https://apiv3.apifootball.com/badges/150_psv.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/94_club-brugge.jpg",
-            "time": "22:00",
-            "date": "04/11",
-            "blv": "BLV Khô Chè",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/62423_2e3e80ce_20261104.png?v=2e3e80ce",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-c95fb58084",
-          "name": "RB Leipzig vs Manchester City | 22:00 04/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c95fb58084",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-c95fb58084",
-                  "name": "RB Leipzig vs Manchester City",
-                  "streams": [
-                    {
-                      "id": "st-c95fb58084",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-245e47f94f",
-                          "name": "BLV Lương Khô",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "RB Leipzig",
-            "team_b": "Manchester City",
-            "logo_a": "https://apiv3.apifootball.com/badges/101_rb-leipzig.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
-            "time": "22:00",
-            "date": "04/11",
-            "blv": "BLV Lương Khô",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/62424_530ef197_20261104.png?v=530ef197",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-50ea1636e5",
-          "name": "Slavia Prague vs Arsenal | 22:00 04/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-50ea1636e5",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-50ea1636e5",
-                  "name": "Slavia Prague vs Arsenal",
-                  "streams": [
-                    {
-                      "id": "st-50ea1636e5",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-88fe1a05f9",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Slavia Prague",
-            "team_b": "Arsenal",
-            "logo_a": "https://apiv3.apifootball.com/badges/104_slavia-praha.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/141_arsenal-fc.jpg",
-            "time": "22:00",
-            "date": "04/11",
-            "blv": "BLV Khô Mật",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/62425_b3c1d67f_20261104.png?v=b3c1d67f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-464a02ecfe",
-          "name": "Viking vs Sabah Baku | 22:00 04/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-464a02ecfe",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-464a02ecfe",
-                  "name": "Viking vs Sabah Baku",
-                  "streams": [
-                    {
-                      "id": "st-464a02ecfe",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Viking",
-            "team_b": "Sabah Baku",
-            "logo_a": "https://apiv3.apifootball.com/badges/236_viking.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/1305_sabah.jpg",
-            "time": "22:00",
-            "date": "04/11",
-            "blv": "BLV Xôi Xoài",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/62426_c12020dd_20261104.png?v=c12020dd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-b1e541d93c",
-          "name": "AEK Athens vs Real Madrid | 19:45 04/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b1e541d93c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-b1e541d93c",
-                  "name": "AEK Athens vs Real Madrid",
-                  "streams": [
-                    {
-                      "id": "st-b1e541d93c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8987d572f",
-                          "name": "BLV Khô Cá",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "AEK Athens",
-            "team_b": "Real Madrid",
-            "logo_a": "https://apiv3.apifootball.com/badges/158_aek-athens.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/76_real-madrid.jpg",
-            "time": "19:45",
-            "date": "04/11",
-            "blv": "BLV Khô Cá",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/62394_5b0e6749_20261104.png?v=5b0e6749",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-6539a61c36",
-          "name": "Fenerbahce vs Liverpool | 19:45 04/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6539a61c36",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-6539a61c36",
-                  "name": "Fenerbahce vs Liverpool",
-                  "streams": [
-                    {
-                      "id": "st-6539a61c36",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-245e47f94f",
-                          "name": "BLV Lương Khô",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Fenerbahce",
-            "team_b": "Liverpool",
-            "logo_a": "https://apiv3.apifootball.com/badges/7694_fenerbahce.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/84_liverpool.jpg",
-            "time": "19:45",
-            "date": "04/11",
-            "blv": "BLV Lương Khô",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/62395_4db35d13_20261104.png?v=4db35d13",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-d1c72128dc",
-          "name": "Sao Paulo vs Corinthians | 02:30 05/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d1c72128dc",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-d1c72128dc",
-                  "name": "Sao Paulo vs Corinthians",
-                  "streams": [
-                    {
-                      "id": "st-d1c72128dc",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e750a8400a",
-                          "name": "BLV Khô Bò 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8bcf71e3b1",
-                          "name": "BLV Khô Bò 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub12.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Sao Paulo",
-            "team_b": "Corinthians",
-            "logo_a": "https://apiv3.apifootball.com/badges/556_sao-paulo.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/2017_corinthians.jpg",
-            "time": "02:30",
-            "date": "05/11",
-            "blv": "BLV Khô Bò",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/62785_ed0c9808_20261104.png?v=ed0c9808",
             "width": 1600,
             "height": 1200
           }
@@ -964,8 +630,417 @@
           }
         },
         {
+          "id": "xc-3c57d55efe",
+          "name": "PSV vs Club Brugge KV | 03:00 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3c57d55efe",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-3c57d55efe",
+                  "name": "PSV vs Club Brugge KV",
+                  "streams": [
+                    {
+                      "id": "st-3c57d55efe",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "PSV",
+            "team_b": "Club Brugge KV",
+            "logo_a": "https://apiv3.apifootball.com/badges/150_psv.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/94_club-brugge.jpg",
+            "time": "03:00",
+            "date": "05/11",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/62423_2e3e80ce_20261104.png?v=2e3e80ce",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-c95fb58084",
+          "name": "RB Leipzig vs Manchester City | 03:00 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c95fb58084",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-c95fb58084",
+                  "name": "RB Leipzig vs Manchester City",
+                  "streams": [
+                    {
+                      "id": "st-c95fb58084",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-245e47f94f",
+                          "name": "BLV Lương Khô",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "RB Leipzig",
+            "team_b": "Manchester City",
+            "logo_a": "https://apiv3.apifootball.com/badges/101_rb-leipzig.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
+            "time": "03:00",
+            "date": "05/11",
+            "blv": "BLV Lương Khô",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/62424_530ef197_20261104.png?v=530ef197",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-50ea1636e5",
+          "name": "Slavia Prague vs Arsenal | 03:00 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-50ea1636e5",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-50ea1636e5",
+                  "name": "Slavia Prague vs Arsenal",
+                  "streams": [
+                    {
+                      "id": "st-50ea1636e5",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-88fe1a05f9",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Slavia Prague",
+            "team_b": "Arsenal",
+            "logo_a": "https://apiv3.apifootball.com/badges/104_slavia-praha.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/141_arsenal-fc.jpg",
+            "time": "03:00",
+            "date": "05/11",
+            "blv": "BLV Khô Mật",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/62425_b3c1d67f_20261104.png?v=b3c1d67f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-464a02ecfe",
+          "name": "Viking vs Sabah Baku | 03:00 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-464a02ecfe",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-464a02ecfe",
+                  "name": "Viking vs Sabah Baku",
+                  "streams": [
+                    {
+                      "id": "st-464a02ecfe",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Viking",
+            "team_b": "Sabah Baku",
+            "logo_a": "https://apiv3.apifootball.com/badges/236_viking.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/1305_sabah.jpg",
+            "time": "03:00",
+            "date": "05/11",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/62426_c12020dd_20261104.png?v=c12020dd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-d1c72128dc",
+          "name": "Sao Paulo vs Corinthians | 07:30 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d1c72128dc",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-d1c72128dc",
+                  "name": "Sao Paulo vs Corinthians",
+                  "streams": [
+                    {
+                      "id": "st-d1c72128dc",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e750a8400a",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Sao Paulo",
+            "team_b": "Corinthians",
+            "logo_a": "https://apiv3.apifootball.com/badges/556_sao-paulo.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/2017_corinthians.jpg",
+            "time": "07:30",
+            "date": "05/11",
+            "blv": "BLV Khô Bò",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/62785_ed0c9808_20261104.png?v=ed0c9808",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-20f6038441",
-          "name": "Lion City vs Adelaide United | 12:00 05/11",
+          "name": "Lion City vs Adelaide United | 17:00 05/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1020,7 +1095,7 @@
             "team_b": "Adelaide United",
             "logo_a": "https://apiv3.apifootball.com/badges/468_lion-city-sailors-fc.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/1052_adelaide-united-fc.jpg",
-            "time": "12:00",
+            "time": "17:00",
             "date": "05/11",
             "blv": "BLV Tam Mao",
             "is_live": false,
@@ -1040,7 +1115,7 @@
         },
         {
           "id": "xc-6a5ede84f7",
-          "name": "Machida vs Shanghai Shenhua | 12:00 05/11",
+          "name": "Machida vs Shanghai Shenhua | 17:00 05/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1095,7 +1170,7 @@
             "team_b": "Shanghai Shenhua",
             "logo_a": "https://apiv3.apifootball.com/badges/5085_machida-zelvia.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/381_shanghai-shenhua.jpg",
-            "time": "12:00",
+            "time": "17:00",
             "date": "05/11",
             "blv": "BLV Xôi Xoài",
             "is_live": false,
@@ -1115,7 +1190,7 @@
         },
         {
           "id": "xc-47cd0dad82",
-          "name": "Kuching City FC vs Gangwon | 14:15 05/11",
+          "name": "Kuching City FC vs Gangwon | 19:15 05/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1187,7 +1262,7 @@
             "team_b": "Gangwon",
             "logo_a": "https://apiv3.apifootball.com/badges/5306_kuching-city.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/5171_gangwon.jpg",
-            "time": "14:15",
+            "time": "19:15",
             "date": "05/11",
             "blv": "BLV Xôi Gấc",
             "is_live": false,
@@ -1207,7 +1282,7 @@
         },
         {
           "id": "xc-4a42146313",
-          "name": "AC Milan vs Ferencvaros | 19:45 05/11",
+          "name": "AC Milan vs Ferencvaros | 00:45 06/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1262,8 +1337,8 @@
             "team_b": "Ferencvaros",
             "logo_a": "https://apiv3.apifootball.com/badges/159_milan.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/99_ferencvaros.jpg",
-            "time": "19:45",
-            "date": "05/11",
+            "time": "00:45",
+            "date": "06/11",
             "blv": "BLV Xôi Xoài",
             "is_live": false,
             "cate_type": "football",
@@ -1282,7 +1357,7 @@
         },
         {
           "id": "xc-30e847a326",
-          "name": "Real Sociedad vs Lyon | 19:45 05/11",
+          "name": "Real Sociedad vs Lyon | 00:45 06/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1337,8 +1412,8 @@
             "team_b": "Lyon",
             "logo_a": "https://apiv3.apifootball.com/badges/153_real-sociedad.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/3815_olympique-lyonnais.jpg",
-            "time": "19:45",
-            "date": "05/11",
+            "time": "00:45",
+            "date": "06/11",
             "blv": "BLV Khô Cá",
             "is_live": false,
             "cate_type": "football",
@@ -1357,7 +1432,7 @@
         },
         {
           "id": "xc-eb9fb18fcd",
-          "name": "Sparta Prague vs Bournemouth | 19:45 05/11",
+          "name": "Sparta Prague vs Bournemouth | 00:45 06/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1429,8 +1504,8 @@
             "team_b": "Bournemouth",
             "logo_a": "https://apiv3.apifootball.com/badges/161_sparta-praha.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/3071_afc-bournemouth.jpg",
-            "time": "19:45",
-            "date": "05/11",
+            "time": "00:45",
+            "date": "06/11",
             "blv": "BLV Xôi Gấc",
             "is_live": false,
             "cate_type": "football",
@@ -1449,7 +1524,7 @@
         },
         {
           "id": "xc-0eeab14bfb",
-          "name": "Getafe vs Brighton | 22:00 05/11",
+          "name": "Getafe vs Brighton | 03:00 06/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1504,8 +1579,8 @@
             "team_b": "Brighton",
             "logo_a": "https://apiv3.apifootball.com/badges/7288_getafe.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/3079_brighton--hove-albion.jpg",
-            "time": "22:00",
-            "date": "05/11",
+            "time": "03:00",
+            "date": "06/11",
             "blv": "BLV Lương Khô",
             "is_live": false,
             "cate_type": "football",
@@ -1526,7 +1601,7 @@
     },
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1539,10 +1614,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1625,9 +1700,9 @@
             "time": "23:00",
             "date": "04/11",
             "blv": "BLV Xôi Bắp, BLV Khô Bò",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "volleyball",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
