@@ -7,11 +7,495 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-ae56099c8f",
+          "name": "Atalanta vs Kairat Almaty | 19:45 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ae56099c8f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-ae56099c8f",
+                  "name": "Atalanta vs Kairat Almaty",
+                  "streams": [
+                    {
+                      "id": "st-ae56099c8f",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Conference League",
+            "team_a": "Atalanta",
+            "team_b": "Kairat Almaty",
+            "logo_a": "https://apiv3.apifootball.com/badges/85_atalanta.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/245_kairat.jpg",
+            "time": "19:45",
+            "date": "05/11",
+            "blv": "BLV Khô Chè",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63115_9ccc583b_20261105.png?v=9ccc583b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-14dece81fc",
+          "name": "Trabzonspor vs Freiburg | 19:45 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-14dece81fc",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-14dece81fc",
+                  "name": "Trabzonspor vs Freiburg",
+                  "streams": [
+                    {
+                      "id": "st-14dece81fc",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Conference League",
+            "team_a": "Trabzonspor",
+            "team_b": "Freiburg",
+            "logo_a": "https://apiv3.apifootball.com/badges/7689_trabzonspor.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3962_freiburg.jpg",
+            "time": "19:45",
+            "date": "05/11",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63122_63f3f6b3_20261105.png?v=63f3f6b3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-4a42146313",
+          "name": "AC Milan vs Ferencvaros | 19:45 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4a42146313",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-4a42146313",
+                  "name": "AC Milan vs Ferencvaros",
+                  "streams": [
+                    {
+                      "id": "st-4a42146313",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "AC Milan",
+            "team_b": "Ferencvaros",
+            "logo_a": "https://apiv3.apifootball.com/badges/159_milan.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/99_ferencvaros.jpg",
+            "time": "19:45",
+            "date": "05/11",
+            "blv": "BLV Xôi Xoài",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63123_5d56f8c0_20261105.png?v=5d56f8c0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-edc6e2b910",
+          "name": "Crystal Palace vs Hoffenheim | 19:45 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-edc6e2b910",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-edc6e2b910",
+                  "name": "Crystal Palace vs Hoffenheim",
+                  "streams": [
+                    {
+                      "id": "st-edc6e2b910",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-88fe1a05f9",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Crystal Palace",
+            "team_b": "Hoffenheim",
+            "logo_a": "https://apiv3.apifootball.com/badges/3429_crystal-palace.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/170_hoffenheim.jpg",
+            "time": "19:45",
+            "date": "05/11",
+            "blv": "BLV Khô Mật",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63125_75ab1ec4_20261105.png?v=75ab1ec4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-30e847a326",
+          "name": "Real Sociedad vs Lyon | 19:45 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-30e847a326",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-30e847a326",
+                  "name": "Real Sociedad vs Lyon",
+                  "streams": [
+                    {
+                      "id": "st-30e847a326",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8987d572f",
+                          "name": "BLV Khô Cá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Real Sociedad",
+            "team_b": "Lyon",
+            "logo_a": "https://apiv3.apifootball.com/badges/153_real-sociedad.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3815_olympique-lyonnais.jpg",
+            "time": "19:45",
+            "date": "05/11",
+            "blv": "BLV Khô Cá",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63129_16b4855d_20261105.png?v=16b4855d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-eb9fb18fcd",
+          "name": "Sparta Prague vs Bournemouth | 19:45 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eb9fb18fcd",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-eb9fb18fcd",
+                  "name": "Sparta Prague vs Bournemouth",
+                  "streams": [
+                    {
+                      "id": "st-eb9fb18fcd",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Sparta Prague",
+            "team_b": "Bournemouth",
+            "logo_a": "https://apiv3.apifootball.com/badges/161_sparta-praha.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3071_afc-bournemouth.jpg",
+            "time": "19:45",
+            "date": "05/11",
+            "blv": "BLV Xôi Gấc",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63130_31ad9113_20261105.png?v=31ad9113",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-aa85b9dd3a",
           "name": "Bhutan vs Bangladesh | 21:00 05/11",
@@ -105,492 +589,8 @@
           }
         },
         {
-          "id": "xc-ae56099c8f",
-          "name": "Atalanta vs Kairat Almaty | 00:45 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ae56099c8f",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-ae56099c8f",
-                  "name": "Atalanta vs Kairat Almaty",
-                  "streams": [
-                    {
-                      "id": "st-ae56099c8f",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fae8ed2c4d",
-                          "name": "BLV Khô Chè",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Conference League",
-            "team_a": "Atalanta",
-            "team_b": "Kairat Almaty",
-            "logo_a": "https://apiv3.apifootball.com/badges/85_atalanta.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/245_kairat.jpg",
-            "time": "00:45",
-            "date": "06/11",
-            "blv": "BLV Khô Chè",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63115_9ccc583b_20261105.png?v=9ccc583b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-14dece81fc",
-          "name": "Trabzonspor vs Freiburg | 00:45 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-14dece81fc",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-14dece81fc",
-                  "name": "Trabzonspor vs Freiburg",
-                  "streams": [
-                    {
-                      "id": "st-14dece81fc",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Conference League",
-            "team_a": "Trabzonspor",
-            "team_b": "Freiburg",
-            "logo_a": "https://apiv3.apifootball.com/badges/7689_trabzonspor.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3962_freiburg.jpg",
-            "time": "00:45",
-            "date": "06/11",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63122_63f3f6b3_20261105.png?v=63f3f6b3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-4a42146313",
-          "name": "AC Milan vs Ferencvaros | 00:45 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4a42146313",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-4a42146313",
-                  "name": "AC Milan vs Ferencvaros",
-                  "streams": [
-                    {
-                      "id": "st-4a42146313",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "AC Milan",
-            "team_b": "Ferencvaros",
-            "logo_a": "https://apiv3.apifootball.com/badges/159_milan.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/99_ferencvaros.jpg",
-            "time": "00:45",
-            "date": "06/11",
-            "blv": "BLV Xôi Xoài",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63123_5d56f8c0_20261105.png?v=5d56f8c0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-edc6e2b910",
-          "name": "Crystal Palace vs Hoffenheim | 00:45 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-edc6e2b910",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-edc6e2b910",
-                  "name": "Crystal Palace vs Hoffenheim",
-                  "streams": [
-                    {
-                      "id": "st-edc6e2b910",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-88fe1a05f9",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Crystal Palace",
-            "team_b": "Hoffenheim",
-            "logo_a": "https://apiv3.apifootball.com/badges/3429_crystal-palace.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/170_hoffenheim.jpg",
-            "time": "00:45",
-            "date": "06/11",
-            "blv": "BLV Khô Mật",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63125_75ab1ec4_20261105.png?v=75ab1ec4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-30e847a326",
-          "name": "Real Sociedad vs Lyon | 00:45 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-30e847a326",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-30e847a326",
-                  "name": "Real Sociedad vs Lyon",
-                  "streams": [
-                    {
-                      "id": "st-30e847a326",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8987d572f",
-                          "name": "BLV Khô Cá",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Real Sociedad",
-            "team_b": "Lyon",
-            "logo_a": "https://apiv3.apifootball.com/badges/153_real-sociedad.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3815_olympique-lyonnais.jpg",
-            "time": "00:45",
-            "date": "06/11",
-            "blv": "BLV Khô Cá",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63129_16b4855d_20261105.png?v=16b4855d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-eb9fb18fcd",
-          "name": "Sparta Prague vs Bournemouth | 00:45 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eb9fb18fcd",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-eb9fb18fcd",
-                  "name": "Sparta Prague vs Bournemouth",
-                  "streams": [
-                    {
-                      "id": "st-eb9fb18fcd",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Sparta Prague",
-            "team_b": "Bournemouth",
-            "logo_a": "https://apiv3.apifootball.com/badges/161_sparta-praha.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3071_afc-bournemouth.jpg",
-            "time": "00:45",
-            "date": "06/11",
-            "blv": "BLV Xôi Gấc",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63130_31ad9113_20261105.png?v=31ad9113",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-0eeab14bfb",
-          "name": "Getafe vs Brighton | 03:00 06/11",
+          "name": "Getafe vs Brighton | 22:00 05/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -645,8 +645,8 @@
             "team_b": "Brighton",
             "logo_a": "https://apiv3.apifootball.com/badges/7288_getafe.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/3079_brighton--hove-albion.jpg",
-            "time": "03:00",
-            "date": "06/11",
+            "time": "22:00",
+            "date": "05/11",
             "blv": "BLV Lương Khô",
             "is_live": false,
             "cate_type": "football",
@@ -665,7 +665,7 @@
         },
         {
           "id": "xc-f697e07c51",
-          "name": "Bayer Leverkusen vs Marseille | 03:00 06/11",
+          "name": "Bayer Leverkusen vs Marseille | 22:00 05/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -737,8 +737,8 @@
             "team_b": "Marseille",
             "logo_a": "https://apiv3.apifootball.com/badges/143_bayer-leverkusen.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/83_olympique-marseille.jpg",
-            "time": "03:00",
-            "date": "06/11",
+            "time": "22:00",
+            "date": "05/11",
             "blv": "BLV Khô Mật",
             "is_live": false,
             "cate_type": "football",
@@ -757,7 +757,7 @@
         },
         {
           "id": "xc-0598165d8f",
-          "name": "Celtic vs Besiktas | 03:00 06/11",
+          "name": "Celtic vs Besiktas | 22:00 05/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -812,8 +812,8 @@
             "team_b": "Besiktas",
             "logo_a": "https://apiv3.apifootball.com/badges/127_celtic.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/187_beikta.jpg",
-            "time": "03:00",
-            "date": "06/11",
+            "time": "22:00",
+            "date": "05/11",
             "blv": "BLV Tam Mao",
             "is_live": false,
             "cate_type": "football",
@@ -832,7 +832,7 @@
         },
         {
           "id": "xc-a9caa33b99",
-          "name": "Sunderland vs Din. Zagreb | 03:00 06/11",
+          "name": "Sunderland vs Din. Zagreb | 22:00 05/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -904,8 +904,8 @@
             "team_b": "Din. Zagreb",
             "logo_a": "https://apiv3.apifootball.com/badges/3111_sunderland.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/121_dinamo-zagreb.jpg",
-            "time": "03:00",
-            "date": "06/11",
+            "time": "22:00",
+            "date": "05/11",
             "blv": "BLV Khô Bò",
             "is_live": false,
             "cate_type": "football",
@@ -924,7 +924,7 @@
         },
         {
           "id": "xc-e8f104ee25",
-          "name": "UTA Arad vs Petrolul | 22:30 06/11",
+          "name": "UTA Arad vs Petrolul | 17:30 06/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -979,7 +979,7 @@
             "team_b": "Petrolul",
             "logo_a": "https://apiv3.apifootball.com/badges/6193_uta-arad.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/6176_petrolul-52.jpg",
-            "time": "22:30",
+            "time": "17:30",
             "date": "06/11",
             "blv": "BLV Khô Cá",
             "is_live": false,
