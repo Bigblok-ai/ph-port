@@ -13,8 +13,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-c71150d357",
-          "name": "Pakistan vs Ấn Độ | 16:30 05/11",
+          "id": "xc-20f6038441",
+          "name": "Lion City vs Adelaide United | 17:00 05/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,40 +28,23 @@
           ],
           "sources": [
             {
-              "id": "src-c71150d357",
+              "id": "src-20f6038441",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-c71150d357",
-                  "name": "Pakistan vs Ấn Độ",
+                  "id": "ct-20f6038441",
+                  "name": "Lion City vs Adelaide United",
                   "streams": [
                     {
-                      "id": "st-c71150d357",
+                      "id": "st-20f6038441",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -81,14 +64,14 @@
             }
           ],
           "org_metadata": {
-            "league": "SAFF Championship",
-            "team_a": "Pakistan",
-            "team_b": "Ấn Độ",
-            "logo_a": "https://xoiche.live/media/teams/logos/1793876682589824120_0dd0b8f9.webp",
-            "logo_b": "https://apiv3.apifootball.com/badges/347_india.jpg",
-            "time": "16:30",
+            "league": "AFC Champions League Two",
+            "team_a": "Lion City",
+            "team_b": "Adelaide United",
+            "logo_a": "https://apiv3.apifootball.com/badges/468_lion-city-sailors-fc.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/1052_adelaide-united-fc.jpg",
+            "time": "17:00",
             "date": "05/11",
-            "blv": "BLV Xôi Gấc",
+            "blv": "BLV Tam Mao",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
@@ -99,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/67691_37b1ef22_20261105.png?v=37b1ef22",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/62796_f0880cce_20261105.png?v=f0880cce",
             "width": 1600,
             "height": 1200
           }
