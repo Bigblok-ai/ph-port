@@ -7,161 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-37ac87fd9f",
-          "name": "Qarabag vs Turan Tovuz | 16:00 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-37ac87fd9f",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-37ac87fd9f",
-                  "name": "Qarabag vs Turan Tovuz",
-                  "streams": [
-                    {
-                      "id": "st-37ac87fd9f",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-245e47f94f",
-                          "name": "BLV Lương Khô",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premyer Liqa",
-            "team_a": "Qarabag",
-            "team_b": "Turan Tovuz",
-            "logo_a": "https://apiv3.apifootball.com/badges/110_qaraba.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/1307_turan.jpg",
-            "time": "16:00",
-            "date": "06/11",
-            "blv": "BLV Lương Khô",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63905_379b7a2f_20261106.png?v=379b7a2f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-e8f104ee25",
-          "name": "UTA Arad vs Petrolul | 17:30 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e8f104ee25",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-e8f104ee25",
-                  "name": "UTA Arad vs Petrolul",
-                  "streams": [
-                    {
-                      "id": "st-e8f104ee25",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8987d572f",
-                          "name": "BLV Khô Cá",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga I",
-            "team_a": "UTA Arad",
-            "team_b": "Petrolul",
-            "logo_a": "https://apiv3.apifootball.com/badges/6193_uta-arad.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/6176_petrolul-52.jpg",
-            "time": "17:30",
-            "date": "06/11",
-            "blv": "BLV Khô Cá",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63934_548388fa_20261106.png?v=548388fa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-af5715bf46",
           "name": "Hong Linh Ha Tinh vs Nam Dinh | 18:00 06/11",
@@ -238,8 +88,158 @@
           }
         },
         {
+          "id": "xc-37ac87fd9f",
+          "name": "Qarabag vs Turan Tovuz | 21:00 06/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-37ac87fd9f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-37ac87fd9f",
+                  "name": "Qarabag vs Turan Tovuz",
+                  "streams": [
+                    {
+                      "id": "st-37ac87fd9f",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-245e47f94f",
+                          "name": "BLV Lương Khô",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premyer Liqa",
+            "team_a": "Qarabag",
+            "team_b": "Turan Tovuz",
+            "logo_a": "https://apiv3.apifootball.com/badges/110_qaraba.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/1307_turan.jpg",
+            "time": "21:00",
+            "date": "06/11",
+            "blv": "BLV Lương Khô",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63905_379b7a2f_20261106.png?v=379b7a2f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-e8f104ee25",
+          "name": "UTA Arad vs Petrolul | 22:30 06/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e8f104ee25",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e8f104ee25",
+                  "name": "UTA Arad vs Petrolul",
+                  "streams": [
+                    {
+                      "id": "st-e8f104ee25",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8987d572f",
+                          "name": "BLV Khô Cá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga I",
+            "team_a": "UTA Arad",
+            "team_b": "Petrolul",
+            "logo_a": "https://apiv3.apifootball.com/badges/6193_uta-arad.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/6176_petrolul-52.jpg",
+            "time": "22:30",
+            "date": "06/11",
+            "blv": "BLV Khô Cá",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63934_548388fa_20261106.png?v=548388fa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-6c9ce1a88f",
-          "name": "SG Dynamo Dresden vs Greuther Furth | 19:30 06/11",
+          "name": "SG Dynamo Dresden vs Greuther Furth | 00:30 07/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -294,8 +294,8 @@
             "team_b": "Greuther Furth",
             "logo_a": "https://apiv3.apifootball.com/badges/3938_dynamo-dresden.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/3913_greuther-furth.jpg",
-            "time": "19:30",
-            "date": "06/11",
+            "time": "00:30",
+            "date": "07/11",
             "blv": "BLV Khô Cá",
             "is_live": false,
             "cate_type": "football",
@@ -313,100 +313,8 @@
           }
         },
         {
-          "id": "xc-0f48c1a861",
-          "name": "Hamburger SV vs B. Monchengladbach | 21:30 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0f48c1a861",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-0f48c1a861",
-                  "name": "Hamburger SV vs B. Monchengladbach",
-                  "streams": [
-                    {
-                      "id": "st-0f48c1a861",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-88fe1a05f9",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Hamburger SV",
-            "team_b": "B. Monchengladbach",
-            "logo_a": "https://apiv3.apifootball.com/badges/3912_hamburger-sv.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/77_borussia-mgladbach.jpg",
-            "time": "21:30",
-            "date": "06/11",
-            "blv": "BLV Khô Mật",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/64561_803945c9_20261106.png?v=803945c9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-6eb0910eda",
-          "name": "Toulouse vs Strasbourg | 21:45 06/11",
+          "name": "Toulouse vs Strasbourg | 02:45 07/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -478,8 +386,8 @@
             "team_b": "Strasbourg",
             "logo_a": "https://apiv3.apifootball.com/badges/3794_toulouse.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/3818_strasbourg.jpg",
-            "time": "21:45",
-            "date": "06/11",
+            "time": "02:45",
+            "date": "07/11",
             "blv": "BLV Xôi Gấc",
             "is_live": false,
             "cate_type": "football",
@@ -498,7 +406,7 @@
         },
         {
           "id": "xc-dd0fc3387d",
-          "name": "Auckland FC vs Wellington Phoenix | 06:00 07/11",
+          "name": "Auckland FC vs Wellington Phoenix | 11:00 07/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -553,7 +461,7 @@
             "team_b": "Wellington Phoenix",
             "logo_a": "https://apiv3.apifootball.com/badges/36856_auckland.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/1054_wellington-phoenix.jpg",
-            "time": "06:00",
+            "time": "11:00",
             "date": "07/11",
             "blv": "BLV Xôi Xoài",
             "is_live": false,
@@ -573,7 +481,7 @@
         },
         {
           "id": "xc-51b4b5e996",
-          "name": "Melbourne City vs WS Wanderers | 10:40 07/11",
+          "name": "Melbourne City vs WS Wanderers | 15:40 07/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -645,7 +553,7 @@
             "team_b": "WS Wanderers",
             "logo_a": "https://apiv3.apifootball.com/badges/401_melbourne-city-fc.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/1051_western-sydney-wanderers.jpg",
-            "time": "10:40",
+            "time": "15:40",
             "date": "07/11",
             "blv": "BLV Xôi Gấc",
             "is_live": false,
@@ -665,7 +573,7 @@
         },
         {
           "id": "xc-d4c6ad142c",
-          "name": "Cong An Ha Noi vs Ho Chi Minh | 14:15 07/11",
+          "name": "Cong An Ha Noi vs Ho Chi Minh | 19:15 07/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -737,7 +645,7 @@
             "team_b": "Ho Chi Minh",
             "logo_a": "https://apiv3.apifootball.com/badges/8045_cong-an-ha-ni.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/438_cong-an-h-chi-minh.jpg",
-            "time": "14:15",
+            "time": "19:15",
             "date": "07/11",
             "blv": "BLV Xôi Gấc",
             "is_live": false,
@@ -757,7 +665,7 @@
         },
         {
           "id": "xc-3d4e06f2c9",
-          "name": "Leeds vs Tottenham | 14:30 07/11",
+          "name": "Leeds vs Tottenham | 19:30 07/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -798,6 +706,40 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
+                        },
+                        {
+                          "id": "lnk-88fe1a05f9",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -812,9 +754,9 @@
             "team_b": "Tottenham",
             "logo_a": "https://apiv3.apifootball.com/badges/3103_leeds-united.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/164_tottenham-hotspur.jpg",
-            "time": "14:30",
+            "time": "19:30",
             "date": "07/11",
-            "blv": "BLV Lương Khô",
+            "blv": "BLV Lương Khô, BLV Khô Mật",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -832,7 +774,7 @@
         },
         {
           "id": "xc-90c532bc8c",
-          "name": "Mainz vs Bayern Munich | 16:30 07/11",
+          "name": "Mainz vs Bayern Munich | 21:30 07/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -887,7 +829,7 @@
             "team_b": "Bayern Munich",
             "logo_a": "https://apiv3.apifootball.com/badges/3939_mainz-05.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/72_bayern-munchen.jpg",
-            "time": "16:30",
+            "time": "21:30",
             "date": "07/11",
             "blv": "BLV Tam Mao",
             "is_live": false,
@@ -907,7 +849,7 @@
         },
         {
           "id": "xc-bbecf15cf7",
-          "name": "Arsenal vs Hull | 17:00 07/11",
+          "name": "Arsenal vs Hull | 22:00 07/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -979,7 +921,7 @@
             "team_b": "Hull",
             "logo_a": "https://apiv3.apifootball.com/badges/141_arsenal-fc.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/3119_hull-city.jpg",
-            "time": "17:00",
+            "time": "22:00",
             "date": "07/11",
             "blv": "BLV Khô Mật",
             "is_live": false,
@@ -999,7 +941,7 @@
         },
         {
           "id": "xc-6672ad0326",
-          "name": "Fulham vs Newcastle | 17:00 07/11",
+          "name": "Fulham vs Newcastle | 22:00 07/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1054,7 +996,7 @@
             "team_b": "Newcastle",
             "logo_a": "https://apiv3.apifootball.com/badges/3085_fulham.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/3100_newcastle-united.jpg",
-            "time": "17:00",
+            "time": "22:00",
             "date": "07/11",
             "blv": "BLV Khô Cá",
             "is_live": false,
@@ -1074,7 +1016,7 @@
         },
         {
           "id": "xc-c98a4a487b",
-          "name": "Osasuna vs Ath Bilbao | 19:30 07/11",
+          "name": "Osasuna vs Ath Bilbao | 00:30 08/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1146,8 +1088,8 @@
             "team_b": "Ath Bilbao",
             "logo_a": "https://apiv3.apifootball.com/badges/7269_osasuna.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/7258_athletic-club.jpg",
-            "time": "19:30",
-            "date": "07/11",
+            "time": "00:30",
+            "date": "08/11",
             "blv": "BLV Xôi Gấc",
             "is_live": false,
             "cate_type": "football",
@@ -1166,7 +1108,7 @@
         },
         {
           "id": "xc-df5e588fda",
-          "name": "Nottingham vs Manchester City | 19:30 07/11",
+          "name": "Nottingham vs Manchester City | 00:30 08/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1221,8 +1163,8 @@
             "team_b": "Manchester City",
             "logo_a": "https://apiv3.apifootball.com/badges/3089_nottingham-forest.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
-            "time": "19:30",
-            "date": "07/11",
+            "time": "00:30",
+            "date": "08/11",
             "blv": "BLV Khô Cá",
             "is_live": false,
             "cate_type": "football",
@@ -1241,7 +1183,7 @@
         },
         {
           "id": "xc-aec3ed7338",
-          "name": "PSG vs Troyes | 22:05 07/11",
+          "name": "PSG vs Troyes | 03:05 08/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1296,82 +1238,7 @@
             "team_b": "Troyes",
             "logo_a": "https://apiv3.apifootball.com/badges/100_psg.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/3792_troyes.jpg",
-            "time": "22:05",
-            "date": "07/11",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/66382_8a091360_20261106.png?v=8a091360",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-bf07a4e8e1",
-          "name": "Macarthur FC vs Brisbane Roar | 06:00 08/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bf07a4e8e1",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-bf07a4e8e1",
-                  "name": "Macarthur FC vs Brisbane Roar",
-                  "streams": [
-                    {
-                      "id": "st-bf07a4e8e1",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "A-League Men",
-            "team_a": "Macarthur FC",
-            "team_b": "Brisbane Roar",
-            "logo_a": "https://apiv3.apifootball.com/badges/1053_macarthur-fc.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/399_brisbane-roar-fc.jpg",
-            "time": "06:00",
+            "time": "03:05",
             "date": "08/11",
             "blv": "BLV Tam Mao",
             "is_live": false,
@@ -1384,7 +1251,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/66495_d0f12e77_20261106.png?v=d0f12e77",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/66382_8a091360_20261106.png?v=8a091360",
             "width": 1600,
             "height": 1200
           }
