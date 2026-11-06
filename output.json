@@ -7,178 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-607da1be02",
-          "name": "Venezia vs Udinese | 02:45 07/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-607da1be02",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-607da1be02",
-                  "name": "Venezia vs Udinese",
-                  "streams": [
-                    {
-                      "id": "st-607da1be02",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fae8ed2c4d",
-                          "name": "BLV Khô Chè",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Venezia",
-            "team_b": "Udinese",
-            "logo_a": "https://apiv3.apifootball.com/badges/5007_venezia.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/4984_udinese.jpg",
-            "time": "02:45",
-            "date": "07/11",
-            "blv": "BLV Khô Chè",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/64585_2094c742_20261107.png?v=2094c742",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-6eb0910eda",
-          "name": "Toulouse vs Strasbourg | 02:45 07/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6eb0910eda",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-6eb0910eda",
-                  "name": "Toulouse vs Strasbourg",
-                  "streams": [
-                    {
-                      "id": "st-6eb0910eda",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Toulouse",
-            "team_b": "Strasbourg",
-            "logo_a": "https://apiv3.apifootball.com/badges/3794_toulouse.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3818_strasbourg.jpg",
-            "time": "02:45",
-            "date": "07/11",
-            "blv": "BLV Xôi Gấc",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 3,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/64586_e3173eb4_20261107.png?v=e3173eb4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-9140ff62e5",
           "name": "Sevilla vs Alaves | 03:00 07/11",
@@ -351,7 +184,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 2,
+            "home_score": 3,
             "away_score": 1
           },
           "image": {
