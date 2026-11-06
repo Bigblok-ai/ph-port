@@ -7,11 +7,86 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-af5715bf46",
+          "name": "Hong Linh Ha Tinh vs Nam Dinh | 13:00 06/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-af5715bf46",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-af5715bf46",
+                  "name": "Hong Linh Ha Tinh vs Nam Dinh",
+                  "streams": [
+                    {
+                      "id": "st-af5715bf46",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Hong Linh Ha Tinh",
+            "team_b": "Nam Dinh",
+            "logo_a": "https://apiv3.apifootball.com/badges/8062_hng-lnh-ha-tnh.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/8060_nam-nh.jpg",
+            "time": "13:00",
+            "date": "06/11",
+            "blv": "BLV Khô Chè",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63838_81a7e265_20261106.png?v=81a7e265",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-37ac87fd9f",
           "name": "Qarabag vs Turan Tovuz | 16:00 06/11",
@@ -83,81 +158,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63905_379b7a2f_20261106.png?v=379b7a2f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-af5715bf46",
-          "name": "Hong Linh Ha Tinh vs Nam Dinh | 13:00 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-af5715bf46",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-af5715bf46",
-                  "name": "Hong Linh Ha Tinh vs Nam Dinh",
-                  "streams": [
-                    {
-                      "id": "st-af5715bf46",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fae8ed2c4d",
-                          "name": "BLV Khô Chè",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Hong Linh Ha Tinh",
-            "team_b": "Nam Dinh",
-            "logo_a": "https://apiv3.apifootball.com/badges/8062_hng-lnh-ha-tnh.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/8060_nam-nh.jpg",
-            "time": "13:00",
-            "date": "06/11",
-            "blv": "BLV Khô Chè",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63838_81a7e265_20261106.png?v=81a7e265",
             "width": 1600,
             "height": 1200
           }
@@ -314,7 +314,7 @@
         },
         {
           "id": "xc-0f48c1a861",
-          "name": "Hamburger SV vs B. Monchengladbach | 02:30 07/11",
+          "name": "Hamburger SV vs B. Monchengladbach | 21:30 06/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -386,8 +386,8 @@
             "team_b": "B. Monchengladbach",
             "logo_a": "https://apiv3.apifootball.com/badges/3912_hamburger-sv.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/77_borussia-mgladbach.jpg",
-            "time": "02:30",
-            "date": "07/11",
+            "time": "21:30",
+            "date": "06/11",
             "blv": "BLV Khô Mật",
             "is_live": false,
             "cate_type": "football",
@@ -406,7 +406,7 @@
         },
         {
           "id": "xc-6eb0910eda",
-          "name": "Toulouse vs Strasbourg | 02:45 07/11",
+          "name": "Toulouse vs Strasbourg | 21:45 06/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -478,8 +478,8 @@
             "team_b": "Strasbourg",
             "logo_a": "https://apiv3.apifootball.com/badges/3794_toulouse.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/3818_strasbourg.jpg",
-            "time": "02:45",
-            "date": "07/11",
+            "time": "21:45",
+            "date": "06/11",
             "blv": "BLV Xôi Gấc",
             "is_live": false,
             "cate_type": "football",
@@ -498,7 +498,7 @@
         },
         {
           "id": "xc-dd0fc3387d",
-          "name": "Auckland FC vs Wellington Phoenix | 11:00 07/11",
+          "name": "Auckland FC vs Wellington Phoenix | 06:00 07/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -553,7 +553,7 @@
             "team_b": "Wellington Phoenix",
             "logo_a": "https://apiv3.apifootball.com/badges/36856_auckland.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/1054_wellington-phoenix.jpg",
-            "time": "11:00",
+            "time": "06:00",
             "date": "07/11",
             "blv": "BLV Xôi Xoài",
             "is_live": false,
@@ -573,7 +573,7 @@
         },
         {
           "id": "xc-51b4b5e996",
-          "name": "Melbourne City vs WS Wanderers | 15:40 07/11",
+          "name": "Melbourne City vs WS Wanderers | 10:40 07/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -645,7 +645,7 @@
             "team_b": "WS Wanderers",
             "logo_a": "https://apiv3.apifootball.com/badges/401_melbourne-city-fc.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/1051_western-sydney-wanderers.jpg",
-            "time": "15:40",
+            "time": "10:40",
             "date": "07/11",
             "blv": "BLV Xôi Gấc",
             "is_live": false,
@@ -665,7 +665,7 @@
         },
         {
           "id": "xc-d4c6ad142c",
-          "name": "Cong An Ha Noi vs Ho Chi Minh | 19:15 07/11",
+          "name": "Cong An Ha Noi vs Ho Chi Minh | 14:15 07/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -737,7 +737,7 @@
             "team_b": "Ho Chi Minh",
             "logo_a": "https://apiv3.apifootball.com/badges/8045_cong-an-ha-ni.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/438_cong-an-h-chi-minh.jpg",
-            "time": "19:15",
+            "time": "14:15",
             "date": "07/11",
             "blv": "BLV Xôi Gấc",
             "is_live": false,
@@ -757,7 +757,7 @@
         },
         {
           "id": "xc-3d4e06f2c9",
-          "name": "Leeds vs Tottenham | 19:30 07/11",
+          "name": "Leeds vs Tottenham | 14:30 07/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -812,7 +812,7 @@
             "team_b": "Tottenham",
             "logo_a": "https://apiv3.apifootball.com/badges/3103_leeds-united.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/164_tottenham-hotspur.jpg",
-            "time": "19:30",
+            "time": "14:30",
             "date": "07/11",
             "blv": "BLV Lương Khô",
             "is_live": false,
@@ -832,7 +832,7 @@
         },
         {
           "id": "xc-90c532bc8c",
-          "name": "Mainz vs Bayern Munich | 21:30 07/11",
+          "name": "Mainz vs Bayern Munich | 16:30 07/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -887,7 +887,7 @@
             "team_b": "Bayern Munich",
             "logo_a": "https://apiv3.apifootball.com/badges/3939_mainz-05.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/72_bayern-munchen.jpg",
-            "time": "21:30",
+            "time": "16:30",
             "date": "07/11",
             "blv": "BLV Tam Mao",
             "is_live": false,
@@ -907,7 +907,7 @@
         },
         {
           "id": "xc-bbecf15cf7",
-          "name": "Arsenal vs Hull | 22:00 07/11",
+          "name": "Arsenal vs Hull | 17:00 07/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -979,7 +979,7 @@
             "team_b": "Hull",
             "logo_a": "https://apiv3.apifootball.com/badges/141_arsenal-fc.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/3119_hull-city.jpg",
-            "time": "22:00",
+            "time": "17:00",
             "date": "07/11",
             "blv": "BLV Khô Mật",
             "is_live": false,
@@ -999,7 +999,7 @@
         },
         {
           "id": "xc-c98a4a487b",
-          "name": "Osasuna vs Ath Bilbao | 00:30 08/11",
+          "name": "Osasuna vs Ath Bilbao | 19:30 07/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1071,8 +1071,8 @@
             "team_b": "Ath Bilbao",
             "logo_a": "https://apiv3.apifootball.com/badges/7269_osasuna.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/7258_athletic-club.jpg",
-            "time": "00:30",
-            "date": "08/11",
+            "time": "19:30",
+            "date": "07/11",
             "blv": "BLV Xôi Gấc",
             "is_live": false,
             "cate_type": "football",
@@ -1091,7 +1091,7 @@
         },
         {
           "id": "xc-aec3ed7338",
-          "name": "PSG vs Troyes | 03:05 08/11",
+          "name": "PSG vs Troyes | 22:05 07/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1146,8 +1146,8 @@
             "team_b": "Troyes",
             "logo_a": "https://apiv3.apifootball.com/badges/100_psg.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/3792_troyes.jpg",
-            "time": "03:05",
-            "date": "08/11",
+            "time": "22:05",
+            "date": "07/11",
             "blv": "BLV Tam Mao",
             "is_live": false,
             "cate_type": "football",
