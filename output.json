@@ -238,6 +238,81 @@
           }
         },
         {
+          "id": "xc-6c9ce1a88f",
+          "name": "SG Dynamo Dresden vs Greuther Furth | 19:30 06/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6c9ce1a88f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-6c9ce1a88f",
+                  "name": "SG Dynamo Dresden vs Greuther Furth",
+                  "streams": [
+                    {
+                      "id": "st-6c9ce1a88f",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8987d572f",
+                          "name": "BLV Khô Cá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2. Bundesliga",
+            "team_a": "SG Dynamo Dresden",
+            "team_b": "Greuther Furth",
+            "logo_a": "https://apiv3.apifootball.com/badges/3938_dynamo-dresden.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3913_greuther-furth.jpg",
+            "time": "19:30",
+            "date": "06/11",
+            "blv": "BLV Khô Cá",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/64449_af67ecff_20261106.png?v=af67ecff",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-0f48c1a861",
           "name": "Hamburger SV vs B. Monchengladbach | 21:30 06/11",
           "type": "single",
@@ -923,6 +998,81 @@
           }
         },
         {
+          "id": "xc-6672ad0326",
+          "name": "Fulham vs Newcastle | 17:00 07/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6672ad0326",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-6672ad0326",
+                  "name": "Fulham vs Newcastle",
+                  "streams": [
+                    {
+                      "id": "st-6672ad0326",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8987d572f",
+                          "name": "BLV Khô Cá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Fulham",
+            "team_b": "Newcastle",
+            "logo_a": "https://apiv3.apifootball.com/badges/3085_fulham.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3100_newcastle-united.jpg",
+            "time": "17:00",
+            "date": "07/11",
+            "blv": "BLV Khô Cá",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/65619_f5015e9f_20261106.png?v=f5015e9f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-c98a4a487b",
           "name": "Osasuna vs Ath Bilbao | 19:30 07/11",
           "type": "single",
@@ -1010,6 +1160,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/66279_75d14ae6_20261106.png?v=75d14ae6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-df5e588fda",
+          "name": "Nottingham vs Manchester City | 19:30 07/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-df5e588fda",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-df5e588fda",
+                  "name": "Nottingham vs Manchester City",
+                  "streams": [
+                    {
+                      "id": "st-df5e588fda",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8987d572f",
+                          "name": "BLV Khô Cá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Nottingham",
+            "team_b": "Manchester City",
+            "logo_a": "https://apiv3.apifootball.com/badges/3089_nottingham-forest.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
+            "time": "19:30",
+            "date": "07/11",
+            "blv": "BLV Khô Cá",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/66286_26d29e66_20261106.png?v=26d29e66",
             "width": 1600,
             "height": 1200
           }
