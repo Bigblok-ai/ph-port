@@ -92,7 +92,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 1
           },
           "image": {
@@ -255,81 +255,6 @@
           }
         },
         {
-          "id": "xc-79f02d1435",
-          "name": "Dortmund vs Elversberg | 21:30 07/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-79f02d1435",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-79f02d1435",
-                  "name": "Dortmund vs Elversberg",
-                  "streams": [
-                    {
-                      "id": "st-79f02d1435",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3b4108ed2",
-                          "name": "BLV Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Dortmund",
-            "team_b": "Elversberg",
-            "logo_a": "https://apiv3.apifootball.com/badges/92_borussia-dortmund.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3937_elversberg.jpg",
-            "time": "21:30",
-            "date": "07/11",
-            "blv": "BLV Khô Cay",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/65499_8b111dbb_20261107.png?v=8b111dbb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-90c532bc8c",
           "name": "Mainz vs Bayern Munich | 21:30 07/11",
           "type": "single",
@@ -400,6 +325,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/65500_22634198_20261107.png?v=22634198",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-79f02d1435",
+          "name": "Dortmund vs Elversberg | 21:30 07/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-79f02d1435",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-79f02d1435",
+                  "name": "Dortmund vs Elversberg",
+                  "streams": [
+                    {
+                      "id": "st-79f02d1435",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Dortmund",
+            "team_b": "Elversberg",
+            "logo_a": "https://apiv3.apifootball.com/badges/92_borussia-dortmund.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3937_elversberg.jpg",
+            "time": "21:30",
+            "date": "07/11",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/65499_8b111dbb_20261107.png?v=8b111dbb",
             "width": 1600,
             "height": 1200
           }
