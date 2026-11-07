@@ -7,86 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-dd0fc3387d",
-          "name": "Auckland FC vs Wellington Phoenix | 11:00 07/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dd0fc3387d",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-dd0fc3387d",
-                  "name": "Auckland FC vs Wellington Phoenix",
-                  "streams": [
-                    {
-                      "id": "st-dd0fc3387d",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "A-League Men",
-            "team_a": "Auckland FC",
-            "team_b": "Wellington Phoenix",
-            "logo_a": "https://apiv3.apifootball.com/badges/36856_auckland.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/1054_wellington-phoenix.jpg",
-            "time": "11:00",
-            "date": "07/11",
-            "blv": "BLV Xôi Xoài",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/64671_c400a5e1_20261107.png?v=c400a5e1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-51b4b5e996",
           "name": "Melbourne City vs WS Wanderers | 15:40 07/11",
