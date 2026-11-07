@@ -7,14 +7,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
           "id": "xc-51b4b5e996",
-          "name": "Melbourne City vs WS Wanderers | 15:40 07/11",
+          "name": "Melbourne City vs WS Wanderers | 10:40 07/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -86,7 +86,7 @@
             "team_b": "WS Wanderers",
             "logo_a": "https://apiv3.apifootball.com/badges/401_melbourne-city-fc.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/1051_western-sydney-wanderers.jpg",
-            "time": "15:40",
+            "time": "10:40",
             "date": "07/11",
             "blv": "BLV Xôi Gấc",
             "is_live": true,
@@ -100,6 +100,248 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/64750_f63691d2_20261107.png?v=f63691d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-d4c6ad142c",
+          "name": "Cong An Ha Noi vs Ho Chi Minh | 14:15 07/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d4c6ad142c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-d4c6ad142c",
+                  "name": "Cong An Ha Noi vs Ho Chi Minh",
+                  "streams": [
+                    {
+                      "id": "st-d4c6ad142c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Cong An Ha Noi",
+            "team_b": "Ho Chi Minh",
+            "logo_a": "https://apiv3.apifootball.com/badges/8045_cong-an-ha-ni.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/438_cong-an-h-chi-minh.jpg",
+            "time": "14:15",
+            "date": "07/11",
+            "blv": "BLV Xôi Gấc",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/65085_ecc88bf5_20261107.png?v=ecc88bf5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-3d4e06f2c9",
+          "name": "Leeds vs Tottenham | 14:30 07/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3d4e06f2c9",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-3d4e06f2c9",
+                  "name": "Leeds vs Tottenham",
+                  "streams": [
+                    {
+                      "id": "st-3d4e06f2c9",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-245e47f94f",
+                          "name": "BLV Lương Khô",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Leeds",
+            "team_b": "Tottenham",
+            "logo_a": "https://apiv3.apifootball.com/badges/3103_leeds-united.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/164_tottenham-hotspur.jpg",
+            "time": "14:30",
+            "date": "07/11",
+            "blv": "BLV Lương Khô",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/65104_7a6bf1b9_20261107.png?v=7a6bf1b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-0568b81818",
+          "name": "Malaga vs Racing Santander | 15:00 07/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0568b81818",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-0568b81818",
+                  "name": "Malaga vs Racing Santander",
+                  "streams": [
+                    {
+                      "id": "st-0568b81818",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Malaga",
+            "team_b": "Racing Santander",
+            "logo_a": "https://apiv3.apifootball.com/badges/7267_malaga.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7220_racing-de-santander.jpg",
+            "time": "15:00",
+            "date": "07/11",
+            "blv": "BLV Khô Chè",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/65235_978821d1_20261107.png?v=978821d1",
             "width": 1600,
             "height": 1200
           }
@@ -175,248 +417,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/64846_0f7612e5_20261107.png?v=0f7612e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-d4c6ad142c",
-          "name": "Cong An Ha Noi vs Ho Chi Minh | 19:15 07/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d4c6ad142c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-d4c6ad142c",
-                  "name": "Cong An Ha Noi vs Ho Chi Minh",
-                  "streams": [
-                    {
-                      "id": "st-d4c6ad142c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Cong An Ha Noi",
-            "team_b": "Ho Chi Minh",
-            "logo_a": "https://apiv3.apifootball.com/badges/8045_cong-an-ha-ni.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/438_cong-an-h-chi-minh.jpg",
-            "time": "19:15",
-            "date": "07/11",
-            "blv": "BLV Xôi Gấc",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/65085_ecc88bf5_20261107.png?v=ecc88bf5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-3d4e06f2c9",
-          "name": "Leeds vs Tottenham | 19:30 07/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3d4e06f2c9",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-3d4e06f2c9",
-                  "name": "Leeds vs Tottenham",
-                  "streams": [
-                    {
-                      "id": "st-3d4e06f2c9",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-245e47f94f",
-                          "name": "BLV Lương Khô",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Leeds",
-            "team_b": "Tottenham",
-            "logo_a": "https://apiv3.apifootball.com/badges/3103_leeds-united.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/164_tottenham-hotspur.jpg",
-            "time": "19:30",
-            "date": "07/11",
-            "blv": "BLV Lương Khô",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/65104_7a6bf1b9_20261107.png?v=7a6bf1b9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-0568b81818",
-          "name": "Malaga vs Racing Santander | 20:00 07/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0568b81818",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-0568b81818",
-                  "name": "Malaga vs Racing Santander",
-                  "streams": [
-                    {
-                      "id": "st-0568b81818",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fae8ed2c4d",
-                          "name": "BLV Khô Chè",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Malaga",
-            "team_b": "Racing Santander",
-            "logo_a": "https://apiv3.apifootball.com/badges/7267_malaga.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/7220_racing-de-santander.jpg",
-            "time": "20:00",
-            "date": "07/11",
-            "blv": "BLV Khô Chè",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/65235_978821d1_20261107.png?v=978821d1",
             "width": 1600,
             "height": 1200
           }
@@ -965,6 +965,23 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
+                        },
+                        {
+                          "id": "lnk-245e47f94f",
+                          "name": "BLV Lương Khô",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -981,7 +998,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
             "time": "00:30",
             "date": "08/11",
-            "blv": "BLV Khô Cá",
+            "blv": "BLV Khô Cá, BLV Lương Khô",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1315,6 +1332,81 @@
           }
         },
         {
+          "id": "xc-d91b315812",
+          "name": "Aston Villa W vs Manchester Utd W | 19:00 08/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d91b315812",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-d91b315812",
+                  "name": "Aston Villa W vs Manchester Utd W",
+                  "streams": [
+                    {
+                      "id": "st-d91b315812",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-245e47f94f",
+                          "name": "BLV Lương Khô",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women's Super League",
+            "team_a": "Aston Villa W",
+            "team_b": "Manchester Utd W",
+            "logo_a": "https://apiv3.apifootball.com/badges/11035_aston-villa-w.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/11084_manchester-united-w.jpg",
+            "time": "19:00",
+            "date": "08/11",
+            "blv": "BLV Lương Khô",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/66798_f83b6898_20261107.png?v=f83b6898",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-aaad95094b",
           "name": "Elche vs Betis | 20:00 08/11",
           "type": "single",
@@ -1460,6 +1552,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/67180_0d25cb43_20261107.png?v=0d25cb43",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-b6c85f9379",
+          "name": "Crystal Palace vs Liverpool | 21:00 08/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b6c85f9379",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b6c85f9379",
+                  "name": "Crystal Palace vs Liverpool",
+                  "streams": [
+                    {
+                      "id": "st-b6c85f9379",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-245e47f94f",
+                          "name": "BLV Lương Khô",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Crystal Palace",
+            "team_b": "Liverpool",
+            "logo_a": "https://apiv3.apifootball.com/badges/3429_crystal-palace.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/84_liverpool.jpg",
+            "time": "21:00",
+            "date": "08/11",
+            "blv": "BLV Lương Khô",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/67184_d8d76337_20261107.png?v=d8d76337",
             "width": 1600,
             "height": 1200
           }
