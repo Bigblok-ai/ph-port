@@ -105,6 +105,81 @@
           }
         },
         {
+          "id": "xc-0511703587",
+          "name": "Perth Glory vs Newcastle Jets | 17:45 07/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0511703587",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-0511703587",
+                  "name": "Perth Glory vs Newcastle Jets",
+                  "streams": [
+                    {
+                      "id": "st-0511703587",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "A-League Men",
+            "team_a": "Perth Glory",
+            "team_b": "Newcastle Jets",
+            "logo_a": "https://apiv3.apifootball.com/badges/382_perth-glory.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/1056_newcastle-jets-fc.jpg",
+            "time": "17:45",
+            "date": "07/11",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/64846_0f7612e5_20261107.png?v=0f7612e5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-d4c6ad142c",
           "name": "Cong An Ha Noi vs Ho Chi Minh | 19:15 07/11",
           "type": "single",
@@ -831,6 +906,81 @@
           }
         },
         {
+          "id": "xc-04730cc5cd",
+          "name": "AS Roma vs Sassuolo | 02:45 08/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-04730cc5cd",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-04730cc5cd",
+                  "name": "AS Roma vs Sassuolo",
+                  "streams": [
+                    {
+                      "id": "st-04730cc5cd",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "AS Roma",
+            "team_b": "Sassuolo",
+            "logo_a": "https://apiv3.apifootball.com/badges/139_roma.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4975_sassuolo.jpg",
+            "time": "02:45",
+            "date": "08/11",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/66381_e17d5eb9_20261107.png?v=e17d5eb9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-aec3ed7338",
           "name": "PSG vs Troyes | 03:05 08/11",
           "type": "single",
@@ -1068,6 +1218,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/66495_d0f12e77_20261107.png?v=d0f12e77",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-aaad95094b",
+          "name": "Elche vs Betis | 20:00 08/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aaad95094b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-aaad95094b",
+                  "name": "Elche vs Betis",
+                  "streams": [
+                    {
+                      "id": "st-aaad95094b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Elche",
+            "team_b": "Betis",
+            "logo_a": "https://apiv3.apifootball.com/badges/7274_elche.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7261_real-betis.jpg",
+            "time": "20:00",
+            "date": "08/11",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/66906_55286806_20261107.png?v=55286806",
             "width": 1600,
             "height": 1200
           }
