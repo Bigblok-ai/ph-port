@@ -105,6 +105,81 @@
           }
         },
         {
+          "id": "xc-0b127ea6ec",
+          "name": "Napoli vs Lazio | 13:30 08/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0b127ea6ec",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-0b127ea6ec",
+                  "name": "Napoli vs Lazio",
+                  "streams": [
+                    {
+                      "id": "st-0b127ea6ec",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Napoli",
+            "team_b": "Lazio",
+            "logo_a": "https://apiv3.apifootball.com/badges/152_napoli.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/93_lazio.jpg",
+            "time": "13:30",
+            "date": "08/11",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/66742_a65aae2a_20261108.png?v=a65aae2a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-d91b315812",
           "name": "Aston Villa W vs Manchester Utd W | 14:00 08/11",
           "type": "single",
@@ -567,6 +642,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/67186_d71579fa_20261108.png?v=d71579fa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-cb14e5b2e9",
+          "name": "FC Koln vs Bayer Leverkusen | 16:30 08/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cb14e5b2e9",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-cb14e5b2e9",
+                  "name": "FC Koln vs Bayer Leverkusen",
+                  "streams": [
+                    {
+                      "id": "st-cb14e5b2e9",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "FC Koln",
+            "team_b": "Bayer Leverkusen",
+            "logo_a": "https://apiv3.apifootball.com/badges/3932_koln.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/143_bayer-leverkusen.jpg",
+            "time": "16:30",
+            "date": "08/11",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/67241_3d8e8791_20261108.png?v=3d8e8791",
             "width": 1600,
             "height": 1200
           }
@@ -1143,6 +1293,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/67984_cd7c89a9_20261108.png?v=cd7c89a9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-889fc8656e",
+          "name": "Lens vs Marseille | 21:45 08/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-889fc8656e",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-889fc8656e",
+                  "name": "Lens vs Marseille",
+                  "streams": [
+                    {
+                      "id": "st-889fc8656e",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Lens",
+            "team_b": "Marseille",
+            "logo_a": "https://apiv3.apifootball.com/badges/3821_lens.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/83_olympique-marseille.jpg",
+            "time": "21:45",
+            "date": "08/11",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/67985_49c862a2_20261108.png?v=49c862a2",
             "width": 1600,
             "height": 1200
           }
