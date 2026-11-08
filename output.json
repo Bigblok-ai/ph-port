@@ -7,86 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-cb14e5b2e9",
-          "name": "FC Koln vs Bayer Leverkusen | 21:30 08/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cb14e5b2e9",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-cb14e5b2e9",
-                  "name": "FC Koln vs Bayer Leverkusen",
-                  "streams": [
-                    {
-                      "id": "st-cb14e5b2e9",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3b4108ed2",
-                          "name": "BLV Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "FC Koln",
-            "team_b": "Bayer Leverkusen",
-            "logo_a": "https://apiv3.apifootball.com/badges/3932_koln.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/143_bayer-leverkusen.jpg",
-            "time": "21:30",
-            "date": "08/11",
-            "blv": "BLV Khô Cay",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/67241_3d8e8791_20261108.png?v=3d8e8791",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-e535430361",
           "name": "Real Sociedad vs Rayo Vallecano | 22:15 08/11",
@@ -439,8 +364,8 @@
           }
         },
         {
-          "id": "xc-128d5eb8d8",
-          "name": "Celta Vigo vs Levante | 00:30 09/11",
+          "id": "xc-478907f874",
+          "name": "Villarreal vs Getafe | 00:30 09/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -454,15 +379,15 @@
           ],
           "sources": [
             {
-              "id": "src-128d5eb8d8",
+              "id": "src-478907f874",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-128d5eb8d8",
-                  "name": "Celta Vigo vs Levante",
+                  "id": "ct-478907f874",
+                  "name": "Villarreal vs Getafe",
                   "streams": [
                     {
-                      "id": "st-128d5eb8d8",
+                      "id": "st-478907f874",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
@@ -508,88 +433,13 @@
           ],
           "org_metadata": {
             "league": "La Liga",
-            "team_a": "Celta Vigo",
-            "team_b": "Levante",
-            "logo_a": "https://apiv3.apifootball.com/badges/7290_celta-de-vigo.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/7259_levante.jpg",
-            "time": "00:30",
-            "date": "09/11",
-            "blv": "BLV Xôi Gấc",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/67918_bcb76c61_20261108.png?v=bcb76c61",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-478907f874",
-          "name": "Villarreal vs Getafe | 00:30 09/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-478907f874",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-478907f874",
-                  "name": "Villarreal vs Getafe",
-                  "streams": [
-                    {
-                      "id": "st-478907f874",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fae8ed2c4d",
-                          "name": "BLV Khô Chè",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
             "team_a": "Villarreal",
             "team_b": "Getafe",
             "logo_a": "https://apiv3.apifootball.com/badges/162_villarreal.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/7288_getafe.jpg",
             "time": "00:30",
             "date": "09/11",
-            "blv": "BLV Khô Chè",
+            "blv": "BLV Xôi Gấc",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
