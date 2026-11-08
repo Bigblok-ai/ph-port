@@ -13,81 +13,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-e535430361",
-          "name": "Real Sociedad vs Rayo Vallecano | 22:15 08/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e535430361",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-e535430361",
-                  "name": "Real Sociedad vs Rayo Vallecano",
-                  "streams": [
-                    {
-                      "id": "st-e535430361",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Real Sociedad",
-            "team_b": "Rayo Vallecano",
-            "logo_a": "https://apiv3.apifootball.com/badges/153_real-sociedad.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/7264_rayo-vallecano.jpg",
-            "time": "22:15",
-            "date": "08/11",
-            "blv": "BLV Xôi Xoài",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/67360_6ccc84f8_20261109.png?v=6ccc84f8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-1786aec3a6",
           "name": "Brest vs Lyon | 23:15 08/11",
           "type": "single",
@@ -166,7 +91,7 @@
             "blv": "BLV Khô Bò",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 1,
             "away_score": 0
           },
@@ -259,7 +184,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 2
           },
           "image": {
@@ -351,7 +276,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
@@ -371,10 +296,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -440,9 +365,9 @@
             "time": "00:30",
             "date": "09/11",
             "blv": "BLV Xôi Gấc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
