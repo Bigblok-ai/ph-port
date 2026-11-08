@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -480,55 +480,38 @@
           }
         },
         {
-          "id": "xc-9ae0979b2c",
-          "name": "Inter vs Como | 19:00 08/11",
+          "id": "xc-edd2116019",
+          "name": "Atl. Madrid vs Barcelona | 22:00 08/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-9ae0979b2c",
+              "id": "src-edd2116019",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-9ae0979b2c",
-                  "name": "Inter vs Como",
+                  "id": "ct-edd2116019",
+                  "name": "Atl. Madrid vs Barcelona",
                   "streams": [
                     {
-                      "id": "st-9ae0979b2c",
+                      "id": "st-edd2116019",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-88fe1a05f9",
-                          "name": "BLV Khô Mật 1",
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -548,17 +531,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Inter",
-            "team_b": "Como",
-            "logo_a": "https://apiv3.apifootball.com/badges/79_internazionale.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/8239_como.jpg",
-            "time": "19:00",
+            "league": "La Liga",
+            "team_a": "Atl. Madrid",
+            "team_b": "Barcelona",
+            "logo_a": "https://apiv3.apifootball.com/badges/73_atletico-de-madrid.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/97_barcelona.jpg",
+            "time": "22:00",
             "date": "08/11",
-            "blv": "BLV Khô Mật",
-            "is_live": false,
+            "blv": "BLV Tam Mao",
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -566,7 +549,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/67904_a67b949b_20261108.png?v=a67b949b",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/67988_5bae6b38_20261108.png?v=5bae6b38",
             "width": 1600,
             "height": 1200
           }
@@ -664,8 +647,8 @@
           }
         },
         {
-          "id": "xc-edd2116019",
-          "name": "Atl. Madrid vs Barcelona | 22:00 08/11",
+          "id": "xc-478907f874",
+          "name": "Villarreal vs Getafe | 19:30 08/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -679,23 +662,23 @@
           ],
           "sources": [
             {
-              "id": "src-edd2116019",
+              "id": "src-478907f874",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-edd2116019",
-                  "name": "Atl. Madrid vs Barcelona",
+                  "id": "ct-478907f874",
+                  "name": "Villarreal vs Getafe",
                   "streams": [
                     {
-                      "id": "st-edd2116019",
+                      "id": "st-478907f874",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -716,13 +699,13 @@
           ],
           "org_metadata": {
             "league": "La Liga",
-            "team_a": "Atl. Madrid",
-            "team_b": "Barcelona",
-            "logo_a": "https://apiv3.apifootball.com/badges/73_atletico-de-madrid.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/97_barcelona.jpg",
-            "time": "22:00",
+            "team_a": "Villarreal",
+            "team_b": "Getafe",
+            "logo_a": "https://apiv3.apifootball.com/badges/162_villarreal.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7288_getafe.jpg",
+            "time": "19:30",
             "date": "08/11",
-            "blv": "BLV Tam Mao",
+            "blv": "BLV Khô Chè",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -733,7 +716,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/67988_5bae6b38_20261108.png?v=5bae6b38",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/67919_d6ab2a17_20261108.png?v=d6ab2a17",
             "width": 1600,
             "height": 1200
           }
