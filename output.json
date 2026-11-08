@@ -1448,6 +1448,81 @@
           }
         },
         {
+          "id": "xc-edd2116019",
+          "name": "Atl. Madrid vs Barcelona | 03:00 09/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-edd2116019",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-edd2116019",
+                  "name": "Atl. Madrid vs Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-edd2116019",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Atl. Madrid",
+            "team_b": "Barcelona",
+            "logo_a": "https://apiv3.apifootball.com/badges/73_atletico-de-madrid.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/97_barcelona.jpg",
+            "time": "03:00",
+            "date": "09/11",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/67988_5bae6b38_20261108.png?v=5bae6b38",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-d5e66b831e",
           "name": "Club Leon vs Guadalajara Chivas | 09:10 09/11",
           "type": "single",
@@ -1627,6 +1702,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/68123_7a487c9e_20261108.png?v=7a487c9e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-14edf56c2a",
+          "name": "Veles Moscow vs Kamaz | 23:30 09/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-14edf56c2a",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-14edf56c2a",
+                  "name": "Veles Moscow vs Kamaz",
+                  "streams": [
+                    {
+                      "id": "st-14edf56c2a",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "First League",
+            "team_a": "Veles Moscow",
+            "team_b": "Kamaz",
+            "logo_a": "https://apiv3.apifootball.com/badges/6270_veles.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/6252_kamaz.jpg",
+            "time": "23:30",
+            "date": "09/11",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/68129_6ea814ff_20261108.png?v=6ea814ff",
             "width": 1600,
             "height": 1200
           }
