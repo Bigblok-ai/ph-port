@@ -252,7 +252,7 @@
             "team_a": "ZED",
             "team_b": "Samanod",
             "logo_a": "https://apiv3.apifootball.com/badges/13645_zed-fc.jpg",
-            "logo_b": "",
+            "logo_b": "https://xoiche.live/media/teams/logos/1794220995117955920_3e466797.png",
             "time": "22:00",
             "date": "09/11",
             "blv": "BLV Xôi Gấc",
@@ -266,7 +266,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/68123_7a487c9e_20261109.png?v=7a487c9e",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/68123_6432bc16_20261109.png?v=6432bc16",
             "width": 1600,
             "height": 1200
           }
