@@ -13,81 +13,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-2dbe71e79b",
-          "name": "CS Din. Bucuresti vs Ramnicu Valcea | 22:00 09/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2dbe71e79b",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-2dbe71e79b",
-                  "name": "CS Din. Bucuresti vs Ramnicu Valcea",
-                  "streams": [
-                    {
-                      "id": "st-2dbe71e79b",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-245e47f94f",
-                          "name": "BLV Lương Khô",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga II",
-            "team_a": "CS Din. Bucuresti",
-            "team_b": "Ramnicu Valcea",
-            "logo_a": "https://apiv3.apifootball.com/badges/25722_cs-dinamo-bucureti.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/32072_scm-ramnicu-valcea.jpg",
-            "time": "22:00",
-            "date": "09/11",
-            "blv": "BLV Lương Khô",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 3
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/68122_f5861407_20261109.png?v=f5861407",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-c5753f81a5",
           "name": "ZED vs Samanod | 22:00 09/11",
           "type": "single",
@@ -167,7 +92,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 4,
+            "home_score": 5,
             "away_score": 1
           },
           "image": {
@@ -175,6 +100,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/68123_6432bc16_20261109.png?v=6432bc16",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-2dbe71e79b",
+          "name": "CS Din. Bucuresti vs Ramnicu Valcea | 22:00 09/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2dbe71e79b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-2dbe71e79b",
+                  "name": "CS Din. Bucuresti vs Ramnicu Valcea",
+                  "streams": [
+                    {
+                      "id": "st-2dbe71e79b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-245e47f94f",
+                          "name": "BLV Lương Khô",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga II",
+            "team_a": "CS Din. Bucuresti",
+            "team_b": "Ramnicu Valcea",
+            "logo_a": "https://apiv3.apifootball.com/badges/25722_cs-dinamo-bucureti.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/32072_scm-ramnicu-valcea.jpg",
+            "time": "22:00",
+            "date": "09/11",
+            "blv": "BLV Lương Khô",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 2,
+            "away_score": 3
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/68122_f5861407_20261109.png?v=f5861407",
             "width": 1600,
             "height": 1200
           }
