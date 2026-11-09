@@ -7,23 +7,115 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-2dbe71e79b",
-          "name": "CS Din. Bucuresti vs Ramnicu Valcea | 17:00 09/11",
+          "id": "xc-9485940b80",
+          "name": "Wadi Degla vs Kahrabaa Ismailia | 19:30 09/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9485940b80",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-9485940b80",
+                  "name": "Wadi Degla vs Kahrabaa Ismailia",
+                  "streams": [
+                    {
+                      "id": "st-9485940b80",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-88fe1a05f9",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cup",
+            "team_a": "Wadi Degla",
+            "team_b": "Kahrabaa Ismailia",
+            "logo_a": "https://apiv3.apifootball.com/badges/2774_wadi-degla.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/30022_kahraba-ismailia.jpg",
+            "time": "19:30",
+            "date": "09/11",
+            "blv": "BLV Khô Mật",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/68109_f3b0858b_20261109.png?v=f3b0858b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-2dbe71e79b",
+          "name": "CS Din. Bucuresti vs Ramnicu Valcea | 22:00 09/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -69,12 +161,12 @@
             "team_b": "Ramnicu Valcea",
             "logo_a": "https://apiv3.apifootball.com/badges/25722_cs-dinamo-bucureti.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/32072_scm-ramnicu-valcea.jpg",
-            "time": "17:00",
+            "time": "22:00",
             "date": "09/11",
             "blv": "BLV Lương Khô",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "football",
-            "status": "live",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -89,16 +181,16 @@
         },
         {
           "id": "xc-c5753f81a5",
-          "name": "ZED vs Samanod | 17:00 09/11",
+          "name": "ZED vs Samanod | 22:00 09/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -161,12 +253,12 @@
             "team_b": "Samanod",
             "logo_a": "https://apiv3.apifootball.com/badges/13645_zed-fc.jpg",
             "logo_b": "",
-            "time": "17:00",
+            "time": "22:00",
             "date": "09/11",
             "blv": "BLV Xôi Gấc",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "football",
-            "status": "live",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -181,7 +273,7 @@
         },
         {
           "id": "xc-14edf56c2a",
-          "name": "Veles Moscow vs Kamaz | 18:30 09/11",
+          "name": "Veles Moscow vs Kamaz | 23:30 09/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -236,7 +328,7 @@
             "team_b": "Kamaz",
             "logo_a": "https://apiv3.apifootball.com/badges/6270_veles.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/6252_kamaz.jpg",
-            "time": "18:30",
+            "time": "23:30",
             "date": "09/11",
             "blv": "BLV Xôi Xoài",
             "is_live": false,
@@ -256,7 +348,7 @@
         },
         {
           "id": "xc-80f697da6d",
-          "name": "Kristiansund vs Valerenga | 20:00 09/11",
+          "name": "Kristiansund vs Valerenga | 01:00 10/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -311,8 +403,8 @@
             "team_b": "Valerenga",
             "logo_a": "https://apiv3.apifootball.com/badges/5595_kristiansund.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/5599_vlerenga.jpg",
-            "time": "20:00",
-            "date": "09/11",
+            "time": "01:00",
+            "date": "10/11",
             "blv": "BLV Tam Mao",
             "is_live": false,
             "cate_type": "football",
@@ -331,7 +423,7 @@
         },
         {
           "id": "xc-0c333af5fc",
-          "name": "Junior vs Cucuta | 02:00 10/11",
+          "name": "Junior vs Cucuta | 07:00 10/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -403,7 +495,7 @@
             "team_b": "Cucuta",
             "logo_a": "https://apiv3.apifootball.com/badges/544_junior.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/13487_cucuta-deportivo.jpg",
-            "time": "02:00",
+            "time": "07:00",
             "date": "10/11",
             "blv": "BLV Khô Mật",
             "is_live": false,
@@ -423,7 +515,7 @@
         },
         {
           "id": "xc-9fa0d696ea",
-          "name": "Qatar U23 vs Singapore U23 | 10:00 10/11",
+          "name": "Qatar U23 vs Singapore U23 | 15:00 10/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -478,7 +570,7 @@
             "team_b": "Singapore U23",
             "logo_a": "https://apiv3.apifootball.com/badges/9472_qatar-u23.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/10366_singapore-u23.jpg",
-            "time": "10:00",
+            "time": "15:00",
             "date": "10/11",
             "blv": "BLV Khô Cay",
             "is_live": false,
