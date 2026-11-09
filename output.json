@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -158,6 +158,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/65513_ca6ce874_20261110.png?v=ca6ce874",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-4b0a1f6acf",
+          "name": "FC Botosani vs Otelul | 01:00 10/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4b0a1f6acf",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-4b0a1f6acf",
+                  "name": "FC Botosani vs Otelul",
+                  "streams": [
+                    {
+                      "id": "st-4b0a1f6acf",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8987d572f",
+                          "name": "BLV Khô Cá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga I",
+            "team_a": "FC Botosani",
+            "team_b": "Otelul",
+            "logo_a": "https://apiv3.apifootball.com/badges/210_botoani.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/6085_oelul-galai.jpg",
+            "time": "01:00",
+            "date": "10/11",
+            "blv": "BLV Khô Cá",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/68541_a0bf6401_20261110.png?v=a0bf6401",
             "width": 1600,
             "height": 1200
           }
@@ -325,6 +400,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/68805_e78a370c_20261110.png?v=e78a370c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-37222b4b0b",
+          "name": "Hacken W vs Chelsea W | 00:45 11/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-37222b4b0b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-37222b4b0b",
+                  "name": "Hacken W vs Chelsea W",
+                  "streams": [
+                    {
+                      "id": "st-37222b4b0b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8987d572f",
+                          "name": "BLV Khô Cá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Women's Champions League",
+            "team_a": "Hacken W",
+            "team_b": "Chelsea W",
+            "logo_a": "https://apiv3.apifootball.com/badges/9859_hacken-w.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/27_chelsea-w.jpg",
+            "time": "00:45",
+            "date": "11/11",
+            "blv": "BLV Khô Cá",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/69284_cd9f7e54_20261110.png?v=cd9f7e54",
             "width": 1600,
             "height": 1200
           }
