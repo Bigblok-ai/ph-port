@@ -7,14 +7,89 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
+          "id": "xc-afbd5f8942",
+          "name": "Arab Contractors vs WE SC | 17:00 10/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-afbd5f8942",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-afbd5f8942",
+                  "name": "Arab Contractors vs WE SC",
+                  "streams": [
+                    {
+                      "id": "st-afbd5f8942",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cup",
+            "team_a": "Arab Contractors",
+            "team_b": "WE SC",
+            "logo_a": "https://apiv3.apifootball.com/badges/2771_al-mokawloon.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/13636_we.jpg",
+            "time": "17:00",
+            "date": "10/11",
+            "blv": "BLV Xôi Xoài",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/68818_b7bff1a7_20261110.png?v=b7bff1a7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-21efe0a8ce",
-          "name": "U23 Việt Nam vs Thailand U23 | 19:00 10/11",
+          "name": "U23 Việt Nam vs Thailand U23 | 14:00 10/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -69,7 +144,7 @@
             "team_b": "Thailand U23",
             "logo_a": "https://apiv3.apifootball.com/badges/9458_vietnam-u23.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/9471_thailand-u23.jpg",
-            "time": "19:00",
+            "time": "14:00",
             "date": "10/11",
             "blv": "BLV Khô Cóc",
             "is_live": false,
@@ -88,83 +163,8 @@
           }
         },
         {
-          "id": "xc-afbd5f8942",
-          "name": "Arab Contractors vs WE SC | 22:00 10/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-afbd5f8942",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-afbd5f8942",
-                  "name": "Arab Contractors vs WE SC",
-                  "streams": [
-                    {
-                      "id": "st-afbd5f8942",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cup",
-            "team_a": "Arab Contractors",
-            "team_b": "WE SC",
-            "logo_a": "https://apiv3.apifootball.com/badges/2771_al-mokawloon.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/13636_we.jpg",
-            "time": "22:00",
-            "date": "10/11",
-            "blv": "BLV Xôi Xoài",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/68818_b7bff1a7_20261110.png?v=b7bff1a7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-37222b4b0b",
-          "name": "Hacken W vs Chelsea W | 00:45 11/11",
+          "name": "Hacken W vs Chelsea W | 19:45 10/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -219,8 +219,8 @@
             "team_b": "Chelsea W",
             "logo_a": "https://apiv3.apifootball.com/badges/9859_hacken-w.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/27_chelsea-w.jpg",
-            "time": "00:45",
-            "date": "11/11",
+            "time": "19:45",
+            "date": "10/11",
             "blv": "BLV Khô Cá",
             "is_live": false,
             "cate_type": "football",
@@ -239,7 +239,7 @@
         },
         {
           "id": "xc-74c08d99db",
-          "name": "Feyenoord W vs Wolfsburg W | 01:00 11/11",
+          "name": "Feyenoord W vs Wolfsburg W | 20:00 10/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -294,8 +294,8 @@
             "team_b": "Wolfsburg W",
             "logo_a": "https://apiv3.apifootball.com/badges/20241_feyenoord-w.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/28_wolfsburg-w.jpg",
-            "time": "01:00",
-            "date": "11/11",
+            "time": "20:00",
+            "date": "10/11",
             "blv": "BLV Tam Mao",
             "is_live": false,
             "cate_type": "football",
@@ -314,7 +314,7 @@
         },
         {
           "id": "xc-749f945ed1",
-          "name": "Inter W vs Manchester City W | 03:00 11/11",
+          "name": "Inter W vs Manchester City W | 22:00 10/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -369,8 +369,8 @@
             "team_b": "Manchester City W",
             "logo_a": "https://apiv3.apifootball.com/badges/334_internazionale-w.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/26_manchester-city-w.jpg",
-            "time": "03:00",
-            "date": "11/11",
+            "time": "22:00",
+            "date": "10/11",
             "blv": "BLV Khô Cóc",
             "is_live": false,
             "cate_type": "football",
@@ -389,7 +389,7 @@
         },
         {
           "id": "xc-61038c9996",
-          "name": "Ấn Độ vs Maldives | 16:30 11/11",
+          "name": "Ấn Độ vs Maldives | 11:30 11/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -444,7 +444,7 @@
             "team_b": "Maldives",
             "logo_a": "https://apiv3.apifootball.com/badges/347_india.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/342_maldives.jpg",
-            "time": "16:30",
+            "time": "11:30",
             "date": "11/11",
             "blv": "BLV Khô Cay",
             "is_live": false,
@@ -464,7 +464,7 @@
         },
         {
           "id": "xc-d13ba764be",
-          "name": "Kawasaki Frontale vs Kashiwa Reysol | 17:00 11/11",
+          "name": "Kawasaki Frontale vs Kashiwa Reysol | 12:00 11/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -519,7 +519,7 @@
             "team_b": "Kashiwa Reysol",
             "logo_a": "https://apiv3.apifootball.com/badges/417_kawasaki-frontale.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/5055_kashiwa-reysol.jpg",
-            "time": "17:00",
+            "time": "12:00",
             "date": "11/11",
             "blv": "BLV Tam Mao",
             "is_live": false,
@@ -539,7 +539,7 @@
         },
         {
           "id": "xc-33807fbc68",
-          "name": "Yokohama F. Marinos vs Kashima Antlers | 17:00 11/11",
+          "name": "Yokohama F. Marinos vs Kashima Antlers | 12:00 11/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -611,7 +611,7 @@
             "team_b": "Kashima Antlers",
             "logo_a": "https://apiv3.apifootball.com/badges/387_yokohama-f.-marinos.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/5053_kashima-antlers.jpg",
-            "time": "17:00",
+            "time": "12:00",
             "date": "11/11",
             "blv": "BLV Xôi Gấc",
             "is_live": false,
