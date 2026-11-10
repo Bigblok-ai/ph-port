@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -243,7 +243,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
@@ -262,10 +262,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -314,9 +314,9 @@
             "time": "03:00",
             "date": "11/11",
             "blv": "BLV Khô Cóc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -337,10 +337,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -389,9 +389,9 @@
             "time": "03:00",
             "date": "11/11",
             "blv": "BLV Lương Khô",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -766,11 +766,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-484b46424a",
-                          "name": "BLV Khô Cóc",
+                          "id": "lnk-245e47f94f",
+                          "name": "BLV Lương Khô",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -797,7 +797,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/348_chinese-taipei.jpg",
             "time": "19:00",
             "date": "11/11",
-            "blv": "BLV Khô Cóc",
+            "blv": "BLV Lương Khô",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
