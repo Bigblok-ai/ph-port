@@ -74,9 +74,9 @@
             "blv": "BLV Khô Cóc",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 1,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
@@ -149,7 +149,7 @@
             "blv": "BLV Lương Khô",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 0,
             "away_score": 2
           },
