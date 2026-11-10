@@ -851,7 +851,7 @@
             "league": "Liga de Expansión MX",
             "team_a": "Piratas",
             "team_b": "Atletico La Paz",
-            "logo_a": "",
+            "logo_a": "https://xoiche.live/media/teams/logos/1794340684727317575_55c3dbaa.png",
             "logo_b": "https://apiv3.apifootball.com/badges/25476_ca-la-paz.jpg",
             "time": "07:00",
             "date": "12/11",
@@ -866,7 +866,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/71482_692a86e6_20261111.png?v=692a86e6",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/71482_e3dfaa25_20261111.png?v=e3dfaa25",
             "width": 1600,
             "height": 1200
           }
