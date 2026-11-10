@@ -7,11 +7,86 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-21efe0a8ce",
+          "name": "U23 Việt Nam vs Thailand U23 | 14:00 10/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-21efe0a8ce",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-21efe0a8ce",
+                  "name": "U23 Việt Nam vs Thailand U23",
+                  "streams": [
+                    {
+                      "id": "st-21efe0a8ce",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-484b46424a",
+                          "name": "BLV Khô Cóc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "U23 Việt Nam",
+            "team_b": "Thailand U23",
+            "logo_a": "https://apiv3.apifootball.com/badges/9458_vietnam-u23.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/9471_thailand-u23.jpg",
+            "time": "14:00",
+            "date": "10/11",
+            "blv": "BLV Khô Cóc",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/68810_dacb1e9e_20261110.png?v=dacb1e9e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-afbd5f8942",
           "name": "Arab Contractors vs WE SC | 17:00 10/11",
