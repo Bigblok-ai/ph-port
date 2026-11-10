@@ -13,81 +13,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-749f945ed1",
-          "name": "Inter W vs Manchester City W | 03:00 11/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-749f945ed1",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-749f945ed1",
-                  "name": "Inter W vs Manchester City W",
-                  "streams": [
-                    {
-                      "id": "st-749f945ed1",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-484b46424a",
-                          "name": "BLV Khô Cóc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Women's Champions League",
-            "team_a": "Inter W",
-            "team_b": "Manchester City W",
-            "logo_a": "https://apiv3.apifootball.com/badges/334_internazionale-w.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/26_manchester-city-w.jpg",
-            "time": "03:00",
-            "date": "11/11",
-            "blv": "BLV Khô Cóc",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 4
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/69346_ccdb5ac0_20261111.png?v=ccdb5ac0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-d16e4d29c0",
           "name": "PSG W vs Bayern Munich W | 03:00 11/11",
           "type": "single",
@@ -158,6 +83,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/69347_4eece0b7_20261111.png?v=4eece0b7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-749f945ed1",
+          "name": "Inter W vs Manchester City W | 03:00 11/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-749f945ed1",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-749f945ed1",
+                  "name": "Inter W vs Manchester City W",
+                  "streams": [
+                    {
+                      "id": "st-749f945ed1",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-484b46424a",
+                          "name": "BLV Khô Cóc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Women's Champions League",
+            "team_a": "Inter W",
+            "team_b": "Manchester City W",
+            "logo_a": "https://apiv3.apifootball.com/badges/334_internazionale-w.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/26_manchester-city-w.jpg",
+            "time": "03:00",
+            "date": "11/11",
+            "blv": "BLV Khô Cóc",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 1,
+            "away_score": 4
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/69346_ccdb5ac0_20261111.png?v=ccdb5ac0",
             "width": 1600,
             "height": 1200
           }
