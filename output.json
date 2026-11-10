@@ -163,81 +163,6 @@
           }
         },
         {
-          "id": "xc-749f945ed1",
-          "name": "Inter W vs Manchester City W | 22:00 10/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-749f945ed1",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-749f945ed1",
-                  "name": "Inter W vs Manchester City W",
-                  "streams": [
-                    {
-                      "id": "st-749f945ed1",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-484b46424a",
-                          "name": "BLV Khô Cóc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Women's Champions League",
-            "team_a": "Inter W",
-            "team_b": "Manchester City W",
-            "logo_a": "https://apiv3.apifootball.com/badges/334_internazionale-w.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/26_manchester-city-w.jpg",
-            "time": "22:00",
-            "date": "10/11",
-            "blv": "BLV Khô Cóc",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/69346_ccdb5ac0_20261110.png?v=ccdb5ac0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-37222b4b0b",
           "name": "Hacken W vs Chelsea W | 00:45 11/11",
           "type": "single",
@@ -388,8 +313,83 @@
           }
         },
         {
+          "id": "xc-749f945ed1",
+          "name": "Inter W vs Manchester City W | 03:00 11/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-749f945ed1",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-749f945ed1",
+                  "name": "Inter W vs Manchester City W",
+                  "streams": [
+                    {
+                      "id": "st-749f945ed1",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-484b46424a",
+                          "name": "BLV Khô Cóc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Women's Champions League",
+            "team_a": "Inter W",
+            "team_b": "Manchester City W",
+            "logo_a": "https://apiv3.apifootball.com/badges/334_internazionale-w.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/26_manchester-city-w.jpg",
+            "time": "03:00",
+            "date": "11/11",
+            "blv": "BLV Khô Cóc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/69346_ccdb5ac0_20261110.png?v=ccdb5ac0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-61038c9996",
-          "name": "Ấn Độ vs Maldives | 11:30 11/11",
+          "name": "Ấn Độ vs Maldives | 16:30 11/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -444,7 +444,7 @@
             "team_b": "Maldives",
             "logo_a": "https://apiv3.apifootball.com/badges/347_india.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/342_maldives.jpg",
-            "time": "11:30",
+            "time": "16:30",
             "date": "11/11",
             "blv": "BLV Khô Cay",
             "is_live": false,
@@ -464,7 +464,7 @@
         },
         {
           "id": "xc-d13ba764be",
-          "name": "Kawasaki Frontale vs Kashiwa Reysol | 12:00 11/11",
+          "name": "Kawasaki Frontale vs Kashiwa Reysol | 17:00 11/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -519,7 +519,7 @@
             "team_b": "Kashiwa Reysol",
             "logo_a": "https://apiv3.apifootball.com/badges/417_kawasaki-frontale.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/5055_kashiwa-reysol.jpg",
-            "time": "12:00",
+            "time": "17:00",
             "date": "11/11",
             "blv": "BLV Tam Mao",
             "is_live": false,
@@ -539,7 +539,7 @@
         },
         {
           "id": "xc-33807fbc68",
-          "name": "Yokohama F. Marinos vs Kashima Antlers | 12:00 11/11",
+          "name": "Yokohama F. Marinos vs Kashima Antlers | 17:00 11/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -611,7 +611,7 @@
             "team_b": "Kashima Antlers",
             "logo_a": "https://apiv3.apifootball.com/badges/387_yokohama-f.-marinos.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/5053_kashima-antlers.jpg",
-            "time": "12:00",
+            "time": "17:00",
             "date": "11/11",
             "blv": "BLV Xôi Gấc",
             "is_live": false,
@@ -631,7 +631,7 @@
         },
         {
           "id": "xc-7f9e3c612e",
-          "name": "Fenerbahce W vs Real Sociedad W | 19:00 11/11",
+          "name": "Fenerbahce W vs Real Sociedad W | 00:00 12/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -686,8 +686,8 @@
             "team_b": "Real Sociedad W",
             "logo_a": "",
             "logo_b": "https://apiv3.apifootball.com/badges/488_real-sociedad-w.jpg",
-            "time": "19:00",
-            "date": "11/11",
+            "time": "00:00",
+            "date": "12/11",
             "blv": "BLV Khô Cá",
             "is_live": false,
             "cate_type": "football",
