@@ -14,7 +14,7 @@
       "channels": [
         {
           "id": "xc-61038c9996",
-          "name": "Ấn Độ vs Maldives | 11:30 11/11",
+          "name": "Ấn Độ vs Maldives | 16:30 11/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -69,7 +69,7 @@
             "team_b": "Maldives",
             "logo_a": "https://apiv3.apifootball.com/badges/347_india.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/342_maldives.jpg",
-            "time": "11:30",
+            "time": "16:30",
             "date": "11/11",
             "blv": "BLV Khô Cay",
             "is_live": false,
@@ -89,7 +89,7 @@
         },
         {
           "id": "xc-d13ba764be",
-          "name": "Kawasaki Frontale vs Kashiwa Reysol | 12:00 11/11",
+          "name": "Kawasaki Frontale vs Kashiwa Reysol | 17:00 11/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -144,7 +144,7 @@
             "team_b": "Kashiwa Reysol",
             "logo_a": "https://apiv3.apifootball.com/badges/417_kawasaki-frontale.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/5055_kashiwa-reysol.jpg",
-            "time": "12:00",
+            "time": "17:00",
             "date": "11/11",
             "blv": "BLV Tam Mao",
             "is_live": false,
@@ -164,7 +164,7 @@
         },
         {
           "id": "xc-33807fbc68",
-          "name": "Yokohama F. Marinos vs Kashima Antlers | 12:00 11/11",
+          "name": "Yokohama F. Marinos vs Kashima Antlers | 17:00 11/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -236,7 +236,7 @@
             "team_b": "Kashima Antlers",
             "logo_a": "https://apiv3.apifootball.com/badges/387_yokohama-f.-marinos.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/5053_kashima-antlers.jpg",
-            "time": "12:00",
+            "time": "17:00",
             "date": "11/11",
             "blv": "BLV Xôi Gấc",
             "is_live": false,
@@ -256,7 +256,7 @@
         },
         {
           "id": "xc-4caf6c602c",
-          "name": "Urawa Reds vs Cerezo Osaka | 12:30 11/11",
+          "name": "Urawa Reds vs Cerezo Osaka | 17:30 11/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -328,7 +328,7 @@
             "team_b": "Cerezo Osaka",
             "logo_a": "https://apiv3.apifootball.com/badges/5051_urawa-reds.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/5045_cerezo-osaka.jpg",
-            "time": "12:30",
+            "time": "17:30",
             "date": "11/11",
             "blv": "BLV Khô Mật",
             "is_live": false,
@@ -348,7 +348,7 @@
         },
         {
           "id": "xc-d4b23a1aa8",
-          "name": "Việt Nam vs Đài Bắc Trung Hoa | 14:00 11/11",
+          "name": "Việt Nam vs Đài Bắc Trung Hoa | 19:00 11/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -403,7 +403,7 @@
             "team_b": "Đài Bắc Trung Hoa",
             "logo_a": "https://flagcdn.com/w160/vn.png",
             "logo_b": "https://apiv3.apifootball.com/badges/348_chinese-taipei.jpg",
-            "time": "14:00",
+            "time": "19:00",
             "date": "11/11",
             "blv": "BLV Lương Khô",
             "is_live": false,
@@ -423,7 +423,7 @@
         },
         {
           "id": "xc-c2999644b5",
-          "name": "Bangladesh vs Sri Lanka | 16:00 11/11",
+          "name": "Bangladesh vs Sri Lanka | 21:00 11/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -478,7 +478,7 @@
             "team_b": "Sri Lanka",
             "logo_a": "https://flagcdn.com/w160/bd.png",
             "logo_b": "https://flagcdn.com/w160/lk.png",
-            "time": "16:00",
+            "time": "21:00",
             "date": "11/11",
             "blv": "BLV Xôi Xoài",
             "is_live": false,
@@ -498,7 +498,7 @@
         },
         {
           "id": "xc-7f9e3c612e",
-          "name": "Fenerbahce W vs Real Sociedad W | 19:00 11/11",
+          "name": "Fenerbahce W vs Real Sociedad W | 00:00 12/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -553,8 +553,8 @@
             "team_b": "Real Sociedad W",
             "logo_a": "https://apiv3.apifootball.com/badges/7694_fenerbahce.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/488_real-sociedad-w.jpg",
-            "time": "19:00",
-            "date": "11/11",
+            "time": "00:00",
+            "date": "12/11",
             "blv": "BLV Khô Cá",
             "is_live": false,
             "cate_type": "football",
@@ -573,7 +573,7 @@
         },
         {
           "id": "xc-eefcd8422a",
-          "name": "Piratas vs Atletico La Paz | 02:00 12/11",
+          "name": "Piratas vs Atletico La Paz | 07:00 12/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -628,7 +628,7 @@
             "team_b": "Atletico La Paz",
             "logo_a": "https://xoiche.live/media/teams/logos/1794340684727317575_55c3dbaa.png",
             "logo_b": "https://apiv3.apifootball.com/badges/25476_ca-la-paz.jpg",
-            "time": "02:00",
+            "time": "07:00",
             "date": "12/11",
             "blv": "BLV Tam Mao",
             "is_live": false,
@@ -648,7 +648,7 @@
         },
         {
           "id": "xc-92c88c2b05",
-          "name": "Thailand U23 vs Qatar U23 | 10:00 12/11",
+          "name": "Thailand U23 vs Qatar U23 | 15:00 12/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -720,7 +720,7 @@
             "team_b": "Qatar U23",
             "logo_a": "https://apiv3.apifootball.com/badges/9471_thailand-u23.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/9472_qatar-u23.jpg",
-            "time": "10:00",
+            "time": "15:00",
             "date": "12/11",
             "blv": "BLV Xôi Gấc",
             "is_live": false,
@@ -740,7 +740,7 @@
         },
         {
           "id": "xc-1bbd187fe4",
-          "name": "Singapore U23 vs U23 Việt Nam | 14:00 12/11",
+          "name": "Singapore U23 vs U23 Việt Nam | 19:00 12/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -795,231 +795,6 @@
             "team_b": "U23 Việt Nam",
             "logo_a": "https://apiv3.apifootball.com/badges/10366_singapore-u23.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/9458_vietnam-u23.jpg",
-            "time": "14:00",
-            "date": "12/11",
-            "blv": "BLV Khô Cóc",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/70855_734ec01c_20261111.png?v=734ec01c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-0d98a513b6",
-          "name": "Ghana vs Somalia | 17:00 12/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0d98a513b6",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-0d98a513b6",
-                  "name": "Ghana vs Somalia",
-                  "streams": [
-                    {
-                      "id": "st-0d98a513b6",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8987d572f",
-                          "name": "BLV Khô Cá",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Africa Cup of Nations Qualification",
-            "team_a": "Ghana",
-            "team_b": "Somalia",
-            "logo_a": "https://apiv3.apifootball.com/badges/725_ghana.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/630_somalia.jpg",
-            "time": "17:00",
-            "date": "12/11",
-            "blv": "BLV Khô Cá",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/70869_44000b81_20261111.png?v=44000b81",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-f2fdce52da",
-          "name": "Uzbekistan vs Russia | 17:00 12/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f2fdce52da",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-f2fdce52da",
-                  "name": "Uzbekistan vs Russia",
-                  "streams": [
-                    {
-                      "id": "st-f2fdce52da",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Uzbekistan",
-            "team_b": "Russia",
-            "logo_a": "https://apiv3.apifootball.com/badges/646_uzbekistan.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/5_russia.jpg",
-            "time": "17:00",
-            "date": "12/11",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/70871_3a273724_20261111.png?v=3a273724",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-5a1d210514",
-          "name": "Thổ Nhĩ Kỳ vs Bỉ | 19:00 12/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5a1d210514",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-5a1d210514",
-                  "name": "Thổ Nhĩ Kỳ vs Bỉ",
-                  "streams": [
-                    {
-                      "id": "st-5a1d210514",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-484b46424a",
-                          "name": "BLV Khô Cóc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Thổ Nhĩ Kỳ",
-            "team_b": "Bỉ",
-            "logo_a": "https://apiv3.apifootball.com/badges/1_turkiye.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/6_belgium.jpg",
             "time": "19:00",
             "date": "12/11",
             "blv": "BLV Khô Cóc",
@@ -1033,7 +808,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/71376_6d8a661c_20261111.png?v=6d8a661c",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/70855_734ec01c_20261111.png?v=734ec01c",
             "width": 1600,
             "height": 1200
           }
