@@ -962,6 +962,81 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-5a1d210514",
+          "name": "Thổ Nhĩ Kỳ vs Bỉ | 00:00 13/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5a1d210514",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-5a1d210514",
+                  "name": "Thổ Nhĩ Kỳ vs Bỉ",
+                  "streams": [
+                    {
+                      "id": "st-5a1d210514",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-484b46424a",
+                          "name": "BLV Khô Cóc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Thổ Nhĩ Kỳ",
+            "team_b": "Bỉ",
+            "logo_a": "https://apiv3.apifootball.com/badges/1_turkiye.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/6_belgium.jpg",
+            "time": "00:00",
+            "date": "13/11",
+            "blv": "BLV Khô Cóc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/71376_6d8a661c_20261111.png?v=6d8a661c",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
