@@ -7,86 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-d4b23a1aa8",
-          "name": "Việt Nam vs Đài Bắc Trung Hoa | 19:00 11/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d4b23a1aa8",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-d4b23a1aa8",
-                  "name": "Việt Nam vs Đài Bắc Trung Hoa",
-                  "streams": [
-                    {
-                      "id": "st-d4b23a1aa8",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-245e47f94f",
-                          "name": "BLV Lương Khô",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Việt Nam",
-            "team_b": "Đài Bắc Trung Hoa",
-            "logo_a": "https://flagcdn.com/w160/vn.png",
-            "logo_b": "https://apiv3.apifootball.com/badges/348_chinese-taipei.jpg",
-            "time": "19:00",
-            "date": "11/11",
-            "blv": "BLV Lương Khô",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/74443_2a3d2262_20261111.png?v=2a3d2262",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-c2999644b5",
           "name": "Bangladesh vs Sri Lanka | 21:00 11/11",
