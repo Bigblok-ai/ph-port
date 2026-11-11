@@ -573,7 +573,7 @@
         },
         {
           "id": "xc-eefcd8422a",
-          "name": "Piratas vs Atletico La Paz | 07:00 12/11",
+          "name": "Piratas vs Atletico La Paz | 09:00 12/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -628,7 +628,7 @@
             "team_b": "Atletico La Paz",
             "logo_a": "https://xoiche.live/media/teams/logos/1794340684727317575_55c3dbaa.png",
             "logo_b": "https://apiv3.apifootball.com/badges/25476_ca-la-paz.jpg",
-            "time": "07:00",
+            "time": "09:00",
             "date": "12/11",
             "blv": "BLV Tam Mao",
             "is_live": false,
