@@ -7,86 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-faec0cb100",
-          "name": "Barcelona Women vs Arsenal W | 00:45 13/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-faec0cb100",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-faec0cb100",
-                  "name": "Barcelona Women vs Arsenal W",
-                  "streams": [
-                    {
-                      "id": "st-faec0cb100",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8987d572f",
-                          "name": "BLV Khô Cá",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Women's Champions League",
-            "team_a": "Barcelona Women",
-            "team_b": "Arsenal W",
-            "logo_a": "https://apiv3.apifootball.com/badges/25_barcelona-w.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/11085_arsenal-fc-w.jpg",
-            "time": "00:45",
-            "date": "13/11",
-            "blv": "BLV Khô Cá",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/71381_b5e48304_20261113.png?v=b5e48304",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-d987910809",
           "name": "Cameroon vs Namibia | 02:00 13/11",
@@ -245,10 +170,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -314,9 +239,9 @@
             "time": "02:45",
             "date": "13/11",
             "blv": "BLV Khô Mật",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "football",
-            "status": "live",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -337,10 +262,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -389,9 +314,9 @@
             "time": "02:45",
             "date": "13/11",
             "blv": "BLV Lương Khô",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "football",
-            "status": "live",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -412,10 +337,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -464,9 +389,9 @@
             "time": "02:45",
             "date": "13/11",
             "blv": "BLV Khô Cóc",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "football",
-            "status": "live",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -487,10 +412,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -556,9 +481,9 @@
             "time": "02:45",
             "date": "13/11",
             "blv": "BLV Xôi Gấc",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "football",
-            "status": "live",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
