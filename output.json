@@ -7,161 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-d987910809",
-          "name": "Cameroon vs Namibia | 02:00 13/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d987910809",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-d987910809",
-                  "name": "Cameroon vs Namibia",
-                  "streams": [
-                    {
-                      "id": "st-d987910809",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3b4108ed2",
-                          "name": "BLV Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Africa Cup of Nations Qualification",
-            "team_a": "Cameroon",
-            "team_b": "Namibia",
-            "logo_a": "https://apiv3.apifootball.com/badges/530_cameroon.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/615_namibia.jpg",
-            "time": "02:00",
-            "date": "13/11",
-            "blv": "BLV Khô Cay",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/71393_bb4b88c1_20261113.png?v=bb4b88c1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-b2efc211f8",
-          "name": "Bờ Biển Ngà vs Gambia | 02:00 13/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b2efc211f8",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-b2efc211f8",
-                  "name": "Bờ Biển Ngà vs Gambia",
-                  "streams": [
-                    {
-                      "id": "st-b2efc211f8",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Africa Cup of Nations Qualification",
-            "team_a": "Bờ Biển Ngà",
-            "team_b": "Gambia",
-            "logo_a": "https://apiv3.apifootball.com/badges/738_ivory-coast.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/634_gambia.jpg",
-            "time": "02:00",
-            "date": "13/11",
-            "blv": "BLV Tam Mao",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/71394_6109c7e6_20261113.png?v=6109c7e6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-419fe77a49",
           "name": "Cộng Hòa Séc vs Tây Ban Nha | 02:45 13/11",
@@ -572,6 +422,81 @@
           }
         },
         {
+          "id": "xc-f4e7110c21",
+          "name": "Kuwait vs Syria | 21:00 13/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f4e7110c21",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-f4e7110c21",
+                  "name": "Kuwait vs Syria",
+                  "streams": [
+                    {
+                      "id": "st-f4e7110c21",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Kuwait",
+            "team_b": "Syria",
+            "logo_a": "https://apiv3.apifootball.com/badges/640_kuwait.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/638_syria.jpg",
+            "time": "21:00",
+            "date": "13/11",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/72605_78f52873_20261113.png?v=78f52873",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-9f14329272",
           "name": "Qatar vs Úc | 21:45 13/11",
           "type": "single",
@@ -659,6 +584,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/72608_1cec4380_20261113.png?v=1cec4380",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-928f5837fc",
+          "name": "Nigeria vs Tanzania | 23:00 13/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-928f5837fc",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-928f5837fc",
+                  "name": "Nigeria vs Tanzania",
+                  "streams": [
+                    {
+                      "id": "st-928f5837fc",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Africa Cup of Nations Qualification",
+            "team_a": "Nigeria",
+            "team_b": "Tanzania",
+            "logo_a": "https://apiv3.apifootball.com/badges/718_nigeria.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/613_tanzania.jpg",
+            "time": "23:00",
+            "date": "13/11",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/72613_e2120603_20261113.png?v=e2120603",
             "width": 1600,
             "height": 1200
           }
@@ -901,6 +901,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/73253_4a084af4_20261113.png?v=4a084af4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-be93aff998",
+          "name": "Morocco vs Niger | 03:00 14/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-be93aff998",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-be93aff998",
+                  "name": "Morocco vs Niger",
+                  "streams": [
+                    {
+                      "id": "st-be93aff998",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Africa Cup of Nations Qualification",
+            "team_a": "Morocco",
+            "team_b": "Niger",
+            "logo_a": "https://apiv3.apifootball.com/badges/717_morocco.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/740_niger.jpg",
+            "time": "03:00",
+            "date": "14/11",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/73278_a9dcee33_20261113.png?v=a9dcee33",
             "width": 1600,
             "height": 1200
           }
