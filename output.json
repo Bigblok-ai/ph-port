@@ -74,9 +74,9 @@
             "blv": "BLV Khô Chè",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
-            "home_score": 1,
-            "away_score": 0
+            "status": "live",
+            "home_score": 2,
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -149,8 +149,8 @@
             "blv": "BLV Khô Cóc",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
+            "status": "half_time",
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
@@ -243,88 +243,13 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/72608_1cec4380_20261113.png?v=1cec4380",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-928f5837fc",
-          "name": "Nigeria vs Tanzania | 23:00 13/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-928f5837fc",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-928f5837fc",
-                  "name": "Nigeria vs Tanzania",
-                  "streams": [
-                    {
-                      "id": "st-928f5837fc",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3b4108ed2",
-                          "name": "BLV Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Africa Cup of Nations Qualification",
-            "team_a": "Nigeria",
-            "team_b": "Tanzania",
-            "logo_a": "https://apiv3.apifootball.com/badges/718_nigeria.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/613_tanzania.jpg",
-            "time": "23:00",
-            "date": "13/11",
-            "blv": "BLV Khô Cay",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/72613_e2120603_20261113.png?v=e2120603",
             "width": 1600,
             "height": 1200
           }
@@ -400,6 +325,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/72615_7fc07ca0_20261113.png?v=7fc07ca0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-928f5837fc",
+          "name": "Nigeria vs Tanzania | 23:00 13/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-928f5837fc",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-928f5837fc",
+                  "name": "Nigeria vs Tanzania",
+                  "streams": [
+                    {
+                      "id": "st-928f5837fc",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Africa Cup of Nations Qualification",
+            "team_a": "Nigeria",
+            "team_b": "Tanzania",
+            "logo_a": "https://apiv3.apifootball.com/badges/718_nigeria.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/613_tanzania.jpg",
+            "time": "23:00",
+            "date": "13/11",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/72613_e2120603_20261113.png?v=e2120603",
             "width": 1600,
             "height": 1200
           }
@@ -749,27 +749,10 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-c8987d572f",
-                          "name": "BLV Khô Cá",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
                           "id": "lnk-fae8ed2c4d",
                           "name": "BLV Khô Chè",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
                           "request_headers": [
                             {
@@ -797,7 +780,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/21_germany.jpg",
             "time": "02:45",
             "date": "14/11",
-            "blv": "BLV Khô Cá, BLV Khô Chè",
+            "blv": "BLV Khô Chè",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
