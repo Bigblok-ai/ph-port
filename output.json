@@ -88,6 +88,81 @@
           }
         },
         {
+          "id": "xc-a0f9dfdc13",
+          "name": "UAE vs Honduras | 21:15 13/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a0f9dfdc13",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-a0f9dfdc13",
+                  "name": "UAE vs Honduras",
+                  "streams": [
+                    {
+                      "id": "st-a0f9dfdc13",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "UAE",
+            "team_b": "Honduras",
+            "logo_a": "https://apiv3.apifootball.com/badges/650_uae.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/522_honduras.jpg",
+            "time": "21:15",
+            "date": "13/11",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/72606_279381a6_20261113.png?v=279381a6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-9f14329272",
           "name": "Qatar vs Úc | 21:45 13/11",
           "type": "single",
