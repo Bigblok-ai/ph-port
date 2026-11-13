@@ -1538,6 +1538,81 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-8430d4b8b7",
+          "name": "Algeria vs Togo | 02:00 15/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8430d4b8b7",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-8430d4b8b7",
+                  "name": "Algeria vs Togo",
+                  "streams": [
+                    {
+                      "id": "st-8430d4b8b7",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Africa Cup of Nations Qualification",
+            "team_a": "Algeria",
+            "team_b": "Togo",
+            "logo_a": "https://apiv3.apifootball.com/badges/734_algeria.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/633_togo.jpg",
+            "time": "02:00",
+            "date": "15/11",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/74636_a5a137ef_20261113.png?v=a5a137ef",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
