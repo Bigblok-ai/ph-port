@@ -163,6 +163,81 @@
           }
         },
         {
+          "id": "xc-f31bc6e5cc",
+          "name": "Ả Rập Xê Út vs Hàn Quốc | 21:30 13/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f31bc6e5cc",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-f31bc6e5cc",
+                  "name": "Ả Rập Xê Út vs Hàn Quốc",
+                  "streams": [
+                    {
+                      "id": "st-f31bc6e5cc",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-484b46424a",
+                          "name": "BLV Khô Cóc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Ả Rập Xê Út",
+            "team_b": "Hàn Quốc",
+            "logo_a": "https://apiv3.apifootball.com/badges/647_saudi-arabia.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/651_korea-republic.jpg",
+            "time": "21:30",
+            "date": "13/11",
+            "blv": "BLV Khô Cóc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/72607_11925203_20261113.png?v=11925203",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-9f14329272",
           "name": "Qatar vs Úc | 21:45 13/11",
           "type": "single",
@@ -717,6 +792,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/73251_0a6e62aa_20261113.png?v=0a6e62aa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-51eeaa84a9",
+          "name": "Hà Lan vs Hy Lạp | 02:45 14/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-51eeaa84a9",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-51eeaa84a9",
+                  "name": "Hà Lan vs Hy Lạp",
+                  "streams": [
+                    {
+                      "id": "st-51eeaa84a9",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-484b46424a",
+                          "name": "BLV Khô Cóc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Hà Lan",
+            "team_b": "Hy Lạp",
+            "logo_a": "https://apiv3.apifootball.com/badges/10_netherlands.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/679_greece.jpg",
+            "time": "02:45",
+            "date": "14/11",
+            "blv": "BLV Khô Cóc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/73252_fb48a9a2_20261113.png?v=fb48a9a2",
             "width": 1600,
             "height": 1200
           }
