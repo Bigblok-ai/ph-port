@@ -7,86 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-a0f9dfdc13",
-          "name": "UAE vs Honduras | 21:15 13/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a0f9dfdc13",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-a0f9dfdc13",
-                  "name": "UAE vs Honduras",
-                  "streams": [
-                    {
-                      "id": "st-a0f9dfdc13",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fae8ed2c4d",
-                          "name": "BLV Khô Chè",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "UAE",
-            "team_b": "Honduras",
-            "logo_a": "https://apiv3.apifootball.com/badges/650_uae.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/522_honduras.jpg",
-            "time": "21:15",
-            "date": "13/11",
-            "blv": "BLV Khô Chè",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 3,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/72606_279381a6_20261113.png?v=279381a6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-f31bc6e5cc",
           "name": "Ả Rập Xê Út vs Hàn Quốc | 21:30 13/11",
@@ -151,7 +76,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 3,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
@@ -262,10 +187,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -314,10 +239,10 @@
             "time": "23:00",
             "date": "13/11",
             "blv": "BLV Khô Cay",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
+            "status": "live",
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
@@ -337,10 +262,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -389,9 +314,9 @@
             "time": "23:00",
             "date": "13/11",
             "blv": "BLV Khô Cá",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
