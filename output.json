@@ -81,7 +81,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Friendlies",
+            "league": "King's Cup",
             "team_a": "Oman",
             "team_b": "Tajikistan",
             "logo_a": "https://apiv3.apifootball.com/badges/649_oman.jpg",
@@ -132,11 +132,28 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
+                          "id": "lnk-88fe1a05f9",
+                          "name": "BLV Khô Mật 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -163,7 +180,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/531_brazil.jpg",
             "time": "17:15",
             "date": "14/11",
-            "blv": "BLV Tam Mao",
+            "blv": "BLV Khô Mật",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -347,8 +364,8 @@
           }
         },
         {
-          "id": "xc-5d1ba4e5b6",
-          "name": "Valladolid vs Castellon | 20:00 14/11",
+          "id": "xc-9c3b48e9e6",
+          "name": "Thái Lan vs Brunei | 19:30 14/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -362,15 +379,15 @@
           ],
           "sources": [
             {
-              "id": "src-5d1ba4e5b6",
+              "id": "src-9c3b48e9e6",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-5d1ba4e5b6",
-                  "name": "Valladolid vs Castellon",
+                  "id": "ct-9c3b48e9e6",
+                  "name": "Thái Lan vs Brunei",
                   "streams": [
                     {
-                      "id": "st-5d1ba4e5b6",
+                      "id": "st-9c3b48e9e6",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
@@ -398,12 +415,12 @@
             }
           ],
           "org_metadata": {
-            "league": "Segunda División",
-            "team_a": "Valladolid",
-            "team_b": "Castellon",
-            "logo_a": "https://apiv3.apifootball.com/badges/7262_real-valladolid.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/7276_castellon.jpg",
-            "time": "20:00",
+            "league": "King's Cup",
+            "team_a": "Thái Lan",
+            "team_b": "Brunei",
+            "logo_a": "https://xoiche.live/media/teams/logos/team_480.jpg",
+            "logo_b": "https://flagcdn.com/w160/bn.png",
+            "time": "19:30",
             "date": "14/11",
             "blv": "BLV Khô Chè",
             "is_live": false,
@@ -416,7 +433,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/73921_7ea5587a_20261114.png?v=7ea5587a",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/78575_2ce63f82_20261114.png?v=2ce63f82",
             "width": 1600,
             "height": 1200
           }
