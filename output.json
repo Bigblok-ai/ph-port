@@ -797,6 +797,81 @@
           }
         },
         {
+          "id": "xc-682b5afaff",
+          "name": "Áo vs Ireland | 02:45 15/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-682b5afaff",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-682b5afaff",
+                  "name": "Áo vs Ireland",
+                  "streams": [
+                    {
+                      "id": "st-682b5afaff",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Áo",
+            "team_b": "Ireland",
+            "logo_a": "https://apiv3.apifootball.com/badges/9_austria.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/677_republic-of-ireland.jpg",
+            "time": "02:45",
+            "date": "15/11",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/74680_0527d906_20261114.png?v=0527d906",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-1dbcbdaa19",
           "name": "Romania vs Ba Lan | 02:45 15/11",
           "type": "single",
