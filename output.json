@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -99,7 +99,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/75926_7dd3065d_20261115.png?v=7dd3065d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/75926_7dd3065d_20261116.png?v=7dd3065d",
             "width": 1600,
             "height": 1200
           }
@@ -174,7 +174,82 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/76002_9ae38eb9_20261115.png?v=9ae38eb9",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/76002_9ae38eb9_20261116.png?v=9ae38eb9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-1d197b849f",
+          "name": "Belarus vs Albania | 00:00 16/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1d197b849f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-1d197b849f",
+                  "name": "Belarus vs Albania",
+                  "streams": [
+                    {
+                      "id": "st-1d197b849f",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Belarus",
+            "team_b": "Albania",
+            "logo_a": "https://apiv3.apifootball.com/badges/687_belarus.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/699_albania.jpg",
+            "time": "00:00",
+            "date": "16/11",
+            "blv": "BLV Khô Cay",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/76876_075f35e4_20261116.png?v=075f35e4",
             "width": 1600,
             "height": 1200
           }
@@ -249,82 +324,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/76877_7420c161_20261115.png?v=7420c161",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-1d197b849f",
-          "name": "Belarus vs Albania | 00:00 16/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1d197b849f",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-1d197b849f",
-                  "name": "Belarus vs Albania",
-                  "streams": [
-                    {
-                      "id": "st-1d197b849f",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3b4108ed2",
-                          "name": "BLV Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Belarus",
-            "team_b": "Albania",
-            "logo_a": "https://apiv3.apifootball.com/badges/687_belarus.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/699_albania.jpg",
-            "time": "00:00",
-            "date": "16/11",
-            "blv": "BLV Khô Cay",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/76876_075f35e4_20261115.png?v=075f35e4",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/76877_7420c161_20261116.png?v=7420c161",
             "width": 1600,
             "height": 1200
           }
@@ -416,7 +416,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/76886_50227848_20261115.png?v=50227848",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/76886_50227848_20261116.png?v=50227848",
             "width": 1600,
             "height": 1200
           }
@@ -508,7 +508,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/76904_550b5769_20261115.png?v=550b5769",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/76904_550b5769_20261116.png?v=550b5769",
             "width": 1600,
             "height": 1200
           }
@@ -583,7 +583,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/76906_5cd0ff0b_20261115.png?v=5cd0ff0b",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/76906_5cd0ff0b_20261116.png?v=5cd0ff0b",
             "width": 1600,
             "height": 1200
           }
@@ -658,7 +658,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/76907_5f1104d9_20261115.png?v=5f1104d9",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/76907_5f1104d9_20261116.png?v=5f1104d9",
             "width": 1600,
             "height": 1200
           }
@@ -750,7 +750,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/76958_73f5abe7_20261115.png?v=73f5abe7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/76958_73f5abe7_20261116.png?v=73f5abe7",
             "width": 1600,
             "height": 1200
           }
@@ -842,7 +842,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/76959_6fa443b2_20261115.png?v=6fa443b2",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/76959_6fa443b2_20261116.png?v=6fa443b2",
             "width": 1600,
             "height": 1200
           }
@@ -917,7 +917,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/76974_f8276c68_20261115.png?v=f8276c68",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/76974_f8276c68_20261116.png?v=f8276c68",
             "width": 1600,
             "height": 1200
           }
@@ -992,7 +992,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/77929_9c29c8d7_20261115.png?v=9c29c8d7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/77929_9c29c8d7_20261116.png?v=9c29c8d7",
             "width": 1600,
             "height": 1200
           }
@@ -1067,7 +1067,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/77930_e3523279_20261115.png?v=e3523279",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/77930_e3523279_20261116.png?v=e3523279",
             "width": 1600,
             "height": 1200
           }
@@ -1142,7 +1142,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/77952_7d5825c5_20261115.png?v=7d5825c5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/77952_7d5825c5_20261116.png?v=7d5825c5",
             "width": 1600,
             "height": 1200
           }
