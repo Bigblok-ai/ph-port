@@ -1148,6 +1148,81 @@
           }
         },
         {
+          "id": "xc-ecc1e7fd1e",
+          "name": "Serbia U17 vs Portugal U17 | 18:00 17/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ecc1e7fd1e",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-ecc1e7fd1e",
+                  "name": "Serbia U17 vs Portugal U17",
+                  "streams": [
+                    {
+                      "id": "st-ecc1e7fd1e",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U17 Championship Qualification",
+            "team_a": "Serbia U17",
+            "team_b": "Portugal U17",
+            "logo_a": "https://apiv3.apifootball.com/badges/23755_serbia-u17.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/23764_portugal-u17.jpg",
+            "time": "18:00",
+            "date": "17/11",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/77992_3a2d1ea1_20261116.png?v=3a2d1ea1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-bbd2b16b9d",
           "name": "Tanzania vs Nigeria | 20:00 17/11",
           "type": "single",
@@ -1535,6 +1610,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/78069_1720639f_20261116.png?v=1720639f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-0cbb3b4950",
+          "name": "Russia vs Venezuela | 23:00 17/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0cbb3b4950",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-0cbb3b4950",
+                  "name": "Russia vs Venezuela",
+                  "streams": [
+                    {
+                      "id": "st-0cbb3b4950",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Russia",
+            "team_b": "Venezuela",
+            "logo_a": "https://apiv3.apifootball.com/badges/5_russia.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/532_venezuela.jpg",
+            "time": "23:00",
+            "date": "17/11",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/78073_239374e6_20261116.png?v=239374e6",
             "width": 1600,
             "height": 1200
           }
