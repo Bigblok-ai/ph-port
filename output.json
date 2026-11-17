@@ -7,86 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-ecc1e7fd1e",
-          "name": "Serbia U17 vs Portugal U17 | 18:00 17/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ecc1e7fd1e",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-ecc1e7fd1e",
-                  "name": "Serbia U17 vs Portugal U17",
-                  "streams": [
-                    {
-                      "id": "st-ecc1e7fd1e",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fae8ed2c4d",
-                          "name": "BLV Khô Chè",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA U17 Championship Qualification",
-            "team_a": "Serbia U17",
-            "team_b": "Portugal U17",
-            "logo_a": "https://apiv3.apifootball.com/badges/23755_serbia-u17.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/23764_portugal-u17.jpg",
-            "time": "18:00",
-            "date": "17/11",
-            "blv": "BLV Khô Chè",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/77992_3a2d1ea1_20261117.png?v=3a2d1ea1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-686684686c",
           "name": "Kyrgyzstan vs Việt Nam | 19:00 17/11",
@@ -163,81 +88,6 @@
           }
         },
         {
-          "id": "xc-bbd2b16b9d",
-          "name": "Tanzania vs Nigeria | 20:00 17/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bbd2b16b9d",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-bbd2b16b9d",
-                  "name": "Tanzania vs Nigeria",
-                  "streams": [
-                    {
-                      "id": "st-bbd2b16b9d",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Africa Cup of Nations Qualification",
-            "team_a": "Tanzania",
-            "team_b": "Nigeria",
-            "logo_a": "https://apiv3.apifootball.com/badges/613_tanzania.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/718_nigeria.jpg",
-            "time": "20:00",
-            "date": "17/11",
-            "blv": "BLV Xôi Xoài",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/78021_0f165e55_20261117.png?v=0f165e55",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-dc7dc46bc8",
           "name": "Nhật Bản vs Paraguay | 20:10 17/11",
           "type": "single",
@@ -308,6 +158,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/78040_b1f067cc_20261117.png?v=b1f067cc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-bbd2b16b9d",
+          "name": "Tanzania vs Nigeria | 20:00 17/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bbd2b16b9d",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-bbd2b16b9d",
+                  "name": "Tanzania vs Nigeria",
+                  "streams": [
+                    {
+                      "id": "st-bbd2b16b9d",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Africa Cup of Nations Qualification",
+            "team_a": "Tanzania",
+            "team_b": "Nigeria",
+            "logo_a": "https://apiv3.apifootball.com/badges/613_tanzania.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/718_nigeria.jpg",
+            "time": "20:00",
+            "date": "17/11",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/78021_0f165e55_20261117.png?v=0f165e55",
             "width": 1600,
             "height": 1200
           }
