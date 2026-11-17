@@ -7,14 +7,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-f52735e743",
-          "name": "Hungary vs Northern Ireland | 02:45 18/11",
+          "id": "xc-6866915612",
+          "name": "Bosnia & Herzegovina vs Romania | 02:45 18/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,23 +28,40 @@
           ],
           "sources": [
             {
-              "id": "src-f52735e743",
+              "id": "src-6866915612",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-f52735e743",
-                  "name": "Hungary vs Northern Ireland",
+                  "id": "ct-6866915612",
+                  "name": "Bosnia & Herzegovina vs Romania",
                   "streams": [
                     {
-                      "id": "st-f52735e743",
+                      "id": "st-6866915612",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-e3b4108ed2",
-                          "name": "BLV Khô Cay",
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -65,13 +82,13 @@
           ],
           "org_metadata": {
             "league": "UEFA Nations League",
-            "team_a": "Hungary",
-            "team_b": "Northern Ireland",
-            "logo_a": "https://apiv3.apifootball.com/badges/24_hungary.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/682_northern-ireland.jpg",
+            "team_a": "Bosnia & Herzegovina",
+            "team_b": "Romania",
+            "logo_a": "https://apiv3.apifootball.com/badges/685_bosnia-herzegovina.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/702_romania.jpg",
             "time": "02:45",
             "date": "18/11",
-            "blv": "BLV Khô Cay",
+            "blv": "BLV Xôi Gấc",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
@@ -82,7 +99,266 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/79025_9a54ce50_20261118.png?v=9a54ce50",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/79024_3a7a0b3d_20261118.png?v=3a7a0b3d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-fde23969ce",
+          "name": "Israel vs Áo | 02:45 18/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fde23969ce",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-fde23969ce",
+                  "name": "Israel vs Áo",
+                  "streams": [
+                    {
+                      "id": "st-fde23969ce",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8987d572f",
+                          "name": "BLV Khô Cá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Israel",
+            "team_b": "Áo",
+            "logo_a": "https://apiv3.apifootball.com/badges/690_israel.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/9_austria.jpg",
+            "time": "02:45",
+            "date": "18/11",
+            "blv": "BLV Khô Cá",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/79027_da102362_20261118.png?v=da102362",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-28f51c24d1",
+          "name": "Ba Lan vs Thụy Điển | 02:45 18/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-28f51c24d1",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-28f51c24d1",
+                  "name": "Ba Lan vs Thụy Điển",
+                  "streams": [
+                    {
+                      "id": "st-28f51c24d1",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-88fe1a05f9",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Ba Lan",
+            "team_b": "Thụy Điển",
+            "logo_a": "https://apiv3.apifootball.com/badges/18_poland.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/17_sweden.jpg",
+            "time": "02:45",
+            "date": "18/11",
+            "blv": "BLV Khô Cay, BLV Khô Mật",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/79028_e4cb405e_20261118.png?v=e4cb405e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-a38d5db149",
+          "name": "Ukraine vs Georgia | 02:45 18/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a38d5db149",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-a38d5db149",
+                  "name": "Ukraine vs Georgia",
+                  "streams": [
+                    {
+                      "id": "st-a38d5db149",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Ukraine",
+            "team_b": "Georgia",
+            "logo_a": "https://apiv3.apifootball.com/badges/12_ukraine.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/680_georgia.jpg",
+            "time": "02:45",
+            "date": "18/11",
+            "blv": "BLV Khô Chè",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/79029_a6ec7452_20261118.png?v=a6ec7452",
             "width": 1600,
             "height": 1200
           }
@@ -238,55 +514,38 @@
           }
         },
         {
-          "id": "xc-6866915612",
-          "name": "Bosnia & Herzegovina vs Romania | 02:45 18/11",
+          "id": "xc-f52735e743",
+          "name": "Hungary vs Northern Ireland | 02:45 18/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-6866915612",
+              "id": "src-f52735e743",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-6866915612",
-                  "name": "Bosnia & Herzegovina vs Romania",
+                  "id": "ct-f52735e743",
+                  "name": "Hungary vs Northern Ireland",
                   "streams": [
                     {
-                      "id": "st-6866915612",
+                      "id": "st-f52735e743",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -307,16 +566,16 @@
           ],
           "org_metadata": {
             "league": "UEFA Nations League",
-            "team_a": "Bosnia & Herzegovina",
-            "team_b": "Romania",
-            "logo_a": "https://apiv3.apifootball.com/badges/685_bosnia-herzegovina.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/702_romania.jpg",
+            "team_a": "Hungary",
+            "team_b": "Northern Ireland",
+            "logo_a": "https://apiv3.apifootball.com/badges/24_hungary.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/682_northern-ireland.jpg",
             "time": "02:45",
             "date": "18/11",
-            "blv": "BLV Xôi Gấc",
-            "is_live": false,
+            "blv": "BLV Khô Cay",
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -324,249 +583,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/79024_3a7a0b3d_20261118.png?v=3a7a0b3d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-fde23969ce",
-          "name": "Israel vs Áo | 02:45 18/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fde23969ce",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-fde23969ce",
-                  "name": "Israel vs Áo",
-                  "streams": [
-                    {
-                      "id": "st-fde23969ce",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8987d572f",
-                          "name": "BLV Khô Cá",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Israel",
-            "team_b": "Áo",
-            "logo_a": "https://apiv3.apifootball.com/badges/690_israel.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/9_austria.jpg",
-            "time": "02:45",
-            "date": "18/11",
-            "blv": "BLV Khô Cá",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/79027_da102362_20261118.png?v=da102362",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-28f51c24d1",
-          "name": "Ba Lan vs Thụy Điển | 02:45 18/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-28f51c24d1",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-28f51c24d1",
-                  "name": "Ba Lan vs Thụy Điển",
-                  "streams": [
-                    {
-                      "id": "st-28f51c24d1",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-88fe1a05f9",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Ba Lan",
-            "team_b": "Thụy Điển",
-            "logo_a": "https://apiv3.apifootball.com/badges/18_poland.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/17_sweden.jpg",
-            "time": "02:45",
-            "date": "18/11",
-            "blv": "BLV Khô Mật",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/79028_e4cb405e_20261118.png?v=e4cb405e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-a38d5db149",
-          "name": "Ukraine vs Georgia | 02:45 18/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a38d5db149",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-a38d5db149",
-                  "name": "Ukraine vs Georgia",
-                  "streams": [
-                    {
-                      "id": "st-a38d5db149",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fae8ed2c4d",
-                          "name": "BLV Khô Chè",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Ukraine",
-            "team_b": "Georgia",
-            "logo_a": "https://apiv3.apifootball.com/badges/12_ukraine.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/680_georgia.jpg",
-            "time": "02:45",
-            "date": "18/11",
-            "blv": "BLV Khô Chè",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/79029_a6ec7452_20261118.png?v=a6ec7452",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/79025_9a54ce50_20261118.png?v=9a54ce50",
             "width": 1600,
             "height": 1200
           }
@@ -1051,6 +1068,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/79051_9e27a9c8_20261118.png?v=9e27a9c8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-db40104c6a",
+          "name": "Tampines vs Ratchaburi | 18:30 18/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-db40104c6a",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-db40104c6a",
+                  "name": "Tampines vs Ratchaburi",
+                  "streams": [
+                    {
+                      "id": "st-db40104c6a",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Club Championship",
+            "team_a": "Tampines",
+            "team_b": "Ratchaburi",
+            "logo_a": "https://apiv3.apifootball.com/badges/410_tampines-rovers.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/397_ratchaburi.jpg",
+            "time": "18:30",
+            "date": "18/11",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/79080_cfa4830d_20261118.png?v=cfa4830d",
             "width": 1600,
             "height": 1200
           }
