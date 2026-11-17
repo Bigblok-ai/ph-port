@@ -589,6 +589,81 @@
           }
         },
         {
+          "id": "xc-fde23969ce",
+          "name": "Israel vs Áo | 02:45 18/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fde23969ce",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-fde23969ce",
+                  "name": "Israel vs Áo",
+                  "streams": [
+                    {
+                      "id": "st-fde23969ce",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8987d572f",
+                          "name": "BLV Khô Cá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Israel",
+            "team_b": "Áo",
+            "logo_a": "https://apiv3.apifootball.com/badges/690_israel.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/9_austria.jpg",
+            "time": "02:45",
+            "date": "18/11",
+            "blv": "BLV Khô Cá",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/79027_da102362_20261117.png?v=da102362",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-28f51c24d1",
           "name": "Ba Lan vs Thụy Điển | 02:45 18/11",
           "type": "single",
@@ -1310,6 +1385,156 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/79051_9e27a9c8_20261117.png?v=9e27a9c8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-1b4258e07a",
+          "name": "Borneo vs Manila Digger | 19:00 18/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1b4258e07a",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-1b4258e07a",
+                  "name": "Borneo vs Manila Digger",
+                  "streams": [
+                    {
+                      "id": "st-1b4258e07a",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8987d572f",
+                          "name": "BLV Khô Cá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Club Championship",
+            "team_a": "Borneo",
+            "team_b": "Manila Digger",
+            "logo_a": "https://apiv3.apifootball.com/badges/4716_borneo.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/31956_manila-digger.jpg",
+            "time": "19:00",
+            "date": "18/11",
+            "blv": "BLV Khô Cá",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/79085_d54805c5_20261117.png?v=d54805c5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-46d6c3eedc",
+          "name": "Real Madrid W vs Inter W | 00:45 19/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-46d6c3eedc",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-46d6c3eedc",
+                  "name": "Real Madrid W vs Inter W",
+                  "streams": [
+                    {
+                      "id": "st-46d6c3eedc",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8987d572f",
+                          "name": "BLV Khô Cá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Women's Champions League",
+            "team_a": "Real Madrid W",
+            "team_b": "Inter W",
+            "logo_a": "https://apiv3.apifootball.com/badges/486_real-madrid-w.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/334_internazionale-w.jpg",
+            "time": "00:45",
+            "date": "19/11",
+            "blv": "BLV Khô Cá",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/79788_cb663b57_20261117.png?v=cb663b57",
             "width": 1600,
             "height": 1200
           }
