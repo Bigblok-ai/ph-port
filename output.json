@@ -7,86 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-1b4258e07a",
-          "name": "Borneo vs Manila Digger | 19:00 18/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1b4258e07a",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-1b4258e07a",
-                  "name": "Borneo vs Manila Digger",
-                  "streams": [
-                    {
-                      "id": "st-1b4258e07a",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8987d572f",
-                          "name": "BLV Khô Cá",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Club Championship",
-            "team_a": "Borneo",
-            "team_b": "Manila Digger",
-            "logo_a": "https://apiv3.apifootball.com/badges/4716_borneo.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/31956_manila-digger.jpg",
-            "time": "19:00",
-            "date": "18/11",
-            "blv": "BLV Khô Cá",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/79085_d54805c5_20261118.png?v=d54805c5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-6d3f7f33e1",
           "name": "Hacken W vs Manchester City W | 00:45 19/11",
@@ -872,6 +797,81 @@
           }
         },
         {
+          "id": "xc-e7e4682232",
+          "name": "Argentina U17 vs Australia U17 | 23:00 19/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e7e4682232",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e7e4682232",
+                  "name": "Argentina U17 vs Australia U17",
+                  "streams": [
+                    {
+                      "id": "st-e7e4682232",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA U17 World Cup",
+            "team_a": "Argentina U17",
+            "team_b": "Australia U17",
+            "logo_a": "https://apiv3.apifootball.com/badges/8921_argentina-u17.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/8917_australia-u17.jpg",
+            "time": "23:00",
+            "date": "19/11",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/79883_d5c47343_20261118.png?v=d5c47343",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-601651d463",
           "name": "Austria Vienna W vs Bayern Munich W | 00:45 20/11",
           "type": "single",
@@ -1017,6 +1017,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/80448_e4c69692_20261118.png?v=e4c69692",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-f85694be20",
+          "name": "Orlando City vs FC Cincinnati | 07:30 20/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f85694be20",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-f85694be20",
+                  "name": "Orlando City vs FC Cincinnati",
+                  "streams": [
+                    {
+                      "id": "st-f85694be20",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLS",
+            "team_a": "Orlando City",
+            "team_b": "FC Cincinnati",
+            "logo_a": "https://apiv3.apifootball.com/badges/7959_orlando-city.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7952_cincinnati.jpg",
+            "time": "07:30",
+            "date": "20/11",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/80457_6b89d1e5_20261118.png?v=6b89d1e5",
             "width": 1600,
             "height": 1200
           }
