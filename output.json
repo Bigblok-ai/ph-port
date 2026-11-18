@@ -7,86 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-b49ebb04eb",
-          "name": "Chelsea W vs PSG W | 03:00 19/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b49ebb04eb",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-b49ebb04eb",
-                  "name": "Chelsea W vs PSG W",
-                  "streams": [
-                    {
-                      "id": "st-b49ebb04eb",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-484b46424a",
-                          "name": "BLV Khô Cóc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Women's Champions League",
-            "team_a": "Chelsea W",
-            "team_b": "PSG W",
-            "logo_a": "https://apiv3.apifootball.com/badges/27_chelsea-w.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/29_psg-w.jpg",
-            "time": "03:00",
-            "date": "19/11",
-            "blv": "BLV Khô Cóc",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/79813_afc9f4aa_20261119.png?v=afc9f4aa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-3f441337df",
           "name": "Coritiba vs Santos | 05:30 19/11",
@@ -522,6 +447,23 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
+                        },
+                        {
+                          "id": "lnk-484b46424a",
+                          "name": "BLV Khô Cóc",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -538,7 +480,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/8917_australia-u17.jpg",
             "time": "23:00",
             "date": "19/11",
-            "blv": "BLV Tam Mao",
+            "blv": "BLV Tam Mao, BLV Khô Cóc",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
