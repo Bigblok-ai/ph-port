@@ -255,6 +255,81 @@
           }
         },
         {
+          "id": "xc-de2190d93d",
+          "name": "Al Ain vs Al Dhafra | 22:25 19/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-de2190d93d",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-de2190d93d",
+                  "name": "Al Ain vs Al Dhafra",
+                  "streams": [
+                    {
+                      "id": "st-de2190d93d",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Pro League",
+            "team_a": "Al Ain",
+            "team_b": "Al Dhafra",
+            "logo_a": "https://apiv3.apifootball.com/badges/374_al-ain.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7831_al-dhafra.jpg",
+            "time": "22:25",
+            "date": "19/11",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/79878_c1a3200d_20261119.png?v=c1a3200d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-0424fa1d8c",
           "name": "Al Ahli Doha vs Shamal | 22:30 19/11",
           "type": "single",
