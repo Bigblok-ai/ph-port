@@ -1129,6 +1129,81 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-c9da7aa90f",
+          "name": "Al Ahli SC vs Al Nassr | 00:30 21/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c9da7aa90f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-c9da7aa90f",
+                  "name": "Al Ahli SC vs Al Nassr",
+                  "streams": [
+                    {
+                      "id": "st-c9da7aa90f",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-484b46424a",
+                          "name": "BLV Khô Cóc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi League",
+            "team_a": "Al Ahli SC",
+            "team_b": "Al Nassr",
+            "logo_a": "https://apiv3.apifootball.com/badges/359_al-ahli.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/371_al-nassr.jpg",
+            "time": "00:30",
+            "date": "21/11",
+            "blv": "BLV Khô Cóc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/40441_8852d30b_20261119.png?v=8852d30b",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
