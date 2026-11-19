@@ -7,86 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-ffa1f6c1e7",
-          "name": "Persib Bandung vs Shan Utd | 19:00 19/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ffa1f6c1e7",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-ffa1f6c1e7",
-                  "name": "Persib Bandung vs Shan Utd",
-                  "streams": [
-                    {
-                      "id": "st-ffa1f6c1e7",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Club Championship",
-            "team_a": "Persib Bandung",
-            "team_b": "Shan Utd",
-            "logo_a": "https://apiv3.apifootball.com/badges/4715_persib-bandung.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/402_shan-united.jpg",
-            "time": "19:00",
-            "date": "19/11",
-            "blv": "BLV Tam Mao",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 6,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/79839_f9e219b6_20261119.png?v=f9e219b6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-2712884284",
           "name": "France U17 vs Haiti U17 | 20:00 19/11",
@@ -1005,6 +930,81 @@
           }
         },
         {
+          "id": "xc-2e076c33f8",
+          "name": "Vissel Kobe vs Mito | 17:00 20/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2e076c33f8",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-2e076c33f8",
+                  "name": "Vissel Kobe vs Mito",
+                  "streams": [
+                    {
+                      "id": "st-2e076c33f8",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Vissel Kobe",
+            "team_b": "Mito",
+            "logo_a": "https://apiv3.apifootball.com/badges/383_vissel-kobe.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5081_mito-hollyhock.jpg",
+            "time": "17:00",
+            "date": "20/11",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/80480_70b64fd7_20261119.png?v=70b64fd7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-3124d7a5a0",
           "name": "Beijing Guoan vs Shanghai Port | 18:35 20/11",
           "type": "single",
@@ -1259,6 +1259,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/80601_4e837c67_20261119.png?v=4e837c67",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-6b1f3791e1",
+          "name": "Shabab Al-Ahli Dubai vs Ajman | 22:25 20/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6b1f3791e1",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-6b1f3791e1",
+                  "name": "Shabab Al-Ahli Dubai vs Ajman",
+                  "streams": [
+                    {
+                      "id": "st-6b1f3791e1",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Pro League",
+            "team_a": "Shabab Al-Ahli Dubai",
+            "team_b": "Ajman",
+            "logo_a": "https://apiv3.apifootball.com/badges/364_shabab-al-ahli.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7833_ajman.jpg",
+            "time": "22:25",
+            "date": "20/11",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/80633_5cb13727_20261119.png?v=5cb13727",
             "width": 1600,
             "height": 1200
           }
