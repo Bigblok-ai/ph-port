@@ -283,7 +283,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-245e47f94f",
-                          "name": "BLV Lương Khô",
+                          "name": "Bác Khô",
                           "type": "hls",
                           "default": true,
                           "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
@@ -313,7 +313,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/8929_haiti-u17.jpg",
             "time": "20:00",
             "date": "19/11",
-            "blv": "BLV Lương Khô",
+            "blv": "Bác Khô",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
