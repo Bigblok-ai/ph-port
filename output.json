@@ -76,88 +76,13 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 2
+            "away_score": 3
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/80431_2515fcf1_20261120.png?v=2515fcf1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-98477efd53",
-          "name": "Arsenal W vs OL Lyonnes W | 03:00 20/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-98477efd53",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-98477efd53",
-                  "name": "Arsenal W vs OL Lyonnes W",
-                  "streams": [
-                    {
-                      "id": "st-98477efd53",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-484b46424a",
-                          "name": "BLV Khô Cóc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Women's Champions League",
-            "team_a": "Arsenal W",
-            "team_b": "OL Lyonnes W",
-            "logo_a": "https://apiv3.apifootball.com/badges/11085_arsenal-fc-w.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/30_ol-lyonnes-w.jpg",
-            "time": "03:00",
-            "date": "20/11",
-            "blv": "BLV Khô Cóc",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/80446_cc661f7b_20261120.png?v=cc661f7b",
             "width": 1600,
             "height": 1200
           }
@@ -233,6 +158,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/80447_7f8ec6bf_20261120.png?v=7f8ec6bf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-98477efd53",
+          "name": "Arsenal W vs OL Lyonnes W | 03:00 20/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-98477efd53",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-98477efd53",
+                  "name": "Arsenal W vs OL Lyonnes W",
+                  "streams": [
+                    {
+                      "id": "st-98477efd53",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-484b46424a",
+                          "name": "BLV Khô Cóc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Women's Champions League",
+            "team_a": "Arsenal W",
+            "team_b": "OL Lyonnes W",
+            "logo_a": "https://apiv3.apifootball.com/badges/11085_arsenal-fc-w.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/30_ol-lyonnes-w.jpg",
+            "time": "03:00",
+            "date": "20/11",
+            "blv": "BLV Khô Cóc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/80446_cc661f7b_20261120.png?v=cc661f7b",
             "width": 1600,
             "height": 1200
           }
@@ -775,6 +775,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/80480_70b64fd7_20261120.png?v=70b64fd7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-d62e4f3973",
+          "name": "Thanh Hoa vs Gia Lai | 17:00 20/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d62e4f3973",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-d62e4f3973",
+                  "name": "Thanh Hoa vs Gia Lai",
+                  "streams": [
+                    {
+                      "id": "st-d62e4f3973",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Thanh Hoa",
+            "team_b": "Gia Lai",
+            "logo_a": "https://apiv3.apifootball.com/badges/8061_thanh-hoa.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/8054_hoang-anh-gia-lai.jpg",
+            "time": "17:00",
+            "date": "20/11",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/80483_50165ee6_20261120.png?v=50165ee6",
             "width": 1600,
             "height": 1200
           }
