@@ -647,81 +647,6 @@
           }
         },
         {
-          "id": "xc-89514c9786",
-          "name": "Viettel vs Song Lam Nghe An | 19:15 20/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-89514c9786",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-89514c9786",
-                  "name": "Viettel vs Song Lam Nghe An",
-                  "streams": [
-                    {
-                      "id": "st-89514c9786",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-245e47f94f",
-                          "name": "Khầy Lương Khô",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Viettel",
-            "team_b": "Song Lam Nghe An",
-            "logo_a": "https://apiv3.apifootball.com/badges/409_th-cong-viettel.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/8058_song-lam-ngh-an.jpg",
-            "time": "19:15",
-            "date": "20/11",
-            "blv": "Khầy Lương Khô",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/80538_6cc203de_20261120.png?v=6cc203de",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-177df12e5e",
           "name": "Belgium U17 vs Vietnam U17 | 20:00 20/11",
           "type": "single",
@@ -1184,6 +1109,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/40441_8852d30b_20261120.png?v=8852d30b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-50f60fd58c",
+          "name": "Bayern Munich vs FC Koln | 02:30 21/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-50f60fd58c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-50f60fd58c",
+                  "name": "Bayern Munich vs FC Koln",
+                  "streams": [
+                    {
+                      "id": "st-50f60fd58c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-245e47f94f",
+                          "name": "Khầy Lương Khô",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Bayern Munich",
+            "team_b": "FC Koln",
+            "logo_a": "https://apiv3.apifootball.com/badges/72_bayern-munchen.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3932_koln.jpg",
+            "time": "02:30",
+            "date": "21/11",
+            "blv": "Khầy Lương Khô",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/81245_dec1aae7_20261120.png?v=dec1aae7",
             "width": 1600,
             "height": 1200
           }
