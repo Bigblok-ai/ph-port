@@ -13,98 +13,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-3124d7a5a0",
-          "name": "Beijing Guoan vs Shanghai Port | 18:35 20/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3124d7a5a0",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-3124d7a5a0",
-                  "name": "Beijing Guoan vs Shanghai Port",
-                  "streams": [
-                    {
-                      "id": "st-3124d7a5a0",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-88fe1a05f9",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FA Cup",
-            "team_a": "Beijing Guoan",
-            "team_b": "Shanghai Port",
-            "logo_a": "https://apiv3.apifootball.com/badges/375_beijing-guoan.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/2256_shanghai-port.jpg",
-            "time": "18:35",
-            "date": "20/11",
-            "blv": "BLV Khô Mật",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/80500_fa18a06d_20261120.png?v=fa18a06d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-177df12e5e",
           "name": "Belgium U17 vs Vietnam U17 | 20:00 20/11",
           "type": "single",
@@ -187,10 +95,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -239,9 +147,9 @@
             "time": "21:00",
             "date": "20/11",
             "blv": "BLV Tam Mao",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
