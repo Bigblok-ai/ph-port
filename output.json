@@ -722,6 +722,81 @@
           }
         },
         {
+          "id": "xc-1a2dddb036",
+          "name": "Auckland FC vs Melbourne Victory | 11:00 21/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1a2dddb036",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-1a2dddb036",
+                  "name": "Auckland FC vs Melbourne Victory",
+                  "streams": [
+                    {
+                      "id": "st-1a2dddb036",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "A-League Men",
+            "team_a": "Auckland FC",
+            "team_b": "Melbourne Victory",
+            "logo_a": "https://apiv3.apifootball.com/badges/36856_auckland.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/376_melbourne-victory.jpg",
+            "time": "11:00",
+            "date": "21/11",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/81308_d6292c49_20261120.png?v=d6292c49",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-2242ad2516",
           "name": "Sanfrecce Hiroshima vs Yokohama F. Marinos | 12:00 21/11",
           "type": "single",
@@ -884,6 +959,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/81342_e2e34ad6_20261120.png?v=e2e34ad6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-ccf5ad2e56",
+          "name": "Brisbane Roar vs Sydney FC | 15:40 21/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ccf5ad2e56",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-ccf5ad2e56",
+                  "name": "Brisbane Roar vs Sydney FC",
+                  "streams": [
+                    {
+                      "id": "st-ccf5ad2e56",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "A-League Men",
+            "team_a": "Brisbane Roar",
+            "team_b": "Sydney FC",
+            "logo_a": "https://apiv3.apifootball.com/badges/399_brisbane-roar-fc.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/390_sydney.jpg",
+            "time": "15:40",
+            "date": "21/11",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/81363_fde4b464_20261120.png?v=fde4b464",
             "width": 1600,
             "height": 1200
           }
@@ -1126,6 +1276,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/81671_fdb25d8d_20261120.png?v=fdb25d8d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-48e368c26f",
+          "name": "Bournemouth vs Nottingham | 22:00 21/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-48e368c26f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-48e368c26f",
+                  "name": "Bournemouth vs Nottingham",
+                  "streams": [
+                    {
+                      "id": "st-48e368c26f",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Bournemouth",
+            "team_b": "Nottingham",
+            "logo_a": "https://apiv3.apifootball.com/badges/3071_afc-bournemouth.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3089_nottingham-forest.jpg",
+            "time": "22:00",
+            "date": "21/11",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/82141_d2642f73_20261120.png?v=d2642f73",
             "width": 1600,
             "height": 1200
           }
