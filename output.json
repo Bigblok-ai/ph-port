@@ -7,86 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-bd10576ba2",
-          "name": "Ath Bilbao vs Espanyol | 03:00 21/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bd10576ba2",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-bd10576ba2",
-                  "name": "Ath Bilbao vs Espanyol",
-                  "streams": [
-                    {
-                      "id": "st-bd10576ba2",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3b4108ed2",
-                          "name": "BLV Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Ath Bilbao",
-            "team_b": "Espanyol",
-            "logo_a": "https://apiv3.apifootball.com/badges/7258_athletic-club.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/7268_espanyol.jpg",
-            "time": "03:00",
-            "date": "21/11",
-            "blv": "BLV Khô Cay",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/81273_280545e8_20261121.png?v=280545e8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-4eefe176d4",
           "name": "Club Tijuana vs Atlante | 10:10 21/11",
