@@ -630,8 +630,8 @@
           }
         },
         {
-          "id": "xc-ea259f9079",
-          "name": "Gamba Osaka vs Okayama | 14:00 21/11",
+          "id": "xc-2242ad2516",
+          "name": "Sanfrecce Hiroshima vs Yokohama F. Marinos | 12:00 21/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -645,15 +645,15 @@
           ],
           "sources": [
             {
-              "id": "src-ea259f9079",
+              "id": "src-2242ad2516",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-ea259f9079",
-                  "name": "Gamba Osaka vs Okayama",
+                  "id": "ct-2242ad2516",
+                  "name": "Sanfrecce Hiroshima vs Yokohama F. Marinos",
                   "streams": [
                     {
-                      "id": "st-ea259f9079",
+                      "id": "st-2242ad2516",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
@@ -682,11 +682,11 @@
           ],
           "org_metadata": {
             "league": "J1 League",
-            "team_a": "Gamba Osaka",
-            "team_b": "Okayama",
-            "logo_a": "https://apiv3.apifootball.com/badges/411_gamba-osaka.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/5084_fagiano-okayama.jpg",
-            "time": "14:00",
+            "team_a": "Sanfrecce Hiroshima",
+            "team_b": "Yokohama F. Marinos",
+            "logo_a": "https://apiv3.apifootball.com/badges/5046_sanfrecce-hiroshima.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/387_yokohama-f.-marinos.jpg",
+            "time": "12:00",
             "date": "21/11",
             "blv": "BLV Khô Cá",
             "is_live": false,
@@ -699,7 +699,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/81345_4c3eedc5_20261120.png?v=4c3eedc5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/81324_755e44a7_20261120.png?v=755e44a7",
             "width": 1600,
             "height": 1200
           }
