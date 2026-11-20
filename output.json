@@ -88,81 +88,6 @@
           }
         },
         {
-          "id": "xc-2e076c33f8",
-          "name": "Vissel Kobe vs Mito | 17:00 20/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2e076c33f8",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-2e076c33f8",
-                  "name": "Vissel Kobe vs Mito",
-                  "streams": [
-                    {
-                      "id": "st-2e076c33f8",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3b4108ed2",
-                          "name": "BLV Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Vissel Kobe",
-            "team_b": "Mito",
-            "logo_a": "https://apiv3.apifootball.com/badges/383_vissel-kobe.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/5081_mito-hollyhock.jpg",
-            "time": "17:00",
-            "date": "20/11",
-            "blv": "BLV Khô Cay",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/80480_70b64fd7_20261120.png?v=70b64fd7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-d62e4f3973",
           "name": "Thanh Hoa vs Gia Lai | 17:00 20/11",
           "type": "single",
@@ -233,6 +158,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/80483_50165ee6_20261120.png?v=50165ee6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-2e076c33f8",
+          "name": "Vissel Kobe vs Mito | 17:00 20/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2e076c33f8",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-2e076c33f8",
+                  "name": "Vissel Kobe vs Mito",
+                  "streams": [
+                    {
+                      "id": "st-2e076c33f8",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Vissel Kobe",
+            "team_b": "Mito",
+            "logo_a": "https://apiv3.apifootball.com/badges/383_vissel-kobe.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5081_mito-hollyhock.jpg",
+            "time": "17:00",
+            "date": "20/11",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/80480_70b64fd7_20261120.png?v=70b64fd7",
             "width": 1600,
             "height": 1200
           }
