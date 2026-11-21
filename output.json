@@ -7,86 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-b098d9ee4c",
-          "name": "Real Madrid vs Celta Vigo | 03:00 22/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b098d9ee4c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-b098d9ee4c",
-                  "name": "Real Madrid vs Celta Vigo",
-                  "streams": [
-                    {
-                      "id": "st-b098d9ee4c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-484b46424a",
-                          "name": "BLV Khô Cóc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Real Madrid",
-            "team_b": "Celta Vigo",
-            "logo_a": "https://apiv3.apifootball.com/badges/76_real-madrid.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/7290_celta-de-vigo.jpg",
-            "time": "03:00",
-            "date": "22/11",
-            "blv": "BLV Khô Cóc",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/83061_3420814d_20261122.png?v=3420814d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-327b73d7d1",
           "name": "Atletico-MG vs Boca Juniors | 05:30 22/11",
