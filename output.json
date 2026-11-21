@@ -13,81 +13,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-d78d459126",
-          "name": "Lazio vs Lecce | 21:00 21/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d78d459126",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-d78d459126",
-                  "name": "Lazio vs Lecce",
-                  "streams": [
-                    {
-                      "id": "st-d78d459126",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Lazio",
-            "team_b": "Lecce",
-            "logo_a": "https://apiv3.apifootball.com/badges/93_lazio.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/5010_lecce.jpg",
-            "time": "21:00",
-            "date": "21/11",
-            "blv": "BLV Xôi Xoài",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 3,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/81974_0b7b9483_20261121.png?v=0b7b9483",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-3debefe18d",
           "name": "B. Monchengladbach vs Dortmund | 21:30 21/11",
           "type": "single",
@@ -492,6 +417,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/82144_4125d9ba_20261121.png?v=4125d9ba",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-75ecc7815c",
+          "name": "Nice vs PSG | 23:15 21/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-75ecc7815c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-75ecc7815c",
+                  "name": "Nice vs PSG",
+                  "streams": [
+                    {
+                      "id": "st-75ecc7815c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8987d572f",
+                          "name": "BLV Khô Cá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Nice",
+            "team_b": "PSG",
+            "logo_a": "https://apiv3.apifootball.com/badges/145_nice.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/100_psg.jpg",
+            "time": "23:15",
+            "date": "21/11",
+            "blv": "BLV Khô Cá",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/82353_ce7a7541_20261121.png?v=ce7a7541",
             "width": 1600,
             "height": 1200
           }
