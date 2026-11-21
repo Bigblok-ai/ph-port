@@ -1189,6 +1189,81 @@
           }
         },
         {
+          "id": "xc-b098d9ee4c",
+          "name": "Real Madrid vs Celta Vigo | 03:00 22/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b098d9ee4c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b098d9ee4c",
+                  "name": "Real Madrid vs Celta Vigo",
+                  "streams": [
+                    {
+                      "id": "st-b098d9ee4c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-484b46424a",
+                          "name": "BLV Khô Cóc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Real Madrid",
+            "team_b": "Celta Vigo",
+            "logo_a": "https://apiv3.apifootball.com/badges/76_real-madrid.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7290_celta-de-vigo.jpg",
+            "time": "03:00",
+            "date": "22/11",
+            "blv": "BLV Khô Cóc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/83061_3420814d_20261121.png?v=3420814d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-8073c53648",
           "name": "Inter Miami vs Columbus Crew | 06:00 22/11",
           "type": "single",
@@ -1518,6 +1593,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/83897_c1b2f42f_20261121.png?v=c1b2f42f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-c25880f6f5",
+          "name": "Liverpool vs Manchester Utd | 23:30 22/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c25880f6f5",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-c25880f6f5",
+                  "name": "Liverpool vs Manchester Utd",
+                  "streams": [
+                    {
+                      "id": "st-c25880f6f5",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-484b46424a",
+                          "name": "BLV Khô Cóc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Liverpool",
+            "team_b": "Manchester Utd",
+            "logo_a": "https://apiv3.apifootball.com/badges/84_liverpool.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/102_manchester-united.jpg",
+            "time": "23:30",
+            "date": "22/11",
+            "blv": "BLV Khô Cóc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/83898_9d6a1ece_20261121.png?v=9d6a1ece",
             "width": 1600,
             "height": 1200
           }
