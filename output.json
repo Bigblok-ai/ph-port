@@ -1255,6 +1255,173 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-ed4a6602ef",
+          "name": "Al Ittihad vs Pakhtakor | 01:15 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ed4a6602ef",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-ed4a6602ef",
+                  "name": "Al Ittihad vs Pakhtakor",
+                  "streams": [
+                    {
+                      "id": "st-ed4a6602ef",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8987d572f",
+                          "name": "BLV Khô Cá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Elite",
+            "team_a": "Al Ittihad",
+            "team_b": "Pakhtakor",
+            "logo_a": "https://apiv3.apifootball.com/badges/6328_al-ittihad.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/363_pakhtakor.jpg",
+            "time": "01:15",
+            "date": "24/11",
+            "blv": "BLV Khô Cá",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/85663_073ae161_20261122.png?v=073ae161",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-8a18ea4697",
+          "name": "Al Quwa Al Jawiya vs Al-Gharafa | 01:15 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8a18ea4697",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-8a18ea4697",
+                  "name": "Al Quwa Al Jawiya vs Al-Gharafa",
+                  "streams": [
+                    {
+                      "id": "st-8a18ea4697",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Elite",
+            "team_a": "Al Quwa Al Jawiya",
+            "team_b": "Al-Gharafa",
+            "logo_a": "https://apiv3.apifootball.com/badges/9726_al-quwa-al-jawiya.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/391_al-gharafa.jpg",
+            "time": "01:15",
+            "date": "24/11",
+            "blv": "BLV Xôi Gấc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/85664_6de1d017_20261122.png?v=6de1d017",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
