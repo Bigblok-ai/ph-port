@@ -180,6 +180,81 @@
           }
         },
         {
+          "id": "xc-040799cb8a",
+          "name": "UNAM Pumas vs Monterrey | 08:00 22/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-040799cb8a",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-040799cb8a",
+                  "name": "UNAM Pumas vs Monterrey",
+                  "streams": [
+                    {
+                      "id": "st-040799cb8a",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga MX",
+            "team_a": "UNAM Pumas",
+            "team_b": "Monterrey",
+            "logo_a": "https://apiv3.apifootball.com/badges/5354_pumas-unam.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/308_monterrey.jpg",
+            "time": "08:00",
+            "date": "22/11",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/83123_e589bd9d_20261122.png?v=e589bd9d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-b8d7b00761",
           "name": "Wellington Phoenix vs Macarthur FC | 09:00 22/11",
           "type": "single",
