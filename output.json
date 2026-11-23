@@ -7,14 +7,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-ed4a6602ef",
-          "name": "Al Ittihad vs Pakhtakor | 01:15 24/11",
+          "id": "xc-74c6b0cef2",
+          "name": "Tractor vs Al Wasl | 23:00 23/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -24,6 +24,81 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-74c6b0cef2",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-74c6b0cef2",
+                  "name": "Tractor vs Al Wasl",
+                  "streams": [
+                    {
+                      "id": "st-74c6b0cef2",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Elite",
+            "team_a": "Tractor",
+            "team_b": "Al Wasl",
+            "logo_a": "https://apiv3.apifootball.com/badges/414_tractor.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7828_al-wasl.jpg",
+            "time": "23:00",
+            "date": "23/11",
+            "blv": "BLV Xôi Xoài",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 1,
+            "away_score": 5
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/84713_bd2c7c8f_20261124.png?v=bd2c7c8f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-ed4a6602ef",
+          "name": "Al Ittihad vs Pakhtakor | 01:15 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -72,9 +147,9 @@
             "time": "01:15",
             "date": "24/11",
             "blv": "BLV Khô Cá",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "football",
-            "status": "live",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -95,10 +170,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -164,9 +239,9 @@
             "time": "01:15",
             "date": "24/11",
             "blv": "BLV Xôi Gấc",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "football",
-            "status": "live",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -175,6 +250,248 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/85664_6de1d017_20261124.png?v=6de1d017",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-a533c97279",
+          "name": "Levante vs Elche | 03:00 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a533c97279",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-a533c97279",
+                  "name": "Levante vs Elche",
+                  "streams": [
+                    {
+                      "id": "st-a533c97279",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Levante",
+            "team_b": "Elche",
+            "logo_a": "https://apiv3.apifootball.com/badges/7259_levante.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7274_elche.jpg",
+            "time": "03:00",
+            "date": "24/11",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/85687_9c134dbe_20261124.png?v=9c134dbe",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-01c1f5bc38",
+          "name": "Brentford vs Everton | 03:00 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-01c1f5bc38",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-01c1f5bc38",
+                  "name": "Brentford vs Everton",
+                  "streams": [
+                    {
+                      "id": "st-01c1f5bc38",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-245e47f94f",
+                          "name": "Khầy Lương Khô",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Brentford",
+            "team_b": "Everton",
+            "logo_a": "https://apiv3.apifootball.com/badges/3086_brentford.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3073_everton.jpg",
+            "time": "03:00",
+            "date": "24/11",
+            "blv": "Khầy Lương Khô",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/85688_0f5c809f_20261124.png?v=0f5c809f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-135876a1d6",
+          "name": "Santos vs Gremio | 07:00 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-135876a1d6",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-135876a1d6",
+                  "name": "Santos vs Gremio",
+                  "streams": [
+                    {
+                      "id": "st-135876a1d6",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-88fe1a05f9",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Santos",
+            "team_b": "Gremio",
+            "logo_a": "https://apiv3.apifootball.com/badges/566_santos.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/558_gremio.jpg",
+            "time": "07:00",
+            "date": "24/11",
+            "blv": "BLV Khô Mật",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/85700_065422a1_20261124.png?v=065422a1",
             "width": 1600,
             "height": 1200
           }
