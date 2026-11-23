@@ -40,27 +40,10 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-245e47f94f",
-                          "name": "Khầy Lương Khô",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
                           "id": "lnk-fae8ed2c4d",
                           "name": "BLV Khô Chè",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
                           "request_headers": [
                             {
@@ -88,7 +71,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/30497_fiji-u17.jpg",
             "time": "19:30",
             "date": "23/11",
-            "blv": "Khầy Lương Khô, BLV Khô Chè",
+            "blv": "BLV Khô Chè",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -492,6 +475,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/84713_bd2c7c8f_20261123.png?v=bd2c7c8f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-c761f2cb3d",
+          "name": "Basaksehir vs Corum | 00:00 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c761f2cb3d",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-c761f2cb3d",
+                  "name": "Basaksehir vs Corum",
+                  "streams": [
+                    {
+                      "id": "st-c761f2cb3d",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-245e47f94f",
+                          "name": "Khầy Lương Khô",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Süper Lig",
+            "team_a": "Basaksehir",
+            "team_b": "Corum",
+            "logo_a": "https://apiv3.apifootball.com/badges/103_stanbul-baakehir.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7632_corum.jpg",
+            "time": "00:00",
+            "date": "24/11",
+            "blv": "Khầy Lương Khô",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/85649_9aade417_20261123.png?v=9aade417",
             "width": 1600,
             "height": 1200
           }
