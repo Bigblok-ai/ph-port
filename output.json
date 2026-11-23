@@ -13,8 +13,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-ad6f4bbacf",
-          "name": "Al Ain vs Esteghlal F.C. | 23:00 23/11",
+          "id": "xc-74c6b0cef2",
+          "name": "Tractor vs Al Wasl | 23:00 23/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,40 +28,23 @@
           ],
           "sources": [
             {
-              "id": "src-ad6f4bbacf",
+              "id": "src-74c6b0cef2",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-ad6f4bbacf",
-                  "name": "Al Ain vs Esteghlal F.C.",
+                  "id": "ct-74c6b0cef2",
+                  "name": "Tractor vs Al Wasl",
                   "streams": [
                     {
-                      "id": "st-ad6f4bbacf",
+                      "id": "st-74c6b0cef2",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -82,24 +65,24 @@
           ],
           "org_metadata": {
             "league": "AFC Champions League Elite",
-            "team_a": "Al Ain",
-            "team_b": "Esteghlal F.C.",
-            "logo_a": "https://apiv3.apifootball.com/badges/374_al-ain.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/360_esteghlal.jpg",
+            "team_a": "Tractor",
+            "team_b": "Al Wasl",
+            "logo_a": "https://apiv3.apifootball.com/badges/414_tractor.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7828_al-wasl.jpg",
             "time": "23:00",
             "date": "23/11",
-            "blv": "BLV Xôi Gấc",
+            "blv": "BLV Xôi Xoài",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
             "home_score": 1,
-            "away_score": 1
+            "away_score": 5
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/84711_88b9ad1f_20261124.png?v=88b9ad1f",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/84713_bd2c7c8f_20261124.png?v=bd2c7c8f",
             "width": 1600,
             "height": 1200
           }
@@ -180,8 +163,8 @@
           }
         },
         {
-          "id": "xc-74c6b0cef2",
-          "name": "Tractor vs Al Wasl | 23:00 23/11",
+          "id": "xc-8a18ea4697",
+          "name": "Al Quwa Al Jawiya vs Al-Gharafa | 01:15 24/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -195,23 +178,40 @@
           ],
           "sources": [
             {
-              "id": "src-74c6b0cef2",
+              "id": "src-8a18ea4697",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-74c6b0cef2",
-                  "name": "Tractor vs Al Wasl",
+                  "id": "ct-8a18ea4697",
+                  "name": "Al Quwa Al Jawiya vs Al-Gharafa",
                   "streams": [
                     {
-                      "id": "st-74c6b0cef2",
+                      "id": "st-8a18ea4697",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -232,24 +232,24 @@
           ],
           "org_metadata": {
             "league": "AFC Champions League Elite",
-            "team_a": "Tractor",
-            "team_b": "Al Wasl",
-            "logo_a": "https://apiv3.apifootball.com/badges/414_tractor.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/7828_al-wasl.jpg",
-            "time": "23:00",
-            "date": "23/11",
-            "blv": "BLV Xôi Xoài",
+            "team_a": "Al Quwa Al Jawiya",
+            "team_b": "Al-Gharafa",
+            "logo_a": "https://apiv3.apifootball.com/badges/9726_al-quwa-al-jawiya.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/391_al-gharafa.jpg",
+            "time": "01:15",
+            "date": "24/11",
+            "blv": "BLV Xôi Gấc",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
-            "away_score": 4
+            "home_score": 0,
+            "away_score": 0
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/84713_bd2c7c8f_20261124.png?v=bd2c7c8f",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/85664_6de1d017_20261124.png?v=6de1d017",
             "width": 1600,
             "height": 1200
           }
@@ -325,98 +325,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/85663_073ae161_20261124.png?v=073ae161",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-8a18ea4697",
-          "name": "Al Quwa Al Jawiya vs Al-Gharafa | 01:15 24/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8a18ea4697",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-8a18ea4697",
-                  "name": "Al Quwa Al Jawiya vs Al-Gharafa",
-                  "streams": [
-                    {
-                      "id": "st-8a18ea4697",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Elite",
-            "team_a": "Al Quwa Al Jawiya",
-            "team_b": "Al-Gharafa",
-            "logo_a": "https://apiv3.apifootball.com/badges/9726_al-quwa-al-jawiya.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/391_al-gharafa.jpg",
-            "time": "01:15",
-            "date": "24/11",
-            "blv": "BLV Xôi Gấc",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/85664_6de1d017_20261124.png?v=6de1d017",
             "width": 1600,
             "height": 1200
           }
