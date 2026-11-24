@@ -7,195 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-5d5eb4f933",
-          "name": "Brazil U17 vs Tanzania U17 | 22:00 24/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5d5eb4f933",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-5d5eb4f933",
-                  "name": "Brazil U17 vs Tanzania U17",
-                  "streams": [
-                    {
-                      "id": "st-5d5eb4f933",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-88fe1a05f9",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA U17 World Cup",
-            "team_a": "Brazil U17",
-            "team_b": "Tanzania U17",
-            "logo_a": "https://apiv3.apifootball.com/badges/31334_brazil-u17.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/39201_tanzania-u17.jpg",
-            "time": "22:00",
-            "date": "24/11",
-            "blv": "BLV Khô Mật",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/85779_fc94bcea_20261124.png?v=fc94bcea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-efdf0aa723",
-          "name": "RB Leipzig U19 vs Lens U19 | 22:00 24/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-efdf0aa723",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-efdf0aa723",
-                  "name": "RB Leipzig U19 vs Lens U19",
-                  "streams": [
-                    {
-                      "id": "st-efdf0aa723",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Youth League",
-            "team_a": "RB Leipzig U19",
-            "team_b": "Lens U19",
-            "logo_a": "https://apiv3.apifootball.com/badges/9521_rb-leipzig-u19.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/33156_lens-u19.jpg",
-            "time": "22:00",
-            "date": "24/11",
-            "blv": "BLV Xôi Gấc",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 3
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/85784_f0126f6f_20261124.png?v=f0126f6f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-601c855d36",
           "name": "Shabab Al-Ahli Dubai vs Al Qadsiah | 23:00 24/11",
@@ -266,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/85790_0dfb87b2_20261124.png?v=0dfb87b2",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/85790_0dfb87b2_20261125.png?v=0dfb87b2",
             "width": 1600,
             "height": 1200
           }
@@ -341,7 +157,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/85793_f8816c8d_20261124.png?v=f8816c8d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/85793_f8816c8d_20261125.png?v=f8816c8d",
             "width": 1600,
             "height": 1200
           }
@@ -416,7 +232,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86680_ca35a014_20261124.png?v=ca35a014",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86680_ca35a014_20261125.png?v=ca35a014",
             "width": 1600,
             "height": 1200
           }
@@ -491,7 +307,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86681_ea17f06a_20261124.png?v=ea17f06a",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86681_ea17f06a_20261125.png?v=ea17f06a",
             "width": 1600,
             "height": 1200
           }
@@ -566,7 +382,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86685_2684dc03_20261124.png?v=2684dc03",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86685_2684dc03_20261125.png?v=2684dc03",
             "width": 1600,
             "height": 1200
           }
@@ -658,7 +474,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86764_aecf1384_20261124.png?v=aecf1384",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86764_aecf1384_20261125.png?v=aecf1384",
             "width": 1600,
             "height": 1200
           }
@@ -733,7 +549,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86767_65867e69_20261124.png?v=65867e69",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86767_65867e69_20261125.png?v=65867e69",
             "width": 1600,
             "height": 1200
           }
@@ -825,7 +641,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86768_bbf26331_20261124.png?v=bbf26331",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86768_bbf26331_20261125.png?v=bbf26331",
             "width": 1600,
             "height": 1200
           }
@@ -900,7 +716,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86769_90906c8f_20261124.png?v=90906c8f",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86769_90906c8f_20261125.png?v=90906c8f",
             "width": 1600,
             "height": 1200
           }
@@ -975,7 +791,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86770_0cfa5520_20261124.png?v=0cfa5520",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86770_0cfa5520_20261125.png?v=0cfa5520",
             "width": 1600,
             "height": 1200
           }
@@ -1050,7 +866,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86778_7de03e64_20261124.png?v=7de03e64",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86778_7de03e64_20261125.png?v=7de03e64",
             "width": 1600,
             "height": 1200
           }
@@ -1125,7 +941,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86819_70a334f2_20261124.png?v=70a334f2",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86819_70a334f2_20261125.png?v=70a334f2",
             "width": 1600,
             "height": 1200
           }
@@ -1217,7 +1033,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86820_0aab5c66_20261124.png?v=0aab5c66",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86820_0aab5c66_20261125.png?v=0aab5c66",
             "width": 1600,
             "height": 1200
           }
@@ -1309,7 +1125,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86854_cc6b696a_20261124.png?v=cc6b696a",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86854_cc6b696a_20261125.png?v=cc6b696a",
             "width": 1600,
             "height": 1200
           }
@@ -1401,7 +1217,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86875_bf944c97_20261124.png?v=bf944c97",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86875_bf944c97_20261125.png?v=bf944c97",
             "width": 1600,
             "height": 1200
           }
@@ -1476,7 +1292,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86905_094b9f79_20261124.png?v=094b9f79",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86905_094b9f79_20261125.png?v=094b9f79",
             "width": 1600,
             "height": 1200
           }
@@ -1568,7 +1384,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86912_4c6a4dd8_20261124.png?v=4c6a4dd8",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86912_4c6a4dd8_20261125.png?v=4c6a4dd8",
             "width": 1600,
             "height": 1200
           }
@@ -1643,7 +1459,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/87869_ce2514ab_20261124.png?v=ce2514ab",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/87869_ce2514ab_20261125.png?v=ce2514ab",
             "width": 1600,
             "height": 1200
           }
@@ -1735,7 +1551,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/87872_6f6b6694_20261124.png?v=6f6b6694",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/87872_6f6b6694_20261125.png?v=6f6b6694",
             "width": 1600,
             "height": 1200
           }
