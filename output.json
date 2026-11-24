@@ -7,86 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-b41921f19c",
-          "name": "St. Louis City vs Los Angeles FC | 08:00 24/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b41921f19c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-b41921f19c",
-                  "name": "St. Louis City vs Los Angeles FC",
-                  "streams": [
-                    {
-                      "id": "st-b41921f19c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLS",
-            "team_a": "St. Louis City",
-            "team_b": "Los Angeles FC",
-            "logo_a": "https://apiv3.apifootball.com/badges/30449_st.-louis-city.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/7964_los-angeles.jpg",
-            "time": "08:00",
-            "date": "24/11",
-            "blv": "BLV Tam Mao",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 3,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/85704_5c4f360e_20261124.png?v=5c4f360e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-5fb20d4426",
           "name": "Newcastle Jets vs Kashiwa Reysol | 14:45 24/11",
@@ -756,6 +681,81 @@
           }
         },
         {
+          "id": "xc-8117a91659",
+          "name": "Bodo/Glimt vs LASK | 00:45 25/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8117a91659",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-8117a91659",
+                  "name": "Bodo/Glimt vs LASK",
+                  "streams": [
+                    {
+                      "id": "st-8117a91659",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Bodo/Glimt",
+            "team_b": "LASK",
+            "logo_a": "https://apiv3.apifootball.com/badges/215_bod--glimt.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/166_lask.jpg",
+            "time": "00:45",
+            "date": "25/11",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86680_ca35a014_20261124.png?v=ca35a014",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-cead17024a",
           "name": "Galatasaray vs Aston Villa | 00:45 25/11",
           "type": "single",
@@ -1068,6 +1068,231 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86765_46c222d2_20261124.png?v=46c222d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-a78fe43cf6",
+          "name": "Manchester City vs Napoli | 03:00 25/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a78fe43cf6",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-a78fe43cf6",
+                  "name": "Manchester City vs Napoli",
+                  "streams": [
+                    {
+                      "id": "st-a78fe43cf6",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Manchester City",
+            "team_b": "Napoli",
+            "logo_a": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/152_napoli.jpg",
+            "time": "03:00",
+            "date": "25/11",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86767_65867e69_20261124.png?v=65867e69",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-0bdee6270d",
+          "name": "San Jose Earthquakes vs Houston Dynamo | 10:00 25/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0bdee6270d",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-0bdee6270d",
+                  "name": "San Jose Earthquakes vs Houston Dynamo",
+                  "streams": [
+                    {
+                      "id": "st-0bdee6270d",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLS",
+            "team_a": "San Jose Earthquakes",
+            "team_b": "Houston Dynamo",
+            "logo_a": "https://apiv3.apifootball.com/badges/7966_sj-earthquakes.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7963_houston-dynamo.jpg",
+            "time": "10:00",
+            "date": "25/11",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86778_7de03e64_20261124.png?v=7de03e64",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-89e1d6cd80",
+          "name": "Gamba Osaka vs Port MTI FC | 17:00 25/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-89e1d6cd80",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-89e1d6cd80",
+                  "name": "Gamba Osaka vs Port MTI FC",
+                  "streams": [
+                    {
+                      "id": "st-89e1d6cd80",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Elite",
+            "team_a": "Gamba Osaka",
+            "team_b": "Port MTI FC",
+            "logo_a": "https://apiv3.apifootball.com/badges/411_gamba-osaka.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/413_port.jpg",
+            "time": "17:00",
+            "date": "25/11",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86819_70a334f2_20261124.png?v=70a334f2",
             "width": 1600,
             "height": 1200
           }
