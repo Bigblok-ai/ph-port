@@ -238,81 +238,6 @@
           }
         },
         {
-          "id": "xc-c70e93a244",
-          "name": "Atl. Madrid vs Viking | 03:00 26/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c70e93a244",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-c70e93a244",
-                  "name": "Atl. Madrid vs Viking",
-                  "streams": [
-                    {
-                      "id": "st-c70e93a244",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8987d572f",
-                          "name": "BLV Khô Cá",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Atl. Madrid",
-            "team_b": "Viking",
-            "logo_a": "https://apiv3.apifootball.com/badges/73_atletico-de-madrid.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/236_viking.jpg",
-            "time": "03:00",
-            "date": "26/11",
-            "blv": "BLV Khô Cá",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/87869_ce2514ab_20261126.png?v=ce2514ab",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-fb7fce873c",
           "name": "Inter vs Stuttgart | 03:00 26/11",
           "type": "single",
@@ -383,6 +308,156 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/87871_f0d66911_20261126.png?v=f0d66911",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-f148cf892c",
+          "name": "Sporting CP vs Manchester Utd | 03:00 26/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f148cf892c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-f148cf892c",
+                  "name": "Sporting CP vs Manchester Utd",
+                  "streams": [
+                    {
+                      "id": "st-f148cf892c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-484b46424a",
+                          "name": "BLV Khô Cóc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Sporting CP",
+            "team_b": "Manchester Utd",
+            "logo_a": "https://apiv3.apifootball.com/badges/177_sporting-cp.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/102_manchester-united.jpg",
+            "time": "03:00",
+            "date": "26/11",
+            "blv": "BLV Khô Cóc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/87875_2b55e790_20261126.png?v=2b55e790",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-c70e93a244",
+          "name": "Atl. Madrid vs Viking | 03:00 26/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c70e93a244",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-c70e93a244",
+                  "name": "Atl. Madrid vs Viking",
+                  "streams": [
+                    {
+                      "id": "st-c70e93a244",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8987d572f",
+                          "name": "BLV Khô Cá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Atl. Madrid",
+            "team_b": "Viking",
+            "logo_a": "https://apiv3.apifootball.com/badges/73_atletico-de-madrid.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/236_viking.jpg",
+            "time": "03:00",
+            "date": "26/11",
+            "blv": "BLV Khô Cá",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/87869_ce2514ab_20261126.png?v=ce2514ab",
             "width": 1600,
             "height": 1200
           }
@@ -642,81 +717,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/87874_0c3df2e0_20261126.png?v=0c3df2e0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-f148cf892c",
-          "name": "Sporting CP vs Manchester Utd | 03:00 26/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f148cf892c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-f148cf892c",
-                  "name": "Sporting CP vs Manchester Utd",
-                  "streams": [
-                    {
-                      "id": "st-f148cf892c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-484b46424a",
-                          "name": "BLV Khô Cóc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Sporting CP",
-            "team_b": "Manchester Utd",
-            "logo_a": "https://apiv3.apifootball.com/badges/177_sporting-cp.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/102_manchester-united.jpg",
-            "time": "03:00",
-            "date": "26/11",
-            "blv": "BLV Khô Cóc",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/87875_2b55e790_20261126.png?v=2b55e790",
             "width": 1600,
             "height": 1200
           }
