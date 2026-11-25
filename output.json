@@ -7,86 +7,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-054efee3ac",
-          "name": "Nasaf Qarshi vs Al Khalidiyah | 20:45 25/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-054efee3ac",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-054efee3ac",
-                  "name": "Nasaf Qarshi vs Al Khalidiyah",
-                  "streams": [
-                    {
-                      "id": "st-054efee3ac",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Two",
-            "team_a": "Nasaf Qarshi",
-            "team_b": "Al Khalidiyah",
-            "logo_a": "https://apiv3.apifootball.com/badges/8002_nasaf.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/11028_al-khaldiya.jpg",
-            "time": "20:45",
-            "date": "25/11",
-            "blv": "BLV Xôi Xoài",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/86878_248a7c69_20261125.png?v=248a7c69",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-fac760cc92",
           "name": "Denmark U17 vs Argentina U17 | 22:30 25/11",
@@ -964,6 +889,81 @@
           }
         },
         {
+          "id": "xc-d93fc8d8e1",
+          "name": "Borneo vs Persita | 15:30 26/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d93fc8d8e1",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-d93fc8d8e1",
+                  "name": "Borneo vs Persita",
+                  "streams": [
+                    {
+                      "id": "st-d93fc8d8e1",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga 1",
+            "team_a": "Borneo",
+            "team_b": "Persita",
+            "logo_a": "https://apiv3.apifootball.com/badges/4716_borneo.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4726_persita.jpg",
+            "time": "15:30",
+            "date": "26/11",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/87890_53d44fff_20261125.png?v=53d44fff",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-fd08768488",
           "name": "Tampines vs Shanghai Shenhua | 17:00 26/11",
           "type": "single",
@@ -1131,6 +1131,81 @@
           }
         },
         {
+          "id": "xc-a5184b7f69",
+          "name": "Al Fateh vs Al Riyadh | 21:25 26/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a5184b7f69",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-a5184b7f69",
+                  "name": "Al Fateh vs Al Riyadh",
+                  "streams": [
+                    {
+                      "id": "st-a5184b7f69",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi League",
+            "team_a": "Al Fateh",
+            "team_b": "Al Riyadh",
+            "logo_a": "https://apiv3.apifootball.com/badges/6331_al-fateh.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/16129_al-riyadh.jpg",
+            "time": "21:25",
+            "date": "26/11",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63920_8c322e81_20261125.png?v=8c322e81",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-f874885e6c",
           "name": "Abha vs Al Shabab | 22:05 26/11",
           "type": "single",
@@ -1206,6 +1281,81 @@
           }
         },
         {
+          "id": "xc-6c34d8a7bb",
+          "name": "Din. Zagreb vs Bayer Leverkusen | 00:45 27/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6c34d8a7bb",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-6c34d8a7bb",
+                  "name": "Din. Zagreb vs Bayer Leverkusen",
+                  "streams": [
+                    {
+                      "id": "st-6c34d8a7bb",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Din. Zagreb",
+            "team_b": "Bayer Leverkusen",
+            "logo_a": "https://apiv3.apifootball.com/badges/121_dinamo-zagreb.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/143_bayer-leverkusen.jpg",
+            "time": "00:45",
+            "date": "27/11",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88463_a1dfe7f1_20261125.png?v=a1dfe7f1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-3baf986172",
           "name": "Olympiacos Piraeus vs AC Milan | 00:45 27/11",
           "type": "single",
@@ -1276,6 +1426,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88465_97949266_20261125.png?v=97949266",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-e4e8dd0c62",
+          "name": "Juventus vs Omonia | 03:00 27/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e4e8dd0c62",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e4e8dd0c62",
+                  "name": "Juventus vs Omonia",
+                  "streams": [
+                    {
+                      "id": "st-e4e8dd0c62",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Juventus",
+            "team_b": "Omonia",
+            "logo_a": "https://apiv3.apifootball.com/badges/96_juventus-fc.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/107_omonia-nicosia.jpg",
+            "time": "03:00",
+            "date": "27/11",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88486_a4622e05_20261125.png?v=a4622e05",
             "width": 1600,
             "height": 1200
           }
