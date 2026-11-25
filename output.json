@@ -272,81 +272,6 @@
           }
         },
         {
-          "id": "xc-d93fc8d8e1",
-          "name": "Borneo vs Persita | 15:30 26/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d93fc8d8e1",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-d93fc8d8e1",
-                  "name": "Borneo vs Persita",
-                  "streams": [
-                    {
-                      "id": "st-d93fc8d8e1",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3b4108ed2",
-                          "name": "BLV Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga 1",
-            "team_a": "Borneo",
-            "team_b": "Persita",
-            "logo_a": "https://apiv3.apifootball.com/badges/4716_borneo.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/4726_persita.jpg",
-            "time": "15:30",
-            "date": "26/11",
-            "blv": "BLV Khô Cay",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/87890_53d44fff_20261126.png?v=53d44fff",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-fd08768488",
           "name": "Tampines vs Shanghai Shenhua | 17:00 26/11",
           "type": "single",
@@ -481,6 +406,23 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
+                        },
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -497,7 +439,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/468_lion-city-sailors-fc.jpg",
             "time": "19:15",
             "date": "26/11",
-            "blv": "BLV Tam Mao",
+            "blv": "BLV Tam Mao, BLV Khô Cay",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
