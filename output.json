@@ -7,14 +7,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-c70e93a244",
-          "name": "Atl. Madrid vs Viking | 03:00 26/11",
+          "id": "xc-01e91c5fa7",
+          "name": "Lille vs Bayern Munich | 03:00 26/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,23 +28,40 @@
           ],
           "sources": [
             {
-              "id": "src-c70e93a244",
+              "id": "src-01e91c5fa7",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-c70e93a244",
-                  "name": "Atl. Madrid vs Viking",
+                  "id": "ct-01e91c5fa7",
+                  "name": "Lille vs Bayern Munich",
                   "streams": [
                     {
-                      "id": "st-c70e93a244",
+                      "id": "st-01e91c5fa7",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-c8987d572f",
-                          "name": "BLV Khô Cá",
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -65,24 +82,24 @@
           ],
           "org_metadata": {
             "league": "UEFA Champions League",
-            "team_a": "Atl. Madrid",
-            "team_b": "Viking",
-            "logo_a": "https://apiv3.apifootball.com/badges/73_atletico-de-madrid.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/236_viking.jpg",
+            "team_a": "Lille",
+            "team_b": "Bayern Munich",
+            "logo_a": "https://apiv3.apifootball.com/badges/160_lille.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/72_bayern-munchen.jpg",
             "time": "03:00",
             "date": "26/11",
-            "blv": "BLV Khô Cá",
+            "blv": "BLV Xôi Gấc",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
             "home_score": 2,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/87869_ce2514ab_20261126.png?v=ce2514ab",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/87872_6f6b6694_20261126.png?v=6f6b6694",
             "width": 1600,
             "height": 1200
           }
@@ -238,98 +255,6 @@
           }
         },
         {
-          "id": "xc-01e91c5fa7",
-          "name": "Lille vs Bayern Munich | 03:00 26/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-01e91c5fa7",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-01e91c5fa7",
-                  "name": "Lille vs Bayern Munich",
-                  "streams": [
-                    {
-                      "id": "st-01e91c5fa7",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Lille",
-            "team_b": "Bayern Munich",
-            "logo_a": "https://apiv3.apifootball.com/badges/160_lille.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/72_bayern-munchen.jpg",
-            "time": "03:00",
-            "date": "26/11",
-            "blv": "BLV Xôi Gấc",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/87872_6f6b6694_20261126.png?v=6f6b6694",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-773dba6697",
           "name": "PSG vs AS Roma | 03:00 26/11",
           "type": "single",
@@ -417,81 +342,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/87873_4b0bde21_20261126.png?v=4b0bde21",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-04215c1ad3",
-          "name": "Shakhtar Donetsk vs Fenerbahce | 03:00 26/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-04215c1ad3",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-04215c1ad3",
-                  "name": "Shakhtar Donetsk vs Fenerbahce",
-                  "streams": [
-                    {
-                      "id": "st-04215c1ad3",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Shakhtar Donetsk",
-            "team_b": "Fenerbahce",
-            "logo_a": "https://apiv3.apifootball.com/badges/78_shakhtar-donetsk.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/7694_fenerbahce.jpg",
-            "time": "03:00",
-            "date": "26/11",
-            "blv": "BLV Xôi Xoài",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/87874_0c3df2e0_20261126.png?v=0c3df2e0",
             "width": 1600,
             "height": 1200
           }
