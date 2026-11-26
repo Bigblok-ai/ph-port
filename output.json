@@ -255,6 +255,81 @@
           }
         },
         {
+          "id": "xc-6c34d8a7bb",
+          "name": "Din. Zagreb vs Bayer Leverkusen | 00:45 27/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6c34d8a7bb",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-6c34d8a7bb",
+                  "name": "Din. Zagreb vs Bayer Leverkusen",
+                  "streams": [
+                    {
+                      "id": "st-6c34d8a7bb",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Din. Zagreb",
+            "team_b": "Bayer Leverkusen",
+            "logo_a": "https://apiv3.apifootball.com/badges/121_dinamo-zagreb.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/143_bayer-leverkusen.jpg",
+            "time": "00:45",
+            "date": "27/11",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88463_a1dfe7f1_20261126.png?v=a1dfe7f1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-b3194b0d04",
           "name": "Brighton vs Univ. Craiova | 00:45 27/11",
           "type": "single",
@@ -492,81 +567,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88462_6327c7bf_20261126.png?v=6327c7bf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-6c34d8a7bb",
-          "name": "Din. Zagreb vs Bayer Leverkusen | 00:45 27/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6c34d8a7bb",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-6c34d8a7bb",
-                  "name": "Din. Zagreb vs Bayer Leverkusen",
-                  "streams": [
-                    {
-                      "id": "st-6c34d8a7bb",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3b4108ed2",
-                          "name": "BLV Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Din. Zagreb",
-            "team_b": "Bayer Leverkusen",
-            "logo_a": "https://apiv3.apifootball.com/badges/121_dinamo-zagreb.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/143_bayer-leverkusen.jpg",
-            "time": "00:45",
-            "date": "27/11",
-            "blv": "BLV Khô Cay",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88463_a1dfe7f1_20261126.png?v=a1dfe7f1",
             "width": 1600,
             "height": 1200
           }
@@ -1426,6 +1426,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88652_05c69afb_20261126.png?v=05c69afb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-3a700241ca",
+          "name": "Venezuela U17 vs Mexico U17 | 23:00 27/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a700241ca",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-3a700241ca",
+                  "name": "Venezuela U17 vs Mexico U17",
+                  "streams": [
+                    {
+                      "id": "st-3a700241ca",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-484b46424a",
+                          "name": "BLV Khô Cóc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA U17 World Cup",
+            "team_a": "Venezuela U17",
+            "team_b": "Mexico U17",
+            "logo_a": "https://apiv3.apifootball.com/badges/30446_venezuela-u17.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/8911_mexico-u17.jpg",
+            "time": "23:00",
+            "date": "27/11",
+            "blv": "BLV Khô Cóc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88660_348a3b26_20261126.png?v=348a3b26",
             "width": 1600,
             "height": 1200
           }
