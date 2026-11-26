@@ -7,11 +7,86 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-188aaa0a5e",
+          "name": "Besiktas vs H. Beer Sheva | 00:45 27/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-188aaa0a5e",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-188aaa0a5e",
+                  "name": "Besiktas vs H. Beer Sheva",
+                  "streams": [
+                    {
+                      "id": "st-188aaa0a5e",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Besiktas",
+            "team_b": "H. Beer Sheva",
+            "logo_a": "https://apiv3.apifootball.com/badges/187_beikta.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/144_hapoel-beer-sheva.jpg",
+            "time": "00:45",
+            "date": "27/11",
+            "blv": "BLV Xôi Xoài",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88461_708ecbdb_20261127.png?v=708ecbdb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-b3194b0d04",
           "name": "Brighton vs Univ. Craiova | 00:45 27/11",
@@ -105,156 +180,6 @@
           }
         },
         {
-          "id": "xc-188aaa0a5e",
-          "name": "Besiktas vs H. Beer Sheva | 00:45 27/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-188aaa0a5e",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-188aaa0a5e",
-                  "name": "Besiktas vs H. Beer Sheva",
-                  "streams": [
-                    {
-                      "id": "st-188aaa0a5e",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Besiktas",
-            "team_b": "H. Beer Sheva",
-            "logo_a": "https://apiv3.apifootball.com/badges/187_beikta.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/144_hapoel-beer-sheva.jpg",
-            "time": "00:45",
-            "date": "27/11",
-            "blv": "BLV Xôi Xoài",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88461_708ecbdb_20261127.png?v=708ecbdb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-6c34d8a7bb",
-          "name": "Din. Zagreb vs Bayer Leverkusen | 00:45 27/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6c34d8a7bb",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-6c34d8a7bb",
-                  "name": "Din. Zagreb vs Bayer Leverkusen",
-                  "streams": [
-                    {
-                      "id": "st-6c34d8a7bb",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3b4108ed2",
-                          "name": "BLV Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Din. Zagreb",
-            "team_b": "Bayer Leverkusen",
-            "logo_a": "https://apiv3.apifootball.com/badges/121_dinamo-zagreb.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/143_bayer-leverkusen.jpg",
-            "time": "00:45",
-            "date": "27/11",
-            "blv": "BLV Khô Cay",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88463_a1dfe7f1_20261127.png?v=a1dfe7f1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-3baf986172",
           "name": "Olympiacos Piraeus vs AC Milan | 00:45 27/11",
           "type": "single",
@@ -330,8 +255,8 @@
           }
         },
         {
-          "id": "xc-9122e6917c",
-          "name": "Plzen vs Benfica | 00:45 27/11",
+          "id": "xc-140d937f9b",
+          "name": "Crystal Palace vs Real Sociedad | 03:00 27/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -345,23 +270,23 @@
           ],
           "sources": [
             {
-              "id": "src-9122e6917c",
+              "id": "src-140d937f9b",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-9122e6917c",
-                  "name": "Plzen vs Benfica",
+                  "id": "ct-140d937f9b",
+                  "name": "Crystal Palace vs Real Sociedad",
                   "streams": [
                     {
-                      "id": "st-9122e6917c",
+                      "id": "st-140d937f9b",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-fae8ed2c4d",
-                          "name": "BLV Khô Chè",
+                          "id": "lnk-245e47f94f",
+                          "name": "Khầy Lương Khô",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -382,31 +307,31 @@
           ],
           "org_metadata": {
             "league": "UEFA Europa League",
-            "team_a": "Plzen",
-            "team_b": "Benfica",
-            "logo_a": "https://apiv3.apifootball.com/badges/114_viktoria-plze.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/147_benfica.jpg",
-            "time": "00:45",
+            "team_a": "Crystal Palace",
+            "team_b": "Real Sociedad",
+            "logo_a": "https://apiv3.apifootball.com/badges/3429_crystal-palace.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/153_real-sociedad.jpg",
+            "time": "03:00",
             "date": "27/11",
-            "blv": "BLV Khô Chè",
+            "blv": "Khầy Lương Khô",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 4,
+            "home_score": 0,
             "away_score": 0
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88466_543203f8_20261127.png?v=543203f8",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88483_33474afd_20261127.png?v=33474afd",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "xc-ac5d0e77a9",
-          "name": "Celta Vigo vs Bournemouth | 00:45 27/11",
+          "id": "xc-e4e8dd0c62",
+          "name": "Juventus vs Omonia | 03:00 27/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -420,23 +345,23 @@
           ],
           "sources": [
             {
-              "id": "src-ac5d0e77a9",
+              "id": "src-e4e8dd0c62",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-ac5d0e77a9",
-                  "name": "Celta Vigo vs Bournemouth",
+                  "id": "ct-e4e8dd0c62",
+                  "name": "Juventus vs Omonia",
                   "streams": [
                     {
-                      "id": "st-ac5d0e77a9",
+                      "id": "st-e4e8dd0c62",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-484b46424a",
-                          "name": "BLV Khô Cóc",
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -457,99 +382,24 @@
           ],
           "org_metadata": {
             "league": "UEFA Europa League",
-            "team_a": "Celta Vigo",
-            "team_b": "Bournemouth",
-            "logo_a": "https://apiv3.apifootball.com/badges/7290_celta-de-vigo.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3071_afc-bournemouth.jpg",
-            "time": "00:45",
+            "team_a": "Juventus",
+            "team_b": "Omonia",
+            "logo_a": "https://apiv3.apifootball.com/badges/96_juventus-fc.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/107_omonia-nicosia.jpg",
+            "time": "03:00",
             "date": "27/11",
-            "blv": "BLV Khô Cóc",
+            "blv": "BLV Khô Cay",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88462_6327c7bf_20261127.png?v=6327c7bf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-db83cf2ee0",
-          "name": "Marseille vs Levski Sofia | 00:45 27/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-db83cf2ee0",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-db83cf2ee0",
-                  "name": "Marseille vs Levski Sofia",
-                  "streams": [
-                    {
-                      "id": "st-db83cf2ee0",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8987d572f",
-                          "name": "BLV Khô Cá",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Marseille",
-            "team_b": "Levski Sofia",
-            "logo_a": "https://apiv3.apifootball.com/badges/83_olympique-marseille.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/2164_levski-sofia.jpg",
-            "time": "00:45",
-            "date": "27/11",
-            "blv": "BLV Khô Cá",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
+            "home_score": 0,
             "away_score": 0
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88464_2d4a0a79_20261127.png?v=2d4a0a79",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88486_a4622e05_20261127.png?v=a4622e05",
             "width": 1600,
             "height": 1200
           }
@@ -642,156 +492,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88487_ccf5b89f_20261127.png?v=ccf5b89f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-140d937f9b",
-          "name": "Crystal Palace vs Real Sociedad | 03:00 27/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-140d937f9b",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-140d937f9b",
-                  "name": "Crystal Palace vs Real Sociedad",
-                  "streams": [
-                    {
-                      "id": "st-140d937f9b",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-245e47f94f",
-                          "name": "Khầy Lương Khô",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Crystal Palace",
-            "team_b": "Real Sociedad",
-            "logo_a": "https://apiv3.apifootball.com/badges/3429_crystal-palace.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/153_real-sociedad.jpg",
-            "time": "03:00",
-            "date": "27/11",
-            "blv": "Khầy Lương Khô",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88483_33474afd_20261127.png?v=33474afd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-e4e8dd0c62",
-          "name": "Juventus vs Omonia | 03:00 27/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e4e8dd0c62",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-e4e8dd0c62",
-                  "name": "Juventus vs Omonia",
-                  "streams": [
-                    {
-                      "id": "st-e4e8dd0c62",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3b4108ed2",
-                          "name": "BLV Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Juventus",
-            "team_b": "Omonia",
-            "logo_a": "https://apiv3.apifootball.com/badges/96_juventus-fc.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/107_omonia-nicosia.jpg",
-            "time": "03:00",
-            "date": "27/11",
-            "blv": "BLV Khô Cay",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88486_a4622e05_20261127.png?v=a4622e05",
             "width": 1600,
             "height": 1200
           }
@@ -1034,6 +734,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88532_66617421_20261127.png?v=66617421",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-1bbee30007",
+          "name": "Song Lam Nghe An vs Phu Dong Ninh Binh | 18:00 27/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1bbee30007",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-1bbee30007",
+                  "name": "Song Lam Nghe An vs Phu Dong Ninh Binh",
+                  "streams": [
+                    {
+                      "id": "st-1bbee30007",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Song Lam Nghe An",
+            "team_b": "Phu Dong Ninh Binh",
+            "logo_a": "https://apiv3.apifootball.com/badges/8058_song-lam-ngh-an.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/8051_ninh-binh.jpg",
+            "time": "18:00",
+            "date": "27/11",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88533_655ac277_20261127.png?v=655ac277",
             "width": 1600,
             "height": 1200
           }
@@ -1610,6 +1385,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88973_284d883a_20261127.png?v=284d883a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-c1b7fdb0d7",
+          "name": "Nottingham vs Chelsea | 03:00 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c1b7fdb0d7",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-c1b7fdb0d7",
+                  "name": "Nottingham vs Chelsea",
+                  "streams": [
+                    {
+                      "id": "st-c1b7fdb0d7",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Nottingham",
+            "team_b": "Chelsea",
+            "logo_a": "https://apiv3.apifootball.com/badges/3089_nottingham-forest.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/88_chelsea.jpg",
+            "time": "03:00",
+            "date": "28/11",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88980_88ef38c5_20261127.png?v=88ef38c5",
             "width": 1600,
             "height": 1200
           }
