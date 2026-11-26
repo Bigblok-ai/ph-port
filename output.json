@@ -1555,6 +1555,81 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-cdff826337",
+          "name": "Honduras U17 vs Japan U17 | 20:00 27/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cdff826337",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-cdff826337",
+                  "name": "Honduras U17 vs Japan U17",
+                  "streams": [
+                    {
+                      "id": "st-cdff826337",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA U17 World Cup",
+            "team_a": "Honduras U17",
+            "team_b": "Japan U17",
+            "logo_a": "https://apiv3.apifootball.com/badges/30792_honduras-u17.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/29914_japan-u17.jpg",
+            "time": "20:00",
+            "date": "27/11",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88605_a3e3ecdf_20261126.png?v=a3e3ecdf",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
