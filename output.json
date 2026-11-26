@@ -255,6 +255,81 @@
           }
         },
         {
+          "id": "xc-fdec7e510d",
+          "name": "Vietnam U17 vs Mali U17 | 20:00 26/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fdec7e510d",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-fdec7e510d",
+                  "name": "Vietnam U17 vs Mali U17",
+                  "streams": [
+                    {
+                      "id": "st-fdec7e510d",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-484b46424a",
+                          "name": "BLV Khô Cóc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA U17 World Cup",
+            "team_a": "Vietnam U17",
+            "team_b": "Mali U17",
+            "logo_a": "https://apiv3.apifootball.com/badges/31772_vietnam-u17.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/31360_mali-u17.jpg",
+            "time": "20:00",
+            "date": "26/11",
+            "blv": "BLV Khô Cóc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/87926_310559fb_20261126.png?v=310559fb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-a5184b7f69",
           "name": "Al Fateh vs Al Riyadh | 21:25 26/11",
           "type": "single",
@@ -706,6 +781,23 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
+                        },
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -722,7 +814,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/144_hapoel-beer-sheva.jpg",
             "time": "00:45",
             "date": "27/11",
-            "blv": "BLV Tam Mao",
+            "blv": "BLV Tam Mao, BLV Xôi Xoài",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1281,81 +1373,6 @@
           }
         },
         {
-          "id": "xc-695bfc67a2",
-          "name": "Sunderland vs Jagiellonia | 03:00 27/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-695bfc67a2",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-695bfc67a2",
-                  "name": "Sunderland vs Jagiellonia",
-                  "streams": [
-                    {
-                      "id": "st-695bfc67a2",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Sunderland",
-            "team_b": "Jagiellonia",
-            "logo_a": "https://apiv3.apifootball.com/badges/3111_sunderland.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/5770_jagiellonia-biaystok.jpg",
-            "time": "03:00",
-            "date": "27/11",
-            "blv": "BLV Xôi Xoài",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88491_42452c0c_20261126.png?v=42452c0c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-1cc0819cd1",
           "name": "Macarthur FC vs Melbourne City | 15:40 27/11",
           "type": "single",
@@ -1506,6 +1523,98 @@
           }
         },
         {
+          "id": "xc-5e94647680",
+          "name": "Al Qadsiah vs Al Fayha | 21:20 27/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5e94647680",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-5e94647680",
+                  "name": "Al Qadsiah vs Al Fayha",
+                  "streams": [
+                    {
+                      "id": "st-5e94647680",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi League",
+            "team_a": "Al Qadsiah",
+            "team_b": "Al Fayha",
+            "logo_a": "https://apiv3.apifootball.com/badges/6330_al-qadsiah.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/6308_al-fayha.jpg",
+            "time": "21:20",
+            "date": "27/11",
+            "blv": "BLV Xôi Gấc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63113_a3413514_20261126.png?v=a3413514",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-3fd71386d2",
           "name": "Lusail vs Al Arabi | 22:30 27/11",
           "type": "single",
@@ -1651,6 +1760,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88875_974ee813_20261126.png?v=974ee813",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-4bea903fce",
+          "name": "Venezia vs Bologna | 02:45 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4bea903fce",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-4bea903fce",
+                  "name": "Venezia vs Bologna",
+                  "streams": [
+                    {
+                      "id": "st-4bea903fce",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Venezia",
+            "team_b": "Bologna",
+            "logo_a": "https://apiv3.apifootball.com/badges/5007_venezia.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4983_bologna.jpg",
+            "time": "02:45",
+            "date": "28/11",
+            "blv": "BLV Xôi Gấc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88973_284d883a_20261126.png?v=284d883a",
             "width": 1600,
             "height": 1200
           }
