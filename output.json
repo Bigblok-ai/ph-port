@@ -7,7 +7,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -180,81 +180,6 @@
           }
         },
         {
-          "id": "xc-ac5d0e77a9",
-          "name": "Celta Vigo vs Bournemouth | 00:45 27/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ac5d0e77a9",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-ac5d0e77a9",
-                  "name": "Celta Vigo vs Bournemouth",
-                  "streams": [
-                    {
-                      "id": "st-ac5d0e77a9",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-484b46424a",
-                          "name": "BLV Khô Cóc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Celta Vigo",
-            "team_b": "Bournemouth",
-            "logo_a": "https://apiv3.apifootball.com/badges/7290_celta-de-vigo.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3071_afc-bournemouth.jpg",
-            "time": "00:45",
-            "date": "27/11",
-            "blv": "BLV Khô Cóc",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88462_6327c7bf_20261127.png?v=6327c7bf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-6c34d8a7bb",
           "name": "Din. Zagreb vs Bayer Leverkusen | 00:45 27/11",
           "type": "single",
@@ -330,81 +255,6 @@
           }
         },
         {
-          "id": "xc-db83cf2ee0",
-          "name": "Marseille vs Levski Sofia | 00:45 27/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-db83cf2ee0",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-db83cf2ee0",
-                  "name": "Marseille vs Levski Sofia",
-                  "streams": [
-                    {
-                      "id": "st-db83cf2ee0",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8987d572f",
-                          "name": "BLV Khô Cá",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Marseille",
-            "team_b": "Levski Sofia",
-            "logo_a": "https://apiv3.apifootball.com/badges/83_olympique-marseille.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/2164_levski-sofia.jpg",
-            "time": "00:45",
-            "date": "27/11",
-            "blv": "BLV Khô Cá",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88464_2d4a0a79_20261127.png?v=2d4a0a79",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-3baf986172",
           "name": "Olympiacos Piraeus vs AC Milan | 00:45 27/11",
           "type": "single",
@@ -468,7 +318,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 2,
-            "away_score": 3
+            "away_score": 4
           },
           "image": {
             "padding": 1,
@@ -550,6 +400,248 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88466_543203f8_20261127.png?v=543203f8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-ac5d0e77a9",
+          "name": "Celta Vigo vs Bournemouth | 00:45 27/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ac5d0e77a9",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-ac5d0e77a9",
+                  "name": "Celta Vigo vs Bournemouth",
+                  "streams": [
+                    {
+                      "id": "st-ac5d0e77a9",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-484b46424a",
+                          "name": "BLV Khô Cóc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Celta Vigo",
+            "team_b": "Bournemouth",
+            "logo_a": "https://apiv3.apifootball.com/badges/7290_celta-de-vigo.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3071_afc-bournemouth.jpg",
+            "time": "00:45",
+            "date": "27/11",
+            "blv": "BLV Khô Cóc",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 1,
+            "away_score": 2
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88462_6327c7bf_20261127.png?v=6327c7bf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-db83cf2ee0",
+          "name": "Marseille vs Levski Sofia | 00:45 27/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-db83cf2ee0",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-db83cf2ee0",
+                  "name": "Marseille vs Levski Sofia",
+                  "streams": [
+                    {
+                      "id": "st-db83cf2ee0",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8987d572f",
+                          "name": "BLV Khô Cá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Marseille",
+            "team_b": "Levski Sofia",
+            "logo_a": "https://apiv3.apifootball.com/badges/83_olympique-marseille.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/2164_levski-sofia.jpg",
+            "time": "00:45",
+            "date": "27/11",
+            "blv": "BLV Khô Cá",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 1,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88464_2d4a0a79_20261127.png?v=2d4a0a79",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-6fd1e77050",
+          "name": "Lyon vs Lillestrom | 03:00 27/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6fd1e77050",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-6fd1e77050",
+                  "name": "Lyon vs Lillestrom",
+                  "streams": [
+                    {
+                      "id": "st-6fd1e77050",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Lyon",
+            "team_b": "Lillestrom",
+            "logo_a": "https://apiv3.apifootball.com/badges/3815_olympique-lyonnais.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5602_lillestrm.jpg",
+            "time": "03:00",
+            "date": "27/11",
+            "blv": "BLV Xôi Gấc",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88487_ccf5b89f_20261127.png?v=ccf5b89f",
             "width": 1600,
             "height": 1200
           }
@@ -700,98 +792,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88486_a4622e05_20261127.png?v=a4622e05",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-6fd1e77050",
-          "name": "Lyon vs Lillestrom | 03:00 27/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6fd1e77050",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-6fd1e77050",
-                  "name": "Lyon vs Lillestrom",
-                  "streams": [
-                    {
-                      "id": "st-6fd1e77050",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Lyon",
-            "team_b": "Lillestrom",
-            "logo_a": "https://apiv3.apifootball.com/badges/3815_olympique-lyonnais.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/5602_lillestrm.jpg",
-            "time": "03:00",
-            "date": "27/11",
-            "blv": "BLV Xôi Gấc",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88487_ccf5b89f_20261127.png?v=ccf5b89f",
             "width": 1600,
             "height": 1200
           }
