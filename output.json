@@ -739,6 +739,81 @@
           }
         },
         {
+          "id": "xc-b15efe6a95",
+          "name": "Al Ittihad vs Neom SC | 00:30 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b15efe6a95",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b15efe6a95",
+                  "name": "Al Ittihad vs Neom SC",
+                  "streams": [
+                    {
+                      "id": "st-b15efe6a95",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi League",
+            "team_a": "Al Ittihad",
+            "team_b": "Neom SC",
+            "logo_a": "https://apiv3.apifootball.com/badges/6328_al-ittihad.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/18904_neom.jpg",
+            "time": "00:30",
+            "date": "28/11",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/64457_10414a34_20261127.png?v=10414a34",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-a025431491",
           "name": "Heidenheim vs Nurnberg | 00:30 28/11",
           "type": "single",
@@ -1056,6 +1131,81 @@
           }
         },
         {
+          "id": "xc-de40a4eeb1",
+          "name": "Levante vs Racing Santander | 03:00 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-de40a4eeb1",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-de40a4eeb1",
+                  "name": "Levante vs Racing Santander",
+                  "streams": [
+                    {
+                      "id": "st-de40a4eeb1",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Levante",
+            "team_b": "Racing Santander",
+            "logo_a": "https://apiv3.apifootball.com/badges/7259_levante.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7220_racing-de-santander.jpg",
+            "time": "03:00",
+            "date": "28/11",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88978_e9b91877_20261127.png?v=e9b91877",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-c1b7fdb0d7",
           "name": "Nottingham vs Chelsea | 03:00 28/11",
           "type": "single",
@@ -1368,6 +1518,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/89641_c8133c64_20261127.png?v=c8133c64",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-0fc7adcb5e",
+          "name": "Leeds vs Coventry | 22:00 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0fc7adcb5e",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-0fc7adcb5e",
+                  "name": "Leeds vs Coventry",
+                  "streams": [
+                    {
+                      "id": "st-0fc7adcb5e",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Leeds",
+            "team_b": "Coventry",
+            "logo_a": "https://apiv3.apifootball.com/badges/3103_leeds-united.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3094_coventry-city.jpg",
+            "time": "22:00",
+            "date": "28/11",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/89734_46aa7a64_20261127.png?v=46aa7a64",
             "width": 1600,
             "height": 1200
           }
