@@ -7,11 +7,86 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-e2419742b3",
+          "name": "Central Coast Mariners vs Auckland FC | 15:40 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e2419742b3",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e2419742b3",
+                  "name": "Central Coast Mariners vs Auckland FC",
+                  "streams": [
+                    {
+                      "id": "st-e2419742b3",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "A-League Men",
+            "team_a": "Central Coast Mariners",
+            "team_b": "Auckland FC",
+            "logo_a": "https://apiv3.apifootball.com/badges/1050_central-coast-mariners.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/36856_auckland.jpg",
+            "time": "15:40",
+            "date": "28/11",
+            "blv": "BLV Khô Cay",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 2,
+            "away_score": 3
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/89040_2aa254fd_20261128.png?v=2aa254fd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-d37a5f293c",
           "name": "Al Hazem vs Al Nassr | 19:15 28/11",
@@ -255,6 +330,81 @@
           }
         },
         {
+          "id": "xc-cd37d779fe",
+          "name": "Frosinone vs Parma | 21:00 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cd37d779fe",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-cd37d779fe",
+                  "name": "Frosinone vs Parma",
+                  "streams": [
+                    {
+                      "id": "st-cd37d779fe",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Frosinone",
+            "team_b": "Parma",
+            "logo_a": "https://apiv3.apifootball.com/badges/5000_frosinone.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4978_parma.jpg",
+            "time": "21:00",
+            "date": "28/11",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/89592_33c86ce1_20261128.png?v=33c86ce1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-bb646b027c",
           "name": "Paderborn vs Schalke | 21:30 28/11",
           "type": "single",
@@ -492,6 +642,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/89735_31891130_20261128.png?v=31891130",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-214a9bdf34",
+          "name": "Angers vs Lens | 23:15 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-214a9bdf34",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-214a9bdf34",
+                  "name": "Angers vs Lens",
+                  "streams": [
+                    {
+                      "id": "st-214a9bdf34",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Angers",
+            "team_b": "Lens",
+            "logo_a": "https://apiv3.apifootball.com/badges/3827_angers-sco.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3821_lens.jpg",
+            "time": "23:15",
+            "date": "28/11",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/89976_4606b810_20261128.png?v=4606b810",
             "width": 1600,
             "height": 1200
           }
@@ -826,6 +1051,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/90286_9f672f0f_20261128.png?v=9f672f0f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-6f0f4d2000",
+          "name": "Palmeiras vs Estudiantes L.P. | 03:00 29/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f0f4d2000",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-6f0f4d2000",
+                  "name": "Palmeiras vs Estudiantes L.P.",
+                  "streams": [
+                    {
+                      "id": "st-6f0f4d2000",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Libertadores",
+            "team_a": "Palmeiras",
+            "team_b": "Estudiantes L.P.",
+            "logo_a": "https://apiv3.apifootball.com/badges/546_palmeiras.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/989_estudiantes.jpg",
+            "time": "03:00",
+            "date": "29/11",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/90290_dd877b5d_20261128.png?v=dd877b5d",
             "width": 1600,
             "height": 1200
           }
