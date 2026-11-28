@@ -664,98 +664,6 @@
           }
         },
         {
-          "id": "xc-0a9b5c22a1",
-          "name": "Malaga vs Ath Bilbao | 22:15 28/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0a9b5c22a1",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-0a9b5c22a1",
-                  "name": "Malaga vs Ath Bilbao",
-                  "streams": [
-                    {
-                      "id": "st-0a9b5c22a1",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Malaga",
-            "team_b": "Ath Bilbao",
-            "logo_a": "https://apiv3.apifootball.com/badges/7267_malaga.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/7258_athletic-club.jpg",
-            "time": "22:15",
-            "date": "28/11",
-            "blv": "BLV Xôi Gấc",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/89870_2e31390a_20261128.png?v=2e31390a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-efcf585844",
           "name": "Torino vs Lazio | 00:00 29/11",
           "type": "single",
@@ -998,8 +906,8 @@
           }
         },
         {
-          "id": "xc-afcd6347eb",
-          "name": "Incheon vs Gangwon | 14:30 29/11",
+          "id": "xc-07b683aaf8",
+          "name": "Yokohama F. Marinos vs FC Tokyo | 12:00 29/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1013,15 +921,15 @@
           ],
           "sources": [
             {
-              "id": "src-afcd6347eb",
+              "id": "src-07b683aaf8",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-afcd6347eb",
-                  "name": "Incheon vs Gangwon",
+                  "id": "ct-07b683aaf8",
+                  "name": "Yokohama F. Marinos vs FC Tokyo",
                   "streams": [
                     {
-                      "id": "st-afcd6347eb",
+                      "id": "st-07b683aaf8",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
@@ -1066,12 +974,12 @@
             }
           ],
           "org_metadata": {
-            "league": "K League 1",
-            "team_a": "Incheon",
-            "team_b": "Gangwon",
-            "logo_a": "https://apiv3.apifootball.com/badges/5170_incheon-united.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/5171_gangwon.jpg",
-            "time": "14:30",
+            "league": "J1 League",
+            "team_a": "Yokohama F. Marinos",
+            "team_b": "FC Tokyo",
+            "logo_a": "https://apiv3.apifootball.com/badges/387_yokohama-f.-marinos.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/380_tokyo.jpg",
+            "time": "12:00",
             "date": "29/11",
             "blv": "BLV Xôi Gấc",
             "is_live": false,
@@ -1084,7 +992,99 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/90398_4c86b21d_20261128.png?v=4c86b21d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/90380_3e48fbc3_20261128.png?v=3e48fbc3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-b9663aa144",
+          "name": "Persita vs Persib Bandung | 15:30 29/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b9663aa144",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b9663aa144",
+                  "name": "Persita vs Persib Bandung",
+                  "streams": [
+                    {
+                      "id": "st-b9663aa144",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga 1",
+            "team_a": "Persita",
+            "team_b": "Persib Bandung",
+            "logo_a": "https://apiv3.apifootball.com/badges/4726_persita.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4715_persib-bandung.jpg",
+            "time": "15:30",
+            "date": "29/11",
+            "blv": "BLV Xôi Gấc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/90409_793290ac_20261128.png?v=793290ac",
             "width": 1600,
             "height": 1200
           }
